@@ -260,11 +260,15 @@ if should_run 10_report; then
     banner "10_report"
     if command -v quarto >/dev/null 2>&1; then
         mkdir -p "${RESULTS_DIR}/report"
-        # Rendered in place and moved, because quarto resolves relative paths
-        # from the qmd's own directory and the report reads ../results.
-        quarto render "${SCRIPTS}/10_report.qmd" \
-            --to html --output-dir "${RESULTS_DIR}/report" \
-            -P config:"${ROOT}/project.conf" \
+        # Rendered from the repository root. The report finds project.conf by
+        # walking up from the working directory rather than taking it as a
+        # quarto parameter, because quarto renders from the qmd's own directory
+        # in some versions and from the project root in others, and a report
+        # that cannot find its own config depending on how it was invoked is not
+        # reproducible. VGB_CONFIG overrides if the config ever moves.
+        ( cd "$ROOT" && VGB_CONFIG="${ROOT}/project.conf" \
+            quarto render "scripts/10_report.qmd" \
+                --to html --output-dir "${RESULTS_DIR}/report" ) \
             || echo "[10_report] quarto render failed; the tables in results/ are unaffected"
     else
         echo "[10_report] quarto not found on PATH; skipping the report."
