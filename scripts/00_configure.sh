@@ -26,16 +26,16 @@
 #      --disk GB       disk budget for data/ in gigabytes (default: detected
 #                      free space on the data filesystem, minus 5 GB margin)
 #      --exhaustiveness N
-#                      Vina, smina and GNINA search effort (default: 32). This
-#                      is NOT the programs' default of 8, and the reason is in
-#                      results/convergence.tsv rather than in an opinion: on the
-#                      25 Angstrom box this pipeline uses, exhaustiveness 8
-#                      leaves the search unconverged badly enough that the
-#                      random seed decides the verdict. One complex measured
-#                      4.57 Angstrom on one seed and 0.33 on another with
-#                      everything else fixed. Run
-#                      scripts/06_dock.sh --convergence to reproduce the grid
-#                      this was chosen from.
+#                      Vina, smina and GNINA search effort (default: 8, which is
+#                      the programs' own default and the setting the protocol
+#                      this pipeline compares against uses). It is left alone on
+#                      purpose. The convergence grid in results/convergence.tsv
+#                      shows that 8 does not converge on a 25 Angstrom box, and
+#                      that is reported as a finding about the standard protocol
+#                      rather than used as a reason to quietly run a different
+#                      one. Raise it to see what a converged search does; the
+#                      cost is roughly linear and 32 was measured at about ten
+#                      minutes per complex on the larger PoseBusters receptors.
 #      --jobs N        concurrent docking processes (default: 1). Serial is the
 #                      default because the timing distribution in the README is
 #                      a measurement, and sixteen docking processes competing
@@ -67,7 +67,7 @@ cleanup() { rm -f "$CONF_TMP"; }
 trap cleanup EXIT INT TERM
 
 THREADS=""; RAM_GB=""; DISK_GB=""; JOBS=""; DATA_DIR=""; ASSUME_YES=0
-EXHAUSTIVENESS=32
+EXHAUSTIVENESS=8
 ARMS="A0_null,A1_refconf_refbox,A2_genconf_refbox,A3_genconf_detbox,A4_crossdock"
 METHODS="vina,vinardo,gnina"
 DATASETS="posebusters,astex"
@@ -350,22 +350,28 @@ CONVERGENCE_N_COMPLEXES=8
 # that no pocket is 25 A wide; it was chosen for comparability, not because it
 # is right.
 BOX_SIZE=25
-# Search effort. Not the programs' default of 8, and this is the one place where
-# this pipeline departs from the protocol it is comparing against.
+# Search effort, left at the programs' own default.
 #
-# On a 25 Angstrom cube, exhaustiveness 8 does not converge. Complex 1HQ2_PH2,
-# which has one rotatable bond and whose generated conformer is already within
-# 0.21 Angstrom of the crystal conformer, returned a top-1 RMSD of 4.57 Angstrom
-# on seed 20260922 and 0.33 Angstrom on seed 7, with the receptor, the ligand,
-# the box and the exhaustiveness all identical. At exhaustiveness 64 the same
-# complex and seed gave 0.37 Angstrom. A search whose verdict is decided by its
-# seed cannot measure what an arm comparison needs it to measure.
+# This setting was argued over more than anything else here, so the reasoning is
+# written down. On a 25 Angstrom cube, exhaustiveness 8 does not converge.
+# Complex 1HQ2_PH2 has one rotatable bond and a generated conformer already
+# within 0.21 Angstrom of the crystal conformer; it returned a top-1 RMSD of
+# 4.57 Angstrom on seed 20260922 and 0.33 Angstrom on seed 7, with the receptor,
+# the ligand, the box and the exhaustiveness all identical. At exhaustiveness 64
+# the same complex gave 0.37 Angstrom on both seeds.
 #
-# The level here was chosen from the grid in results/convergence.tsv, which is
-# complexes crossed with exhaustiveness and seed, reproducible with
-# scripts/06_dock.sh --convergence. The choice is the cheapest level at which
-# the seeds stop disagreeing about the 2 Angstrom verdict, not the level that
-# makes the headline look best: it was fixed before any success rate was read.
+# The tempting response is to raise it. That was tried: at 32 the larger
+# PoseBusters receptors took about ten minutes each and the full grid projected
+# to more than sixty hours, and more importantly it would mean reporting numbers
+# from a protocol nobody else runs. The published figure this repository is
+# compared against was obtained at the default, so the default is what is used
+# here, and the under-sampling is reported as a result about the standard
+# protocol instead of being papered over.
+#
+# What that costs is stated rather than hidden: part of the spread between arms
+# at this setting is sampling noise, and results/seed_variance.tsv and
+# results/convergence.tsv are how much. Raise this and every success rate here
+# moves.
 EXHAUSTIVENESS=${EXHAUSTIVENESS}
 # Poses kept per run. Vina's default num_modes is 9; 5 is enough for the top-5
 # metric and cuts the pose archive by nearly half. Anything past rank 5 is
