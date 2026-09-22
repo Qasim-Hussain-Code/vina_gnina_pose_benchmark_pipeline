@@ -75,7 +75,7 @@ then pass "all python scripts parse"; else fail "a python script does not parse"
 
 # ---- 3 to 4, 9. prose -------------------------------------------------------
 say "writing conventions"
-python - <<'PY'
+if python - <<'PY'
 import re, subprocess, sys, unicodedata
 from pathlib import Path
 
@@ -116,7 +116,7 @@ print(f"  em dashes {em}, en dashes {en}, emojis {emoji}, "
       f"banned phrases {banned}, score-as-energy {energy}")
 sys.exit(1 if (em or emoji or banned or energy) else 0)
 PY
-if [[ $? -eq 0 ]]; then pass "no em dash, emoji, banned phrase or score-as-energy"
+then pass "no em dash, emoji, banned phrase or score-as-energy"
 else fail "writing conventions violated, see above"; fi
 
 # ---- 5. repository hygiene --------------------------------------------------
@@ -132,7 +132,7 @@ else pass "no pdbqt, sdf.gz or cif tracked"; fi
 
 # ---- 6 to 8. figures and results --------------------------------------------
 say "figures and results"
-python - <<'PY'
+if python - <<'PY'
 import re, sys
 from pathlib import Path
 
@@ -163,7 +163,7 @@ for n in missing:
 print(f"  README names {len(named)} result files, {len(missing)} missing")
 sys.exit(1 if bad else 0)
 PY
-if [[ $? -eq 0 ]]; then pass "figures and named result files all present"
+then pass "figures and named result files all present"
 else fail "a referenced figure or results file is missing"; fi
 
 say
