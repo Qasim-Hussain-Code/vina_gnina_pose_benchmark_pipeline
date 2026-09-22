@@ -12,19 +12,28 @@
 #  this comment.
 #
 #      00_configure       seconds
-#      01_install         three conda solves plus a 2.1 GB GNINA download
-#      02_fetch_benchmarks  a 54 MB archive, then seconds
-#      03_build_crossdock   around 700 RCSB API calls
-#      04_prepare         643 receptors and 786 ligand preparations
-#      05_define_boxes    fpocket on 393 receptors
-#      06_dock            the long one. Vina measured 20 s and smina 25 s per
-#                         complex on one core; GNINA with its CNN on CPU is the
-#                         slow one. Multiply by the arms, methods and datasets in
-#                         project.conf, then divide by JOBS.
-#      07_score_poses     PoseBusters at roughly 0.5 s per pose
+#      01_install         four conda solves plus a 2.1 GB GNINA download over
+#                         eight connections, measured at 16 to 45 min
+#      02_fetch_benchmarks  a 54 MB archive, 4 s once it is cached, 211 MB
+#      03_build_crossdock   725 RCSB API calls, 253 pairs from 308 queries
+#      04_prepare         1237 s for 393 receptors, 786 ligands and 253
+#                         cross-docking pairs; the prepared tree is 640 MB
+#      05_define_boxes    1012 s, fpocket on 393 receptors, 598 boxes
+#      06_dock            the long one. On one core with a 25 A box at
+#                         exhaustiveness 8, Vina measured 20 s and smina 25 s per
+#                         complex; the exhaustiveness in project.conf is higher
+#                         than that for the reason in results/convergence.tsv.
+#                         GNINA with a single CNN network measured 105 s under
+#                         load and with the default five-network ensemble did not
+#                         finish one complex in eighteen minutes. Multiply by the
+#                         arms, methods and datasets in project.conf, divide by
+#                         JOBS, and read the measured distribution out of
+#                         results/timing_distributions.tsv afterwards.
+#      07_score_poses     PoseBusters at roughly 0.5 s per pose when the poses of
+#                         one run are passed in one call
 #      08_analyse         seconds
 #      09_figures         seconds
-#      10_report          one quarto render
+#      10_report          one quarto render, about a minute
 #
 #  Usage:
 #      bash run_all.sh                             # everything, resuming
@@ -72,7 +81,7 @@ while [[ $# -gt 0 ]]; do
         --jobs)    JOBS_OVERRIDE="$2"; shift 2 ;;
         --smoke)   SMOKE=1; shift ;;
         --force)   FORCE=1; shift ;;
-        -h|--help) sed -n '2,53p' "$0" | sed 's/^# \{0,1\}//'; exit 0 ;;
+        -h|--help) sed -n '2,62p' "$0" | sed 's/^# \{0,1\}//'; exit 0 ;;
         *) echo "[error] unknown option: $1" >&2; exit 1 ;;
     esac
 done
