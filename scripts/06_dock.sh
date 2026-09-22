@@ -95,6 +95,30 @@ done
 
 [[ -n "$JOBS_OVERRIDE" ]] && JOBS="$JOBS_OVERRIDE"
 [[ -n "$METHOD" ]] || { echo "[error] --method is required" >&2; exit 1; }
+
+# Memory per concurrent process depends on the method, so the job count does
+# too. Vina and smina peak in the low hundreds of megabytes on a 25 Angstrom
+# box; GNINA has to hold its CNN weights and the input grid as well. One job
+# count in project.conf for all three either starves the cheap methods or
+# overcommits on the expensive one, so it is capped here per method against the
+# RAM figure 00_configure.sh measured. VGB_MB_PER_JOB_<METHOD> overrides.
+cap_jobs_for_method() {
+    local mb
+    case "$METHOD" in
+        gnina)   mb="${VGB_MB_PER_JOB_GNINA:-1600}" ;;
+        vinardo) mb="${VGB_MB_PER_JOB_VINARDO:-400}" ;;
+        *)       mb="${VGB_MB_PER_JOB_VINA:-400}" ;;
+    esac
+    local usable=$(( RAM_GB * 1024 - 1024 ))
+    (( usable < 1024 )) && usable=1024
+    local cap=$(( usable / mb ))
+    (( cap < 1 )) && cap=1
+    (( cap > THREADS )) && cap=$THREADS
+    if (( JOBS > cap )); then
+        echo "[${METHOD}] ${JOBS} jobs at ${mb} MB each exceeds ${RAM_GB} GB; using ${cap}."
+        JOBS=$cap
+    fi
+}
 if [[ $CONVERGE -eq 1 ]]; then
     STAGE="06_dock_convergence_${METHOD}"
 elif [[ $SEED_VAR -eq 0 ]]; then
@@ -128,6 +152,7 @@ case "$METHOD" in
     *) echo "[error] unknown method: ${METHOD}" >&2; exit 1 ;;
 esac
 
+cap_jobs_for_method
 vgb_stage_start "$STAGE"
 
 # A killed run leaves per-complex temporary directories behind. They are under
