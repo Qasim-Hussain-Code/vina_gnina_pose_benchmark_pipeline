@@ -334,6 +334,13 @@ DATASETS="${DATASETS}"
 # almost never reported.
 SEED=20260922
 SEED_REPLICATES="20260922 20260923 20260924 20260925 20260926"
+# The convergence grid run by scripts/06_dock.sh --convergence. Eight complexes
+# taken at even intervals through the Astex manifest, four search efforts, the
+# first three seeds above. That is 96 docking runs, which is affordable; the
+# exhaustiveness 64 tier is most of the cost and is kept because it is the
+# anchor showing what a converged search looks like.
+CONVERGENCE_LEVELS="8 16 32 64"
+CONVERGENCE_N_COMPLEXES=8
 
 # ---- docking protocol -----------------------------------------------------
 # 25 A cube on the geometric centre of the crystal ligand's heavy atoms. This
