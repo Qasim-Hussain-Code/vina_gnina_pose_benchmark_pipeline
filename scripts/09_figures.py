@@ -445,8 +445,16 @@ def fig_box_detection(boxes, out: Path):
     y = [(i + 1) / len(vals) * 100 for i in range(len(vals))]
     ax.step(vals, y, where="post", lw=2.2, color=ARM_COLOUR["A3_genconf_detbox"],
             zorder=3)
-    ax.axvline(12.5, color=INK_2, lw=1.0, ls=(0, (3, 3)), zorder=2)
-    ax.text(12.5, 4, " half the box width", fontsize=8, color=INK_2)
+    # Log x, because the distribution has most of its mass under 30 Angstrom and
+    # a tail out past 100 on the receptors where fpocket ranked a surface groove
+    # on the far side of the protein first. A linear axis spends four fifths of
+    # its width on that tail.
+    ax.set_xscale("log")
+    half = 12.5
+    ax.axvline(half, color=INK_2, lw=1.0, ls=(0, (3, 3)), zorder=2)
+    ax.text(half * 1.06, 52, "half the box width\nbeyond here the ligand\n"
+            "cannot be inside the box", fontsize=7.8, color=INK_2,
+            ha="left", va="center")
     ax.set_xlabel("distance from fpocket rank 1 centre to the crystal ligand centroid (A)")
     ax.set_ylabel("cumulative per cent of receptors")
     ax.yaxis.set_major_formatter(PercentFormatter(100, decimals=0))

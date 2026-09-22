@@ -291,7 +291,11 @@ def main() -> int:
     wf_rows = []
     top1 = [p for p in poses if str(p.get("pose_rank")) == "1"
             and (p.get("run_kind") or "arm") == "arm"]
-    check_names = sorted({k for p in poses if k.startswith("pb_")
+    # Discovered from the data rather than hardcoded: the set of PoseBusters
+    # checks has changed between releases and a fixed list would silently drop a
+    # new one.
+    check_names = sorted({k for p in poses for k in p
+                          if k.startswith("pb_")
                           and k not in ("pb_valid", "pb_checks_failed")})
     groups = defaultdict(list)
     for p in top1:
