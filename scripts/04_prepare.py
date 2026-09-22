@@ -85,7 +85,7 @@ RECEPTOR_COLUMNS = [
     "scope", "key", "source_pdb", "status", "reason", "atoms_kept",
     "waters_removed", "additive_atoms_removed", "stray_ligand_atoms_removed",
     "cofactor_atoms_kept", "cofactors_kept", "protonation", "typing",
-    "pdbqt_atoms", "pdbqt_bytes", "elapsed_s", "recorded",
+    "typing_note", "pdbqt_atoms", "pdbqt_bytes", "elapsed_s", "recorded",
 ]
 LIGAND_COLUMNS = [
     "dataset", "complex_id", "conformer", "status", "reason", "smiles",
@@ -196,10 +196,31 @@ def prepare_receptor(src_pdb: Path, out_dir: Path, drop_ccd: str | None,
     # but GNINA's CNN sees the receptor as typed atoms with charges and an
     # AutoDock4 rescoring would be nonsense. A zero-charge receptor is wrong even
     # where it is harmless.
-    p3 = subprocess.run([tools["obabel"], str(prot), "-O", str(pdbqt), "-xr",
-                         "--partialcharge", "gasteiger"],
-                        capture_output=True, text=True, timeout=3600)
-    if p3.returncode != 0 or not pdbqt.is_file() or pdbqt.stat().st_size == 0:
+    def obabel_pdbqt(extra: list[str]):
+        p = subprocess.run([tools["obabel"], str(prot), "-O", str(pdbqt), "-xr"] + extra,
+                           capture_output=True, text=True, timeout=3600)
+        ok = p.returncode == 0 and pdbqt.is_file() and pdbqt.stat().st_size > 0
+        return ok, p
+
+    ok, p3 = obabel_pdbqt(["--partialcharge", "gasteiger"])
+    if not ok:
+        # Gasteiger assignment needs the molecule kekulized, and Open Babel
+        # cannot kekulize 27 of the 308 PoseBusters receptors: the ones with a
+        # heme or a similar aromatic metal-containing cofactor. Without the
+        # charge model the same file converts with only a warning, so asking for
+        # charges turns a warning into a fatal error and loses the complex.
+        #
+        # Dropping those 27 would be a silent exclusion of exactly the receptors
+        # with the most interesting cofactors. Instead the conversion is retried
+        # without a charge model and the typing column records which of the two
+        # ran, so the difference is a column rather than a missing row. Neither
+        # Vina nor Vinardo has an electrostatic term, so for those two the
+        # retried receptors are identical to the rest.
+        ok, p3 = obabel_pdbqt([])
+        row["typing"] = "openbabel_nocharge_rigid"
+        row["typing_note"] = ("gasteiger failed, kekulization: "
+                              + ((p3.stderr or p3.stdout or "").strip().splitlines() or [""])[-1])[:160]
+    if not ok:
         tail = (p3.stderr or p3.stdout or "").strip().splitlines()[-1:] or [""]
         row.update({"status": "failed",
                     "reason": f"obabel receptor conversion failed: {tail[0]}"[:200],
@@ -218,7 +239,8 @@ def prepare_receptor(src_pdb: Path, out_dir: Path, drop_ccd: str | None,
     # across 643 receptors they are the largest thing written here and nothing
     # downstream reads them. clean.pdb stays, because 05_define_boxes.py runs
     # fpocket on it and fpocket wants a PDB rather than a PDBQT.
-    for f in (pqr, out_dir / "protonated.pdb", out_dir / "protonated_obabel.pdb"):
+    for f in (pqr, out_dir / "protonated.pdb", out_dir / "protonated_obabel.pdb",
+              out_dir / "receptor.log"):
         try:
             if f.is_file():
                 f.unlink()
