@@ -91,6 +91,21 @@ per-complex defaults before anything has been measured and refuses to write a
 multiplied are defaults rather than evidence. The gate in stage 6 is the one
 that has measured this machine.
 
+Both gates share a blind spot, and on WSL it is a serious one. They measure the
+filesystem the data sits on. Under WSL2 that filesystem lives inside a
+thin-provisioned `ext4.vhdx` on the Windows drive, so `df` inside the virtual
+machine reported 894 GB free while the host C: drive fell from 10.2 GB to under
+2 GB, because every byte written inside the virtual machine grows that file one
+for one. Nothing in the pipeline can see that from inside.
+
+If you are running under WSL, watch the host drive yourself. The virtual disk
+does not shrink when files inside it are deleted: `wsl --shutdown` reclaims the
+swap file, and reclaiming the rest needs the disk compacted, which Microsoft's
+sparse-VHD option currently refuses to do without an unsafe flag. The practical
+consequence is that the GNINA binary at 2.1 GB and its CUDA libraries at about
+3 GB are a permanent cost on the host drive once fetched, not a temporary one.
+`scripts/01_install.sh --no-gnina` avoids both.
+
 ## Deleting it
 
 Safe to remove entirely between analyses:
