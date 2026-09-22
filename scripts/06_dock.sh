@@ -96,25 +96,35 @@ done
 [[ -n "$JOBS_OVERRIDE" ]] && JOBS="$JOBS_OVERRIDE"
 [[ -n "$METHOD" ]] || { echo "[error] --method is required" >&2; exit 1; }
 
-# Memory per concurrent process, measured on this machine with /usr/bin/time on
-# a 25 Angstrom box at exhaustiveness 32, one core:
+# Memory per concurrent process. These figures were wrong twice before they
+# were right, and both mistakes are worth recording because they are the same
+# mistake.
 #
-#     vina     155 s   419 MB
-#     vinardo  132 s    78 MB
-#     gnina    133 s   462 MB   (--cnn_scoring rescore, single CNN network)
+# First they were guessed: GNINA was assumed to need 1.6 GB because it holds a
+# neural network, and Vina a few hundred megabytes. Then one complex was
+# measured with /usr/bin/time on a 25 Angstrom box, which gave vina 419 MB,
+# vinardo 78 MB and gnina 462 MB, and the guess was replaced with that. One
+# complex is not a distribution. Sampling the ten Vina processes of a live run
+# gave a minimum of 388 MB, a median of 643 MB and a maximum of 1152 MB: the
+# grid maps scale with the receptor, and the receptors vary. Ten jobs sized on
+# the 419 MB figure used 7.0 GB of the 7.9 GB available and pushed 1.5 GB into
+# swap.
 #
-# Two things there are worth keeping in view. Vina is the memory hog, not GNINA,
-# which is the opposite of what this guard assumed before the numbers were
-# taken. And GNINA with one network is no slower than smina at this
-# exhaustiveness, because the search dominates and the CNN only rescores the
-# poses it produced; with the default five-network ensemble it is slower by
-# more than an order of magnitude. VGB_MB_PER_JOB_<METHOD> overrides.
+# So the figure below is the observed maximum with headroom, not a mean and not
+# a single measurement. A benchmark that thrashes is measuring the swap device.
+# VGB_MB_PER_JOB_<METHOD> overrides it.
+#
+# Timing at exhaustiveness 32 on one core, for reference: vina 155 s,
+# vinardo 132 s, gnina 133 s with a single CNN network. GNINA with one network
+# is no slower than smina, because the search dominates and the network only
+# rescores the poses it produced; with the default five-network ensemble it is
+# slower by more than an order of magnitude.
 cap_jobs_for_method() {
     local mb
     case "$METHOD" in
-        gnina)   mb="${VGB_MB_PER_JOB_GNINA:-700}" ;;
-        vinardo) mb="${VGB_MB_PER_JOB_VINARDO:-200}" ;;
-        *)       mb="${VGB_MB_PER_JOB_VINA:-600}" ;;
+        gnina)   mb="${VGB_MB_PER_JOB_GNINA:-1300}" ;;
+        vinardo) mb="${VGB_MB_PER_JOB_VINARDO:-400}" ;;
+        *)       mb="${VGB_MB_PER_JOB_VINA:-1200}" ;;
     esac
     local usable=$(( RAM_GB * 1024 - 1024 ))
     (( usable < 1024 )) && usable=1024

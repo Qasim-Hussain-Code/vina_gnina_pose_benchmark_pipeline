@@ -171,12 +171,14 @@ fi
 # The figures below are measured on this machine and the measurement is repeated
 # into logs/*.resources.tsv on every run, so a machine where they are wrong says
 # so in its own logs rather than inheriting these.
-# Measured on this machine, 25 Angstrom box, exhaustiveness 32, one core, with
-# /usr/bin/time: Vina 419 MB, smina 78 MB, GNINA with a single CNN network
-# 462 MB. Vina is the memory hog here, not GNINA, which is the opposite of what
-# was assumed before the measurement was taken. 600 MB leaves headroom over the
-# largest of the three.
-MB_PER_JOB=${VGB_MB_PER_JOB:-600}
+# Memory per concurrent docking process. Sampled across the ten Vina processes
+# of a live run on a 25 Angstrom box: minimum 388 MB, median 643 MB, maximum
+# 1152 MB. The spread is the receptor, because the grid maps scale with it, so
+# a single-complex measurement underestimates badly: one taken on a small
+# receptor gave 419 MB, and ten jobs sized on that figure used 7.0 GB of the
+# 7.9 GB available and spilled 1.5 GB into swap. The figure below is the
+# observed maximum with headroom. 06_dock.sh refines it per method.
+MB_PER_JOB=${VGB_MB_PER_JOB:-1200}
 # Leave a gigabyte for the operating system and the python parent process.
 USABLE_MB=$(( RAM_GB * 1024 - 1024 )); (( USABLE_MB < 1024 )) && USABLE_MB=1024
 MAX_JOBS_BY_RAM=$(( USABLE_MB / MB_PER_JOB )); (( MAX_JOBS_BY_RAM < 1 )) && MAX_JOBS_BY_RAM=1
