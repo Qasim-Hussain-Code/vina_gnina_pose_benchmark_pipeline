@@ -81,7 +81,15 @@ README quotes; the breakdown below is for planning.
 The disk gate in `scripts/06_dock.sh` measures the per-run cost on the first ten
 complexes of an arm, projects the total for the arms still to come, and refuses
 to start if it will not fit in `DISK_GB`. That is the number to trust over this
-table.
+table. Run with `DISK_GB=1` it reports, correctly, that 3.03 GB is already in
+use against a 1 GB budget, names the 2.03 GB shortfall, writes no stage stamp so
+the arm is retried rather than skipped, and exits 4.
+
+There are two gates, not one. `scripts/00_configure.sh` projects from
+per-complex defaults before anything has been measured and refuses to write a
+`project.conf` that cannot work; it says in its own output that the figures it
+multiplied are defaults rather than evidence. The gate in stage 6 is the one
+that has measured this machine.
 
 ## Deleting it
 
