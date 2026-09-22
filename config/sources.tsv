@@ -1,0 +1,30 @@
+# Every external source this pipeline reads, with the identifier it is pinned
+# to. scripts/02_fetch_benchmarks.sh reads this file rather than holding URLs in
+# the script, so changing a source is a config change and shows up in a diff.
+#
+# A note on the two PoseBusters rows, because the split is the awkward part of
+# this dataset and the README explains it at length.
+#
+# The coordinates come from the PoseBusters authors' own Zenodo archive. That
+# archive is the preprint version and holds 428 complexes. The published paper
+# in Chemical Science reports on 308: during peer review the authors removed
+# complexes whose ligand made crystal contacts. The 308-member list is not in
+# the Zenodo archive, is not in the posebusters GitHub repository, and the RSC
+# supplementary files returned 404 when I looked for them on 22 September 2026.
+# The list used here is the one PoseBench ships, pinned to a commit. It was
+# checked to contain exactly 308 entries and to be a strict subset of the 428 in
+# the authors' archive, so every coordinate file still comes from the authors
+# and only the subset selection is second-hand. That check runs every time
+# 02_fetch_benchmarks.sh does, and the stage fails if it stops holding.
+#
+# checksum_source says who publishes the checksum being verified. "zenodo_api"
+# means the value is fetched from the Zenodo API at run time and compared, so
+# nothing here is self-attested. "none" means upstream publishes no checksum and
+# 02_fetch_benchmarks.sh records what it received instead of verifying it.
+source_id	kind	locator	pinned_to	checksum_source	licence	checked
+posebusters_structures	zenodo_record	8278563	record 8278563, published 2023-08-24	zenodo_api	CC-BY-4.0	2026-09-22
+posebusters_308_ids	github_raw	BioinfoMachineLearning/PoseBench:data/posebusters_pdb_ccd_ids.txt	d2eeef8f2272d730d572ac22f3b25d48dc47966e	none	MIT	2026-09-22
+astex_structures	zenodo_record	8278563	record 8278563, published 2023-08-24	zenodo_api	CC-BY-4.0	2026-09-22
+gnina_binary	github_release	gnina/gnina	latest at install time, tag recorded	none	Apache-2.0	2026-09-22
+rcsb_search_api	rest_api	https://search.rcsb.org/rcsbsearch/v2/query	no version pin available	none	CC0-1.0	2026-09-22
+rcsb_data_api	rest_api	https://data.rcsb.org/graphql	no version pin available	none	CC0-1.0	2026-09-22

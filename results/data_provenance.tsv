@@ -1,0 +1,15 @@
+item	value
+zenodo_record	8278563
+zenodo_publication_date	2023-08-24
+zenodo_licence	cc-by-4.0
+archive_file	posebusters_paper_data.zip
+archive_url	https://zenodo.org/api/records/8278563/files/posebusters_paper_data.zip/content
+archive_bytes	53660397
+archive_md5_upstream	f004ac7c4e68317b5348497d2bb6bee6
+archive_sha256_local	495a8f432ee5612c0dfa3cc582829f112bfca3c29dddc2db2c3a8dc7609e721c
+archive_downloaded	2026-09-22T14:20:29+08:00
+posebusters_folders_in_archive	428
+astex_folders_in_archive	85
+ids_308_url	https://raw.githubusercontent.com/BioinfoMachineLearning/PoseBench/d2eeef8f2272d730d572ac22f3b25d48dc47966e/data/posebusters_pdb_ccd_ids.txt
+ids_308_commit	d2eeef8f2272d730d572ac22f3b25d48dc47966e
+ids_308_sha256	a69a7b6b9a5a52531933078ef983e6c069e3a987a1d7a733bd7d72cbe1793de6
