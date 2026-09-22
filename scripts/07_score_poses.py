@@ -107,13 +107,18 @@ def _init(ctx):
 
 
 def read_poses(archive: Path):
-    """Read a gzipped SDF of poses into single-conformer heavy-atom molecules."""
+    """Read a gzipped SDF of poses into single-conformer heavy-atom molecules.
+
+    Binary mode, not text. ForwardSDMolSupplier wraps a C++ stream and rejects a
+    text-mode handle with "Need a binary mode file object"; opening the gzip with
+    "rt" fails on every archive, which is how eight of eight smoke-test runs came
+    back unscored with the poses sitting on disk perfectly intact.
+    """
     from rdkit import Chem
 
     out = []
-    with gzip.open(archive, "rt") as fh:
-        supplier = Chem.ForwardSDMolSupplier(fh, removeHs=True)
-        for mol in supplier:
+    with gzip.open(archive, "rb") as fh:
+        for mol in Chem.ForwardSDMolSupplier(fh, removeHs=True):
             if mol is not None:
                 out.append(mol)
     return out
