@@ -286,7 +286,12 @@ def _dock_one(job: dict) -> dict:
         return row
 
     # --- search -------------------------------------------------------------
-    work = Path(cfg["work_dir"]) / f"{job['key']}_{job['seed']}"
+    # The work directory name has to be unique across every job in the pool, not
+    # just across keys. The convergence grid runs the same key and seed at four
+    # exhaustiveness levels, and two of those running concurrently in one
+    # directory would write the same out.pdbqt and read each other's poses.
+    work = (Path(cfg["work_dir"]) /
+            f"{job['key']}_s{job['seed']}_e{job.get('exhaustiveness') or cfg['exhaustiveness']}")
     work.mkdir(parents=True, exist_ok=True)
     out_pdbqt = work / "out.pdbqt"
     # The convergence grid varies exhaustiveness per job; every other run takes
