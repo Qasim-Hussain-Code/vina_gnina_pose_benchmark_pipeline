@@ -161,17 +161,35 @@ if (( JOBS > THREADS )); then
     echo "[warn] --jobs ${JOBS} exceeds ${THREADS} threads; using ${THREADS}."
     JOBS=$THREADS
 fi
-# One docking process peaks near 200 MB for Vina and smina and above 1 GB for
-# GNINA running its CNN on CPU. 2 GB per job is the budget assumed here; the
-# measured peaks per stage land in logs/*.resources.tsv.
-MAX_JOBS_BY_RAM=$(( RAM_GB / 2 )); (( MAX_JOBS_BY_RAM < 1 )) && MAX_JOBS_BY_RAM=1
+# Memory per concurrent docking process. The budget depends on which methods
+# were asked for, because they differ by an order of magnitude: Vina and smina
+# peak in the low hundreds of megabytes on a 25 Angstrom box, while GNINA has to
+# hold its CNN weights and the input grid. Assuming the GNINA figure for a
+# vina-only run would cap the job count at a third of what the machine can
+# actually take, which is how this guard first behaved.
+#
+# The figures below are measured on this machine and the measurement is repeated
+# into logs/*.resources.tsv on every run, so a machine where they are wrong says
+# so in its own logs rather than inheriting these.
+MB_PER_JOB=400
+case ",${METHODS}," in *,gnina,*) MB_PER_JOB=${VGB_MB_PER_GNINA_JOB:-1600} ;; esac
+# Leave a gigabyte for the operating system and the python parent process.
+USABLE_MB=$(( RAM_GB * 1024 - 1024 )); (( USABLE_MB < 1024 )) && USABLE_MB=1024
+MAX_JOBS_BY_RAM=$(( USABLE_MB / MB_PER_JOB )); (( MAX_JOBS_BY_RAM < 1 )) && MAX_JOBS_BY_RAM=1
 if (( JOBS > MAX_JOBS_BY_RAM )); then
-    echo "[warn] ${JOBS} jobs at 2 GB each would exceed ${RAM_GB} GB; using ${MAX_JOBS_BY_RAM}."
+    echo "[warn] ${JOBS} jobs at ${MB_PER_JOB} MB each would exceed ${RAM_GB} GB; using ${MAX_JOBS_BY_RAM}."
     JOBS=$MAX_JOBS_BY_RAM
 fi
 if (( RAM_GB < 6 )); then
-    echo "[warn] ${RAM_GB} GB visible. GNINA's CNN on CPU has been seen above 1 GB;"
-    echo "       if the gnina method is in --methods, expect it to be the tight one."
+    echo "[warn] ${RAM_GB} GB visible. GNINA's CNN on CPU is the tight one;"
+    echo "       if the gnina method is in --methods, it sets the job count."
+fi
+# Under WSL2 the kernel is handed a fraction of the host's RAM, so this can be
+# well below what the machine has. Raise it in %UserProfile%\.wslconfig with
+# memory=12GB and restart WSL if the job count here looks low for the hardware.
+if [[ -r /proc/version ]] && grep -qi microsoft /proc/version 2>/dev/null; then
+    echo "[note] running under WSL: ${RAM_GB} GB is what the kernel was given,"
+    echo "       not what the machine has. See .wslconfig to change it."
 fi
 
 # -----------------------------------------------------------------------------
