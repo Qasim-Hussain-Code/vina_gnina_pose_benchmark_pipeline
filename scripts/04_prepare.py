@@ -418,6 +418,15 @@ def cif_to_receptor_pdb(cif: Path, out_pdb: Path, drop_ccds: set[str]) -> dict:
             # occupancy by PDB convention.
             return (not atom.is_disordered()) or atom.get_altloc() in (" ", "A")
 
+        def accept_chain(self, chain):
+            # Biopython's PDBIO cannot write a chain identifier longer than one
+            # character, and mmCIF entries for large assemblies use identifiers
+            # like 'AAA'. Six of the 253 cross-docking partners are lost this
+            # way. Remapping the identifiers would keep them and is not done
+            # here; the failures are recorded in crossdock_align.tsv with the
+            # exception text rather than dropped quietly.
+            return True
+
     parser = MMCIFParser(QUIET=True)
     structure = parser.get_structure("x", str(cif))
 
@@ -650,6 +659,22 @@ def _crossdock_job(item):
     # not the same fold in the same conformation, and a reference pose derived
     # from it would be wrong by that much before docking even starts. Three is
     # arbitrary; it is roughly where a domain has moved rather than a loop.
+    #
+    # This cut is the least comfortable decision in the pipeline and it biases
+    # the cross-docking arm. It removed 39 of 253 pairs, and they are not a
+    # random 39: they are the pairs whose two structures differ most, which is
+    # to say the hardest and most interesting cross-docking cases. Excluding
+    # them makes arm A4 easier than the population it is meant to represent, so
+    # the A4 number is an optimistic estimate of cross-docking performance
+    # rather than a neutral one.
+    #
+    # The fix is a local superposition on binding-site residues instead of a
+    # global one on every matched C-alpha. That would give a reliable reference
+    # pose even where a distant domain has swung, and would keep most of those
+    # 39. It is the obvious next improvement and it is not done here. The count
+    # and the per-pair C-alpha RMSD are in
+    # results/preparation/crossdock_align.tsv so the size of the effect is
+    # visible rather than implied.
     if stats["ca_rmsd_after_superposition"] > 3.0:
         row.update({"status": "failed",
                     "reason": f"C-alpha RMSD {stats['ca_rmsd_after_superposition']} A "
