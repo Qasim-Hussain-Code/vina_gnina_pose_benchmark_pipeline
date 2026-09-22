@@ -162,8 +162,32 @@ PY
         )
         [[ -n "${GNINA_URL:-}" ]] || { echo "[error] no gnina asset in release ${GNINA_TAG}" >&2; exit 1; }
         echo "[${STAGE}] fetching GNINA ${GNINA_TAG}, about 2.1 GB"
-        vgb_run gnina_download curl -sSL --retry 5 --retry-all-errors \
-            -o "${TOOLDIR}/gnina.part" "$GNINA_URL"
+        # Eight connections rather than one. A single stream from the GitHub CDN
+        # measured 455 kB/s on this machine, which is 75 minutes for 2.1 GB;
+        # eight measured 1.9 MB/s, which is 16. curl with --continue-at is the
+        # fallback so the stage still works without aria2.
+        ARIA="$(vgb_tool_path "$CONDA_ENV_NAME" aria2c || true)"
+        if [[ -n "$ARIA" ]]; then
+            vgb_run gnina_download "$ARIA" -x 8 -s 8 -k 1M --quiet=true \
+                --allow-overwrite=true --auto-file-renaming=false \
+                -d "$TOOLDIR" -o gnina.part "$GNINA_URL"
+        else
+            echo "[${STAGE}] aria2c not available; falling back to a single curl stream"
+            vgb_run gnina_download curl -sSL --retry 5 --retry-all-errors \
+                --continue-at - -o "${TOOLDIR}/gnina.part" "$GNINA_URL"
+        fi
+        # The release asset is a fixed size. Checking it here turns a truncated
+        # download into an error rather than a binary that segfaults at stage 6.
+        GOT="$(stat -c %s "${TOOLDIR}/gnina.part")"
+        WANT="$("$(vgb_tool_path "$CONDA_ENV_NAME" python)" -c \
+            'import json,sys
+d=json.load(open(sys.argv[1]))
+print(next(a["size"] for a in d["assets"] if a["name"].startswith("gnina")))' \
+            "${TOOLDIR}/gnina_release.json")"
+        if [[ "$GOT" != "$WANT" ]]; then
+            echo "[error] GNINA download is ${GOT} bytes, release says ${WANT}." >&2
+            exit 6
+        fi
         mv "${TOOLDIR}/gnina.part" "${TOOLDIR}/gnina"
         chmod +x "${TOOLDIR}/gnina"
     else

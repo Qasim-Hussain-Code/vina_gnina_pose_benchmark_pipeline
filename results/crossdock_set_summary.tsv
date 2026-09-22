@@ -1,0 +1,14 @@
+item	value
+queries_considered	12
+pairs_built	10
+queries_paired	10
+queries_excluded	2
+max_resolution_angstrom	2.5
+min_sequence_identity_percent	95
+max_partners_per_query	1
+min_ligand_heavy_atoms	10
+additives_excluded_count	81
+rcsb_api_calls	36
+built	2026-09-22T14:25:37+08:00
+excluded_no_partner_same_ligand_only	1
+excluded_no_same_protein_entry	1

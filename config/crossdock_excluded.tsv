@@ -1,0 +1,3 @@
+dataset	complex_id	stage	reason	recorded
+crossdock	6M73_FNR	03_build_crossdock_set	no partner survived filtering (same_ligand_only=1)	2026-09-22
+crossdock	6XBO_5MC	03_build_crossdock_set	no other X-ray entry at 2.5 A or better shares a UniProt accession with this one	2026-09-22

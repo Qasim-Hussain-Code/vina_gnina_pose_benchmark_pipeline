@@ -76,3 +76,10 @@ dependencies:
 
   - pyyaml
   - tqdm
+
+  # aria2 is here for one job: the GNINA release asset is 2.1 GB and a single
+  # HTTP stream from the GitHub CDN measured 455 kB/s from this machine, which
+  # is 75 minutes. Eight connections measured 1.9 MB/s, which is 16. 01_install.sh
+  # prefers aria2c and falls back to curl with resume if it is absent, so this
+  # is a convenience rather than a requirement.
+  - aria2
