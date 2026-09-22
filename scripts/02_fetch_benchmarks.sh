@@ -43,6 +43,7 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source-path=SCRIPTDIR
 # shellcheck source=lib_common.sh
 source "${SCRIPT_DIR}/lib_common.sh"
 vgb_load_conf
@@ -170,6 +171,8 @@ IDS_SHA256="$(sha256sum "$IDS_FILE" | awk '{print $1}')"
 #    existence check and the TSV writing all want the same data in hand.
 # -----------------------------------------------------------------------------
 echo "[${STAGE}] writing dataset manifests"
+# SCRIPTS_DIR is set in project.conf, which vgb_load_conf sourced above.
+# shellcheck disable=SC2153
 vgb_run write_manifests "$PY" "${SCRIPTS_DIR}/lib_manifest.py" \
     --bench-dir "$BENCH" \
     --ids-308 "$IDS_FILE" \
