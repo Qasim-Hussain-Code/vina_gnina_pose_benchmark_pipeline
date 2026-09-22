@@ -96,18 +96,25 @@ done
 [[ -n "$JOBS_OVERRIDE" ]] && JOBS="$JOBS_OVERRIDE"
 [[ -n "$METHOD" ]] || { echo "[error] --method is required" >&2; exit 1; }
 
-# Memory per concurrent process depends on the method, so the job count does
-# too. Vina and smina peak in the low hundreds of megabytes on a 25 Angstrom
-# box; GNINA has to hold its CNN weights and the input grid as well. One job
-# count in project.conf for all three either starves the cheap methods or
-# overcommits on the expensive one, so it is capped here per method against the
-# RAM figure 00_configure.sh measured. VGB_MB_PER_JOB_<METHOD> overrides.
+# Memory per concurrent process, measured on this machine with /usr/bin/time on
+# a 25 Angstrom box at exhaustiveness 32, one core:
+#
+#     vina     155 s   419 MB
+#     vinardo  132 s    78 MB
+#     gnina    133 s   462 MB   (--cnn_scoring rescore, single CNN network)
+#
+# Two things there are worth keeping in view. Vina is the memory hog, not GNINA,
+# which is the opposite of what this guard assumed before the numbers were
+# taken. And GNINA with one network is no slower than smina at this
+# exhaustiveness, because the search dominates and the CNN only rescores the
+# poses it produced; with the default five-network ensemble it is slower by
+# more than an order of magnitude. VGB_MB_PER_JOB_<METHOD> overrides.
 cap_jobs_for_method() {
     local mb
     case "$METHOD" in
-        gnina)   mb="${VGB_MB_PER_JOB_GNINA:-1600}" ;;
-        vinardo) mb="${VGB_MB_PER_JOB_VINARDO:-400}" ;;
-        *)       mb="${VGB_MB_PER_JOB_VINA:-400}" ;;
+        gnina)   mb="${VGB_MB_PER_JOB_GNINA:-700}" ;;
+        vinardo) mb="${VGB_MB_PER_JOB_VINARDO:-200}" ;;
+        *)       mb="${VGB_MB_PER_JOB_VINA:-600}" ;;
     esac
     local usable=$(( RAM_GB * 1024 - 1024 ))
     (( usable < 1024 )) && usable=1024

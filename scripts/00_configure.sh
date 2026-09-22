@@ -171,8 +171,12 @@ fi
 # The figures below are measured on this machine and the measurement is repeated
 # into logs/*.resources.tsv on every run, so a machine where they are wrong says
 # so in its own logs rather than inheriting these.
-MB_PER_JOB=400
-case ",${METHODS}," in *,gnina,*) MB_PER_JOB=${VGB_MB_PER_GNINA_JOB:-1600} ;; esac
+# Measured on this machine, 25 Angstrom box, exhaustiveness 32, one core, with
+# /usr/bin/time: Vina 419 MB, smina 78 MB, GNINA with a single CNN network
+# 462 MB. Vina is the memory hog here, not GNINA, which is the opposite of what
+# was assumed before the measurement was taken. 600 MB leaves headroom over the
+# largest of the three.
+MB_PER_JOB=${VGB_MB_PER_JOB:-600}
 # Leave a gigabyte for the operating system and the python parent process.
 USABLE_MB=$(( RAM_GB * 1024 - 1024 )); (( USABLE_MB < 1024 )) && USABLE_MB=1024
 MAX_JOBS_BY_RAM=$(( USABLE_MB / MB_PER_JOB )); (( MAX_JOBS_BY_RAM < 1 )) && MAX_JOBS_BY_RAM=1
@@ -180,9 +184,9 @@ if (( JOBS > MAX_JOBS_BY_RAM )); then
     echo "[warn] ${JOBS} jobs at ${MB_PER_JOB} MB each would exceed ${RAM_GB} GB; using ${MAX_JOBS_BY_RAM}."
     JOBS=$MAX_JOBS_BY_RAM
 fi
-if (( RAM_GB < 6 )); then
-    echo "[warn] ${RAM_GB} GB visible. GNINA's CNN on CPU is the tight one;"
-    echo "       if the gnina method is in --methods, it sets the job count."
+if (( RAM_GB < 4 )); then
+    echo "[warn] ${RAM_GB} GB visible; at ${MB_PER_JOB} MB per job this run will be"
+    echo "       close to serial whatever --jobs says."
 fi
 # Under WSL2 the kernel is handed a fraction of the host's RAM, so this can be
 # well below what the machine has. Raise it in %UserProfile%\.wslconfig with
