@@ -1,0 +1,3 @@
+arm	method	dataset	check	n_top1_assessed	n_failed	pct_failed	recorded
+A1_refconf_refbox	vina	astex	pb_rmsd_le_2a	8	3	37.5	2026-09-22
+A2_genconf_refbox	vina	astex	pb_rmsd_le_2a	8	7	87.5	2026-09-22

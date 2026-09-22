@@ -1,0 +1,2 @@
+from_arm	to_arm	meaning	method	dataset	from_success_2a_pct	to_success_2a_pct	delta_pp	from_rmsd_le_2a_pct	to_rmsd_le_2a_pct	delta_rmsd_pp	from_n	to_n	recorded
+A1_refconf_refbox	A2_genconf_refbox	cost of generating the starting conformer instead of using the crystal one	vina	astex	62.5	12.5	-50.0	62.5	12.5	-50.0	8	8	2026-09-22

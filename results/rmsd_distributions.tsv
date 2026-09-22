@@ -1,0 +1,7 @@
+arm	method	dataset	quantity	n	min	q25	median	q75	q90	max	mean	recorded
+A1_refconf_refbox	vina	astex	top1_rmsd	8.0	0.251	0.489	1.147	4.745	9.273	10.131	3.225	2026-09-22
+A1_refconf_refbox	vina	astex	top5_best_rmsd	8.0	0.251	0.489	1.147	3.076	3.753	4.676	1.803	2026-09-22
+A1_refconf_refbox	vina	astex	top1_kabsch_rmsd	8.0	0.001	0.145	0.971	1.544	1.99	2.974	1.032	2026-09-22
+A2_genconf_refbox	vina	astex	top1_rmsd	8.0	1.033	2.41	3.283	3.865	4.66	4.88	3.179	2026-09-22
+A2_genconf_refbox	vina	astex	top5_best_rmsd	8.0	0.388	0.939	2.154	3.439	4.229	4.677	2.292	2026-09-22
+A2_genconf_refbox	vina	astex	top1_kabsch_rmsd	8.0	0.152	0.765	1.396	1.664	2.137	2.354	1.254	2026-09-22

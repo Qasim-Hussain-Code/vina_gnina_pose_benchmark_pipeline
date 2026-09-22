@@ -1,0 +1,992 @@
+arm_box_kind	dataset	key	status	reason	center_x	center_y	center_z	size_x	size_y	size_z	method	pocket_rank	pocket_score	pocket_alpha_spheres	distance_to_crystal_centroid	ligand_fits_in_box	recorded
+ligand_centred	posebusters	5SD5_HWI	ok		6.051	2.116	14.158	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:37+08:00
+detected	posebusters	5SD5_HWI	ok		15.561	-2.809	13.331	25.0	25.0	25.0	fpocket_rank1	1	0.746	267	10.741	0	2026-09-22T15:19:37+08:00
+ligand_centred	posebusters	5SAK_ZRY	ok		25.471	5.162	58.03	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:37+08:00
+detected	posebusters	5SAK_ZRY	ok		23.112	4.138	56.26	25.0	25.0	25.0	fpocket_rank1	1	0.178	93	3.122	1	2026-09-22T15:19:37+08:00
+ligand_centred	posebusters	5SB2_1K2	ok		-22.44	0.413	-2.536	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:37+08:00
+detected	posebusters	5SB2_1K2	ok		-20.734	0.85	0.395	25.0	25.0	25.0	fpocket_rank1	1	0.72	175	3.419	1	2026-09-22T15:19:37+08:00
+ligand_centred	posebusters	5SIS_JSM	ok		32.257	108.568	58.361	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:37+08:00
+detected	posebusters	5SIS_JSM	ok		33.655	105.873	62.69	25.0	25.0	25.0	fpocket_rank1	1	0.152	114	5.288	1	2026-09-22T15:19:37+08:00
+ligand_centred	posebusters	6M73_FNR	ok		26.928	10.49	37.842	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:37+08:00
+detected	posebusters	6M73_FNR	ok		25.78	10.868	37.383	25.0	25.0	25.0	fpocket_rank1	1	0.458	125	1.293	1	2026-09-22T15:19:37+08:00
+ligand_centred	posebusters	6M2B_EZO	ok		27.402	-22.631	22.529	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:37+08:00
+detected	posebusters	6M2B_EZO	ok		31.987	-20.751	19.54	25.0	25.0	25.0	fpocket_rank1	1	0.963	274	5.787	1	2026-09-22T15:19:37+08:00
+ligand_centred	posebusters	6T88_MWQ	ok		-11.543	-53.215	-6.852	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:39+08:00
+detected	posebusters	6T88_MWQ	ok		0.161	-30.86	-12.163	25.0	25.0	25.0	fpocket_rank1	1	0.048	22	25.786	0	2026-09-22T15:19:39+08:00
+ligand_centred	posebusters	6VTA_AKN	ok		92.745	8.791	30.717	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:40+08:00
+detected	posebusters	6VTA_AKN	ok		99.974	12.932	42.699	25.0	25.0	25.0	fpocket_rank1	1	0.771	115	14.593	0	2026-09-22T15:19:40+08:00
+ligand_centred	posebusters	6WTN_RXT	ok		20.837	13.28	9.233	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:40+08:00
+detected	posebusters	6WTN_RXT	ok		33.94	16.991	1.654	25.0	25.0	25.0	fpocket_rank1	1	0.065	30	15.586	0	2026-09-22T15:19:40+08:00
+ligand_centred	posebusters	6TW7_NZB	ok		3.995	49.111	60.156	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:40+08:00
+detected	posebusters	6TW7_NZB	ok		5.118	37.427	52.062	25.0	25.0	25.0	fpocket_rank1	1	1.164	156	14.258	0	2026-09-22T15:19:40+08:00
+ligand_centred	posebusters	6XBO_5MC	ok		17.328	-11.676	8.999	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:40+08:00
+detected	posebusters	6XBO_5MC	ok		16.385	-16.019	10.818	25.0	25.0	25.0	fpocket_rank1	1	0.35	232	4.801	1	2026-09-22T15:19:40+08:00
+ligand_centred	posebusters	6XG5_TOP	ok		-8.046	28.262	17.29	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:42+08:00
+detected	posebusters	6XG5_TOP	ok		-22.775	24.325	5.632	25.0	25.0	25.0	fpocket_rank1	1	0.179	17	19.193	0	2026-09-22T15:19:42+08:00
+ligand_centred	posebusters	6XCT_478	ok		12.718	15.878	-10.671	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:42+08:00
+detected	posebusters	6XCT_478	ok		10.744	6.507	13.239	25.0	25.0	25.0	fpocket_rank1	1	0.04	15	25.756	0	2026-09-22T15:19:42+08:00
+ligand_centred	posebusters	6YMS_OZH	ok		35.979	39.482	-4.885	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:43+08:00
+detected	posebusters	6YMS_OZH	ok		47.014	45.697	-21.547	25.0	25.0	25.0	fpocket_rank1	1	0.257	40	20.929	0	2026-09-22T15:19:43+08:00
+ligand_centred	posebusters	6YJA_2BA	ok		1.763	3.417	15.135	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:43+08:00
+detected	posebusters	6YJA_2BA	ok		15.05	-11.848	35.02	25.0	25.0	25.0	fpocket_rank1	1	0.154	60	28.372	0	2026-09-22T15:19:43+08:00
+ligand_centred	posebusters	6YQW_82I	ok		-0.156	13.573	11.303	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:45+08:00
+detected	posebusters	6YQW_82I	ok		0.585	12.909	11.068	25.0	25.0	25.0	fpocket_rank1	1	0.105	73	1.023	1	2026-09-22T15:19:45+08:00
+ligand_centred	posebusters	6YQV_8K2	ok		12.188	-11.05	22.298	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:44+08:00
+detected	posebusters	6YQV_8K2	ok		2.752	-12.447	30.5	25.0	25.0	25.0	fpocket_rank1	1	0.152	37	12.579	1	2026-09-22T15:19:44+08:00
+ligand_centred	posebusters	6XM9_V55	ok		22.094	9.874	34.445	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:43+08:00
+detected	posebusters	6XM9_V55	ok		15.798	23.342	41.569	25.0	25.0	25.0	fpocket_rank1	1	0.353	128	16.486	0	2026-09-22T15:19:43+08:00
+ligand_centred	posebusters	6YRV_PJ8	ok		23.416	52.629	20.556	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:46+08:00
+detected	posebusters	6YRV_PJ8	ok		23.507	51.942	20.078	25.0	25.0	25.0	fpocket_rank1	1	0.606	135	0.842	1	2026-09-22T15:19:46+08:00
+ligand_centred	posebusters	6YR2_T1C	ok		38.373	13.166	10.108	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:46+08:00
+detected	posebusters	6YR2_T1C	ok		65.007	17.634	12.398	25.0	25.0	25.0	fpocket_rank1	1	0.116	143	27.104	0	2026-09-22T15:19:46+08:00
+ligand_centred	posebusters	6YYO_Q1K	ok		13.714	19.724	22.568	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:50+08:00
+detected	posebusters	6YYO_Q1K	ok		23.365	-0.563	15.61	25.0	25.0	25.0	fpocket_rank1	1	0.19	50	23.518	0	2026-09-22T15:19:50+08:00
+ligand_centred	posebusters	6Z0R_Q4H	ok		34.603	13.784	54.536	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:50+08:00
+detected	posebusters	6Z0R_Q4H	ok		25.545	-9.027	66.3	25.0	25.0	25.0	fpocket_rank1	1	0.327	52	27.217	0	2026-09-22T15:19:50+08:00
+ligand_centred	posebusters	6YT6_PKE	ok		2.505	6.105	-21.643	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:47+08:00
+detected	posebusters	6YT6_PKE	ok		6.207	25.319	0.906	25.0	25.0	25.0	fpocket_rank1	1	0.12	34	29.856	0	2026-09-22T15:19:47+08:00
+ligand_centred	posebusters	6Z14_Q4Z	ok		16.59	9.659	11.149	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:52+08:00
+detected	posebusters	6Z14_Q4Z	ok		16.622	5.766	7.464	25.0	25.0	25.0	fpocket_rank1	1	0.432	115	5.36	1	2026-09-22T15:19:52+08:00
+ligand_centred	posebusters	6YSP_PAL	ok		21.246	29.544	-33.519	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:46+08:00
+detected	posebusters	6YSP_PAL	ok		3.901	28.481	-40.352	25.0	25.0	25.0	fpocket_rank1	1	0.192	66	18.673	0	2026-09-22T15:19:46+08:00
+ligand_centred	posebusters	6TW5_9M2	ok		4.202	-10.518	89.123	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:40+08:00
+detected	posebusters	6TW5_9M2	ok		22.199	23.531	53.329	25.0	25.0	25.0	fpocket_rank1	1	0.62	558	52.578	0	2026-09-22T15:19:40+08:00
+ligand_centred	posebusters	6Z1C_7EY	ok		8.293	-4.518	22.297	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:54+08:00
+detected	posebusters	6Z1C_7EY	ok		32.508	-13.366	-0.724	25.0	25.0	25.0	fpocket_rank1	1	0.266	80	34.563	0	2026-09-22T15:19:54+08:00
+ligand_centred	posebusters	6ZAE_ACV	ok		53.622	78.349	7.904	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:57+08:00
+detected	posebusters	6ZAE_ACV	ok		55.455	77.612	9.685	25.0	25.0	25.0	fpocket_rank1	1	0.099	166	2.66	1	2026-09-22T15:19:57+08:00
+ligand_centred	posebusters	6ZC3_JOR	ok		-20.217	35.187	4.882	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:58+08:00
+detected	posebusters	6ZC3_JOR	ok		-8.391	24.209	12.76	25.0	25.0	25.0	fpocket_rank1	1	0.19	33	17.957	0	2026-09-22T15:19:58+08:00
+ligand_centred	posebusters	6ZPB_3D1	ok		-6.229	17.988	-9.18	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:59+08:00
+detected	posebusters	6ZPB_3D1	ok		-4.204	23.767	-8.502	25.0	25.0	25.0	fpocket_rank1	1	0.132	212	6.161	1	2026-09-22T15:19:59+08:00
+ligand_centred	posebusters	6Z4N_Q7B	ok		22.93	12.537	64.95	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:56+08:00
+detected	posebusters	6Z4N_Q7B	ok		29.378	12.733	60.561	25.0	25.0	25.0	fpocket_rank1	1	0.392	43	7.802	1	2026-09-22T15:19:56+08:00
+ligand_centred	posebusters	6ZCY_QF8	ok		1.39	0.927	13.687	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:59+08:00
+detected	posebusters	6ZCY_QF8	ok		-2.363	29.609	16.727	25.0	25.0	25.0	fpocket_rank1	1	0.276	32	29.086	0	2026-09-22T15:19:59+08:00
+ligand_centred	posebusters	6Z2C_Q5E	ok		-19.672	5.854	-11.941	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:54+08:00
+detected	posebusters	6Z2C_Q5E	ok		-6.846	6.833	28.958	25.0	25.0	25.0	fpocket_rank1	1	0.115	50	42.874	0	2026-09-22T15:19:54+08:00
+ligand_centred	posebusters	7A9E_R4W	ok		20.65	32.141	-8.804	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:00+08:00
+detected	posebusters	7A9E_R4W	ok		19.845	28.215	-6.04	25.0	25.0	25.0	fpocket_rank1	1	0.268	119	4.868	1	2026-09-22T15:20:00+08:00
+ligand_centred	posebusters	7A1P_QW2	ok		19.825	-25.135	7.844	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:00+08:00
+detected	posebusters	7A1P_QW2	ok		19.508	-25.524	4.663	25.0	25.0	25.0	fpocket_rank1	1	0.53	83	3.22	1	2026-09-22T15:20:00+08:00
+ligand_centred	posebusters	6ZK5_IMH	ok		-12.611	-9.651	-1.954	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:59+08:00
+detected	posebusters	6ZK5_IMH	ok		1.059	0.395	-9.058	25.0	25.0	25.0	fpocket_rank1	1	0.278	78	18.392	0	2026-09-22T15:19:59+08:00
+ligand_centred	posebusters	7AFX_R9K	ok		-24.307	0.768	61.87	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:00+08:00
+detected	posebusters	7AFX_R9K	ok		-39.296	11.366	95.078	25.0	25.0	25.0	fpocket_rank1	1	0.104	21	37.944	0	2026-09-22T15:20:00+08:00
+ligand_centred	posebusters	6XHT_V2V	ok		10.645	-7.429	107.503	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:19:42+08:00
+detected	posebusters	6XHT_V2V	ok		13.724	-32.811	21.19	25.0	25.0	25.0	fpocket_rank1	1	0.324	130	90.02	0	2026-09-22T15:19:42+08:00
+ligand_centred	posebusters	7AKL_RK5	ok		42.977	5.463	13.376	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:02+08:00
+detected	posebusters	7AKL_RK5	ok		21.014	12.125	8.028	25.0	25.0	25.0	fpocket_rank1	1	0.21	55	23.565	0	2026-09-22T15:20:02+08:00
+ligand_centred	posebusters	7BCP_GCO	ok		-20.363	4.632	-3.678	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:03+08:00
+detected	posebusters	7BCP_GCO	ok		-23.492	-5.852	-16.477	25.0	25.0	25.0	fpocket_rank1	1	0.354	73	16.838	0	2026-09-22T15:20:03+08:00
+ligand_centred	posebusters	7AN5_RDH	ok		5.449	-18.646	26.998	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:02+08:00
+detected	posebusters	7AN5_RDH	ok		5.374	-18.276	27.068	25.0	25.0	25.0	fpocket_rank1	1	0.214	39	0.384	1	2026-09-22T15:20:02+08:00
+ligand_centred	posebusters	7BJJ_TVW	ok		5.613	-3.024	19.029	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:05+08:00
+detected	posebusters	7BJJ_TVW	ok		12.173	8.96	-3.458	25.0	25.0	25.0	fpocket_rank1	1	0.235	69	26.311	0	2026-09-22T15:20:05+08:00
+ligand_centred	posebusters	7BNH_BEZ	ok		-9.21	2.666	8.903	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:06+08:00
+detected	posebusters	7BNH_BEZ	ok		-8.997	2.072	10.312	25.0	25.0	25.0	fpocket_rank1	1	0.314	63	1.544	1	2026-09-22T15:20:06+08:00
+ligand_centred	posebusters	7B94_ANP	ok		-30.843	-3.904	16.588	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:03+08:00
+detected	posebusters	7B94_ANP	ok		-26.788	5.749	-5.979	25.0	25.0	25.0	fpocket_rank1	1	0.86	149	24.877	0	2026-09-22T15:20:03+08:00
+ligand_centred	posebusters	7BMI_U4B	ok		57.954	17.442	14.831	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:06+08:00
+detected	posebusters	7BMI_U4B	ok		61.936	31.217	51.286	25.0	25.0	25.0	fpocket_rank1	1	0.466	73	39.174	0	2026-09-22T15:20:06+08:00
+ligand_centred	posebusters	7A9H_TPP	ok		1.809	9.853	-18.95	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:00+08:00
+detected	posebusters	7A9H_TPP	ok		1.871	9.008	-19.628	25.0	25.0	25.0	fpocket_rank1	1	0.247	82	1.086	1	2026-09-22T15:20:00+08:00
+ligand_centred	posebusters	7BTT_F8R	ok		5.141	18.87	7.298	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:07+08:00
+detected	posebusters	7BTT_F8R	ok		18.168	38.571	15.442	25.0	25.0	25.0	fpocket_rank1	1	0.325	99	24.984	0	2026-09-22T15:20:07+08:00
+ligand_centred	posebusters	7C3U_AZG	ok		32.753	38.576	27.124	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:09+08:00
+detected	posebusters	7C3U_AZG	ok		20.701	33.299	45.843	25.0	25.0	25.0	fpocket_rank1	1	0.35	91	22.88	0	2026-09-22T15:20:09+08:00
+ligand_centred	posebusters	7BKA_4JC	ok		18.965	52.713	12.854	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:05+08:00
+detected	posebusters	7BKA_4JC	ok		20.363	9.914	26.91	25.0	25.0	25.0	fpocket_rank1	1	0.394	74	45.07	0	2026-09-22T15:20:05+08:00
+ligand_centred	posebusters	7CD9_FVR	ok		17.485	8.313	13.221	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:10+08:00
+detected	posebusters	7CD9_FVR	ok		4.973	18.315	14.924	25.0	25.0	25.0	fpocket_rank1	1	0.1	30	16.109	0	2026-09-22T15:20:10+08:00
+ligand_centred	posebusters	7CL8_TES	ok		17.879	-6.196	-23.977	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:12+08:00
+detected	posebusters	7CL8_TES	ok		20.294	-5.716	-24.912	25.0	25.0	25.0	fpocket_rank1	1	0.263	120	2.634	1	2026-09-22T15:20:12+08:00
+ligand_centred	posebusters	7C8Q_DSG	ok		-45.884	30.457	11.658	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:10+08:00
+detected	posebusters	7C8Q_DSG	ok		-27.216	24.41	18.636	25.0	25.0	25.0	fpocket_rank1	1	0.251	42	20.826	0	2026-09-22T15:20:10+08:00
+ligand_centred	posebusters	7C0U_FGO	ok		41.828	13.674	54.027	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:09+08:00
+detected	posebusters	7C0U_FGO	ok		34.052	15.742	78.639	25.0	25.0	25.0	fpocket_rank1	1	0.109	26	25.894	0	2026-09-22T15:20:09+08:00
+ligand_centred	posebusters	7CNS_PMV	ok		1.683	-20.259	-18.881	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:15+08:00
+detected	posebusters	7CNS_PMV	ok		3.87	-7.765	-9.94	25.0	25.0	25.0	fpocket_rank1	1	0.351	47	15.519	0	2026-09-22T15:20:15+08:00
+ligand_centred	posebusters	7CTM_BDP	ok		-1.362	-6.082	107.601	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:15+08:00
+detected	posebusters	7CTM_BDP	ok		9.51	-5.191	100.136	25.0	25.0	25.0	fpocket_rank1	1	1.057	245	13.218	0	2026-09-22T15:20:15+08:00
+ligand_centred	posebusters	7CUO_PHB	ok		21.572	14.329	62.51	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:17+08:00
+detected	posebusters	7CUO_PHB	ok		21.924	15.097	62.522	25.0	25.0	25.0	fpocket_rank1	1	0.246	44	0.845	1	2026-09-22T15:20:17+08:00
+ligand_centred	posebusters	7CIJ_G0C	ok		26.721	-11.345	57.953	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:12+08:00
+detected	posebusters	7CIJ_G0C	ok		27.226	14.1	47.597	25.0	25.0	25.0	fpocket_rank1	1	0.599	111	27.476	0	2026-09-22T15:20:12+08:00
+ligand_centred	posebusters	7DQL_4CL	ok		-2.259	-9.174	6.37	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:23+08:00
+detected	posebusters	7DQL_4CL	ok		15.88	1.262	13.769	25.0	25.0	25.0	fpocket_rank1	1	0.372	131	22.196	0	2026-09-22T15:20:23+08:00
+ligand_centred	posebusters	7DKT_GLF	ok		58.238	67.0	60.483	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:21+08:00
+detected	posebusters	7DKT_GLF	ok		56.692	69.511	62.417	25.0	25.0	25.0	fpocket_rank1	1	0.339	83	3.527	1	2026-09-22T15:20:21+08:00
+ligand_centred	posebusters	7D5C_GV6	ok		9.843	6.327	39.057	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:18+08:00
+detected	posebusters	7D5C_GV6	ok		16.537	-7.99	42.066	25.0	25.0	25.0	fpocket_rank1	1	0.729	183	16.089	0	2026-09-22T15:20:18+08:00
+ligand_centred	posebusters	7DUA_HJ0	ok		25.195	13.156	-25.513	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:26+08:00
+detected	posebusters	7DUA_HJ0	ok		21.335	1.764	-14.528	25.0	25.0	25.0	fpocket_rank1	1	0.192	164	16.29	0	2026-09-22T15:20:26+08:00
+ligand_centred	posebusters	7E4L_MDN	ok		-3.652	5.191	-5.315	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:29+08:00
+detected	posebusters	7E4L_MDN	ok		-37.883	-22.35	-16.09	25.0	25.0	25.0	fpocket_rank1	1	0.137	49	45.236	0	2026-09-22T15:20:29+08:00
+ligand_centred	posebusters	7EBG_J0L	ok		-14.65	10.2	24.224	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:30+08:00
+detected	posebusters	7EBG_J0L	ok		12.393	9.019	12.689	25.0	25.0	25.0	fpocket_rank1	1	0.976	244	29.424	0	2026-09-22T15:20:30+08:00
+ligand_centred	posebusters	7ED2_A3P	ok		-22.241	-19.733	12.747	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:33+08:00
+detected	posebusters	7ED2_A3P	ok		-20.9	-9.178	22.79	25.0	25.0	25.0	fpocket_rank1	1	0.145	31	14.631	0	2026-09-22T15:20:33+08:00
+ligand_centred	posebusters	7ELT_TYM	ok		12.718	46.834	13.538	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:35+08:00
+detected	posebusters	7ELT_TYM	ok		1.724	22.927	4.086	25.0	25.0	25.0	fpocket_rank1	1	0.03	25	27.961	0	2026-09-22T15:20:35+08:00
+ligand_centred	posebusters	7EPV_FDA	ok		5.474	-30.532	-4.519	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:37+08:00
+detected	posebusters	7EPV_FDA	ok		2.849	-8.525	-1.643	25.0	25.0	25.0	fpocket_rank1	1	0.104	21	22.349	0	2026-09-22T15:20:37+08:00
+ligand_centred	posebusters	7ES1_UDP	ok		12.637	7.16	19.36	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:37+08:00
+detected	posebusters	7ES1_UDP	ok		15.577	4.358	23.951	25.0	25.0	25.0	fpocket_rank1	1	0.696	276	6.13	1	2026-09-22T15:20:37+08:00
+ligand_centred	posebusters	7B2C_TP7	ok		1.81	1.75	45.652	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:03+08:00
+detected	posebusters	7B2C_TP7	ok		-14.859	-14.44	8.308	25.0	25.0	25.0	fpocket_rank1	1	1.234	166	43.984	0	2026-09-22T15:20:03+08:00
+ligand_centred	posebusters	7F5D_EUO	ok		7.48	-5.083	29.65	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:40+08:00
+detected	posebusters	7F5D_EUO	ok		7.364	-4.616	28.25	25.0	25.0	25.0	fpocket_rank1	1	0.218	71	1.481	1	2026-09-22T15:20:40+08:00
+ligand_centred	posebusters	7F51_BA7	ok		-2.288	5.657	9.419	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:39+08:00
+detected	posebusters	7F51_BA7	ok		1.712	5.166	4.35	25.0	25.0	25.0	fpocket_rank1	1	0.108	120	6.476	0	2026-09-22T15:20:39+08:00
+ligand_centred	posebusters	7FB7_8NF	ok		15.034	21.773	41.355	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:40+08:00
+detected	posebusters	7FB7_8NF	ok		34.107	29.102	48.551	25.0	25.0	25.0	fpocket_rank1	1	0.282	85	21.663	0	2026-09-22T15:20:40+08:00
+ligand_centred	posebusters	7F8T_FAD	ok		24.933	23.491	99.914	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:40+08:00
+detected	posebusters	7F8T_FAD	ok		14.277	32.218	113.615	25.0	25.0	25.0	fpocket_rank1	1	0.224	167	19.428	0	2026-09-22T15:20:40+08:00
+ligand_centred	posebusters	7FHA_ADX	ok		-4.043	-0.347	-2.421	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:40+08:00
+detected	posebusters	7FHA_ADX	ok		9.75	6.914	6.501	25.0	25.0	25.0	fpocket_rank1	1	0.138	43	17.961	0	2026-09-22T15:20:40+08:00
+ligand_centred	posebusters	7JG0_GAR	ok		-31.664	19.825	35.195	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:46+08:00
+detected	posebusters	7JG0_GAR	ok		-31.532	18.929	34.713	25.0	25.0	25.0	fpocket_rank1	1	0.385	55	1.026	1	2026-09-22T15:20:46+08:00
+ligand_centred	posebusters	7ECR_SIN	ok		-58.561	-27.966	-41.428	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:32+08:00
+detected	posebusters	7ECR_SIN	ok		-64.056	-34.797	-46.413	25.0	25.0	25.0	fpocket_rank1	1	0.507	263	10.085	1	2026-09-22T15:20:32+08:00
+ligand_centred	posebusters	7JMV_4NC	ok		33.144	-26.928	-8.617	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:47+08:00
+detected	posebusters	7JMV_4NC	ok		33.431	-26.577	-8.889	25.0	25.0	25.0	fpocket_rank1	1	0.486	36	0.529	1	2026-09-22T15:20:47+08:00
+ligand_centred	posebusters	7JXX_VP7	ok		178.931	19.637	46.214	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:48+08:00
+detected	posebusters	7JXX_VP7	ok		165.748	18.67	55.427	25.0	25.0	25.0	fpocket_rank1	1	0.148	21	16.112	0	2026-09-22T15:20:48+08:00
+ligand_centred	posebusters	7FT9_4MB	ok		1.097	6.755	-31.534	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:43+08:00
+detected	posebusters	7FT9_4MB	ok		-27.431	-10.244	-48.384	25.0	25.0	25.0	fpocket_rank1	1	0.223	109	37.239	0	2026-09-22T15:20:43+08:00
+ligand_centred	posebusters	7CNQ_G8X	ok		-0.735	12.938	63.532	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:15+08:00
+detected	posebusters	7CNQ_G8X	ok		-21.915	52.294	49.515	25.0	25.0	25.0	fpocket_rank1	1	0.095	62	46.839	0	2026-09-22T15:20:15+08:00
+ligand_centred	posebusters	7JY3_VUD	ok		4.736	-22.119	44.042	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:50+08:00
+detected	posebusters	7JY3_VUD	ok		13.964	-10.947	29.317	25.0	25.0	25.0	fpocket_rank1	1	0.094	21	20.659	0	2026-09-22T15:20:50+08:00
+ligand_centred	posebusters	7JHQ_VAJ	ok		37.676	-39.242	12.94	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:47+08:00
+detected	posebusters	7JHQ_VAJ	ok		40.475	-65.065	-3.991	25.0	25.0	25.0	fpocket_rank1	1	0.063	22	31.006	0	2026-09-22T15:20:47+08:00
+ligand_centred	posebusters	7KC5_BJZ	ok		-3.099	-18.237	16.805	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:53+08:00
+detected	posebusters	7KC5_BJZ	ok		-4.271	-19.773	-33.614	25.0	25.0	25.0	fpocket_rank1	1	0.111	81	50.456	0	2026-09-22T15:20:53+08:00
+ligand_centred	posebusters	7KM8_WPD	ok		-21.641	-10.142	-23.129	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:55+08:00
+detected	posebusters	7KM8_WPD	ok		-36.639	-4.801	-10.87	25.0	25.0	25.0	fpocket_rank1	1	1.053	328	20.093	0	2026-09-22T15:20:55+08:00
+ligand_centred	posebusters	7KQU_YOF	ok		69.713	-2.107	75.053	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:56+08:00
+detected	posebusters	7KQU_YOF	ok		69.569	6.933	48.314	25.0	25.0	25.0	fpocket_rank1	1	0.194	64	28.226	0	2026-09-22T15:20:56+08:00
+ligand_centred	posebusters	7K0V_VQP	ok		3.975	1.37	-23.892	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:50+08:00
+detected	posebusters	7K0V_VQP	ok		36.131	-6.581	-29.542	25.0	25.0	25.0	fpocket_rank1	1	0.198	191	33.603	0	2026-09-22T15:20:50+08:00
+ligand_centred	posebusters	7KB1_WBJ	ok		-1.286	-28.164	16.761	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:53+08:00
+detected	posebusters	7KB1_WBJ	ok		13.769	-19.132	53.722	25.0	25.0	25.0	fpocket_rank1	1	0.908	114	40.919	0	2026-09-22T15:20:53+08:00
+ligand_centred	posebusters	7KRU_ATP	ok		46.09	39.899	203.468	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:57+08:00
+detected	posebusters	7KRU_ATP	ok		59.035	40.554	207.751	25.0	25.0	25.0	fpocket_rank1	1	0.218	33	13.651	0	2026-09-22T15:20:57+08:00
+ligand_centred	posebusters	7L5F_XNG	ok		11.027	36.226	24.089	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:10+08:00
+detected	posebusters	7L5F_XNG	ok		9.838	36.422	23.1	25.0	25.0	25.0	fpocket_rank1	1	0.197	120	1.559	1	2026-09-22T15:21:10+08:00
+ligand_centred	posebusters	7L03_F9F	ok		-40.818	-4.661	13.909	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:07+08:00
+detected	posebusters	7L03_F9F	ok		-9.261	-17.156	12.365	25.0	25.0	25.0	fpocket_rank1	1	0.561	39	33.976	0	2026-09-22T15:21:07+08:00
+ligand_centred	posebusters	7D6O_MTE	ok		64.772	-21.57	48.824	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:19+08:00
+detected	posebusters	7D6O_MTE	ok		67.516	-23.132	45.574	25.0	25.0	25.0	fpocket_rank1	1	0.634	177	4.531	1	2026-09-22T15:20:19+08:00
+ligand_centred	posebusters	7L7C_XQ1	ok		19.386	-11.719	3.585	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:12+08:00
+detected	posebusters	7L7C_XQ1	ok		40.094	-2.017	-3.265	25.0	25.0	25.0	fpocket_rank1	1	0.142	43	23.872	0	2026-09-22T15:21:12+08:00
+ligand_centred	posebusters	7LCU_XTA	ok		-65.309	-36.33	96.808	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:12+08:00
+detected	posebusters	7LCU_XTA	ok		-64.202	-34.531	94.712	25.0	25.0	25.0	fpocket_rank1	1	0.356	68	2.975	1	2026-09-22T15:21:12+08:00
+ligand_centred	posebusters	7KZ9_XN7	ok		-55.604	47.792	-18.144	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:03+08:00
+detected	posebusters	7KZ9_XN7	ok		-37.71	16.578	16.934	25.0	25.0	25.0	fpocket_rank1	1	0.477	85	50.249	0	2026-09-22T15:21:03+08:00
+ligand_centred	posebusters	7LOE_Y84	ok		40.588	-19.668	12.392	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:14+08:00
+detected	posebusters	7LOE_Y84	ok		40.418	-19.428	12.221	25.0	25.0	25.0	fpocket_rank1	1	0.524	54	0.34	1	2026-09-22T15:21:14+08:00
+ligand_centred	posebusters	7LMO_NYO	ok		-5.026	-18.653	38.253	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:14+08:00
+detected	posebusters	7LMO_NYO	ok		-0.502	-21.47	35.713	25.0	25.0	25.0	fpocket_rank1	1	0.154	75	5.903	1	2026-09-22T15:21:14+08:00
+ligand_centred	posebusters	7LEV_0JO	ok		7.35	-2.396	22.005	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:13+08:00
+detected	posebusters	7LEV_0JO	ok		5.906	-3.003	21.899	25.0	25.0	25.0	fpocket_rank1	1	0.198	57	1.57	1	2026-09-22T15:21:13+08:00
+ligand_centred	posebusters	7LT0_ONJ	ok		-32.385	-10.753	-25.082	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:17+08:00
+detected	posebusters	7LT0_ONJ	ok		-27.47	-12.839	-25.556	25.0	25.0	25.0	fpocket_rank1	1	0.12	133	5.361	1	2026-09-22T15:21:17+08:00
+ligand_centred	posebusters	7LZD_YHY	ok		-5.133	28.784	10.344	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:17+08:00
+detected	posebusters	7LZD_YHY	ok		-3.621	29.37	12.601	25.0	25.0	25.0	fpocket_rank1	1	0.434	150	2.78	1	2026-09-22T15:21:17+08:00
+ligand_centred	posebusters	7L00_XCJ	ok		8.438	15.49	31.671	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:04+08:00
+detected	posebusters	7L00_XCJ	ok		-17.64	30.202	38.601	25.0	25.0	25.0	fpocket_rank1	1	0.753	245	30.733	0	2026-09-22T15:21:04+08:00
+ligand_centred	posebusters	7LOU_IFM	ok		-16.971	-0.463	88.269	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:15+08:00
+detected	posebusters	7LOU_IFM	ok		-10.897	-2.427	43.832	25.0	25.0	25.0	fpocket_rank1	1	0.074	29	44.893	0	2026-09-22T15:21:15+08:00
+ligand_centred	posebusters	7M6K_YRJ	ok		26.308	-6.796	-34.909	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:22+08:00
+detected	posebusters	7M6K_YRJ	ok		12.508	-1.264	-21.769	25.0	25.0	25.0	fpocket_rank1	1	0.35	778	19.841	0	2026-09-22T15:21:22+08:00
+ligand_centred	posebusters	7M3H_YPV	ok		0.715	7.945	16.549	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:19+08:00
+detected	posebusters	7M3H_YPV	ok		-8.102	-7.84	18.906	25.0	25.0	25.0	fpocket_rank1	1	0.164	39	18.233	0	2026-09-22T15:21:19+08:00
+ligand_centred	posebusters	7MGT_ZD4	ok		38.562	34.834	19.018	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:30+08:00
+detected	posebusters	7MGT_ZD4	ok		45.543	25.917	12.282	25.0	25.0	25.0	fpocket_rank1	1	0.045	17	13.176	1	2026-09-22T15:21:30+08:00
+ligand_centred	posebusters	7MMH_ZJY	ok		-13.913	19.233	-15.399	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:32+08:00
+detected	posebusters	7MMH_ZJY	ok		-1.131	25.374	-21.038	25.0	25.0	25.0	fpocket_rank1	1	0.218	103	15.261	0	2026-09-22T15:21:32+08:00
+ligand_centred	posebusters	7LJN_GTP	ok		-63.427	10.373	-24.556	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:14+08:00
+detected	posebusters	7LJN_GTP	ok		-19.024	38.359	-39.827	25.0	25.0	25.0	fpocket_rank1	1	0.345	85	54.663	0	2026-09-22T15:21:14+08:00
+ligand_centred	posebusters	7MOI_HPS	ok		14.249	8.603	-0.138	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:33+08:00
+detected	posebusters	7MOI_HPS	ok		32.358	16.914	7.308	25.0	25.0	25.0	fpocket_rank1	1	0.168	29	21.271	0	2026-09-22T15:21:33+08:00
+ligand_centred	posebusters	7MWN_WI5	ok		20.83	-12.179	-15.026	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:35+08:00
+detected	posebusters	7MWN_WI5	ok		19.906	-11.695	-15.346	25.0	25.0	25.0	fpocket_rank1	1	0.275	107	1.091	1	2026-09-22T15:21:35+08:00
+ligand_centred	posebusters	7MSR_DCA	ok		15.719	16.669	19.088	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:33+08:00
+detected	posebusters	7MSR_DCA	ok		16.145	11.026	17.802	25.0	25.0	25.0	fpocket_rank1	1	0.693	148	5.803	0	2026-09-22T15:21:33+08:00
+ligand_centred	posebusters	7MY1_IPE	ok		4.513	13.643	14.252	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:40+08:00
+detected	posebusters	7MY1_IPE	ok		-4.878	-3.129	14.386	25.0	25.0	25.0	fpocket_rank1	1	0.31	64	19.223	0	2026-09-22T15:21:40+08:00
+ligand_centred	posebusters	7MWU_ZPM	ok		11.764	49.303	49.006	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:38+08:00
+detected	posebusters	7MWU_ZPM	ok		-7.554	45.408	42.901	25.0	25.0	25.0	fpocket_rank1	1	0.327	57	20.632	0	2026-09-22T15:21:38+08:00
+ligand_centred	posebusters	7N03_ZRP	ok		-43.911	12.065	3.738	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:42+08:00
+detected	posebusters	7N03_ZRP	ok		-44.558	11.838	3.734	25.0	25.0	25.0	fpocket_rank1	1	0.24	102	0.686	1	2026-09-22T15:21:42+08:00
+ligand_centred	posebusters	7MFP_Z7P	ok		-76.429	-15.353	18.161	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:29+08:00
+detected	posebusters	7MFP_Z7P	ok		-66.688	-15.886	2.564	25.0	25.0	25.0	fpocket_rank1	1	0.27	85	18.397	0	2026-09-22T15:21:29+08:00
+ligand_centred	posebusters	7MGY_ZD1	ok		24.538	-31.463	274.35	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:30+08:00
+detected	posebusters	7MGY_ZD1	ok		33.888	-27.987	354.135	25.0	25.0	25.0	fpocket_rank1	1	0.119	30	80.406	0	2026-09-22T15:21:30+08:00
+ligand_centred	posebusters	7N4N_0BK	ok		22.082	-8.22	-17.518	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:45+08:00
+detected	posebusters	7N4N_0BK	ok		16.628	4.888	-10.198	25.0	25.0	25.0	fpocket_rank1	1	0.067	15	15.974	0	2026-09-22T15:21:45+08:00
+ligand_centred	posebusters	7N4W_P4V	ok		-7.77	-11.385	12.414	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:49+08:00
+detected	posebusters	7N4W_P4V	ok		-5.404	-25.968	12.561	25.0	25.0	25.0	fpocket_rank1	1	0.034	19	14.775	0	2026-09-22T15:21:49+08:00
+ligand_centred	posebusters	7MYU_ZR7	ok		23.5	55.545	87.47	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:42+08:00
+detected	posebusters	7MYU_ZR7	ok		83.715	36.003	72.011	25.0	25.0	25.0	fpocket_rank1	1	0.242	68	65.167	0	2026-09-22T15:21:42+08:00
+ligand_centred	posebusters	7N7H_CTP	ok		15.366	51.015	156.975	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:52+08:00
+detected	posebusters	7N7H_CTP	ok		12.34	48.981	157.28	25.0	25.0	25.0	fpocket_rank1	1	0.785	168	3.659	1	2026-09-22T15:21:52+08:00
+ligand_centred	posebusters	7N6F_0I1	ok		-17.147	-0.317	22.02	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:51+08:00
+detected	posebusters	7N6F_0I1	ok		-17.844	0.831	21.156	25.0	25.0	25.0	fpocket_rank1	1	0.451	89	1.596	1	2026-09-22T15:21:51+08:00
+ligand_centred	posebusters	7N7B_T3F	ok		46.503	-15.584	8.842	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:52+08:00
+detected	posebusters	7N7B_T3F	ok		47.345	-12.462	6.293	25.0	25.0	25.0	fpocket_rank1	1	0.428	180	4.117	1	2026-09-22T15:21:52+08:00
+ligand_centred	posebusters	7NF3_4LU	ok		22.532	9.729	24.041	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:56+08:00
+detected	posebusters	7NF3_4LU	ok		21.732	9.456	24.673	25.0	25.0	25.0	fpocket_rank1	1	0.304	176	1.056	1	2026-09-22T15:21:56+08:00
+ligand_centred	posebusters	7NGW_UAW	ok		-13.281	-28.69	2.296	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:01+08:00
+detected	posebusters	7NGW_UAW	ok		-9.869	-28.658	2.453	25.0	25.0	25.0	fpocket_rank1	1	0.484	123	3.416	1	2026-09-22T15:22:01+08:00
+ligand_centred	posebusters	7NFB_GEN	ok		15.433	-3.563	33.624	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:57+08:00
+detected	posebusters	7NFB_GEN	ok		1.723	-3.365	35.486	25.0	25.0	25.0	fpocket_rank1	1	0.362	107	13.838	0	2026-09-22T15:21:57+08:00
+ligand_centred	posebusters	7NP6_UK8	ok		-1.397	44.195	14.65	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:04+08:00
+detected	posebusters	7NP6_UK8	ok		-6.469	35.843	5.178	25.0	25.0	25.0	fpocket_rank1	1	0.296	74	13.609	0	2026-09-22T15:22:04+08:00
+ligand_centred	posebusters	7NF0_BYN	ok		12.251	26.365	42.625	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:55+08:00
+detected	posebusters	7NF0_BYN	ok		11.077	26.615	42.704	25.0	25.0	25.0	fpocket_rank1	1	0.474	174	1.203	1	2026-09-22T15:21:55+08:00
+ligand_centred	posebusters	7NPL_UKZ	ok		-18.778	1.82	8.168	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:06+08:00
+detected	posebusters	7NPL_UKZ	ok		-17.399	6.599	26.567	25.0	25.0	25.0	fpocket_rank1	1	0.417	36	19.06	0	2026-09-22T15:22:06+08:00
+ligand_centred	posebusters	7NR8_UOE	ok		4.524	9.49	45.41	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:10+08:00
+detected	posebusters	7NR8_UOE	ok		-7.918	6.257	35.001	25.0	25.0	25.0	fpocket_rank1	1	0.107	18	16.541	0	2026-09-22T15:22:10+08:00
+ligand_centred	posebusters	7NLV_UJE	ok		-7.297	-9.032	19.791	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:03+08:00
+detected	posebusters	7NLV_UJE	ok		-3.997	10.343	22.937	25.0	25.0	25.0	fpocket_rank1	1	0.283	70	19.904	0	2026-09-22T15:22:03+08:00
+ligand_centred	posebusters	7NSW_HC4	ok		64.411	44.282	26.768	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:10+08:00
+detected	posebusters	7NSW_HC4	ok		64.397	39.062	38.753	25.0	25.0	25.0	fpocket_rank1	1	0.319	158	13.071	0	2026-09-22T15:22:10+08:00
+ligand_centred	posebusters	7NU0_DCL	ok		22.926	-12.641	-27.169	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:10+08:00
+detected	posebusters	7NU0_DCL	ok		18.01	-14.913	-24.404	25.0	25.0	25.0	fpocket_rank1	1	0.604	104	6.081	1	2026-09-22T15:22:10+08:00
+ligand_centred	posebusters	7NXO_UU8	ok		41.462	-1.105	11.239	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:14+08:00
+detected	posebusters	7NXO_UU8	ok		37.964	-3.411	15.241	25.0	25.0	25.0	fpocket_rank1	1	0.462	130	5.794	1	2026-09-22T15:22:14+08:00
+ligand_centred	posebusters	7O1T_5X8	ok		-12.927	13.266	-25.113	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:22+08:00
+detected	posebusters	7O1T_5X8	ok		-13.087	13.537	-24.535	25.0	25.0	25.0	fpocket_rank1	1	0.491	84	0.658	1	2026-09-22T15:22:22+08:00
+ligand_centred	posebusters	7O0N_CDP	ok		10.419	19.648	29.782	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:19+08:00
+detected	posebusters	7O0N_CDP	ok		13.919	21.03	26.479	25.0	25.0	25.0	fpocket_rank1	1	0.611	216	5.007	1	2026-09-22T15:22:19+08:00
+ligand_centred	posebusters	7ODY_DGI	ok		3.736	-0.645	-29.192	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:23+08:00
+detected	posebusters	7ODY_DGI	ok		13.382	-21.147	-7.831	25.0	25.0	25.0	fpocket_rank1	1	0.104	133	31.139	0	2026-09-22T15:22:23+08:00
+ligand_centred	posebusters	7OEO_V9Z	ok		-16.84	-7.44	-22.139	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:25+08:00
+detected	posebusters	7OEO_V9Z	ok		-13.763	12.035	-5.358	25.0	25.0	25.0	fpocket_rank1	1	0.185	81	25.891	0	2026-09-22T15:22:25+08:00
+ligand_centred	posebusters	7OFK_VCH	ok		-27.076	3.304	-14.501	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:28+08:00
+detected	posebusters	7OFK_VCH	ok		-26.143	4.177	-15.008	25.0	25.0	25.0	fpocket_rank1	1	0.202	151	1.375	1	2026-09-22T15:22:28+08:00
+ligand_centred	posebusters	7OLI_8HG	ok		8.203	23.724	32.454	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:28+08:00
+detected	posebusters	7OLI_8HG	ok		5.559	23.545	32.88	25.0	25.0	25.0	fpocket_rank1	1	0.27	106	2.684	1	2026-09-22T15:22:28+08:00
+ligand_centred	posebusters	7OFF_VCB	ok		38.893	-26.855	10.487	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:27+08:00
+detected	posebusters	7OFF_VCB	ok		34.566	-11.73	-4.248	25.0	25.0	25.0	fpocket_rank1	1	0.115	40	21.555	0	2026-09-22T15:22:27+08:00
+ligand_centred	posebusters	7OMX_CNA	ok		11.696	-12.823	-8.436	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:31+08:00
+detected	posebusters	7OMX_CNA	ok		10.09	-10.596	-15.784	25.0	25.0	25.0	fpocket_rank1	1	0.291	73	7.844	0	2026-09-22T15:22:31+08:00
+ligand_centred	posebusters	7NUT_GLP	ok		4.02	3.546	-36.639	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:13+08:00
+detected	posebusters	7NUT_GLP	ok		5.196	3.817	-35.583	25.0	25.0	25.0	fpocket_rank1	1	0.38	82	1.604	1	2026-09-22T15:22:13+08:00
+ligand_centred	posebusters	7OSO_0V1	ok		31.27	8.166	10.51	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:35+08:00
+detected	posebusters	7OSO_0V1	ok		30.087	8.187	10.103	25.0	25.0	25.0	fpocket_rank1	1	0.322	59	1.251	1	2026-09-22T15:22:35+08:00
+ligand_centred	posebusters	7OZC_G6S	ok		15.565	-1.739	19.878	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:40+08:00
+detected	posebusters	7OZC_G6S	ok		-4.391	18.133	29.506	25.0	25.0	25.0	fpocket_rank1	1	0.157	28	29.763	0	2026-09-22T15:22:40+08:00
+ligand_centred	posebusters	7FRX_O88	ok		83.384	-43.063	65.725	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:20:42+08:00
+detected	posebusters	7FRX_O88	ok		8.456	-28.173	37.199	25.0	25.0	25.0	fpocket_rank1	1	0.519	296	81.545	0	2026-09-22T15:20:42+08:00
+ligand_centred	posebusters	7P1F_KFN	ok		-20.183	-41.374	29.353	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:44+08:00
+detected	posebusters	7P1F_KFN	ok		10.801	-13.564	16.839	25.0	25.0	25.0	fpocket_rank1	1	0.323	81	43.475	0	2026-09-22T15:22:44+08:00
+ligand_centred	posebusters	7OZ9_NGK	ok		34.772	39.092	32.248	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:35+08:00
+detected	posebusters	7OZ9_NGK	ok		35.068	40.74	31.007	25.0	25.0	25.0	fpocket_rank1	1	0.119	54	2.084	1	2026-09-22T15:22:35+08:00
+ligand_centred	posebusters	7P1M_4IU	ok		39.213	-7.827	-27.673	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:52+08:00
+detected	posebusters	7P1M_4IU	ok		30.28	-4.762	-27.616	25.0	25.0	25.0	fpocket_rank1	1	0.44	61	9.444	0	2026-09-22T15:22:52+08:00
+ligand_centred	posebusters	7P2I_MFU	ok		1.161	16.471	44.189	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:53+08:00
+detected	posebusters	7P2I_MFU	ok		3.961	11.759	35.35	25.0	25.0	25.0	fpocket_rank1	1	0.446	29	10.401	1	2026-09-22T15:22:53+08:00
+ligand_centred	posebusters	7PGX_FMN	ok		-20.116	3.101	-7.285	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:56+08:00
+detected	posebusters	7PGX_FMN	ok		-19.451	2.817	-6.799	25.0	25.0	25.0	fpocket_rank1	1	0.185	93	0.871	1	2026-09-22T15:22:56+08:00
+ligand_centred	posebusters	7P5T_5YG	ok		-21.765	4.041	-13.812	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:55+08:00
+detected	posebusters	7P5T_5YG	ok		-21.855	2.721	-13.43	25.0	25.0	25.0	fpocket_rank1	1	0.219	124	1.378	1	2026-09-22T15:22:55+08:00
+ligand_centred	posebusters	7OPG_06N	ok		55.492	2.581	56.51	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:33+08:00
+detected	posebusters	7OPG_06N	ok		32.893	16.373	79.518	25.0	25.0	25.0	fpocket_rank1	1	0.047	37	35.076	0	2026-09-22T15:22:33+08:00
+ligand_centred	posebusters	7PIH_7QW	ok		12.966	-24.427	-27.416	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:57+08:00
+detected	posebusters	7PIH_7QW	ok		-2.364	-23.555	-34.135	25.0	25.0	25.0	fpocket_rank1	1	0.097	28	16.76	0	2026-09-22T15:22:57+08:00
+ligand_centred	posebusters	7PJQ_OWH	ok		11.143	25.89	-6.264	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:59+08:00
+detected	posebusters	7PJQ_OWH	ok		10.561	26.083	-5.309	25.0	25.0	25.0	fpocket_rank1	1	0.239	56	1.134	1	2026-09-22T15:22:59+08:00
+ligand_centred	posebusters	7PL1_SFG	ok		44.268	-16.814	-7.554	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:01+08:00
+detected	posebusters	7PL1_SFG	ok		28.407	-29.453	7.093	25.0	25.0	25.0	fpocket_rank1	1	0.289	33	25.017	0	2026-09-22T15:23:01+08:00
+ligand_centred	posebusters	7PK0_BYC	ok		-19.926	27.675	-18.748	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:01+08:00
+detected	posebusters	7PK0_BYC	ok		-11.297	27.736	-12.722	25.0	25.0	25.0	fpocket_rank1	1	0.317	91	10.525	0	2026-09-22T15:23:01+08:00
+ligand_centred	posebusters	7P4C_5OV	ok		84.073	14.334	35.709	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:54+08:00
+detected	posebusters	7P4C_5OV	ok		79.457	46.974	40.877	25.0	25.0	25.0	fpocket_rank1	1	0.348	55	33.367	0	2026-09-22T15:22:54+08:00
+ligand_centred	posebusters	7PRM_81I	ok		124.362	20.653	-7.531	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:03+08:00
+detected	posebusters	7PRM_81I	ok		120.463	20.535	-10.591	25.0	25.0	25.0	fpocket_rank1	1	0.255	83	4.957	0	2026-09-22T15:23:03+08:00
+ligand_centred	posebusters	7PRI_7TI	ok		50.492	-44.761	-12.641	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:03+08:00
+detected	posebusters	7PRI_7TI	ok		41.057	-20.924	-15.174	25.0	25.0	25.0	fpocket_rank1	1	0.209	25	25.761	0	2026-09-22T15:23:03+08:00
+ligand_centred	posebusters	7PT3_3KK	ok		-26.2	-5.194	30.072	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:03+08:00
+detected	posebusters	7PT3_3KK	ok		6.989	-43.295	12.429	25.0	25.0	25.0	fpocket_rank1	1	0.683	464	53.521	0	2026-09-22T15:23:03+08:00
+ligand_centred	posebusters	7POM_7VZ	ok		-42.269	20.375	-61.409	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:02+08:00
+detected	posebusters	7POM_7VZ	ok		-26.977	12.459	-60.362	25.0	25.0	25.0	fpocket_rank1	1	3.004	1048	17.251	0	2026-09-22T15:23:02+08:00
+ligand_centred	posebusters	7PUV_84Z	ok		25.749	6.487	10.733	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:06+08:00
+detected	posebusters	7PUV_84Z	ok		22.724	1.345	-34.055	25.0	25.0	25.0	fpocket_rank1	1	1.331	484	45.183	0	2026-09-22T15:23:06+08:00
+ligand_centred	posebusters	7Q2B_M6H	ok		-30.344	-11.896	13.346	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:24+08:00
+detected	posebusters	7Q2B_M6H	ok		-27.691	-12.751	16.88	25.0	25.0	25.0	fpocket_rank1	1	0.454	162	4.501	1	2026-09-22T15:23:24+08:00
+ligand_centred	posebusters	7Q27_8KC	ok		-13.282	-7.792	21.754	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:22+08:00
+detected	posebusters	7Q27_8KC	ok		-12.348	-4.986	20.685	25.0	25.0	25.0	fpocket_rank1	1	1.934	566	3.144	1	2026-09-22T15:23:22+08:00
+ligand_centred	posebusters	7QF4_RBF	ok		-0.588	-4.744	-11.573	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:31+08:00
+detected	posebusters	7QF4_RBF	ok		-0.977	-4.339	-9.532	25.0	25.0	25.0	fpocket_rank1	1	0.256	101	2.117	1	2026-09-22T15:23:31+08:00
+ligand_centred	posebusters	7Q25_8J9	ok		-51.816	95.266	24.214	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:08+08:00
+detected	posebusters	7Q25_8J9	ok		-52.644	63.115	-18.459	25.0	25.0	25.0	fpocket_rank1	1	0.441	311	53.435	0	2026-09-22T15:23:08+08:00
+ligand_centred	posebusters	7QFM_AY3	ok		-119.262	203.362	-0.569	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:32+08:00
+detected	posebusters	7QFM_AY3	ok		-126.954	185.757	-2.211	25.0	25.0	25.0	fpocket_rank1	1	0.367	57	19.282	0	2026-09-22T15:23:32+08:00
+ligand_centred	posebusters	7QGP_DJ8	ok		-26.649	4.088	11.83	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:32+08:00
+detected	posebusters	7QGP_DJ8	ok		-41.831	-9.533	18.458	25.0	25.0	25.0	fpocket_rank1	1	0.127	30	21.447	0	2026-09-22T15:23:32+08:00
+ligand_centred	posebusters	7QE4_NGA	ok		48.987	19.701	74.98	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:27+08:00
+detected	posebusters	7QE4_NGA	ok		26.333	22.687	80.397	25.0	25.0	25.0	fpocket_rank1	1	0.363	37	23.483	0	2026-09-22T15:23:27+08:00
+ligand_centred	posebusters	7Q5I_I0F	ok		34.962	23.956	30.26	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:25+08:00
+detected	posebusters	7Q5I_I0F	ok		36.355	27.446	30.771	25.0	25.0	25.0	fpocket_rank1	1	0.29	205	3.792	1	2026-09-22T15:23:25+08:00
+ligand_centred	posebusters	7QPP_VDX	ok		11.374	22.414	34.233	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:35+08:00
+detected	posebusters	7QPP_VDX	ok		14.315	17.211	33.877	25.0	25.0	25.0	fpocket_rank1	1	0.345	57	5.988	1	2026-09-22T15:23:35+08:00
+ligand_centred	posebusters	7QTA_URI	ok		7.106	5.257	-9.162	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:36+08:00
+detected	posebusters	7QTA_URI	ok		13.918	11.848	12.989	25.0	25.0	25.0	fpocket_rank1	1	0.127	16	24.093	0	2026-09-22T15:23:36+08:00
+ligand_centred	posebusters	7QHG_T3B	ok		45.736	-10.347	109.978	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:34+08:00
+detected	posebusters	7QHG_T3B	ok		45.838	-11.882	108.792	25.0	25.0	25.0	fpocket_rank1	1	0.127	124	1.942	1	2026-09-22T15:23:34+08:00
+ligand_centred	posebusters	7R3D_APR	ok		15.159	21.405	-50.689	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:37+08:00
+detected	posebusters	7R3D_APR	ok		5.144	14.152	-47.686	25.0	25.0	25.0	fpocket_rank1	1	0.271	109	12.725	0	2026-09-22T15:23:37+08:00
+ligand_centred	posebusters	7R59_I5F	ok		1.633	4.247	10.667	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:40+08:00
+detected	posebusters	7R59_I5F	ok		3.972	10.767	10.183	25.0	25.0	25.0	fpocket_rank1	1	0.107	29	6.944	1	2026-09-22T15:23:40+08:00
+ligand_centred	posebusters	7R7R_AWJ	ok		31.097	47.125	8.121	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:46+08:00
+detected	posebusters	7R7R_AWJ	ok		43.524	66.974	15.835	25.0	25.0	25.0	fpocket_rank1	1	0.451	88	24.656	0	2026-09-22T15:23:46+08:00
+ligand_centred	posebusters	7QHL_D5P	ok		23.866	-14.805	37.988	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:35+08:00
+detected	posebusters	7QHL_D5P	ok		12.692	27.66	17.753	25.0	25.0	25.0	fpocket_rank1	1	0.28	92	48.348	0	2026-09-22T15:23:35+08:00
+ligand_centred	posebusters	7RC3_SAH	ok		-44.603	13.878	7.203	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:49+08:00
+detected	posebusters	7RC3_SAH	ok		-41.621	17.407	6.558	25.0	25.0	25.0	fpocket_rank1	1	0.452	210	4.664	1	2026-09-22T15:23:49+08:00
+ligand_centred	posebusters	7R9N_F97	ok		-38.94	-113.872	222.94	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:46+08:00
+detected	posebusters	7R9N_F97	ok		-50.456	-87.311	257.072	25.0	25.0	25.0	fpocket_rank1	1	0.131	36	44.757	0	2026-09-22T15:23:46+08:00
+ligand_centred	posebusters	7RH3_59O	ok		17.406	-9.663	0.254	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:53+08:00
+detected	posebusters	7RH3_59O	ok		23.129	0.935	9.376	25.0	25.0	25.0	fpocket_rank1	1	0.399	24	15.109	0	2026-09-22T15:23:53+08:00
+ligand_centred	posebusters	7RKW_5TV	ok		19.12	-7.568	18.611	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:53+08:00
+detected	posebusters	7RKW_5TV	ok		14.887	-6.963	15.65	25.0	25.0	25.0	fpocket_rank1	1	0.296	219	5.201	1	2026-09-22T15:23:53+08:00
+ligand_centred	posebusters	7ROU_66I	ok		62.242	17.754	44.64	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:59+08:00
+detected	posebusters	7ROU_66I	ok		59.915	18.798	45.295	25.0	25.0	25.0	fpocket_rank1	1	0.355	155	2.633	1	2026-09-22T15:23:59+08:00
+ligand_centred	posebusters	7OP9_06K	ok		-84.244	-28.109	-34.625	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:22:33+08:00
+detected	posebusters	7OP9_06K	ok		-40.505	-42.901	-29.303	25.0	25.0	25.0	fpocket_rank1	1	0.232	110	46.478	0	2026-09-22T15:22:33+08:00
+ligand_centred	posebusters	7RNI_60I	ok		182.593	123.656	30.417	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:53+08:00
+detected	posebusters	7RNI_60I	ok		187.614	122.341	19.174	25.0	25.0	25.0	fpocket_rank1	1	0.321	84	12.383	0	2026-09-22T15:23:53+08:00
+ligand_centred	posebusters	7ROR_69X	ok		9.441	-3.199	55.227	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:54+08:00
+detected	posebusters	7ROR_69X	ok		3.517	-3.474	56.686	25.0	25.0	25.0	fpocket_rank1	1	0.171	129	6.107	1	2026-09-22T15:23:54+08:00
+ligand_centred	posebusters	7RWS_4UR	ok		15.819	51.453	39.245	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:04+08:00
+detected	posebusters	7RWS_4UR	ok		16.636	49.119	40.785	25.0	25.0	25.0	fpocket_rank1	1	0.292	50	2.914	1	2026-09-22T15:24:04+08:00
+ligand_centred	posebusters	7SCW_GSP	ok		28.942	22.258	-5.183	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:06+08:00
+detected	posebusters	7SCW_GSP	ok		27.387	21.921	-4.879	25.0	25.0	25.0	fpocket_rank1	1	0.32	118	1.619	1	2026-09-22T15:24:06+08:00
+ligand_centred	posebusters	7RZL_NPO	ok		30.851	5.606	61.434	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:05+08:00
+detected	posebusters	7RZL_NPO	ok		2.825	1.091	47.57	25.0	25.0	25.0	fpocket_rank1	1	0.397	125	31.592	0	2026-09-22T15:24:05+08:00
+ligand_centred	posebusters	7SDD_4IP	ok		11.2	-2.117	-7.191	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:07+08:00
+detected	posebusters	7SDD_4IP	ok		21.821	-25.205	-10.623	25.0	25.0	25.0	fpocket_rank1	1	0.244	52	25.645	0	2026-09-22T15:24:07+08:00
+ligand_centred	posebusters	7SFO_98L	ok		3.212	4.022	-6.077	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:09+08:00
+detected	posebusters	7SFO_98L	ok		2.665	4.182	-5.973	25.0	25.0	25.0	fpocket_rank1	1	0.432	99	0.579	1	2026-09-22T15:24:09+08:00
+ligand_centred	posebusters	7SIU_9ID	ok		-30.454	3.92	-20.946	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:10+08:00
+detected	posebusters	7SIU_9ID	ok		-16.469	12.744	32.974	25.0	25.0	25.0	fpocket_rank1	1	0.066	16	56.4	0	2026-09-22T15:24:10+08:00
+ligand_centred	posebusters	7R6J_2I7	ok		-7.682	-38.199	-35.543	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:23:40+08:00
+detected	posebusters	7R6J_2I7	ok		-27.424	-3.245	-77.014	25.0	25.0	25.0	fpocket_rank1	1	0.267	42	57.718	0	2026-09-22T15:23:40+08:00
+ligand_centred	posebusters	7RSV_7IQ	ok		0.764	-38.561	-0.126	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:04+08:00
+detected	posebusters	7RSV_7IQ	ok		27.584	-18.356	20.316	25.0	25.0	25.0	fpocket_rank1	1	0.169	31	39.312	0	2026-09-22T15:24:04+08:00
+ligand_centred	posebusters	7T3E_SLB	ok		15.356	-21.665	-23.257	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:22+08:00
+detected	posebusters	7T3E_SLB	ok		15.473	-21.988	-22.262	25.0	25.0	25.0	fpocket_rank1	1	0.414	126	1.052	1	2026-09-22T15:24:22+08:00
+ligand_centred	posebusters	7T1D_E7K	ok		23.826	-8.017	20.99	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:20+08:00
+detected	posebusters	7T1D_E7K	ok		23.166	-12.42	21.661	25.0	25.0	25.0	fpocket_rank1	1	0.167	280	4.501	1	2026-09-22T15:24:20+08:00
+ligand_centred	posebusters	7T0D_FPP	ok		33.207	-31.624	-1.714	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:18+08:00
+detected	posebusters	7T0D_FPP	ok		27.879	-36.533	-6.84	25.0	25.0	25.0	fpocket_rank1	1	0.304	65	8.875	1	2026-09-22T15:24:18+08:00
+ligand_centred	posebusters	7SZA_DUI	ok		-56.499	-14.938	24.342	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:15+08:00
+detected	posebusters	7SZA_DUI	ok		-27.308	25.325	3.802	25.0	25.0	25.0	fpocket_rank1	1	0.241	44	53.806	0	2026-09-22T15:24:15+08:00
+ligand_centred	posebusters	7TE8_P0T	ok		-61.069	-56.962	35.599	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:35+08:00
+detected	posebusters	7TE8_P0T	ok		-27.261	-48.15	42.425	25.0	25.0	25.0	fpocket_rank1	1	0.343	198	35.598	0	2026-09-22T15:24:35+08:00
+ligand_centred	posebusters	7TBU_S3P	ok		26.322	69.36	7.312	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:32+08:00
+detected	posebusters	7TBU_S3P	ok		28.455	84.477	-14.511	25.0	25.0	25.0	fpocket_rank1	1	0.061	19	26.633	0	2026-09-22T15:24:32+08:00
+ligand_centred	posebusters	7TH4_FFO	ok		26.15	10.001	10.003	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:38+08:00
+detected	posebusters	7TH4_FFO	ok		18.322	-14.083	-20.113	25.0	25.0	25.0	fpocket_rank1	1	0.189	31	39.348	0	2026-09-22T15:24:38+08:00
+ligand_centred	posebusters	7THI_PGA	ok		37.848	35.762	114.861	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:40+08:00
+detected	posebusters	7THI_PGA	ok		34.749	29.766	123.741	25.0	25.0	25.0	fpocket_rank1	1	0.23	61	11.154	1	2026-09-22T15:24:40+08:00
+ligand_centred	posebusters	7TOM_5AD	ok		19.107	56.024	30.738	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:46+08:00
+detected	posebusters	7TOM_5AD	ok		16.321	51.883	35.935	25.0	25.0	25.0	fpocket_rank1	1	1.144	167	7.206	1	2026-09-22T15:24:46+08:00
+ligand_centred	posebusters	7TM6_GPJ	ok		-1.814	-0.483	-4.024	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:43+08:00
+detected	posebusters	7TM6_GPJ	ok		-2.67	0.674	-0.276	25.0	25.0	25.0	fpocket_rank1	1	0.65	59	4.015	1	2026-09-22T15:24:43+08:00
+ligand_centred	posebusters	7TUO_KL9	ok		-0.488	24.023	-11.155	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:53+08:00
+detected	posebusters	7TUO_KL9	ok		-4.748	21.456	-4.294	25.0	25.0	25.0	fpocket_rank1	1	0.256	138	8.474	0	2026-09-22T15:24:53+08:00
+ligand_centred	posebusters	7TXK_LW8	ok		29.964	44.209	90.312	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:57+08:00
+detected	posebusters	7TXK_LW8	ok		17.491	58.991	72.714	25.0	25.0	25.0	fpocket_rank1	1	0.489	316	26.148	0	2026-09-22T15:24:57+08:00
+ligand_centred	posebusters	7TSF_H4B	ok		7.112	2.973	34.75	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:51+08:00
+detected	posebusters	7TSF_H4B	ok		11.683	1.783	22.738	25.0	25.0	25.0	fpocket_rank1	1	0.517	60	12.907	0	2026-09-22T15:24:51+08:00
+ligand_centred	posebusters	7U0U_FK5	ok		-31.598	-12.904	-24.921	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:03+08:00
+detected	posebusters	7U0U_FK5	ok		-28.344	-17.848	-21.946	25.0	25.0	25.0	fpocket_rank1	1	0.172	115	6.624	1	2026-09-22T15:25:03+08:00
+ligand_centred	posebusters	7TYP_KUR	ok		-33.626	8.911	21.193	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:03+08:00
+detected	posebusters	7TYP_KUR	ok		-37.91	-9.807	15.998	25.0	25.0	25.0	fpocket_rank1	1	0.102	253	19.892	0	2026-09-22T15:25:03+08:00
+ligand_centred	posebusters	7U3J_L6U	ok		13.364	6.371	-6.012	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:06+08:00
+detected	posebusters	7U3J_L6U	ok		12.629	7.058	-5.901	25.0	25.0	25.0	fpocket_rank1	1	0.221	117	1.012	1	2026-09-22T15:25:06+08:00
+ligand_centred	posebusters	7UAW_MF6	ok		-20.611	7.637	-16.544	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:09+08:00
+detected	posebusters	7UAW_MF6	ok		-5.836	20.74	-40.302	25.0	25.0	25.0	fpocket_rank1	1	0.442	131	30.893	0	2026-09-22T15:25:09+08:00
+ligand_centred	posebusters	7UAS_MBU	ok		5.3	-32.533	26.597	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:08+08:00
+detected	posebusters	7UAS_MBU	ok		8.352	-31.092	22.958	25.0	25.0	25.0	fpocket_rank1	1	0.435	131	4.963	1	2026-09-22T15:25:08+08:00
+ligand_centred	posebusters	7SUC_COM	ok		26.496	33.108	-6.205	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:12+08:00
+detected	posebusters	7SUC_COM	ok		26.126	36.908	-13.843	25.0	25.0	25.0	fpocket_rank1	1	1.801	409	8.539	1	2026-09-22T15:24:12+08:00
+ligand_centred	posebusters	7TB0_UD1	ok		27.557	-30.334	39.859	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:29+08:00
+detected	posebusters	7TB0_UD1	ok		19.582	-27.355	62.492	25.0	25.0	25.0	fpocket_rank1	1	0.102	220	24.181	0	2026-09-22T15:24:29+08:00
+ligand_centred	posebusters	7ULC_56B	ok		72.04	15.837	68.645	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:15+08:00
+detected	posebusters	7ULC_56B	ok		26.677	1.872	49.129	25.0	25.0	25.0	fpocket_rank1	1	0.231	158	51.319	0	2026-09-22T15:25:15+08:00
+ligand_centred	posebusters	7UJ4_OQ4	ok		-20.319	-2.219	23.792	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:11+08:00
+detected	posebusters	7UJ4_OQ4	ok		-32.276	7.697	19.354	25.0	25.0	25.0	fpocket_rank1	1	0.329	108	16.155	0	2026-09-22T15:25:11+08:00
+ligand_centred	posebusters	7UQ3_O2U	ok		8.647	141.967	100.494	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:25+08:00
+detected	posebusters	7UQ3_O2U	ok		8.852	140.996	101.494	25.0	25.0	25.0	fpocket_rank1	1	0.38	54	1.409	1	2026-09-22T15:25:25+08:00
+ligand_centred	posebusters	7USH_82V	ok		18.426	-5.211	8.33	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:28+08:00
+detected	posebusters	7USH_82V	ok		15.827	-5.379	6.079	25.0	25.0	25.0	fpocket_rank1	1	0.297	49	3.442	1	2026-09-22T15:25:28+08:00
+ligand_centred	posebusters	7UMW_NAD	ok		-44.374	49.774	-24.662	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:23+08:00
+detected	posebusters	7UMW_NAD	ok		-33.622	23.693	-7.814	25.0	25.0	25.0	fpocket_rank1	1	0.424	75	32.859	0	2026-09-22T15:25:23+08:00
+ligand_centred	posebusters	7UJF_R3V	ok		-2.155	-15.182	-62.516	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:15+08:00
+detected	posebusters	7UJF_R3V	ok		-10.162	-51.083	-65.175	25.0	25.0	25.0	fpocket_rank1	1	0.216	67	36.879	0	2026-09-22T15:25:15+08:00
+ligand_centred	posebusters	7UJ5_DGL	ok		-22.752	-18.276	-39.385	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:14+08:00
+detected	posebusters	7UJ5_DGL	ok		-17.122	15.22	1.671	25.0	25.0	25.0	fpocket_rank1	1	0.081	17	53.285	0	2026-09-22T15:25:14+08:00
+ligand_centred	posebusters	7UXS_OJC	ok		-13.912	31.725	-13.901	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:29+08:00
+detected	posebusters	7UXS_OJC	ok		6.683	31.585	-25.461	25.0	25.0	25.0	fpocket_rank1	1	0.297	65	23.619	0	2026-09-22T15:25:29+08:00
+ligand_centred	posebusters	7UYB_OK0	ok		-21.202	-12.85	-9.595	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:32+08:00
+detected	posebusters	7UYB_OK0	ok		-15.482	14.399	-7.166	25.0	25.0	25.0	fpocket_rank1	1	0.127	37	27.949	0	2026-09-22T15:25:32+08:00
+ligand_centred	posebusters	7V14_ORU	ok		32.309	5.205	-4.403	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:33+08:00
+detected	posebusters	7V14_ORU	ok		28.689	7.378	-4.558	25.0	25.0	25.0	fpocket_rank1	1	0.304	65	4.225	1	2026-09-22T15:25:33+08:00
+ligand_centred	posebusters	7UY4_SMI	ok		-1.479	-29.473	17.504	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:31+08:00
+detected	posebusters	7UY4_SMI	ok		-2.905	-32.809	19.257	25.0	25.0	25.0	fpocket_rank1	1	0.486	87	4.029	1	2026-09-22T15:25:31+08:00
+ligand_centred	posebusters	7UTW_NAI	ok		29.672	-5.826	-35.805	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:29+08:00
+detected	posebusters	7UTW_NAI	ok		17.442	-15.733	-2.773	25.0	25.0	25.0	fpocket_rank1	1	0.623	90	36.59	0	2026-09-22T15:25:29+08:00
+ligand_centred	posebusters	7V3N_AKG	ok		129.158	82.335	-5.565	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:34+08:00
+detected	posebusters	7V3N_AKG	ok		128.019	75.71	0.989	25.0	25.0	25.0	fpocket_rank1	1	0.74	83	9.388	1	2026-09-22T15:25:34+08:00
+ligand_centred	posebusters	7TS6_KMI	ok		-14.418	-1.031	-4.038	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:24:47+08:00
+detected	posebusters	7TS6_KMI	ok		15.6	-47.995	-60.935	25.0	25.0	25.0	fpocket_rank1	1	0.323	69	79.649	0	2026-09-22T15:24:47+08:00
+ligand_centred	posebusters	7V3S_5I9	ok		-10.033	-16.781	28.968	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:35+08:00
+detected	posebusters	7V3S_5I9	ok		-8.398	-15.145	28.272	25.0	25.0	25.0	fpocket_rank1	1	0.089	215	2.415	1	2026-09-22T15:25:35+08:00
+ligand_centred	posebusters	7VBU_6I4	ok		33.756	36.917	61.942	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:37+08:00
+detected	posebusters	7VBU_6I4	ok		59.156	57.747	75.543	25.0	25.0	25.0	fpocket_rank1	1	0.203	40	35.553	0	2026-09-22T15:25:37+08:00
+ligand_centred	posebusters	7V43_C4O	ok		-41.595	24.817	-9.688	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:36+08:00
+detected	posebusters	7V43_C4O	ok		-25.258	26.022	1.964	25.0	25.0	25.0	fpocket_rank1	1	0.602	81	20.103	0	2026-09-22T15:25:36+08:00
+ligand_centred	posebusters	7VC5_9SF	ok		15.639	-12.469	-2.828	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:37+08:00
+detected	posebusters	7VC5_9SF	ok		15.484	-12.553	1.862	25.0	25.0	25.0	fpocket_rank1	1	0.849	273	4.694	1	2026-09-22T15:25:37+08:00
+ligand_centred	posebusters	7VQ9_ISY	ok		27.569	-1.459	28.758	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:40+08:00
+detected	posebusters	7VQ9_ISY	ok		20.17	-1.114	0.54	25.0	25.0	25.0	fpocket_rank1	1	0.972	206	29.175	0	2026-09-22T15:25:40+08:00
+ligand_centred	posebusters	7W05_GMP	ok		0.652	6.158	-12.691	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:45+08:00
+detected	posebusters	7W05_GMP	ok		-10.528	1.938	8.335	25.0	25.0	25.0	fpocket_rank1	1	0.51	28	24.185	0	2026-09-22T15:25:45+08:00
+ligand_centred	posebusters	7VB8_STL	ok		4.84	19.916	-31.314	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:36+08:00
+detected	posebusters	7VB8_STL	ok		-13.717	31.871	-4.522	25.0	25.0	25.0	fpocket_rank1	1	0.315	302	34.714	0	2026-09-22T15:25:36+08:00
+ligand_centred	posebusters	7VWF_K55	ok		15.469	2.622	37.807	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:40+08:00
+detected	posebusters	7VWF_K55	ok		18.982	-14.214	27.569	25.0	25.0	25.0	fpocket_rank1	1	0.465	88	20.015	0	2026-09-22T15:25:40+08:00
+ligand_centred	posebusters	7W06_ITN	ok		-20.048	17.083	28.165	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:46+08:00
+detected	posebusters	7W06_ITN	ok		-20.687	17.259	27.243	25.0	25.0	25.0	fpocket_rank1	1	0.429	34	1.136	1	2026-09-22T15:25:46+08:00
+ligand_centred	posebusters	7WCF_ACP	ok		7.947	-20.95	-22.024	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:46+08:00
+detected	posebusters	7WCF_ACP	ok		33.107	-9.09	-28.336	25.0	25.0	25.0	fpocket_rank1	1	0.085	29	28.522	0	2026-09-22T15:25:46+08:00
+ligand_centred	posebusters	7M31_TDR	ok		-2.318	103.306	26.987	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:21:19+08:00
+detected	posebusters	7M31_TDR	ok		3.82	93.328	14.207	25.0	25.0	25.0	fpocket_rank1	1	1.556	439	17.337	0	2026-09-22T15:21:19+08:00
+ligand_centred	posebusters	7WDT_NGS	ok		23.468	-5.916	-4.431	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:47+08:00
+detected	posebusters	7WDT_NGS	ok		10.64	-27.762	60.095	25.0	25.0	25.0	fpocket_rank1	1	0.45	66	69.321	0	2026-09-22T15:25:47+08:00
+ligand_centred	posebusters	7WJB_BGC	ok		54.528	20.99	14.498	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:47+08:00
+detected	posebusters	7WJB_BGC	ok		30.316	21.425	21.115	25.0	25.0	25.0	fpocket_rank1	1	0.427	117	25.104	0	2026-09-22T15:25:47+08:00
+ligand_centred	posebusters	7WPW_F15	ok		6.814	-20.656	-2.696	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:55+08:00
+detected	posebusters	7WPW_F15	ok		8.343	-20.128	-2.823	25.0	25.0	25.0	fpocket_rank1	1	0.26	111	1.622	1	2026-09-22T15:25:55+08:00
+ligand_centred	posebusters	7WQQ_5Z6	ok		29.086	-6.035	9.438	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:56+08:00
+detected	posebusters	7WQQ_5Z6	ok		29.369	-5.719	11.535	25.0	25.0	25.0	fpocket_rank1	1	0.412	168	2.139	1	2026-09-22T15:25:56+08:00
+ligand_centred	posebusters	7VKZ_NOJ	ok		14.271	3.037	36.653	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:37+08:00
+detected	posebusters	7VKZ_NOJ	ok		49.919	14.577	48.397	25.0	25.0	25.0	fpocket_rank1	1	0.285	88	39.267	0	2026-09-22T15:25:37+08:00
+ligand_centred	posebusters	7WL4_JFU	ok		4.345	11.129	32.356	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:53+08:00
+detected	posebusters	7WL4_JFU	ok		-2.785	20.394	12.028	25.0	25.0	25.0	fpocket_rank1	1	0.219	152	23.451	0	2026-09-22T15:25:53+08:00
+ligand_centred	posebusters	7VYJ_CA0	ok		56.726	-45.988	25.56	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:42+08:00
+detected	posebusters	7VYJ_CA0	ok		23.75	-63.248	18.392	25.0	25.0	25.0	fpocket_rank1	1	0.059	31	37.904	0	2026-09-22T15:25:42+08:00
+ligand_centred	posebusters	7X9K_8OG	ok		-5.768	0.518	25.789	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:04+08:00
+detected	posebusters	7X9K_8OG	ok		-6.637	0.33	25.265	25.0	25.0	25.0	fpocket_rank1	1	0.223	88	1.031	1	2026-09-22T15:26:04+08:00
+ligand_centred	posebusters	7WKL_CAQ	ok		16.373	32.443	75.28	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:49+08:00
+detected	posebusters	7WKL_CAQ	ok		13.979	34.027	56.639	25.0	25.0	25.0	fpocket_rank1	1	0.558	154	18.861	0	2026-09-22T15:25:49+08:00
+ligand_centred	posebusters	7WUY_76N	ok		13.92	149.408	25.881	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:58+08:00
+detected	posebusters	7WUY_76N	ok		17.346	152.778	25.526	25.0	25.0	25.0	fpocket_rank1	1	0.827	211	4.818	1	2026-09-22T15:25:58+08:00
+ligand_centred	posebusters	7XFA_D9J	ok		-18.287	-8.82	1.387	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:07+08:00
+detected	posebusters	7XFA_D9J	ok		-13.623	-10.433	-2.28	25.0	25.0	25.0	fpocket_rank1	1	0.405	41	6.149	1	2026-09-22T15:26:07+08:00
+ligand_centred	posebusters	7XBV_APC	ok		-40.025	10.24	-1.215	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:05+08:00
+detected	posebusters	7XBV_APC	ok		-40.36	5.494	-0.261	25.0	25.0	25.0	fpocket_rank1	1	0.258	132	4.852	1	2026-09-22T15:26:05+08:00
+ligand_centred	posebusters	7XI7_4RI	ok		-2.823	-16.569	0.714	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:08+08:00
+detected	posebusters	7XI7_4RI	ok		2.344	-35.142	-3.915	25.0	25.0	25.0	fpocket_rank1	1	0.101	20	19.826	0	2026-09-22T15:26:08+08:00
+ligand_centred	posebusters	7WUX_6OI	ok		23.855	17.924	-11.989	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:25:57+08:00
+detected	posebusters	7WUX_6OI	ok		25.218	-11.553	-30.084	25.0	25.0	25.0	fpocket_rank1	1	0.202	122	34.615	0	2026-09-22T15:25:57+08:00
+ligand_centred	posebusters	7X5N_5M5	ok		82.736	49.893	54.21	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:01+08:00
+detected	posebusters	7X5N_5M5	ok		87.106	64.451	46.244	25.0	25.0	25.0	fpocket_rank1	1	2.181	525	17.16	0	2026-09-22T15:26:01+08:00
+ligand_centred	posebusters	7XG5_PLP	ok		-38.269	-27.936	17.528	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:08+08:00
+detected	posebusters	7XG5_PLP	ok		-31.018	-48.656	35.42	25.0	25.0	25.0	fpocket_rank1	1	0.358	227	28.32	0	2026-09-22T15:26:08+08:00
+ligand_centred	posebusters	7XQZ_FPF	ok		-20.186	-1.457	-19.258	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:12+08:00
+detected	posebusters	7XQZ_FPF	ok		-20.043	-3.147	-19.633	25.0	25.0	25.0	fpocket_rank1	1	0.393	128	1.737	1	2026-09-22T15:26:12+08:00
+ligand_centred	posebusters	7WY1_D0L	ok		-1.318	-27.357	-69.396	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:01+08:00
+detected	posebusters	7WY1_D0L	ok		16.369	-19.759	-7.991	25.0	25.0	25.0	fpocket_rank1	1	2.027	407	64.351	0	2026-09-22T15:26:01+08:00
+ligand_centred	posebusters	7XPO_UPG	ok		-19.299	-22.088	-25.646	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:10+08:00
+detected	posebusters	7XPO_UPG	ok		5.404	-7.19	21.705	25.0	25.0	25.0	fpocket_rank1	1	0.059	58	55.446	0	2026-09-22T15:26:10+08:00
+ligand_centred	posebusters	7Z1Q_NIO	ok		1.794	21.852	-2.991	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:17+08:00
+detected	posebusters	7Z1Q_NIO	ok		1.721	29.09	-8.607	25.0	25.0	25.0	fpocket_rank1	1	0.476	57	9.161	1	2026-09-22T15:26:17+08:00
+ligand_centred	posebusters	7YZU_DO7	ok		11.013	-22.301	-18.805	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:15+08:00
+detected	posebusters	7YZU_DO7	ok		11.203	-22.829	-18.311	25.0	25.0	25.0	fpocket_rank1	1	0.462	83	0.747	1	2026-09-22T15:26:15+08:00
+ligand_centred	posebusters	7Z7F_IF3	ok		16.356	28.165	4.068	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:18+08:00
+detected	posebusters	7Z7F_IF3	ok		15.635	28.827	4.435	25.0	25.0	25.0	fpocket_rank1	1	0.382	70	1.046	1	2026-09-22T15:26:18+08:00
+ligand_centred	posebusters	7Z2O_IAJ	ok		-7.692	15.225	11.23	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:18+08:00
+detected	posebusters	7Z2O_IAJ	ok		1.189	5.847	29.406	25.0	25.0	25.0	fpocket_rank1	1	0.181	118	22.298	0	2026-09-22T15:26:18+08:00
+ligand_centred	posebusters	7ZF0_DHR	ok		33.197	58.132	48.074	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:20+08:00
+detected	posebusters	7ZF0_DHR	ok		32.512	57.275	47.858	25.0	25.0	25.0	fpocket_rank1	1	0.363	70	1.118	1	2026-09-22T15:26:20+08:00
+ligand_centred	posebusters	7ZHP_IQY	ok		69.363	38.168	1.343	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:23+08:00
+detected	posebusters	7ZHP_IQY	ok		69.453	37.403	1.75	25.0	25.0	25.0	fpocket_rank1	1	0.198	104	0.871	1	2026-09-22T15:26:23+08:00
+ligand_centred	posebusters	7XJN_NSD	ok		-1.907	7.289	32.912	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:08+08:00
+detected	posebusters	7XJN_NSD	ok		-29.608	-13.692	6.56	25.0	25.0	25.0	fpocket_rank1	1	0.231	45	43.611	0	2026-09-22T15:26:08+08:00
+ligand_centred	posebusters	7ZL5_IWE	ok		-17.961	35.94	43.787	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:26+08:00
+detected	posebusters	7ZL5_IWE	ok		5.963	32.259	49.703	25.0	25.0	25.0	fpocket_rank1	1	0.2	94	24.919	0	2026-09-22T15:26:26+08:00
+ligand_centred	posebusters	7ZOC_T8E	ok		16.218	10.527	35.456	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:26+08:00
+detected	posebusters	7ZOC_T8E	ok		17.918	13.052	35.954	25.0	25.0	25.0	fpocket_rank1	1	0.13	208	3.084	1	2026-09-22T15:26:26+08:00
+ligand_centred	posebusters	7ZTL_BCN	ok		-37.103	26.471	5.402	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:29+08:00
+detected	posebusters	7ZTL_BCN	ok		-29.37	32.574	8.707	25.0	25.0	25.0	fpocket_rank1	1	0.514	64	10.391	1	2026-09-22T15:26:29+08:00
+ligand_centred	posebusters	7ZU2_DHT	ok		-27.276	2.137	-4.783	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:30+08:00
+detected	posebusters	7ZU2_DHT	ok		-26.314	2.725	-4.986	25.0	25.0	25.0	fpocket_rank1	1	0.458	60	1.145	1	2026-09-22T15:26:30+08:00
+ligand_centred	posebusters	7ZXV_45D	ok		20.661	11.418	-12.666	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:31+08:00
+detected	posebusters	7ZXV_45D	ok		20.272	12.483	-11.493	25.0	25.0	25.0	fpocket_rank1	1	0.256	276	1.631	1	2026-09-22T15:26:31+08:00
+ligand_centred	posebusters	8A1H_DLZ	ok		-66.737	39.624	-6.751	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:33+08:00
+detected	posebusters	8A1H_DLZ	ok		-68.205	39.334	-6.652	25.0	25.0	25.0	fpocket_rank1	1	0.425	105	1.5	1	2026-09-22T15:26:33+08:00
+ligand_centred	posebusters	7ZDY_6MJ	ok		26.593	-7.332	42.942	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:18+08:00
+detected	posebusters	7ZDY_6MJ	ok		9.593	-3.525	61.233	25.0	25.0	25.0	fpocket_rank1	1	0.301	102	25.259	0	2026-09-22T15:26:18+08:00
+ligand_centred	posebusters	7XRL_FWK	ok		10.961	-1.053	40.418	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:14+08:00
+detected	posebusters	7XRL_FWK	ok		17.307	8.909	34.857	25.0	25.0	25.0	fpocket_rank1	1	0.311	38	13.056	0	2026-09-22T15:26:14+08:00
+ligand_centred	posebusters	8AAU_LH0	ok		-13.944	43.31	-13.776	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:38+08:00
+detected	posebusters	8AAU_LH0	ok		-19.812	37.302	-19.403	25.0	25.0	25.0	fpocket_rank1	1	0.226	73	10.108	1	2026-09-22T15:26:38+08:00
+ligand_centred	posebusters	8A2D_KXY	ok		-2.672	-10.605	21.108	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:36+08:00
+detected	posebusters	8A2D_KXY	ok		-22.493	-11.704	-3.109	25.0	25.0	25.0	fpocket_rank1	1	0.018	23	31.314	0	2026-09-22T15:26:36+08:00
+ligand_centred	posebusters	8AEM_LVF	ok		-107.937	-176.661	311.558	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:40+08:00
+detected	posebusters	8AEM_LVF	ok		-122.061	-181.881	310.716	25.0	25.0	25.0	fpocket_rank1	1	0.558	84	15.082	0	2026-09-22T15:26:40+08:00
+ligand_centred	posebusters	8AP0_PRP	ok		9.191	20.001	9.165	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:43+08:00
+detected	posebusters	8AP0_PRP	ok		16.496	1.181	33.252	25.0	25.0	25.0	fpocket_rank1	1	0.15	15	31.429	0	2026-09-22T15:26:43+08:00
+ligand_centred	posebusters	8AIE_M7L	ok		18.514	3.915	24.64	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:43+08:00
+detected	posebusters	8AIE_M7L	ok		-6.703	-8.269	7.77	25.0	25.0	25.0	fpocket_rank1	1	0.761	112	32.695	0	2026-09-22T15:26:43+08:00
+ligand_centred	posebusters	7ZCC_OGA	ok		38.538	16.497	59.474	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:18+08:00
+detected	posebusters	7ZCC_OGA	ok		39.442	17.444	56.926	25.0	25.0	25.0	fpocket_rank1	1	0.052	90	2.864	1	2026-09-22T15:26:18+08:00
+ligand_centred	posebusters	8AUH_L9I	ok		18.94	16.628	-26.842	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:45+08:00
+detected	posebusters	8AUH_L9I	ok		-12.56	16.317	-3.573	25.0	25.0	25.0	fpocket_rank1	1	0.637	123	39.164	0	2026-09-22T15:26:45+08:00
+ligand_centred	posebusters	8AY3_OE3	ok		1.17	5.839	32.017	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:46+08:00
+detected	posebusters	8AY3_OE3	ok		-3.354	7.368	42.018	25.0	25.0	25.0	fpocket_rank1	1	0.147	32	11.082	0	2026-09-22T15:26:46+08:00
+ligand_centred	posebusters	8BOM_QU6	ok		-83.032	-19.057	87.192	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:51+08:00
+detected	posebusters	8BOM_QU6	ok		-78.736	-1.863	108.239	25.0	25.0	25.0	fpocket_rank1	1	0.059	56	27.515	0	2026-09-22T15:26:51+08:00
+ligand_centred	posebusters	8C3N_ADP	ok		21.934	-37.212	-53.432	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:54+08:00
+detected	posebusters	8C3N_ADP	ok		4.35	-22.938	-44.592	25.0	25.0	25.0	fpocket_rank1	1	0.415	38	24.312	0	2026-09-22T15:26:54+08:00
+ligand_centred	posebusters	8BTI_RFO	ok		26.699	66.952	72.222	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:54+08:00
+detected	posebusters	8BTI_RFO	ok		25.158	67.69	72.633	25.0	25.0	25.0	fpocket_rank1	1	0.185	107	1.757	1	2026-09-22T15:26:54+08:00
+ligand_centred	posebusters	8C5M_MTA	ok		82.631	-13.215	3.097	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:54+08:00
+detected	posebusters	8C5M_MTA	ok		69.905	-24.919	18.552	25.0	25.0	25.0	fpocket_rank1	1	0.392	64	23.19	0	2026-09-22T15:26:54+08:00
+ligand_centred	posebusters	8B8H_OJQ	ok		26.702	-3.123	2.184	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:50+08:00
+detected	posebusters	8B8H_OJQ	ok		48.367	24.858	8.936	25.0	25.0	25.0	fpocket_rank1	1	0.136	190	36.027	0	2026-09-22T15:26:50+08:00
+ligand_centred	posebusters	8CNH_V6U	ok		-29.023	1.902	1.06	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:56+08:00
+detected	posebusters	8CNH_V6U	ok		-30.5	14.964	-7.482	25.0	25.0	25.0	fpocket_rank1	1	0.133	140	15.676	0	2026-09-22T15:26:56+08:00
+ligand_centred	posebusters	7ZZW_KKW	ok		23.169	-18.513	0.456	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:31+08:00
+detected	posebusters	7ZZW_KKW	ok		21.17	-19.171	1.971	25.0	25.0	25.0	fpocket_rank1	1	0.261	96	2.593	1	2026-09-22T15:26:31+08:00
+ligand_centred	posebusters	8D39_QDB	ok		3.57	1.706	19.707	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:00+08:00
+detected	posebusters	8D39_QDB	ok		3.535	1.169	19.568	25.0	25.0	25.0	fpocket_rank1	1	0.52	89	0.555	1	2026-09-22T15:27:00+08:00
+ligand_centred	posebusters	8DHG_T78	ok		26.946	-23.224	22.937	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:03+08:00
+detected	posebusters	8DHG_T78	ok		33.836	-18.751	19.743	25.0	25.0	25.0	fpocket_rank1	1	1.217	295	8.814	0	2026-09-22T15:27:03+08:00
+ligand_centred	posebusters	8CSD_C5P	ok		14.939	73.458	34.172	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:57+08:00
+detected	posebusters	8CSD_C5P	ok		12.845	19.064	20.666	25.0	25.0	25.0	fpocket_rank1	1	0.286	78	56.085	0	2026-09-22T15:26:57+08:00
+ligand_centred	posebusters	8D19_GSH	ok		24.48	30.593	31.033	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:59+08:00
+detected	posebusters	8D19_GSH	ok		9.379	15.904	39.398	25.0	25.0	25.0	fpocket_rank1	1	0.232	72	22.667	0	2026-09-22T15:26:59+08:00
+ligand_centred	posebusters	8D5D_5DK	ok		5.033	-9.295	35.445	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:01+08:00
+detected	posebusters	8D5D_5DK	ok		6.699	-11.207	36.928	25.0	25.0	25.0	fpocket_rank1	1	0.414	214	2.938	1	2026-09-22T15:27:01+08:00
+ligand_centred	posebusters	8DP2_UMA	ok		59.71	-1.178	0.294	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:07+08:00
+detected	posebusters	8DP2_UMA	ok		54.949	13.907	16.427	25.0	25.0	25.0	fpocket_rank1	1	0.239	23	22.595	0	2026-09-22T15:27:07+08:00
+ligand_centred	posebusters	8DKO_TFB	ok		15.237	15.8	47.142	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:03+08:00
+detected	posebusters	8DKO_TFB	ok		34.648	-12.592	20.758	25.0	25.0	25.0	fpocket_rank1	1	0.473	44	43.347	0	2026-09-22T15:27:03+08:00
+ligand_centred	posebusters	8EAB_VN2	ok		6.516	-17.182	19.775	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:09+08:00
+detected	posebusters	8EAB_VN2	ok		25.852	-4.19	37.328	25.0	25.0	25.0	fpocket_rank1	1	0.114	32	29.168	0	2026-09-22T15:27:09+08:00
+ligand_centred	posebusters	8EX2_Q2Q	ok		19.75	13.164	22.389	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:10+08:00
+detected	posebusters	8EX2_Q2Q	ok		26.646	5.493	21.325	25.0	25.0	25.0	fpocket_rank1	1	0.142	110	10.37	0	2026-09-22T15:27:10+08:00
+ligand_centred	posebusters	8DSC_NCA	ok		14.938	9.381	6.125	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:07+08:00
+detected	posebusters	8DSC_NCA	ok		7.712	-9.16	36.287	25.0	25.0	25.0	fpocket_rank1	1	0.292	305	36.135	0	2026-09-22T15:27:07+08:00
+ligand_centred	posebusters	8F8E_XJI	ok		-22.262	-20.392	0.247	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:13+08:00
+detected	posebusters	8F8E_XJI	ok		-24.766	-23.222	-7.655	25.0	25.0	25.0	fpocket_rank1	1	0.146	35	8.76	1	2026-09-22T15:27:13+08:00
+ligand_centred	posebusters	8FLV_ZB9	ok		-14.057	6.765	-14.701	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:21+08:00
+detected	posebusters	8FLV_ZB9	ok		-16.041	6.689	-9.236	25.0	25.0	25.0	fpocket_rank1	1	0.552	95	5.815	1	2026-09-22T15:27:21+08:00
+ligand_centred	posebusters	8EYE_X4I	ok		13.922	9.867	15.047	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:12+08:00
+detected	posebusters	8EYE_X4I	ok		33.607	-7.862	7.283	25.0	25.0	25.0	fpocket_rank1	1	0.396	339	27.607	0	2026-09-22T15:27:12+08:00
+ligand_centred	posebusters	8EXL_799	ok		-17.452	14.072	29.667	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:11+08:00
+detected	posebusters	8EXL_799	ok		9.032	14.605	28.177	25.0	25.0	25.0	fpocket_rank1	1	0.328	117	26.531	0	2026-09-22T15:27:11+08:00
+ligand_centred	posebusters	8FAV_4Y5	ok		0.552	11.382	-7.237	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:19+08:00
+detected	posebusters	8FAV_4Y5	ok		-10.067	-56.057	-24.807	25.0	25.0	25.0	fpocket_rank1	1	1.039	201	70.494	0	2026-09-22T15:27:19+08:00
+ligand_centred	posebusters	8AQL_PLG	ok		2.587	52.9	8.301	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:26:44+08:00
+detected	posebusters	8AQL_PLG	ok		4.138	39.627	13.826	25.0	25.0	25.0	fpocket_rank1	1	0.401	48	14.46	0	2026-09-22T15:26:44+08:00
+ligand_centred	posebusters	8G6P_API	ok		-30.746	7.33	-6.047	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:24+08:00
+detected	posebusters	8G6P_API	ok		-22.05	14.914	-14.122	25.0	25.0	25.0	fpocket_rank1	1	0.607	169	14.084	1	2026-09-22T15:27:24+08:00
+ligand_centred	posebusters	8GFD_ZHR	ok		-31.654	-62.844	-13.686	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:26+08:00
+detected	posebusters	8GFD_ZHR	ok		-44.179	-60.438	-9.002	25.0	25.0	25.0	fpocket_rank1	1	0.201	87	13.588	0	2026-09-22T15:27:26+08:00
+ligand_centred	posebusters	8HFN_XGC	ok		69.801	-0.069	-1.758	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:28+08:00
+detected	posebusters	8HFN_XGC	ok		59.56	0.382	-7.312	25.0	25.0	25.0	fpocket_rank1	1	0.175	47	11.659	0	2026-09-22T15:27:28+08:00
+ligand_centred	posebusters	8HO0_3ZI	ok		3.885	30.468	-7.291	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:29+08:00
+detected	posebusters	8HO0_3ZI	ok		-10.823	23.737	-4.247	25.0	25.0	25.0	fpocket_rank1	1	0.174	58	16.459	0	2026-09-22T15:27:29+08:00
+ligand_centred	posebusters	8FO5_Y4U	ok		23.115	-4.087	-23.329	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:24+08:00
+detected	posebusters	8FO5_Y4U	ok		23.248	-4.339	-23.182	25.0	25.0	25.0	fpocket_rank1	1	0.253	92	0.321	1	2026-09-22T15:27:24+08:00
+ligand_centred	astex	1GKC_NFH	ok		65.839	30.707	117.746	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:34+08:00
+detected	astex	1GKC_NFH	ok		51.066	25.071	129.045	25.0	25.0	25.0	fpocket_rank1	1	0.342	70	19.434	0	2026-09-22T15:27:34+08:00
+ligand_centred	astex	1G9V_RQ3	ok		16.966	16.623	41.744	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:32+08:00
+detected	astex	1G9V_RQ3	ok		-5.885	7.34	31.235	25.0	25.0	25.0	fpocket_rank1	1	0.182	28	26.811	0	2026-09-22T15:27:32+08:00
+ligand_centred	astex	1GPK_HUP	ok		2.842	67.452	63.054	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:37+08:00
+detected	astex	1GPK_HUP	ok		1.535	63.384	69.873	25.0	25.0	25.0	fpocket_rank1	1	0.295	73	8.047	1	2026-09-22T15:27:37+08:00
+ligand_centred	astex	1HNN_SKF	ok		28.265	44.149	16.529	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:40+08:00
+detected	astex	1HNN_SKF	ok		28.685	44.606	17.728	25.0	25.0	25.0	fpocket_rank1	1	0.251	78	1.35	1	2026-09-22T15:27:40+08:00
+ligand_centred	astex	1GM8_SOX	ok		14.458	-2.042	3.683	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:37+08:00
+detected	astex	1GM8_SOX	ok		4.268	0.833	-10.883	25.0	25.0	25.0	fpocket_rank1	1	0.39	60	18.007	0	2026-09-22T15:27:37+08:00
+ligand_centred	astex	1HQ2_PH2	ok		-8.504	7.946	17.463	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:45+08:00
+detected	astex	1HQ2_PH2	ok		-7.36	6.536	18.383	25.0	25.0	25.0	fpocket_rank1	1	0.654	92	2.036	1	2026-09-22T15:27:45+08:00
+ligand_centred	astex	1HWI_115	ok		33.197	-6.634	-10.597	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:47+08:00
+detected	astex	1HWI_115	failed	no clean.pdb for this receptor				25.0	25.0	25.0	fpocket_rank1						2026-09-22T15:27:47+08:00
+ligand_centred	astex	1HWW_SWA	ok		31.377	66.383	7.718	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:47+08:00
+detected	astex	1HWW_SWA	failed	no clean.pdb for this receptor				25.0	25.0	25.0	fpocket_rank1						2026-09-22T15:27:47+08:00
+ligand_centred	posebusters	8SLG_G5A	ok		-40.256	43.746	25.588	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:32+08:00
+detected	posebusters	8SLG_G5A	ok		-17.725	59.623	-1.42	25.0	25.0	25.0	fpocket_rank1	1	0.111	31	38.59	0	2026-09-22T15:27:32+08:00
+ligand_centred	astex	1HP0_AD3	ok		16.686	25.497	12.944	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:43+08:00
+detected	astex	1HP0_AD3	ok		22.7	27.938	38.894	25.0	25.0	25.0	fpocket_rank1	1	0.19	104	26.75	0	2026-09-22T15:27:43+08:00
+ligand_centred	astex	1IA1_TQ3	ok		10.259	36.337	18.564	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:47+08:00
+detected	astex	1IA1_TQ3	ok		-6.702	31.599	21.638	25.0	25.0	25.0	fpocket_rank1	1	0.132	25	17.877	0	2026-09-22T15:27:47+08:00
+ligand_centred	astex	1IG3_VIB	ok		23.83	41.109	19.486	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:47+08:00
+detected	astex	1IG3_VIB	ok		27.03	62.25	32.746	25.0	25.0	25.0	fpocket_rank1	1	0.152	84	25.159	0	2026-09-22T15:27:47+08:00
+ligand_centred	astex	1JD0_AZM	ok		-14.55	-6.507	20.915	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:52+08:00
+detected	astex	1JD0_AZM	ok		6.94	-12.205	23.695	25.0	25.0	25.0	fpocket_rank1	1	0.1	206	22.406	0	2026-09-22T15:27:52+08:00
+ligand_centred	astex	1JJE_BYS	ok		57.657	24.777	34.576	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:53+08:00
+detected	astex	1JJE_BYS	ok		23.598	-2.834	17.12	25.0	25.0	25.0	fpocket_rank1	1	0.134	122	47.192	0	2026-09-22T15:27:53+08:00
+ligand_centred	astex	1HVY_D16	ok		69.179	45.229	25.375	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:45+08:00
+detected	astex	1HVY_D16	ok		6.17	-26.898	-0.094	25.0	25.0	25.0	fpocket_rank1	1	0.312	82	99.101	0	2026-09-22T15:27:45+08:00
+ligand_centred	astex	1K3U_IAD	ok		48.894	27.243	13.062	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:00+08:00
+detected	astex	1K3U_IAD	ok		83.07	16.773	5.1	25.0	25.0	25.0	fpocket_rank1	1	0.61	199	36.619	0	2026-09-22T15:28:00+08:00
+ligand_centred	astex	1KE5_LS1	ok		-9.51	48.704	38.092	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:04+08:00
+detected	astex	1KE5_LS1	ok		7.761	46.258	42.07	25.0	25.0	25.0	fpocket_rank1	1	0.182	30	17.892	0	2026-09-22T15:28:04+08:00
+ligand_centred	astex	1KZK_JE2	ok		19.859	-1.74	16.894	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:07+08:00
+detected	astex	1KZK_JE2	ok		5.034	-10.938	22.308	25.0	25.0	25.0	fpocket_rank1	1	0.102	15	18.266	0	2026-09-22T15:28:07+08:00
+ligand_centred	astex	1J3J_CP6	ok		28.165	5.311	58.672	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:50+08:00
+detected	astex	1J3J_CP6	ok		12.56	-19.876	13.334	25.0	25.0	25.0	fpocket_rank1	1	0.107	123	54.161	0	2026-09-22T15:27:50+08:00
+ligand_centred	posebusters	8G0V_YHT	ok		-12.608	19.716	-31.583	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:24+08:00
+detected	posebusters	8G0V_YHT	ok		-8.54	-1.725	-1.23	25.0	25.0	25.0	fpocket_rank1	1	0.367	425	37.384	0	2026-09-22T15:27:24+08:00
+ligand_centred	astex	1L7F_BCZ	ok		25.917	17.175	62.803	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:09+08:00
+detected	astex	1L7F_BCZ	ok		19.099	23.059	69.955	25.0	25.0	25.0	fpocket_rank1	1	0.305	59	11.501	1	2026-09-22T15:28:09+08:00
+ligand_centred	astex	1LPZ_CMB	ok		7.335	6.815	22.976	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:12+08:00
+detected	astex	1LPZ_CMB	ok		9.3	8.019	24.961	25.0	25.0	25.0	fpocket_rank1	1	0.353	71	3.042	1	2026-09-22T15:28:12+08:00
+ligand_centred	astex	1L2S_STC	ok		79.802	5.352	29.948	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:07+08:00
+detected	astex	1L2S_STC	ok		39.868	-0.835	0.08	25.0	25.0	25.0	fpocket_rank1	1	0.111	16	50.25	0	2026-09-22T15:28:07+08:00
+ligand_centred	astex	1MEH_MOA	ok		56.294	55.996	18.24	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:15+08:00
+detected	astex	1MEH_MOA	ok		63.251	54.562	16.682	25.0	25.0	25.0	fpocket_rank1	1	0.78	85	7.272	1	2026-09-22T15:28:15+08:00
+ligand_centred	astex	1LRH_NLA	ok		36.701	58.407	77.461	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:13+08:00
+detected	astex	1LRH_NLA	ok		17.318	60.069	80.062	25.0	25.0	25.0	fpocket_rank1	1	0.566	66	19.627	0	2026-09-22T15:28:13+08:00
+ligand_centred	astex	1M2Z_DEX	ok		30.453	7.022	13.256	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:15+08:00
+detected	astex	1M2Z_DEX	ok		26.206	28.883	-0.321	25.0	25.0	25.0	fpocket_rank1	1	0.44	114	26.082	0	2026-09-22T15:28:15+08:00
+ligand_centred	astex	1JLA_TNK	ok		-3.08	-35.284	24.86	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:57+08:00
+detected	astex	1JLA_TNK	ok		30.171	-1.209	1.07	25.0	25.0	25.0	fpocket_rank1	1	0.307	164	53.222	0	2026-09-22T15:27:57+08:00
+ligand_centred	astex	1MMV_3AR	ok		13.994	-0.076	58.899	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:16+08:00
+detected	astex	1MMV_3AR	ok		10.093	11.017	41.536	25.0	25.0	25.0	fpocket_rank1	1	0.262	61	20.97	0	2026-09-22T15:28:16+08:00
+ligand_centred	astex	1N2V_BDI	ok		16.229	17.404	20.877	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:25+08:00
+detected	astex	1N2V_BDI	ok		15.201	17.005	18.665	25.0	25.0	25.0	fpocket_rank1	1	0.164	97	2.472	1	2026-09-22T15:28:25+08:00
+ligand_centred	astex	1MZC_BNE	ok		17.14	133.836	-2.639	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:19+08:00
+detected	astex	1MZC_BNE	ok		20.498	128.923	-3.204	25.0	25.0	25.0	fpocket_rank1	1	0.374	49	5.979	1	2026-09-22T15:28:19+08:00
+ligand_centred	astex	1N2J_PAF	ok		32.685	33.843	47.379	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:22+08:00
+detected	astex	1N2J_PAF	ok		31.302	33.01	63.585	25.0	25.0	25.0	fpocket_rank1	1	0.169	38	16.286	0	2026-09-22T15:28:22+08:00
+ligand_centred	astex	1NAV_IH5	ok		48.32	18.236	19.534	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:27+08:00
+detected	astex	1NAV_IH5	ok		46.842	16.757	18.833	25.0	25.0	25.0	fpocket_rank1	1	0.514	120	2.205	1	2026-09-22T15:28:27+08:00
+ligand_centred	astex	1N46_PFA	ok		20.784	6.68	2.904	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:27+08:00
+detected	astex	1N46_PFA	ok		20.771	7.058	2.868	25.0	25.0	25.0	fpocket_rank1	1	0.546	98	0.38	1	2026-09-22T15:28:27+08:00
+ligand_centred	astex	1OF1_SCT	ok		20.102	21.919	9.463	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:27+08:00
+detected	astex	1OF1_SCT	ok		38.071	39.152	25.315	25.0	25.0	25.0	fpocket_rank1	1	0.35	71	29.516	0	2026-09-22T15:28:27+08:00
+ligand_centred	astex	1OQ5_CEL	ok		17.014	6.827	13.637	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:32+08:00
+detected	astex	1OQ5_CEL	ok		26.79	-2.795	5.711	25.0	25.0	25.0	fpocket_rank1	1	0.286	55	15.842	0	2026-09-22T15:28:32+08:00
+ligand_centred	astex	1OPK_P16	ok		46.447	18.007	17.919	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:30+08:00
+detected	astex	1OPK_P16	ok		42.052	21.809	-7.009	25.0	25.0	25.0	fpocket_rank1	1	0.622	67	25.596	0	2026-09-22T15:28:30+08:00
+ligand_centred	astex	1OWE_675	ok		22.64	15.905	32.533	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:33+08:00
+detected	astex	1OWE_675	ok		18.69	17.776	18.976	25.0	25.0	25.0	fpocket_rank1	1	0.291	39	14.244	0	2026-09-22T15:28:33+08:00
+ligand_centred	astex	1OYT_FSN	ok		16.793	-12.378	21.829	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:34+08:00
+detected	astex	1OYT_FSN	ok		15.604	-11.306	20.316	25.0	25.0	25.0	fpocket_rank1	1	0.282	100	2.204	1	2026-09-22T15:28:34+08:00
+ligand_centred	astex	1P62_GEO	ok		68.707	34.922	19.397	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:35+08:00
+detected	astex	1P62_GEO	ok		78.851	48.172	17.257	25.0	25.0	25.0	fpocket_rank1	1	0.458	46	16.824	0	2026-09-22T15:28:35+08:00
+ligand_centred	astex	1P2Y_NCT	ok		16.332	12.716	41.045	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:34+08:00
+detected	astex	1P2Y_NCT	ok		16.139	12.93	40.915	25.0	25.0	25.0	fpocket_rank1	1	0.431	53	0.317	1	2026-09-22T15:28:34+08:00
+ligand_centred	astex	1PMN_984	ok		22.145	10.709	31.938	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:36+08:00
+detected	astex	1PMN_984	ok		21.549	16.223	34.593	25.0	25.0	25.0	fpocket_rank1	1	0.278	150	6.148	1	2026-09-22T15:28:36+08:00
+ligand_centred	astex	1N1M_A3M	ok		81.621	75.002	97.963	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:21+08:00
+detected	astex	1N1M_A3M	ok		53.051	52.767	81.981	25.0	25.0	25.0	fpocket_rank1	1	0.25	15	39.574	0	2026-09-22T15:28:21+08:00
+ligand_centred	astex	1Q41_IXM	ok		39.632	6.297	36.269	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:37+08:00
+detected	astex	1Q41_IXM	ok		21.864	1.904	20.793	25.0	25.0	25.0	fpocket_rank1	1	0.248	109	23.969	0	2026-09-22T15:28:37+08:00
+ligand_centred	astex	1R55_097	ok		9.381	13.944	25.293	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:51+08:00
+detected	astex	1R55_097	ok		10.364	16.234	25.615	25.0	25.0	25.0	fpocket_rank1	1	0.167	85	2.512	1	2026-09-22T15:28:51+08:00
+ligand_centred	astex	1R1H_BIR	ok		31.251	44.543	34.611	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:48+08:00
+detected	astex	1R1H_BIR	ok		31.509	43.496	35.454	25.0	25.0	25.0	fpocket_rank1	1	0.299	154	1.368	1	2026-09-22T15:28:48+08:00
+ligand_centred	astex	1R58_AO5	ok		17.636	30.943	17.197	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:54+08:00
+detected	astex	1R58_AO5	ok		19.587	30.644	17.25	25.0	25.0	25.0	fpocket_rank1	1	0.251	106	1.974	1	2026-09-22T15:28:54+08:00
+ligand_centred	astex	1Q4G_BFL	ok		67.692	22.366	190.905	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:40+08:00
+detected	astex	1Q4G_BFL	ok		23.364	6.229	175.906	25.0	25.0	25.0	fpocket_rank1	1	0.181	21	49.501	0	2026-09-22T15:28:40+08:00
+ligand_centred	astex	1S19_MC9	ok		11.597	23.037	34.284	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:59+08:00
+detected	astex	1S19_MC9	ok		11.233	21.398	34.028	25.0	25.0	25.0	fpocket_rank1	1	0.389	124	1.698	1	2026-09-22T15:28:59+08:00
+ligand_centred	astex	1R9O_FLP	ok		8.636	33.142	-1.903	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:57+08:00
+detected	astex	1R9O_FLP	ok		23.66	17.068	4.564	25.0	25.0	25.0	fpocket_rank1	1	0.111	44	22.933	0	2026-09-22T15:28:57+08:00
+ligand_centred	astex	1S3V_TQD	ok		-2.707	27.832	3.43	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:01+08:00
+detected	astex	1S3V_TQD	ok		12.63	33.972	2.417	25.0	25.0	25.0	fpocket_rank1	1	0.049	32	16.551	0	2026-09-22T15:29:01+08:00
+ligand_centred	astex	1Q1G_MTI	ok		32.029	23.965	65.06	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:37+08:00
+detected	astex	1Q1G_MTI	ok		30.326	26.233	64.039	25.0	25.0	25.0	fpocket_rank1	1	0.288	162	3.014	1	2026-09-22T15:28:37+08:00
+ligand_centred	astex	1SJ0_E4D	ok		31.406	-1.491	25.297	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:03+08:00
+detected	astex	1SJ0_E4D	ok		19.082	-0.819	24.367	25.0	25.0	25.0	fpocket_rank1	1	0.199	73	12.377	0	2026-09-22T15:29:03+08:00
+ligand_centred	astex	1SG0_STL	ok		36.129	16.596	30.998	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:01+08:00
+detected	astex	1SG0_STL	ok		32.598	22.149	-1.01	25.0	25.0	25.0	fpocket_rank1	1	0.117	67	32.678	0	2026-09-22T15:29:01+08:00
+ligand_centred	astex	1T46_STI	ok		26.181	26.061	40.364	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:06+08:00
+detected	astex	1T46_STI	ok		26.308	26.181	39.554	25.0	25.0	25.0	fpocket_rank1	1	0.253	164	0.828	1	2026-09-22T15:29:06+08:00
+ligand_centred	astex	1T40_ID5	ok		16.632	-6.701	14.475	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:05+08:00
+detected	astex	1T40_ID5	ok		23.188	-7.013	28.764	25.0	25.0	25.0	fpocket_rank1	1	0.904	105	15.724	0	2026-09-22T15:29:05+08:00
+ligand_centred	astex	1SQN_NDR	ok		11.735	25.108	8.187	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:05+08:00
+detected	astex	1SQN_NDR	ok		23.183	19.851	13.916	25.0	25.0	25.0	fpocket_rank1	1	0.481	120	13.839	0	2026-09-22T15:29:05+08:00
+ligand_centred	astex	1TOW_CRZ	ok		21.012	4.954	1.532	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:10+08:00
+detected	astex	1TOW_CRZ	ok		22.792	4.224	1.813	25.0	25.0	25.0	fpocket_rank1	1	0.346	56	1.944	1	2026-09-22T15:29:10+08:00
+ligand_centred	astex	1TZ8_DES	ok		16.61	61.718	34.948	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:13+08:00
+detected	astex	1TZ8_DES	ok		13.965	61.388	33.951	25.0	25.0	25.0	fpocket_rank1	1	0.244	121	2.847	1	2026-09-22T15:29:13+08:00
+ligand_centred	astex	1TT1_KAI	ok		2.312	0.839	26.37	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:12+08:00
+detected	astex	1TT1_KAI	ok		7.384	27.445	2.397	25.0	25.0	25.0	fpocket_rank1	1	0.328	134	36.171	0	2026-09-22T15:29:12+08:00
+ligand_centred	astex	1T9B_1CS	ok		-9.165	50.956	123.228	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:10+08:00
+detected	astex	1T9B_1CS	ok		23.735	32.081	133.131	25.0	25.0	25.0	fpocket_rank1	1	0.71	165	39.201	0	2026-09-22T15:29:10+08:00
+ligand_centred	astex	1U4D_DBQ	ok		56.302	17.15	41.122	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:20+08:00
+detected	astex	1U4D_DBQ	ok		47.694	23.399	71.249	25.0	25.0	25.0	fpocket_rank1	1	0.057	16	31.95	0	2026-09-22T15:29:20+08:00
+ligand_centred	astex	1SQ5_PAU	ok		52.214	5.557	7.472	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:03+08:00
+detected	astex	1SQ5_PAU	ok		60.826	8.263	24.174	25.0	25.0	25.0	fpocket_rank1	1	0.229	47	18.985	0	2026-09-22T15:29:03+08:00
+ligand_centred	astex	1UML_FR4	ok		49.622	53.586	19.018	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:28+08:00
+detected	astex	1UML_FR4	ok		61.312	45.561	39.178	25.0	25.0	25.0	fpocket_rank1	1	0.179	56	24.647	0	2026-09-22T15:29:28+08:00
+ligand_centred	astex	1UOU_CMU	ok		-3.483	2.004	29.185	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:30+08:00
+detected	astex	1UOU_CMU	ok		-2.712	1.558	26.78	25.0	25.0	25.0	fpocket_rank1	1	0.417	88	2.565	1	2026-09-22T15:29:30+08:00
+ligand_centred	astex	1V48_HA1	ok		73.579	45.084	50.055	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:34+08:00
+detected	astex	1V48_HA1	ok		73.239	47.277	50.204	25.0	25.0	25.0	fpocket_rank1	1	0.243	92	2.224	1	2026-09-22T15:29:34+08:00
+ligand_centred	astex	1V0P_PVB	ok		25.721	-1.521	34.9	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:31+08:00
+detected	astex	1V0P_PVB	ok		30.542	28.212	-3.221	25.0	25.0	25.0	fpocket_rank1	1	0.245	108	48.585	0	2026-09-22T15:29:31+08:00
+ligand_centred	astex	1UNL_RRC	ok		59.626	28.97	26.836	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:28+08:00
+detected	astex	1UNL_RRC	ok		37.105	-7.533	37.409	25.0	25.0	25.0	fpocket_rank1	1	0.144	17	44.175	0	2026-09-22T15:29:28+08:00
+ligand_centred	astex	1V4S_MRK	ok		40.21	15.085	61.973	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:37+08:00
+detected	astex	1V4S_MRK	ok		25.718	3.937	69.375	25.0	25.0	25.0	fpocket_rank1	1	0.354	62	19.726	0	2026-09-22T15:29:37+08:00
+ligand_centred	astex	1VCJ_IBA	ok		31.77	-9.362	64.056	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:38+08:00
+detected	astex	1VCJ_IBA	ok		42.196	-14.794	44.616	25.0	25.0	25.0	fpocket_rank1	1	0.446	71	22.718	0	2026-09-22T15:29:38+08:00
+ligand_centred	astex	1U1C_BAU	ok		12.934	136.763	45.913	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:18+08:00
+detected	astex	1U1C_BAU	ok		-12.29	145.85	51.734	25.0	25.0	25.0	fpocket_rank1	1	0.224	105	27.436	0	2026-09-22T15:29:18+08:00
+ligand_centred	astex	1X8X_TYR	ok		8.685	29.029	16.283	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:42+08:00
+detected	astex	1X8X_TYR	ok		8.439	19.651	8.978	25.0	25.0	25.0	fpocket_rank1	1	0.152	37	11.891	1	2026-09-22T15:29:42+08:00
+ligand_centred	astex	1W2G_THM	ok		34.554	32.163	59.904	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:41+08:00
+detected	astex	1W2G_THM	ok		27.048	33.19	47.728	25.0	25.0	25.0	fpocket_rank1	1	0.246	82	14.341	0	2026-09-22T15:29:41+08:00
+ligand_centred	astex	1XOZ_CIA	ok		47.315	35.038	12.047	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:45+08:00
+detected	astex	1XOZ_CIA	ok		47.067	36.139	13.688	25.0	25.0	25.0	fpocket_rank1	1	0.145	139	1.991	1	2026-09-22T15:29:45+08:00
+ligand_centred	astex	1Y6B_AAX	ok		0.389	30.704	17.317	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:48+08:00
+detected	astex	1Y6B_AAX	ok		1.163	39.155	44.057	25.0	25.0	25.0	fpocket_rank1	1	0.373	79	28.054	0	2026-09-22T15:29:48+08:00
+ligand_centred	astex	1XOQ_ROF	ok		22.368	21.117	97.385	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:44+08:00
+detected	astex	1XOQ_ROF	ok		38.599	23.367	63.27	25.0	25.0	25.0	fpocket_rank1	1	0.205	38	37.847	0	2026-09-22T15:29:44+08:00
+ligand_centred	astex	1XM6_5RM	ok		46.371	1.647	-9.878	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:42+08:00
+detected	astex	1XM6_5RM	ok		57.389	1.273	-4.794	25.0	25.0	25.0	fpocket_rank1	1	0.337	307	12.14	0	2026-09-22T15:29:42+08:00
+ligand_centred	astex	1YGC_905	ok		10.57	41.478	32.491	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:51+08:00
+detected	astex	1YGC_905	ok		10.351	39.788	34.544	25.0	25.0	25.0	fpocket_rank1	1	0.42	124	2.668	1	2026-09-22T15:29:51+08:00
+ligand_centred	astex	1W1P_GIO	ok		43.08	75.602	51.839	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:41+08:00
+detected	astex	1W1P_GIO	ok		34.657	32.814	115.674	25.0	25.0	25.0	fpocket_rank1	1	0.078	20	77.309	0	2026-09-22T15:29:41+08:00
+ligand_centred	astex	1YWR_LI9	ok		2.724	-0.956	21.338	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:53+08:00
+detected	astex	1YWR_LI9	ok		-9.21	3.075	30.307	25.0	25.0	25.0	fpocket_rank1	1	0.099	64	15.463	0	2026-09-22T15:29:53+08:00
+ligand_centred	astex	1Z95_198	ok		27.977	2.357	6.252	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:56+08:00
+detected	astex	1Z95_198	ok		27.322	2.422	5.882	25.0	25.0	25.0	fpocket_rank1	1	0.464	110	0.755	1	2026-09-22T15:29:56+08:00
+ligand_centred	astex	1YQY_915	ok		11.035	18.68	27.493	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:52+08:00
+detected	astex	1YQY_915	ok		1.979	29.264	-15.958	25.0	25.0	25.0	fpocket_rank1	1	0.085	34	45.628	0	2026-09-22T15:29:52+08:00
+ligand_centred	astex	1YVF_PH7	ok		-10.913	56.213	49.762	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:53+08:00
+detected	astex	1YVF_PH7	ok		-20.963	65.473	55.179	25.0	25.0	25.0	fpocket_rank1	1	0.254	68	14.701	0	2026-09-22T15:29:53+08:00
+ligand_centred	astex	1OF6_DTY	ok		31.64	-1.272	49.771	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:28:28+08:00
+detected	astex	1OF6_DTY	ok		64.202	43.532	81.111	25.0	25.0	25.0	fpocket_rank1	1	0.181	142	63.638	0	2026-09-22T15:28:28+08:00
+partner_ligand	crossdock	5SD5_HWI__into__4KLX	ok		-10.196	-3.761	12.798	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	5SAK_ZRY__into__1GVT	ok		3.829	269.04	17.007	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6M2B_EZO__into__4OQV	ok		-3.486	-40.492	5.658	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	5SIS_JSM__into__2OUR	ok		4.882	10.99	42.578	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	5SB2_1K2__into__6FEX	ok		-14.867	-4.52	-13.043	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6VTA_AKN__into__7JZS	ok		4.32	-31.869	1.632	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6XG5_TOP__into__9PWM	ok		-4.971	-8.47	-15.373	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6XCT_478__into__6XCZ	ok		12.434	13.958	-11.186	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6WTN_RXT__into__8BXH	ok		-12.393	15.145	20.294	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6TW7_NZB__into__4C7I	ok		8.8	36.198	54.553	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6T88_MWQ__into__6T85	ok		21.384	64.948	-8.459	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6YJA_2BA__into__6YJ9	ok		4.169	-10.773	15.103	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6YQW_82I__into__6BQA	ok		-46.564	-28.055	2.861	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6YR2_T1C__into__2XPW	ok		19.78	34.905	35.38	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6YQV_8K2__into__3RM2	ok		15.855	-13.628	21.832	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6YMS_OZH__into__6Y4I	ok		34.751	40.667	-7.08	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6XM9_V55__into__6XM7	ok		25.561	11.564	35.777	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6YT6_PKE__into__6YOJ	ok		-16.606	-2.074	20.312	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6Z0R_Q4H__into__6YX3	ok		35.536	13.116	60.966	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6YYO_Q1K__into__9GJ2	ok		12.574	4.792	24.391	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6ZPB_3D1__into__6ZPC	ok		-5.409	20.586	-8.234	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6ZCY_QF8__into__4YJR	ok		33.887	37.919	31.732	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6ZAE_ACV__into__1ODM	ok		10.908	37.893	4.984	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7A1P_QW2__into__7A1Q	ok		19.877	-25.158	7.788	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7AFX_R9K__into__6TM9	ok		8.106	45.759	19.892	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7A9E_R4W__into__5N6F	ok		12.148	12.277	92.9	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7AKL_RK5__into__6S14	ok		17.819	-54.41	37.287	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	6Z14_Q4Z__into__7WDT	ok		23.468	-5.916	-4.431	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7BJJ_TVW__into__2YEX	ok		1.973	37.178	10.631	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7AN5_RDH__into__7AN6	ok		2.982	17.281	24.861	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7BCP_GCO__into__7BBR	ok		13.792	26.595	3.197	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7B94_ANP__into__7B7R	ok		-28.035	-12.968	13.315	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7BNH_BEZ__into__7BNI	ok		-9.191	1.855	7.585	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7BTT_F8R__into__4Z55	ok		-21.06	9.746	-7.503	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7A9H_TPP__into__8OGH	ok		10.124	-3.155	16.574	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7BMI_U4B__into__6YYX	ok		-8.605	-27.38	47.36	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7CD9_FVR__into__9CUX	ok		-35.479	0.696	-13.215	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7C3U_AZG__into__4LD2	ok		21.58	32.466	46.064	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7CTM_BDP__into__7BR4	ok		27.919	-4.891	12.342	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7CL8_TES__into__6L69	ok		-57.353	-15.089	8.646	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7DQL_4CL__into__7P2M	ok		-18.603	-15.046	6.553	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7DUA_HJ0__into__4CKJ	ok		26.492	10.738	10.237	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7DKT_GLF__into__5O0S	ok		58.335	67.545	60.653	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7CIJ_G0C__into__7CIG	ok		-31.339	12.386	-21.081	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7D5C_GV6__into__9WQT	ok		16.426	-3.019	39.799	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7ELT_TYM__into__7EV2	ok		10.206	45.204	13.735	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7ED2_A3P__into__7ED1	ok		32.354	-7.046	20.088	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7EPV_FDA__into__9HJW	ok		9.388	-34.431	8.858	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7F51_BA7__into__1Q1A	ok		8.082	29.467	-1.102	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7ES1_UDP__into__7ES0	ok		-15.485	-4.773	23.95	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7EBG_J0L__into__2E0A	ok		46.634	8.782	12.035	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7F5D_EUO__into__8AG2	ok		5.784	-4.128	2.629	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7JG0_GAR__into__4ZZ1	ok		26.379	-10.796	-18.83	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7JXX_VP7__into__4NFN	ok		9.715	21.399	23.702	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7KC5_BJZ__into__2ICA	ok		-10.188	2.216	26.732	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7KM8_WPD__into__6UWW	ok		8.279	-9.596	12.214	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7ECR_SIN__into__7ECS	ok		-36.89	-3.974	-77.19	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7L5F_XNG__into__3DHA	ok		-17.512	-7.218	16.906	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7F8T_FAD__into__4CDN	ok		71.379	101.181	42.69	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7L7C_XQ1__into__8DN0	ok		28.739	-9.291	6.313	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7L03_F9F__into__7LKL	ok		6.636	-4.081	21.546	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7LCU_XTA__into__7QY1	ok		48.269	-32.943	-5.292	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7LT0_ONJ__into__3T10	ok		10.529	-2.55	17.097	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7LZD_YHY__into__5JLB	ok		-13.011	2.54	-10.256	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7LEV_0JO__into__7LKL	ok		38.977	7.879	19.658	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7MMH_ZJY__into__7MM8	ok		-10.822	15.993	15.62	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7MGT_ZD4__into__4XDU	ok		-19.455	9.271	19.11	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7MOI_HPS__into__7MOE	ok		60.782	113.487	68.895	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7MYU_ZR7__into__3VF3	ok		30.584	71.425	19.506	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7MWU_ZPM__into__7MWV	ok		3.919	46.033	46.824	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7MSR_DCA__into__6WCV	ok		19.361	4.715	28.11	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7N03_ZRP__into__5WS7	ok		-3.687	-6.405	-15.195	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7N6F_0I1__into__3MDM	ok		-29.33	4.075	-5.864	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7B2C_TP7__into__7B1S	ok		-3.495	-2.212	60.144	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7N4N_0BK__into__7D5B	ok		21.341	-8.62	-17.581	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7NGW_UAW__into__7NGG	ok		-13.055	-28.664	2.189	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7N7B_T3F__into__7N7C	ok		46.79	-15.523	8.752	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7MGY_ZD1__into__7MEL	ok		24.572	-31.259	275.19	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7NF3_4LU__into__4ZA9	ok		21.865	10.176	24.489	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7NLV_UJE__into__2F01	ok		29.634	14.833	12.392	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7NP6_UK8__into__7NPC	ok		-1.694	-43.963	-15.057	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7NR8_UOE__into__8AOJ	ok		9.44	10.296	43.057	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7O0N_CDP__into__7BNR	ok		-10.52	20.756	-30.658	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7NF0_BYN__into__7NF2	ok		22.518	-9.374	12.952	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7O1T_5X8__into__5FEW	ok		35.482	25.49	0.199	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7OFK_VCH__into__7NPC	ok		-1.694	-43.963	-15.057	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7OEO_V9Z__into__4Z93	ok		18.313	-4.837	8.621	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7NXO_UU8__into__7NWA	ok		-41.237	0.958	14.429	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7NU0_DCL__into__7NTZ	ok		-6.131	-5.804	-26.812	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7OFF_VCB__into__9HWQ	ok		40.263	-20.694	-6.289	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7P2I_MFU__into__6Z5Z	ok		-4.898	23.346	-10.232	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7OPG_06N__into__6FT8	ok		-19.38	19.013	12.515	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7P1F_KFN__into__7P1E	ok		20.216	-15.176	-29.545	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7P1M_4IU__into__9FYJ	ok		10.256	5.365	-9.872	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7P5T_5YG__into__7QJL	ok		19.498	42.676	86.593	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7PL1_SFG__into__9RYL	ok		-14.528	34.739	4.991	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7PIH_7QW__into__5N1F	ok		-12.892	4.594	-29.741	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7P4C_5OV__into__4BA0	ok		28.536	79.507	36.433	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7PRM_81I__into__9F8D	ok		-36.079	-20.671	-5.752	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7PRI_7TI__into__7BM4	ok		-37.671	22.359	30.199	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7Q2B_M6H__into__7Q2H	ok		30.786	8.859	12.447	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7OP9_06K__into__6F4X	ok		-12.503	6.271	-15.892	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7Q27_8KC__into__6H5W	ok		-12.957	-7.427	21.12	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7Q25_8J9__into__6H5W	ok		-12.957	-7.427	21.12	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7QFM_AY3__into__3A99	ok		-9.74	82.929	-1.846	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7PT3_3KK__into__9QZ6	ok		25.928	5.142	29.987	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7QPP_VDX__into__3B0T	ok		-11.387	-3.16	31.794	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7QTA_URI__into__5FBF	ok		8.659	1.368	19.567	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7R7R_AWJ__into__4Z55	ok		-21.06	9.746	-7.503	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7QHG_T3B__into__5NXD	ok		24.885	-13.863	17.826	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7Q5I_I0F__into__2GJ4	ok		12.228	109.856	27.223	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7RH3_59O__into__9RR6	ok		-19.58	9.512	-1.001	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7RKW_5TV__into__5TL8	ok		6.253	19.982	47.658	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7R59_I5F__into__4ZZX	ok		8.233	14.756	59.167	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7FRX_O88__into__7FS3	ok		17.661	-41.672	29.053	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7ROU_66I__into__1Q11	ok		67.181	14.384	24.635	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7RZL_NPO__into__7LDQ	ok		-0.4	36.07	12.918	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7RNI_60I__into__3E33	ok		-69.227	-20.082	2.317	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7ROR_69X__into__9CLL	ok		-15.955	-2.075	21.929	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7SCW_GSP__into__12XE	ok		-23.972	4.285	22.895	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7SDD_4IP__into__7SDB	ok		10.383	-1.755	-6.977	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7SFO_98L__into__5DXE	ok		24.071	-2.066	7.106	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7T1D_E7K__into__9S1Z	ok		15.227	13.842	12.386	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7RSV_7IQ__into__7RSP	ok		50.525	2.642	106.117	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7T0D_FPP__into__7T08	ok		34.298	-36.146	-5.117	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7R6J_2I7__into__8EPR	ok		-39.054	-31.02	-67.595	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7TH4_FFO__into__3APT	ok		30.25	2.239	-4.631	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7THI_PGA__into__2HHJ	ok		40.891	31.735	68.808	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7TOM_5AD__into__7TOL	ok		18.094	46.064	46.693	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7TYP_KUR__into__6UYB	ok		-33.495	9.666	20.748	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7U3J_L6U__into__7U3H	ok		-1.966	-0.244	-22.209	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7TM6_GPJ__into__7TM5	ok		-2.563	0.626	1.0	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7TS6_KMI__into__6CID	ok		114.988	245.986	359.651	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7TSF_H4B__into__4FVY	ok		14.532	4.189	24.481	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7UJ5_DGL__into__8EB3	ok		-0.281	-13.613	-31.457	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7UMW_NAD__into__7UM8	ok		-32.142	26.941	-5.504	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7UQ3_O2U__into__4GJZ	ok		8.673	12.872	21.775	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7ULC_56B__into__7U1O	ok		70.861	15.973	68.369	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7USH_82V__into__5IG6	ok		10.499	17.849	-9.302	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7UJ4_OQ4__into__9WN9	ok		-21.347	-1.305	24.048	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7UYB_OK0__into__7UYA	ok		-20.921	-12.683	-10.601	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7V14_ORU__into__7MBO	ok		-1.162	10.535	-17.991	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7V43_C4O__into__7V44	ok		-2.517	47.472	8.787	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7UAW_MF6__into__8KBH	ok		21.4	-12.457	52.603	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7VBU_6I4__into__5J71	ok		15.508	1.036	-38.033	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7UTW_NAI__into__2JHF	ok		0.262	15.632	15.282	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7VB8_STL__into__7WAR	ok		1.252	20.468	-2.81	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7VQ9_ISY__into__7VQA	ok		24.266	0.926	-2.223	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7VWF_K55__into__5U3Q	ok		39.59	1.727	133.943	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7WL4_JFU__into__4QB3	ok		24.959	50.057	-3.171	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7WPW_F15__into__7FEZ	ok		7.111	-20.628	-2.385	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7VC5_9SF__into__7F9T	ok		-15.591	-8.606	12.873	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7WQQ_5Z6__into__9GFE	ok		-8.134	-8.672	-13.29	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7WUY_76N__into__7WW0	ok		20.992	48.453	25.527	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7VKZ_NOJ__into__7VL1	ok		19.834	-36.396	35.322	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7X9K_8OG__into__7WW6	ok		-7.19	0.706	24.456	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7XFA_D9J__into__9RR6	ok		-19.58	9.512	-1.001	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7X5N_5M5__into__9KRO	ok		-8.964	23.187	28.623	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7VYJ_CA0__into__7VX0	ok		-1.573	-49.055	24.632	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7XI7_4RI__into__1KMV	ok		14.76	35.071	35.168	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7XBV_APC__into__7XBT	ok		-2.885	19.12	9.34	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7XG5_PLP__into__4CE5	ok		-32.284	-53.107	33.13	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7SUC_COM__into__5A0Y	ok		35.155	36.157	-58.563	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7XPO_UPG__into__7XPQ	ok		-2.189	-7.872	11.606	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7XQZ_FPF__into__7XR7	ok		-20.236	-1.548	-19.183	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7Z1Q_NIO__into__9QK5	ok		18.892	5.846	2.86	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7Z7F_IF3__into__7Z5M	ok		17.427	25.637	-9.288	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7Z2O_IAJ__into__7OTF	ok		13.454	15.128	9.987	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7ZHP_IQY__into__4NFN	ok		9.715	21.399	23.702	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7XJN_NSD__into__7XJM	ok		-31.276	11.801	-8.32	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7YZU_DO7__into__7OFY	ok		10.59	-15.731	12.23	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7ZF0_DHR__into__7ZER	ok		35.668	45.581	53.457	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7ZTL_BCN__into__5G1X	ok		44.351	-10.222	39.388	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7ZU2_DHT__into__8E1A	ok		26.966	2.586	4.233	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7ZXV_45D__into__6T6K	ok		-0.144	-23.389	16.281	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8A2D_KXY__into__8A27	ok		23.815	-10.622	-11.554	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8AEM_LVF__into__7I7Y	ok		0.501	3.992	16.4	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8AAU_LH0__into__3S95	ok		16.088	8.357	33.257	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8AIE_M7L__into__8AYJ	ok		9.895	-0.345	13.686	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8AY3_OE3__into__9TB8	ok		2.56	5.885	32.751	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8AUH_L9I__into__8AUF	ok		-15.99	16.395	-5.119	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8BOM_QU6__into__6Q7D	ok		-82.872	-18.863	87.793	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8BTI_RFO__into__7BNB	ok		3.566	-5.346	5.827	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8B8H_OJQ__into__6SCZ	ok		-26.622	66.842	13.642	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8C3N_ADP__into__8BR9	ok		30.809	-21.812	21.947	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7ZDY_6MJ__into__7ZB3	ok		-28.044	57.956	-7.943	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8C5M_MTA__into__28WF	ok		-84.169	13.641	29.395	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8CNH_V6U__into__4OYB	ok		17.803	24.68	-2.478	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8D39_QDB__into__9DOE	ok		2.483	-2.248	15.67	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8DHG_T78__into__4OQV	ok		-3.486	-40.492	5.658	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8CSD_C5P__into__8CSC	ok		30.606	24.478	-26.122	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8D19_GSH__into__8CZL	ok		24.216	30.36	31.064	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8EAB_VN2__into__8EA7	ok		8.542	-17.221	20.008	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8DKO_TFB__into__8DKP	ok		13.999	23.589	44.618	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8EXL_799__into__9CMK	ok		20.154	-2.524	12.913	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8D5D_5DK__into__8D88	ok		35.353	-8.509	26.957	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8FAV_4Y5__into__7NPC	ok		-1.694	-43.963	-15.057	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8AQL_PLG__into__29LK	ok		5.689	35.839	28.028	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8FLV_ZB9__into__5P9J	ok		19.812	7.156	3.617	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8DSC_NCA__into__8DSE	ok		-16.178	3.002	-4.242	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8GFD_ZHR__into__8GFH	ok		-25.588	-32.555	-64.861	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8HO0_3ZI__into__8HNZ	ok		-3.102	28.226	7.535	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8HFN_XGC__into__3C8Z	ok		33.106	14.363	-34.701	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	8EYE_X4I__into__6SBQ	ok		89.782	119.848	122.602	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+partner_ligand	crossdock	7WJB_BGC__into__7WJ9	ok		11.698	11.555	40.716	25.0	25.0	25.0	centroid_of_partner_bound_ligand						2026-09-22T15:30:01+08:00
+ligand_centred	astex	2BSM_BSM	ok		32.07	8.752	25.23	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:59+08:00
+detected	astex	2BSM_BSM	ok		32.975	7.987	24.898	25.0	25.0	25.0	fpocket_rank1	1	0.121	114	1.231	1	2026-09-22T15:29:59+08:00
+ligand_centred	astex	2BR1_PFP	ok		17.671	-2.981	10.242	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:59+08:00
+detected	astex	2BR1_PFP	ok		7.989	11.158	32.58	25.0	25.0	25.0	fpocket_rank1	1	0.198	64	28.153	0	2026-09-22T15:29:59+08:00
+ligand_centred	astex	1YV3_BIT	ok		22.322	38.353	37.231	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:53+08:00
+detected	astex	1YV3_BIT	ok		19.604	41.085	51.228	25.0	25.0	25.0	fpocket_rank1	1	0.42	50	14.518	0	2026-09-22T15:29:53+08:00
+ligand_centred	astex	2BM2_PM2	ok		39.479	112.797	82.113	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:29:58+08:00
+detected	astex	2BM2_PM2	ok		21.502	78.173	85.509	25.0	25.0	25.0	fpocket_rank1	1	0.283	57	39.16	0	2026-09-22T15:29:58+08:00
+ligand_centred	posebusters	8F4J_PHO	ok		-56.633	62.789	349.373	25.0	25.0	25.0	centroid_of_crystal_ligand				0.0	1	2026-09-22T15:27:12+08:00
+detected	posebusters	8F4J_PHO	ok		-48.712	42.826	333.776	25.0	25.0	25.0	fpocket_rank1	1	6.667	1233	26.543	0	2026-09-22T15:27:12+08:00

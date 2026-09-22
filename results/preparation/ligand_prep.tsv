@@ -1,0 +1,787 @@
+dataset	complex_id	conformer	status	reason	smiles	heavy_atoms	rotatable_bonds	seed	embed_attempts	conformer_rmsd_to_crystal	pdbqt_bytes	elapsed_s	recorded
+posebusters	5SD5_HWI	refconf	ok		CCc1nc(N)nc(N)c1OCCCOc1cc(C)ccc1N1CC(C(=O)O)C1	29	9				3453	2.61	2026-09-22T15:00:36+08:00
+posebusters	5SB2_1K2	refconf	ok		O=C(N[C@@H]1C[C@H]1c1ccccc1)c1cc(Cl)cc(COc2cnc3[nH]ccc3c2)c1	30	6				3099	2.61	2026-09-22T15:00:36+08:00
+posebusters	5SIS_JSM	refconf	ok		CNCCN(C)C(=O)c1cnn(C)c1C(=O)Nc1ccn2cc(-c3ccccc3)nc2c1	32	7				3330	0.01	2026-09-22T15:00:38+08:00
+posebusters	6M2B_EZO	refconf	ok		CN(/N=C/c1ccccc1C(=O)O)c1nc(-c2ccccc2Cl)cs1	25	5				2567	0.01	2026-09-22T15:00:38+08:00
+posebusters	5SAK_ZRY	genconf	ok		N=C1N/C(=N\Nc2ccccc2)c2ccccc21	18	2	20260922	1	1.007	1971	2.76	2026-09-22T15:00:36+08:00
+posebusters	6M2B_EZO	genconf	ok		CN(/N=C/c1ccccc1C(=O)O)c1nc(-c2ccccc2Cl)cs1	25	5	20260922	1	1.694	2567	0.15	2026-09-22T15:00:38+08:00
+posebusters	5SAK_ZRY	refconf	ok		N=C1N/C(=N\Nc2ccccc2)c2ccccc21	18	2				1971	2.73	2026-09-22T15:00:36+08:00
+posebusters	6M73_FNR	refconf	ok		Cc1cc2c(cc1C)N(C[C@H](O)[C@H](O)[C@H](O)COP(=O)(O)O)c1[nH]c(=O)[nH]c(=O)c1N2	31	7				3917	0.01	2026-09-22T15:00:38+08:00
+posebusters	6T88_MWQ	refconf	ok		O=C(O)CCc1cnc[nH]1	10	3				1235	0.01	2026-09-22T15:00:38+08:00
+posebusters	6TW5_9M2	refconf	ok		Cc1nn(C)c(C)c1CCOc1cc(F)ccc1-c1ccc2n[nH]c(CN(C)C)c2c1	31	7				3126	0.01	2026-09-22T15:00:38+08:00
+posebusters	6T88_MWQ	genconf	ok		O=C(O)CCc1cnc[nH]1	10	3	20260922	1	1.144	1235	0.02	2026-09-22T15:00:38+08:00
+posebusters	6TW7_NZB	refconf	ok		CN(C)Cc1[nH]nc2ccc(-c3ccc(F)cc3OCCc3cccnc3)cc12	29	7				2947	0.01	2026-09-22T15:00:38+08:00
+posebusters	5SIS_JSM	genconf	ok		CNCCN(C)C(=O)c1cnn(C)c1C(=O)Nc1ccn2cc(-c3ccccc3)nc2c1	32	7	20260922	1	1.971	3330	0.25	2026-09-22T15:00:38+08:00
+posebusters	6VTA_AKN	refconf	ok		NCC[C@H](O)C(=O)N[C@@H]1C[C@H](N)[C@@H](O[C@H]2O[C@H](CN)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O[C@H]1O[C@H](CO)[C@@H](O)[C@H](N)[C@H]1O	40	10				5886	0.02	2026-09-22T15:00:39+08:00
+posebusters	6TW7_NZB	genconf	ok		CN(C)Cc1[nH]nc2ccc(-c3ccc(F)cc3OCCc3cccnc3)cc12	29	7	20260922	1	1.467	2947	0.14	2026-09-22T15:00:39+08:00
+posebusters	5SD5_HWI	genconf	ok		CCc1nc(N)nc(N)c1OCCCOc1cc(C)ccc1N1CC(C(=O)O)C1	29	9	20260922	1	2.296	3453	2.93	2026-09-22T15:00:36+08:00
+posebusters	6WTN_RXT	refconf	ok		N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1	23	4				2312	0.03	2026-09-22T15:00:39+08:00
+posebusters	6M73_FNR	genconf	ok		Cc1cc2c(cc1C)N(C[C@H](O)[C@H](O)[C@H](O)COP(=O)(O)O)c1[nH]c(=O)[nH]c(=O)c1N2	31	7	20260922	1	2.197	3917	0.21	2026-09-22T15:00:38+08:00
+posebusters	5SB2_1K2	genconf	ok		O=C(N[C@@H]1C[C@H]1c1ccccc1)c1cc(Cl)cc(COc2cnc3[nH]ccc3c2)c1	30	6	20260922	1	2.132	3099	2.97	2026-09-22T15:00:36+08:00
+posebusters	6XBO_5MC	refconf	ok		Cc1cn([C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)nc1N	22	4				2835	0.01	2026-09-22T15:00:39+08:00
+posebusters	6XCT_478	refconf	ok		CC(C)CN(C[C@@H](O)[C@H](Cc1ccccc1)NC(=O)O[C@H]1CCOC1)S(=O)(=O)c1ccc(N)cc1	35	11				3997	0.02	2026-09-22T15:00:39+08:00
+posebusters	6XG5_TOP	refconf	ok		COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC	21	5				2484	0.01	2026-09-22T15:00:39+08:00
+posebusters	6TW5_9M2	genconf	ok		Cc1nn(C)c(C)c1CCOc1cc(F)ccc1-c1ccc2n[nH]c(CN(C)C)c2c1	31	7	20260922	1	1.553	3126	0.22	2026-09-22T15:00:38+08:00
+posebusters	6XHT_V2V	refconf	ok		Nc1ccn([C@@H]2O[C@H](CO[P@](=O)(O)O[P@@](=O)(O)OC[C@@H](O)[C@@H](O)[C@@H](O)CO)[C@@H](O)[C@H]2O)c(=O)n1	34	12				4687	0.01	2026-09-22T15:00:39+08:00
+posebusters	6WTN_RXT	genconf	ok		N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1	23	4	20260922	1	1.641	2312	0.1	2026-09-22T15:00:39+08:00
+posebusters	6XM9_V55	refconf	ok		COc1cc(C=O)ccc1O	11	2				1201	0.01	2026-09-22T15:00:39+08:00
+posebusters	6XG5_TOP	genconf	ok		COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC	21	5	20260922	1	1.068	2484	0.07	2026-09-22T15:00:39+08:00
+posebusters	6XBO_5MC	genconf	ok		Cc1cn([C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)nc1N	22	4	20260922	1	1.955	2802	0.11	2026-09-22T15:00:39+08:00
+posebusters	6XM9_V55	genconf	ok		COc1cc(C=O)ccc1O	11	2	20260922	1	0.513	1201	0.02	2026-09-22T15:00:39+08:00
+posebusters	6YJA_2BA	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@@H]2CO[P@@](=O)(O)O[C@H]3[C@@H](O)[C@H](n4cnc5c(N)ncnc54)O[C@@H]3CO[P@](=O)(O)O[C@H]2[C@H]1O	44	2				5471	0.02	2026-09-22T15:00:39+08:00
+posebusters	6YMS_OZH	refconf	ok		CC(C)C[C@H](NC(=O)CN[P@@](=O)(O)[C@@H](Cc1ccccc1)NC(=O)OCc1ccccc1)C(=O)O	35	13				4148	0.01	2026-09-22T15:00:39+08:00
+posebusters	6YQV_8K2	refconf	ok		NS(=O)(=O)c1ccc(Cl)s1	10	1				1171	0.01	2026-09-22T15:00:39+08:00
+posebusters	6YQV_8K2	genconf	ok		NS(=O)(=O)c1ccc(Cl)s1	10	1	20260922	1	1.117	1171	0.01	2026-09-22T15:00:39+08:00
+posebusters	6YQW_82I	refconf	ok		CNc1cnn(C)c(=O)c1Cl	11	1				1137	0.01	2026-09-22T15:00:39+08:00
+posebusters	6YQW_82I	genconf	ok		CNc1cnn(C)c(=O)c1Cl	11	1	20260922	1	0.052	1137	0.02	2026-09-22T15:00:39+08:00
+posebusters	6YR2_T1C	refconf	ok		C[NH+](C)c1cc(NC(=O)CNC(C)(C)C)c(O)c2c1C[C@H]1C[C@H]3[C@H]([NH+](C)C)C(O)=C(C(N)=O)C(=O)[C@@]3(O)C(O)=C1C2=O	42	6				5050	0.02	2026-09-22T15:00:39+08:00
+posebusters	6XHT_V2V	genconf	ok		Nc1ccn([C@@H]2O[C@H](CO[P@](=O)(O)O[P@@](=O)(O)OC[C@@H](O)[C@@H](O)[C@@H](O)CO)[C@@H](O)[C@H]2O)c(=O)n1	34	12	20260922	1	3.154	4654	0.31	2026-09-22T15:00:39+08:00
+posebusters	6YRV_PJ8	refconf	ok		CCCCCCCCCCCCCCCCC	17	14				2014	0.03	2026-09-22T15:00:39+08:00
+posebusters	6XCT_478	genconf	ok		CC(C)CN(C[C@@H](O)[C@H](Cc1ccccc1)NC(=O)O[C@H]1CCOC1)S(=O)(=O)c1ccc(N)cc1	35	11	20260922	1	2.721	3997	0.38	2026-09-22T15:00:39+08:00
+posebusters	6YSP_PAL	refconf	ok		O=C(O)C[C@H](NC(=O)CP(=O)(O)O)C(=O)O	16	6				2243	0.01	2026-09-22T15:00:39+08:00
+posebusters	6YSP_PAL	genconf	ok		O=C(O)C[C@H](NC(=O)CP(=O)(O)O)C(=O)O	16	6	20260922	1	1.143	2243	0.05	2026-09-22T15:00:39+08:00
+posebusters	6YT6_PKE	refconf	ok		CN(c1ncccc1CNc1ccnc(Nc2ccc3c(c2)CC(=O)N3)n1)S(C)(=O)=O	31	7				3299	0.02	2026-09-22T15:00:39+08:00
+posebusters	6VTA_AKN	genconf	ok		NCC[C@H](O)C(=O)N[C@@H]1C[C@H](N)[C@@H](O[C@H]2O[C@H](CN)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O[C@H]1O[C@H](CO)[C@@H](O)[C@H](N)[C@H]1O	40	10	20260922	1	2.538	5886	0.6	2026-09-22T15:00:39+08:00
+posebusters	6YYO_Q1K	refconf	ok		CS(=O)(=O)N1CCN(c2ccc3nncn3n2)CC1	19	2				1805	0.01	2026-09-22T15:00:39+08:00
+posebusters	6YRV_PJ8	genconf	ok		CCCCCCCCCCCCCCCCC	17	14	20260922	1	1.917	2014	0.13	2026-09-22T15:00:39+08:00
+posebusters	6Z0R_Q4H	refconf	ok		N#Cc1cncnc1N	9	0				1043	0.01	2026-09-22T15:00:39+08:00
+posebusters	6Z0R_Q4H	genconf	ok		N#Cc1cncnc1N	9	0	20260922	1	0.04	1043	0.01	2026-09-22T15:00:39+08:00
+posebusters	6YMS_OZH	genconf	ok		CC(C)C[C@H](NC(=O)CN[P@@](=O)(O)[C@@H](Cc1ccccc1)NC(=O)OCc1ccccc1)C(=O)O	35	13	20260922	1	2.717	4148	0.42	2026-09-22T15:00:39+08:00
+posebusters	6Z14_Q4Z	refconf	ok		CC1=[NH+][C@H]2[C@@H](O1)O[C@H](COS(=O)(=O)[O-])[C@@H](O)[C@@H]2O	18	3				2107	0.01	2026-09-22T15:00:39+08:00
+posebusters	6Z1C_7EY	refconf	ok		Cc1ccc(-c2csc3ncnc(SCCC(=O)O)c23)cc1	22	5				2284	0.01	2026-09-22T15:00:39+08:00
+posebusters	6YYO_Q1K	genconf	ok		CS(=O)(=O)N1CCN(c2ccc3nncn3n2)CC1	19	2	20260922	1	0.931	1772	0.06	2026-09-22T15:00:39+08:00
+posebusters	6YJA_2BA	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@@H]2CO[P@@](=O)(O)O[C@H]3[C@@H](O)[C@H](n4cnc5c(N)ncnc54)O[C@@H]3CO[P@](=O)(O)O[C@H]2[C@H]1O	44	2	20260922	1	3.119	5471	0.46	2026-09-22T15:00:39+08:00
+posebusters	6Z2C_Q5E	refconf	ok		O=C(O)CCCCCN1C(=O)[C@@H]2[C@H](C1=O)[C@]1(Cl)C(Cl)=C(Cl)[C@@]2(Cl)C1(Cl)Cl	26	6				2716	0.01	2026-09-22T15:00:39+08:00
+posebusters	6Z4N_Q7B	refconf	ok		Cc1ccc(C[C@@]2(C(=O)O)C[C@H]2c2ccccc2)cc1	20	4				2084	0.01	2026-09-22T15:00:39+08:00
+posebusters	6YT6_PKE	genconf	ok		CN(c1ncccc1CNc1ccnc(Nc2ccc3c(c2)CC(=O)N3)n1)S(C)(=O)=O	31	7	20260922	1	2.91	3299	0.12	2026-09-22T15:00:39+08:00
+posebusters	6Z14_Q4Z	genconf	ok		CC1=[NH+][C@H]2[C@@H](O1)O[C@H](COS(=O)(=O)[O-])[C@@H](O)[C@@H]2O	18	3	20260922	1	1.388	2107	0.05	2026-09-22T15:00:39+08:00
+posebusters	6ZAE_ACV	refconf	ok		CC(C)[C@@H](NC(=O)[C@H](CS)NC(=O)CCC[C@H](N)C(=O)O)C(=O)O	24	11				3308	0.01	2026-09-22T15:00:39+08:00
+posebusters	6ZC3_JOR	refconf	ok		CS(=O)(=O)Nc1ccc(F)cc1C(=O)O	15	3				1693	0.01	2026-09-22T15:00:39+08:00
+posebusters	6Z1C_7EY	genconf	ok		Cc1ccc(-c2csc3ncnc(SCCC(=O)O)c23)cc1	22	5	20260922	1	0.909	2284	0.06	2026-09-22T15:00:39+08:00
+posebusters	6ZCY_QF8	refconf	ok		CNC(=O)c1nn(C)c2ccc(Nc3nccc(-n4cc(N[C@@H]5CCNC5)c(C)n4)n3)cc12	33	6				3549	0.01	2026-09-22T15:00:39+08:00
+posebusters	6ZC3_JOR	genconf	ok		CS(=O)(=O)Nc1ccc(F)cc1C(=O)O	15	3	20260922	1	1.299	1693	0.04	2026-09-22T15:00:39+08:00
+posebusters	6Z2C_Q5E	genconf	ok		O=C(O)CCCCCN1C(=O)[C@@H]2[C@H](C1=O)[C@]1(Cl)C(Cl)=C(Cl)[C@@]2(Cl)C1(Cl)Cl	26	6	20260922	1	1.525	2716	0.09	2026-09-22T15:00:39+08:00
+posebusters	6ZK5_IMH	refconf	ok		OC[C@H]1N[C@@H](c2c[nH]c3c(O)ncnc23)[C@H](O)[C@@H]1O	19	2				2469	0.01	2026-09-22T15:00:39+08:00
+posebusters	6Z4N_Q7B	genconf	ok		Cc1ccc(C[C@@]2(C(=O)O)C[C@H]2c2ccccc2)cc1	20	4	20260922	1	1.343	2084	0.08	2026-09-22T15:00:39+08:00
+posebusters	6ZPB_3D1	refconf	ok		Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](CO)O1	18	2				2168	0.01	2026-09-22T15:00:39+08:00
+posebusters	7A1P_QW2	refconf	ok		CCC[C@@H](CC(=O)C(=O)O)C(=O)O	13	6				1637	0.01	2026-09-22T15:00:39+08:00
+posebusters	7A1P_QW2	genconf	ok		CCC[C@@H](CC(=O)C(=O)O)C(=O)O	13	6	20260922	1	1.405	1637	0.03	2026-09-22T15:00:39+08:00
+posebusters	7A9E_R4W	refconf	ok		CCS(C)(=O)=O	6	1				621	0.0	2026-09-22T15:00:39+08:00
+posebusters	6ZPB_3D1	genconf	ok		Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](CO)O1	18	2	20260922	1	0.954	2168	0.05	2026-09-22T15:00:39+08:00
+posebusters	7A9H_TPP	refconf	ok		Cc1ncc(C[n+]2csc(CCO[P@](=O)(O)OP(=O)(O)O)c2C)c(N)n1	26	8				3205	0.01	2026-09-22T15:00:39+08:00
+posebusters	6ZK5_IMH	genconf	ok		OC[C@H]1N[C@@H](c2c[nH]c3c(O)ncnc23)[C@H](O)[C@@H]1O	19	2	20260922	1	1.798	2469	0.06	2026-09-22T15:00:39+08:00
+posebusters	7A9E_R4W	genconf	ok		CCS(C)(=O)=O	6	1	20260922	1	0.709	621	0.01	2026-09-22T15:00:39+08:00
+posebusters	7AFX_R9K	refconf	ok		Cc1cccc2c(-c3ccccc3Cl)c(C(=O)O)[nH]c12	20	2				2101	0.01	2026-09-22T15:00:39+08:00
+posebusters	7AKL_RK5	refconf	ok		Cc1oc2ccc(-c3cc(N)nc(N)c3)cc2c1C	19	1				2181	0.01	2026-09-22T15:00:39+08:00
+posebusters	6ZAE_ACV	genconf	ok		CC(C)[C@@H](NC(=O)[C@H](CS)NC(=O)CCC[C@H](N)C(=O)O)C(=O)O	24	11	20260922	1	2.728	3308	0.16	2026-09-22T15:00:39+08:00
+posebusters	6YR2_T1C	genconf	ok		C[NH+](C)c1cc(NC(=O)CNC(C)(C)C)c(O)c2c1C[C@H]1C[C@H]3[C@H]([NH+](C)C)C(O)=C(C(N)=O)C(=O)[C@@]3(O)C(O)=C1C2=O	42	6	20260922	1	1.015	5050	0.56	2026-09-22T15:00:39+08:00
+posebusters	7AN5_RDH	refconf	ok		C=C(Oc1cccc(C(=O)O)c1)C(=O)O	15	4				1760	0.01	2026-09-22T15:00:39+08:00
+posebusters	7B2C_TP7	refconf	ok		C[C@@H](OP(=O)(O)O)[C@H](NC(=O)CCCCCCS)C(=O)O	21	11				2846	0.01	2026-09-22T15:00:39+08:00
+posebusters	7AFX_R9K	genconf	ok		Cc1cccc2c(-c3ccccc3Cl)c(C(=O)O)[nH]c12	20	2	20260922	1	1.593	2101	0.05	2026-09-22T15:00:39+08:00
+posebusters	7AN5_RDH	genconf	ok		C=C(Oc1cccc(C(=O)O)c1)C(=O)O	15	4	20260922	1	1.445	1760	0.03	2026-09-22T15:00:39+08:00
+posebusters	7B94_ANP	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@@](=O)(O)O[P@](=O)(O)NP(=O)(O)O)[C@@H](O)[C@H]1O	31	8				4105	0.01	2026-09-22T15:00:39+08:00
+posebusters	7BCP_GCO	refconf	ok		O=C(O)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO	13	5				2107	0.01	2026-09-22T15:00:39+08:00
+posebusters	7AKL_RK5	genconf	ok		Cc1oc2ccc(-c3cc(N)nc(N)c3)cc2c1C	19	1	20260922	1	0.526	2181	0.07	2026-09-22T15:00:39+08:00
+posebusters	7BJJ_TVW	refconf	ok		Nc1ncnc2n[nH]cc12	10	0				1219	0.01	2026-09-22T15:00:39+08:00
+posebusters	7BCP_GCO	genconf	ok		O=C(O)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO	13	5	20260922	1	1.377	2107	0.03	2026-09-22T15:00:39+08:00
+posebusters	7BKA_4JC	refconf	ok		CCc1ccc(S(N)(=O)=O)cc1	12	2				1377	0.01	2026-09-22T15:00:40+08:00
+posebusters	7BJJ_TVW	genconf	ok		Nc1ncnc2n[nH]cc12	10	0	20260922	1	0.086	1219	0.02	2026-09-22T15:00:40+08:00
+posebusters	7BMI_U4B	refconf	ok		O=C(O)c1ccnc(C(=O)O)c1F	13	2				1498	0.0	2026-09-22T15:00:40+08:00
+posebusters	7BKA_4JC	genconf	ok		CCc1ccc(S(N)(=O)=O)cc1	12	2	20260922	1	0.764	1377	0.03	2026-09-22T15:00:40+08:00
+posebusters	7B2C_TP7	genconf	ok		C[C@@H](OP(=O)(O)O)[C@H](NC(=O)CCCCCCS)C(=O)O	21	11	20260922	1	1.966	2846	0.09	2026-09-22T15:00:39+08:00
+posebusters	7BMI_U4B	genconf	ok		O=C(O)c1ccnc(C(=O)O)c1F	13	2	20260922	1	0.391	1498	0.02	2026-09-22T15:00:40+08:00
+posebusters	7BNH_BEZ	refconf	ok		O=C(O)c1ccccc1	9	1				993	0.01	2026-09-22T15:00:40+08:00
+posebusters	7BTT_F8R	refconf	ok		COc1cc2c(cc1Nc1nc(Nc3ccccc3S(=O)(=O)C(C)C)c3[nH]ccc3n1)N(C(=O)CN(C)C)CC2	40	9				4208	0.01	2026-09-22T15:00:40+08:00
+posebusters	7BNH_BEZ	genconf	ok		O=C(O)c1ccccc1	9	1	20260922	1	0.063	993	0.01	2026-09-22T15:00:40+08:00
+posebusters	7C0U_FGO	refconf	ok		Nc1nc2c(ncn2[C@@H]2O[C@H](CO[P@](=O)(O)O[C@H]3[C@@H](O)[C@H](n4ccc(=O)[nH]c4=O)O[C@@H]3CO)[C@H]3CC(O)(O)C[C@H]32)c(=O)[nH]1	43	8				5182	0.01	2026-09-22T15:00:40+08:00
+posebusters	7C3U_AZG	refconf	ok		Nc1nc(O)c2[nH]nnc2n1	11	0				1426	0.0	2026-09-22T15:00:40+08:00
+posebusters	6ZCY_QF8	genconf	ok		CNC(=O)c1nn(C)c2ccc(Nc3nccc(-n4cc(N[C@@H]5CCNC5)c(C)n4)n3)cc12	33	6	20260922	1	3.757	3531	0.26	2026-09-22T15:00:39+08:00
+posebusters	7C8Q_DSG	refconf	ok		NC(=O)C[C@@H](N)C(=O)O	9	3				1440	0.01	2026-09-22T15:00:40+08:00
+posebusters	7C3U_AZG	genconf	ok		Nc1nc(O)c2[nH]nnc2n1	11	0	20260922	1	0.047	1426	0.01	2026-09-22T15:00:40+08:00
+posebusters	7A9H_TPP	genconf	ok		Cc1ncc(C[n+]2csc(CCO[P@](=O)(O)OP(=O)(O)O)c2C)c(N)n1	26	8	20260922	1	2.78	3205	0.19	2026-09-22T15:00:39+08:00
+posebusters	7CD9_FVR	refconf	ok		CN1C[C@H](Nc2nc3cc[nH]c3c(=O)n2C)C[C@H](c2ccc(OCc3ccccc3)cc2)C1	33	6				3378	0.01	2026-09-22T15:00:40+08:00
+posebusters	7C8Q_DSG	genconf	ok		NC(=O)C[C@@H](N)C(=O)O	9	3	20260922	1	1.261	1440	0.02	2026-09-22T15:00:40+08:00
+posebusters	7CIJ_G0C	refconf	ok		CSCCC/N=C/c1c(COP(=O)(O)O)cnc(C)c1O	21	8				2535	0.01	2026-09-22T15:00:40+08:00
+posebusters	7CL8_TES	refconf	ok		C[C@]12CC[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2O	21	0				2058	0.01	2026-09-22T15:00:40+08:00
+posebusters	7B94_ANP	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@@](=O)(O)O[P@](=O)(O)NP(=O)(O)O)[C@@H](O)[C@H]1O	31	8	20260922	1	2.332	4105	0.19	2026-09-22T15:00:39+08:00
+posebusters	7CNQ_G8X	refconf	ok		O=C(O)[C@H]1NCC[C@H]1O	9	1				1204	0.01	2026-09-22T15:00:40+08:00
+posebusters	7CIJ_G0C	genconf	ok		CSCCC/N=C/c1c(COP(=O)(O)O)cnc(C)c1O	21	8	20260922	1	1.363	2535	0.06	2026-09-22T15:00:40+08:00
+posebusters	7CNS_PMV	refconf	ok		C[C@@](O)(CCOP(=O)(O)O)CC(=O)O	14	6				1979	0.01	2026-09-22T15:00:40+08:00
+posebusters	7CNQ_G8X	genconf	ok		O=C(O)[C@H]1NCC[C@H]1O	9	1	20260922	1	0.342	1204	0.01	2026-09-22T15:00:40+08:00
+posebusters	7CTM_BDP	refconf	ok		O=C(O)[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O	13	1				1844	0.01	2026-09-22T15:00:40+08:00
+posebusters	7CTM_BDP	genconf	ok		O=C(O)[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O	13	1	20260922	1	0.414	1844	0.02	2026-09-22T15:00:40+08:00
+posebusters	7CNS_PMV	genconf	ok		C[C@@](O)(CCOP(=O)(O)O)CC(=O)O	14	6	20260922	1	0.881	1979	0.03	2026-09-22T15:00:40+08:00
+posebusters	7CUO_PHB	refconf	ok		O=C(O)c1ccc(O)cc1	10	1				1200	0.01	2026-09-22T15:00:40+08:00
+posebusters	7D5C_GV6	refconf	ok		CC[C@H](C)[C@H](N)C(=O)O[P@](=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O	31	8				3903	0.01	2026-09-22T15:00:40+08:00
+posebusters	7CUO_PHB	genconf	ok		O=C(O)c1ccc(O)cc1	10	1	20260922	1	0.144	1200	0.01	2026-09-22T15:00:40+08:00
+posebusters	7D6O_MTE	refconf	ok		Nc1nc2c(c(=O)[nH]1)N[C@H]1C(S)=C(S)[C@@H](COP(=O)(O)O)O[C@H]1N2	24	3				3251	0.01	2026-09-22T15:00:40+08:00
+posebusters	7D6O_MTE	genconf	ok		Nc1nc2c(c(=O)[nH]1)N[C@H]1C(S)=C(S)[C@@H](COP(=O)(O)O)O[C@H]1N2	24	3	20260922	1	1.436	3218	0.09	2026-09-22T15:00:40+08:00
+posebusters	7DKT_GLF	refconf	ok		OC[C@H]1O[C@H](F)[C@H](O)[C@@H](O)[C@@H]1O	12	1				1635	0.02	2026-09-22T15:00:40+08:00
+posebusters	7CL8_TES	genconf	ok		C[C@]12CC[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2O	21	0	20260922	1	0.294	2058	0.23	2026-09-22T15:00:40+08:00
+posebusters	7CD9_FVR	genconf	ok		CN1C[C@H](Nc2nc3cc[nH]c3c(=O)n2C)C[C@H](c2ccc(OCc3ccccc3)cc2)C1	33	6	20260922	1	0.657	3327	0.25	2026-09-22T15:00:40+08:00
+posebusters	7DQL_4CL	refconf	ok		Oc1ccc(Cl)cc1O	9	0				1078	0.0	2026-09-22T15:00:40+08:00
+posebusters	7DKT_GLF	genconf	ok		OC[C@H]1O[C@H](F)[C@H](O)[C@@H](O)[C@@H]1O	12	1	20260922	1	0.541	1635	0.02	2026-09-22T15:00:40+08:00
+posebusters	7DQL_4CL	genconf	ok		Oc1ccc(Cl)cc1O	9	0	20260922	1	0.019	1078	0.01	2026-09-22T15:00:40+08:00
+posebusters	7DUA_HJ0	refconf	ok		Cc1cc(NC(=O)c2cn(C3(C)CC3)c3ncnc(N)c23)n[nH]1	23	3				2588	0.01	2026-09-22T15:00:40+08:00
+posebusters	7E4L_MDN	refconf	ok		O=P(O)(O)CP(=O)(O)O	9	2				1385	0.01	2026-09-22T15:00:40+08:00
+posebusters	7E4L_MDN	genconf	ok		O=P(O)(O)CP(=O)(O)O	9	2	20260922	1	0.265	1385	0.01	2026-09-22T15:00:40+08:00
+posebusters	7EBG_J0L	refconf	ok		CNc1cccc2c1NC(=O)C2(C)C	14	1				1502	0.01	2026-09-22T15:00:40+08:00
+posebusters	7ECR_SIN	refconf	ok		O=C(O)CCC(=O)O	8	3				1092	0.0	2026-09-22T15:00:40+08:00
+posebusters	7ECR_SIN	genconf	ok		O=C(O)CCC(=O)O	8	3	20260922	1	0.957	1092	0.01	2026-09-22T15:00:40+08:00
+posebusters	7ED2_A3P	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](OP(=O)(O)O)[C@H]1O	27	6				3474	0.01	2026-09-22T15:00:40+08:00
+posebusters	7EBG_J0L	genconf	ok		CNc1cccc2c1NC(=O)C2(C)C	14	1	20260922	1	0.083	1502	0.03	2026-09-22T15:00:40+08:00
+posebusters	7C0U_FGO	genconf	ok		Nc1nc2c(ncn2[C@@H]2O[C@H](CO[P@](=O)(O)O[C@H]3[C@@H](O)[C@H](n4ccc(=O)[nH]c4=O)O[C@@H]3CO)[C@H]3CC(O)(O)C[C@H]32)c(=O)[nH]1	43	8	20260922	1	2.837	5149	0.34	2026-09-22T15:00:40+08:00
+posebusters	7ELT_TYM	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@@](=O)(O)OC(=O)[C@@H](N)Cc2c[nH]c3ccccc23)[C@@H](O)[C@H]1O	37	8				4530	0.01	2026-09-22T15:00:40+08:00
+posebusters	7BTT_F8R	genconf	ok		COc1cc2c(cc1Nc1nc(Nc3ccccc3S(=O)(=O)C(C)C)c3[nH]ccc3n1)N(C(=O)CN(C)C)CC2	40	9	20260922	1	4.077	4208	0.37	2026-09-22T15:00:40+08:00
+posebusters	7EPV_FDA	refconf	ok		Cc1cc2c(cc1C)N(C[C@H](O)[C@H](O)[C@H](O)CO[P@@](=O)(O)O[P@@](=O)(O)OC[C@H]1O[C@@H](n3cnc4c(N)ncnc43)[C@H](O)[C@@H]1O)c1[nH]c(=O)[nH]c(=O)c1N2	53	13				6585	0.01	2026-09-22T15:00:40+08:00
+posebusters	7ES1_UDP	refconf	ok		O=c1ccn([C@@H]2O[C@H](CO[P@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1	25	6				3193	0.01	2026-09-22T15:00:40+08:00
+posebusters	7DUA_HJ0	genconf	ok		Cc1cc(NC(=O)c2cn(C3(C)CC3)c3ncnc(N)c23)n[nH]1	23	3	20260922	1	1.584	2588	0.09	2026-09-22T15:00:40+08:00
+posebusters	7D5C_GV6	genconf	ok		CC[C@H](C)[C@H](N)C(=O)O[P@](=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O	31	8	20260922	1	2.114	3903	0.23	2026-09-22T15:00:40+08:00
+posebusters	7F51_BA7	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@](=O)(O)O[P@](=O)(O)OC[C@H]2O[C@@H](O)[C@H](OC(=O)c3ccccc3)[C@@H]2O)[C@@H](O)[C@H]1O	44	11				5341	0.01	2026-09-22T15:00:40+08:00
+posebusters	7F5D_EUO	refconf	ok		CNc1cc(-c2ccc3[nH]ccc3c2)nc(S(C)(=O)=O)n1	21	3				2189	0.01	2026-09-22T15:00:40+08:00
+posebusters	7ED2_A3P	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](OP(=O)(O)O)[C@H]1O	27	6	20260922	1	1.949	3474	0.11	2026-09-22T15:00:40+08:00
+posebusters	7ES1_UDP	genconf	ok		O=c1ccn([C@@H]2O[C@H](CO[P@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1	25	6	20260922	1	1.313	3193	0.08	2026-09-22T15:00:40+08:00
+posebusters	7F8T_FAD	refconf	ok		Cc1cc2nc3c(=O)[nH]c(=O)nc-3n(C[C@H](O)[C@H](O)[C@H](O)CO[P@@](=O)(O)O[P@](=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)c2cc1C	53	13				6391	0.01	2026-09-22T15:00:40+08:00
+posebusters	7F5D_EUO	genconf	ok		CNc1cc(-c2ccc3[nH]ccc3c2)nc(S(C)(=O)=O)n1	21	3	20260922	1	1.69	2189	0.06	2026-09-22T15:00:40+08:00
+posebusters	7FB7_8NF	refconf	ok		Cc1cc(C)c(N)cn1	9	0				1046	0.01	2026-09-22T15:00:40+08:00
+posebusters	7FHA_ADX	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@@](=O)(O)OS(=O)(=O)O)[C@@H](O)[C@H]1O	27	6				3360	0.01	2026-09-22T15:00:40+08:00
+posebusters	7FB7_8NF	genconf	ok		Cc1cc(C)c(N)cn1	9	0	20260922	1	0.054	1046	0.02	2026-09-22T15:00:40+08:00
+posebusters	7FRX_O88	refconf	ok		O=S(=O)(NCc1ccc(S(=O)(=O)c2ccc(O)c(O)c2)cc1)c1ccc(O)c(O)c1	30	6				3488	0.01	2026-09-22T15:00:40+08:00
+posebusters	7FHA_ADX	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@@](=O)(O)OS(=O)(=O)O)[C@@H](O)[C@H]1O	27	6	20260922	1	2.341	3360	0.12	2026-09-22T15:00:40+08:00
+posebusters	7FT9_4MB	refconf	ok		CS(=O)(=O)Nc1ccc(C(=O)O)cc1	14	3				1606	0.01	2026-09-22T15:00:40+08:00
+posebusters	7FT9_4MB	genconf	ok		CS(=O)(=O)Nc1ccc(C(=O)O)cc1	14	3	20260922	1	1.011	1606	0.03	2026-09-22T15:00:40+08:00
+posebusters	7FRX_O88	genconf	ok		O=S(=O)(NCc1ccc(S(=O)(=O)c2ccc(O)c(O)c2)cc1)c1ccc(O)c(O)c1	30	6	20260922	1	1.482	3488	0.15	2026-09-22T15:00:40+08:00
+posebusters	7JG0_GAR	refconf	ok		NCC(=O)N[C@@H]1O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]1O	18	5				2367	0.01	2026-09-22T15:00:40+08:00
+posebusters	7JHQ_VAJ	refconf	ok		O=C(O)c1ccc(-c2cccc(C(=O)O)c2)cc1	18	3				1989	0.01	2026-09-22T15:00:40+08:00
+posebusters	7JHQ_VAJ	genconf	ok		O=C(O)c1ccc(-c2cccc(C(=O)O)c2)cc1	18	3	20260922	1	0.392	1989	0.03	2026-09-22T15:00:40+08:00
+posebusters	7JG0_GAR	genconf	ok		NCC(=O)N[C@@H]1O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]1O	18	5	20260922	1	2.122	2367	0.05	2026-09-22T15:00:40+08:00
+posebusters	7JMV_4NC	refconf	ok		O=[N+]([O-])c1ccc(O)c(O)c1	11	1				1296	0.0	2026-09-22T15:00:40+08:00
+posebusters	7JXX_VP7	refconf	ok		CC(C)(O)C#Cc1ccc2[nH]c3c(c2c1)-c1nc(N)ncc1CCC3	25	0				3057	0.01	2026-09-22T15:00:40+08:00
+posebusters	7JMV_4NC	genconf	ok		O=[N+]([O-])c1ccc(O)c(O)c1	11	1	20260922	1	0.132	1296	0.02	2026-09-22T15:00:40+08:00
+posebusters	7JY3_VUD	refconf	ok		C[C@H](Oc1cc2cc(F)ccc2nc1N)c1[nH]c(=O)ccc1-n1cccn1	27	4				2885	0.01	2026-09-22T15:00:40+08:00
+posebusters	7ELT_TYM	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@@](=O)(O)OC(=O)[C@@H](N)Cc2c[nH]c3ccccc23)[C@@H](O)[C@H]1O	37	8	20260922	1	3.858	4530	0.4	2026-09-22T15:00:40+08:00
+posebusters	7K0V_VQP	refconf	ok		Cc1cc(F)c(NC(=O)NCCC(C)(C)C)cc1Nc1ccc2ncn(C)c(=O)c2c1F	32	5				3351	0.01	2026-09-22T15:00:40+08:00
+posebusters	7F51_BA7	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@](=O)(O)O[P@](=O)(O)OC[C@H]2O[C@@H](O)[C@H](OC(=O)c3ccccc3)[C@@H]2O)[C@@H](O)[C@H]1O	44	11	20260922	1	2.681	5341	0.43	2026-09-22T15:00:40+08:00
+posebusters	7KB1_WBJ	refconf	ok		C=C/C(=N\Cc1c(COP(=O)(O)O)cnc(C)c1O)C(=O)O	22	7				2714	0.01	2026-09-22T15:00:40+08:00
+posebusters	7JXX_VP7	genconf	ok		CC(C)(O)C#Cc1ccc2[nH]c3c(c2c1)-c1nc(N)ncc1CCC3	25	0	20260922	1	0.811	3057	0.13	2026-09-22T15:00:40+08:00
+posebusters	7JY3_VUD	genconf	ok		C[C@H](Oc1cc2cc(F)ccc2nc1N)c1[nH]c(=O)ccc1-n1cccn1	27	4	20260922	1	2.597	2885	0.12	2026-09-22T15:00:40+08:00
+posebusters	7KC5_BJZ	refconf	ok		CN1C(=O)N(c2cc(Cl)cc(Cl)c2)C(=O)[C@]12CN(c1ccc(C(=O)O)cn1)C[C@H]2c1ccc(C#N)cc1	37	4				3619	0.01	2026-09-22T15:00:40+08:00
+posebusters	7KM8_WPD	refconf	ok		CCc1nc(N)nc(N)c1OCCCOc1cccc(C[C@@H](C(=O)O)C(F)F)c1	29	11				3524	0.01	2026-09-22T15:00:40+08:00
+posebusters	7KB1_WBJ	genconf	ok		C=C/C(=N\Cc1c(COP(=O)(O)O)cnc(C)c1O)C(=O)O	22	7	20260922	1	0.826	2714	0.05	2026-09-22T15:00:40+08:00
+posebusters	7KQU_YOF	refconf	ok		N[C@@H](Cc1ccc(O)c(F)c1)C(=O)O	14	3				1845	0.01	2026-09-22T15:00:40+08:00
+posebusters	7KQU_YOF	genconf	ok		N[C@@H](Cc1ccc(O)c(F)c1)C(=O)O	14	3	20260922	1	1.342	1845	0.03	2026-09-22T15:00:40+08:00
+posebusters	7KRU_ATP	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@@](=O)(O)O[P@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O	31	8				4019	0.01	2026-09-22T15:00:40+08:00
+posebusters	7KM8_WPD	genconf	ok		CCc1nc(N)nc(N)c1OCCCOc1cccc(C[C@@H](C(=O)O)C(F)F)c1	29	11	20260922	1	3.012	3524	0.15	2026-09-22T15:00:40+08:00
+posebusters	7K0V_VQP	genconf	ok		Cc1cc(F)c(NC(=O)NCCC(C)(C)C)cc1Nc1ccc2ncn(C)c(=O)c2c1F	32	5	20260922	1	2.469	3351	0.25	2026-09-22T15:00:40+08:00
+posebusters	7KZ9_XN7	refconf	ok		O=C(CNCCO)NCCO	11	6				1619	0.01	2026-09-22T15:00:41+08:00
+posebusters	7L00_XCJ	refconf	ok		CS(=O)(=O)c1ccc2nc(NC(=O)Cc3csc(-n4cccc4)n3)sc2c1	27	5				2712	0.01	2026-09-22T15:00:41+08:00
+posebusters	7KZ9_XN7	genconf	ok		O=C(CNCCO)NCCO	11	6	20260922	1	1.485	1619	0.03	2026-09-22T15:00:41+08:00
+posebusters	7L03_F9F	refconf	ok		O=P(O)(O)OCCNS(=O)(=O)c1ccc(OC(F)(F)F)cc1	22	7				2591	0.01	2026-09-22T15:00:41+08:00
+posebusters	7KRU_ATP	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@@](=O)(O)O[P@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O	31	8	20260922	1	2.815	4019	0.17	2026-09-22T15:00:40+08:00
+posebusters	7L5F_XNG	refconf	ok		CCCCCCCCCC(=O)NCCCC(=O)O	18	12				2246	0.01	2026-09-22T15:00:41+08:00
+posebusters	7KC5_BJZ	genconf	ok		CN1C(=O)N(c2cc(Cl)cc(Cl)c2)C(=O)[C@]12CN(c1ccc(C(=O)O)cn1)C[C@H]2c1ccc(C#N)cc1	37	4	20260922	1	0.999	3619	0.28	2026-09-22T15:00:40+08:00
+posebusters	7L03_F9F	genconf	ok		O=P(O)(O)OCCNS(=O)(=O)c1ccc(OC(F)(F)F)cc1	22	7	20260922	1	1.062	2591	0.07	2026-09-22T15:00:41+08:00
+posebusters	7L7C_XQ1	refconf	ok		COc1cccc(-c2ccc3c(CC(=O)O)coc3c2)c1	21	4				2164	0.01	2026-09-22T15:00:41+08:00
+posebusters	7LCU_XTA	refconf	ok		CN1CCN(c2ncc(Oc3cc(CN4CCC(CC(=O)O)CC4)cc(-c4cc(Cl)cc(Cl)c4)n3)cn2)CC1	39	8				3914	0.01	2026-09-22T15:00:41+08:00
+posebusters	7L00_XCJ	genconf	ok		CS(=O)(=O)c1ccc2nc(NC(=O)Cc3csc(-n4cccc4)n3)sc2c1	27	5	20260922	1	1.868	2712	0.12	2026-09-22T15:00:41+08:00
+posebusters	7LEV_0JO	refconf	ok		C=C(/N=C/c1c(COP(=O)(O)O)cnc(C)c1O)C(=O)O	21	6				2594	0.01	2026-09-22T15:00:41+08:00
+posebusters	7F8T_FAD	genconf	ok		Cc1cc2nc3c(=O)[nH]c(=O)nc-3n(C[C@H](O)[C@H](O)[C@H](O)CO[P@@](=O)(O)O[P@](=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)c2cc1C	53	13	20260922	1	4.571	6373	0.72	2026-09-22T15:00:40+08:00
+posebusters	7L7C_XQ1	genconf	ok		COc1cccc(-c2ccc3c(CC(=O)O)coc3c2)c1	21	4	20260922	1	1.623	2164	0.05	2026-09-22T15:00:41+08:00
+posebusters	7L5F_XNG	genconf	ok		CCCCCCCCCC(=O)NCCCC(=O)O	18	12	20260922	1	1.768	2246	0.08	2026-09-22T15:00:41+08:00
+posebusters	7LJN_GTP	refconf	ok		Nc1nc2c(ncn2[C@@H]2O[C@H](CO[P@](=O)(O)O[P@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1	32	8				4199	0.02	2026-09-22T15:00:41+08:00
+posebusters	7EPV_FDA	genconf	ok		Cc1cc2c(cc1C)N(C[C@H](O)[C@H](O)[C@H](O)CO[P@@](=O)(O)O[P@@](=O)(O)OC[C@H]1O[C@@H](n3cnc4c(N)ncnc43)[C@H](O)[C@@H]1O)c1[nH]c(=O)[nH]c(=O)c1N2	53	13	20260922	1	3.244	6585	0.84	2026-09-22T15:00:40+08:00
+posebusters	7LMO_NYO	refconf	ok		CCN(CC)c1ccc2c(C)c(CCN3C(=O)N[C@@]4(CCN(C(=O)c5c[nH]cn5)C4)C3=O)c(=O)oc2c1	37	7				3800	0.01	2026-09-22T15:00:41+08:00
+posebusters	7LOE_Y84	refconf	ok		Fc1cccc2ccccc12	11	0				1015	0.0	2026-09-22T15:00:41+08:00
+posebusters	7LOU_IFM	refconf	ok		OC[C@H]1CNC[C@@H](O)[C@@H]1O	10	1				1415	0.01	2026-09-22T15:00:41+08:00
+posebusters	7LEV_0JO	genconf	ok		C=C(/N=C/c1c(COP(=O)(O)O)cnc(C)c1O)C(=O)O	21	6	20260922	1	1.438	2594	0.06	2026-09-22T15:00:41+08:00
+posebusters	7LOE_Y84	genconf	ok		Fc1cccc2ccccc12	11	0	20260922	1	0.021	1015	0.02	2026-09-22T15:00:41+08:00
+posebusters	7LT0_ONJ	refconf	ok		Cc1ccc(Sc2cc(C(=O)N3Cc4ccccc4C3)ccc2O)cc1C	27	3				2672	0.01	2026-09-22T15:00:41+08:00
+posebusters	7LZD_YHY	refconf	ok		Cc1ccc(F)c2cc(C(=O)Nc3cccc(N4CCC(N(C)C)CC4)c3)[nH]c12	29	4				2941	0.01	2026-09-22T15:00:41+08:00
+posebusters	7LOU_IFM	genconf	ok		OC[C@H]1CNC[C@@H](O)[C@@H]1O	10	1	20260922	1	0.587	1415	0.03	2026-09-22T15:00:41+08:00
+posebusters	7M31_TDR	refconf	ok		Cc1c[nH]c(=O)[nH]c1=O	9	0				1019	0.01	2026-09-22T15:00:41+08:00
+posebusters	7M31_TDR	genconf	ok		Cc1c[nH]c(=O)[nH]c1=O	9	0	20260922	1	0.064	1019	0.02	2026-09-22T15:00:41+08:00
+posebusters	7M3H_YPV	refconf	ok		CCCCc1ccc(NS(=O)(=O)c2ccc(O)c(C(=O)O)c2)cc1	24	7				2751	0.01	2026-09-22T15:00:41+08:00
+posebusters	7LT0_ONJ	genconf	ok		Cc1ccc(Sc2cc(C(=O)N3Cc4ccccc4C3)ccc2O)cc1C	27	3	20260922	1	2.597	2672	0.14	2026-09-22T15:00:41+08:00
+posebusters	7LJN_GTP	genconf	ok		Nc1nc2c(ncn2[C@@H]2O[C@H](CO[P@](=O)(O)O[P@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1	32	8	20260922	1	1.793	4166	0.2	2026-09-22T15:00:41+08:00
+posebusters	7M6K_YRJ	refconf	ok		O=C(NCc1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)c1)Nc1ccc([N+](=O)[O-])cc1	33	8				3943	0.02	2026-09-22T15:00:41+08:00
+posebusters	7M3H_YPV	genconf	ok		CCCCc1ccc(NS(=O)(=O)c2ccc(O)c(C(=O)O)c2)cc1	24	7	20260922	1	1.156	2751	0.13	2026-09-22T15:00:41+08:00
+posebusters	7MFP_Z7P	refconf	ok		Cc1ncc(COP(=O)(O)O)c(/C=N/[C@H]2[C@H](O)[C@@H](O)[C@@H](O[P@](=O)(O)O[P@](=O)(O)OC[C@H]3O[C@@H](n4ccc(=O)[nH]c4=O)[C@H](O)[C@@H]3O)O[C@@H]2C)c1O	50	13				6157	0.02	2026-09-22T15:00:41+08:00
+posebusters	7MGT_ZD4	refconf	ok		Nc1nc(Cl)nc2c1ncn2[C@@H]1O[C@H](CO[P@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O	28	6				3567	0.01	2026-09-22T15:00:41+08:00
+posebusters	7LZD_YHY	genconf	ok		Cc1ccc(F)c2cc(C(=O)Nc3cccc(N4CCC(N(C)C)CC4)c3)[nH]c12	29	4	20260922	1	1.962	2941	0.24	2026-09-22T15:00:41+08:00
+posebusters	7MGY_ZD1	refconf	ok		N[C@H]1C=C(CO)[C@@H](O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O	23	4				3296	0.02	2026-09-22T15:00:41+08:00
+posebusters	7MGT_ZD4	genconf	ok		Nc1nc(Cl)nc2c1ncn2[C@@H]1O[C@H](CO[P@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O	28	6	20260922	1	2.331	3567	0.17	2026-09-22T15:00:41+08:00
+posebusters	7MMH_ZJY	refconf	ok		COc1ccc2nc(C)c(O[C@@H]3C[C@H]4C(=O)N[C@]5(C(=O)NS(=O)(=O)C6(C)CC6)C[C@H]5/C=C\CCCCC[C@H](NC(=O)OCC5(C(F)(F)F)CC5)C(=O)N4C3)nc2c1	57	9				6323	0.03	2026-09-22T15:00:41+08:00
+posebusters	7LMO_NYO	genconf	ok		CCN(CC)c1ccc2c(C)c(CCN3C(=O)N[C@@]4(CCN(C(=O)c5c[nH]cn5)C4)C3=O)c(=O)oc2c1	37	7	20260922	1	2.394	3800	0.44	2026-09-22T15:00:41+08:00
+posebusters	7MOI_HPS	refconf	ok		O=P(O)(O)Oc1ccccc1	11	2				1320	0.0	2026-09-22T15:00:41+08:00
+posebusters	7MGY_ZD1	genconf	ok		N[C@H]1C=C(CO)[C@@H](O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O	23	4	20260922	1	1.266	3296	0.14	2026-09-22T15:00:41+08:00
+posebusters	7MOI_HPS	genconf	ok		O=P(O)(O)Oc1ccccc1	11	2	20260922	1	0.516	1320	0.02	2026-09-22T15:00:41+08:00
+posebusters	7MSR_DCA	refconf	ok		CCNC(=O)CCNC(=O)[C@H](O)C(C)(C)CO[P@@](=O)(O)O[P@@](=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)(O)O	47	17				5935	0.01	2026-09-22T15:00:41+08:00
+posebusters	7LCU_XTA	genconf	ok		CN1CCN(c2ncc(Oc3cc(CN4CCC(CC(=O)O)CC4)cc(-c4cc(Cl)cc(Cl)c4)n3)cn2)CC1	39	8	20260922	1	1.692	3914	0.52	2026-09-22T15:00:41+08:00
+posebusters	7M6K_YRJ	genconf	ok		O=C(NCc1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)c1)Nc1ccc([N+](=O)[O-])cc1	33	8	20260922	1	1.353	3925	0.28	2026-09-22T15:00:41+08:00
+posebusters	7MWN_WI5	refconf	ok		Cc1c(C(=O)c2cccc3ccccc23)c2cccc3c2n1[C@H](CN1CCOCC1)CO3	32	4				3029	0.01	2026-09-22T15:00:41+08:00
+posebusters	7MWU_ZPM	refconf	ok		O=C(O)C1CCC1	7	1				822	0.01	2026-09-22T15:00:41+08:00
+posebusters	7MY1_IPE	refconf	ok		C=C(C)CCO[P@@](=O)(O)OP(=O)(O)O	14	6				1861	0.01	2026-09-22T15:00:41+08:00
+posebusters	7MWU_ZPM	genconf	ok		O=C(O)C1CCC1	7	1	20260922	1	0.18	822	0.02	2026-09-22T15:00:41+08:00
+posebusters	7MYU_ZR7	refconf	ok		COc1cnc(C(=O)Nc2ccc(F)c([C@]34CN(c5ncc(F)cn5)C[C@H]3CSC(N)=N4)c2)cn1	35	5				3608	0.01	2026-09-22T15:00:41+08:00
+posebusters	7MY1_IPE	genconf	ok		C=C(C)CCO[P@@](=O)(O)OP(=O)(O)O	14	6	20260922	1	1.266	1861	0.03	2026-09-22T15:00:41+08:00
+posebusters	7N03_ZRP	refconf	ok		CCCCCCNc1ccc2ncc(C(=O)NC)c(Nc3ccccc3)c2c1	28	9				3093	0.01	2026-09-22T15:00:41+08:00
+posebusters	7N03_ZRP	genconf	ok		CCCCCCNc1ccc2ncc(C(=O)NC)c(Nc3ccccc3)c2c1	28	9	20260922	1	2.217	3093	0.15	2026-09-22T15:00:41+08:00
+posebusters	7N4N_0BK	refconf	ok		COc1cc(C(=O)Nc2ccc(F)c([C@]3(CF)CC[C@@](C)(S(C)(=O)=O)C(N)=N3)c2)ncn1	32	6				3366	0.01	2026-09-22T15:00:41+08:00
+posebusters	7MWN_WI5	genconf	ok		Cc1c(C(=O)c2cccc3ccccc23)c2cccc3c2n1[C@H](CN1CCOCC1)CO3	32	4	20260922	1	2.441	3029	0.21	2026-09-22T15:00:41+08:00
+posebusters	7N4W_P4V	refconf	ok		COc1cc2c(cc1OC)[C@H]1Cc3ccc(OC)c(OC)c3CN1CC2	26	4				2502	0.01	2026-09-22T15:00:41+08:00
+posebusters	7MYU_ZR7	genconf	ok		COc1cnc(C(=O)Nc2ccc(F)c([C@]34CN(c5ncc(F)cn5)C[C@H]3CSC(N)=N4)c2)cn1	35	5	20260922	1	0.756	3608	0.22	2026-09-22T15:00:41+08:00
+posebusters	7N6F_0I1	refconf	ok		O=C(C1CCN(c2cncnc2-c2ccc(F)cc2)CC1)N1CC(F)C1	26	3				2469	0.01	2026-09-22T15:00:41+08:00
+posebusters	7N6F_0I1	genconf	ok		O=C(C1CCN(c2cncnc2-c2ccc(F)cc2)CC1)N1CC(F)C1	26	3	20260922	1	1.916	2469	0.09	2026-09-22T15:00:41+08:00
+posebusters	7N7B_T3F	refconf	ok		Cc1cn([C@H]2C[C@H](O)[C@@H](CO[P@@](=O)(O)O[P@](=O)(O)O[C@H]3O[C@H](C)[C@H](O)[C@H](N)[C@H]3O)O2)c(=O)[nH]c1=O	35	8				4378	0.01	2026-09-22T15:00:42+08:00
+posebusters	7N4N_0BK	genconf	ok		COc1cc(C(=O)Nc2ccc(F)c([C@]3(CF)CC[C@@](C)(S(C)(=O)=O)C(N)=N3)c2)ncn1	32	6	20260922	1	2.438	3366	0.18	2026-09-22T15:00:41+08:00
+posebusters	7N4W_P4V	genconf	ok		COc1cc2c(cc1OC)[C@H]1Cc3ccc(OC)c(OC)c3CN1CC2	26	4	20260922	1	1.78	2502	0.17	2026-09-22T15:00:41+08:00
+posebusters	7N7H_CTP	refconf	ok		Nc1ccn([C@@H]2O[C@H](CO[P@](=O)(O)O[P@@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)n1	29	8				3848	0.01	2026-09-22T15:00:42+08:00
+posebusters	7NF0_BYN	refconf	ok		Cc1cc2c3c(c1C)C(C)(C)C[C@@H](O)N3c1c(nc(O)[nH]c1=O)N2C[C@H](O)[C@H](O)[C@H](O)COP(=O)(O)O	37	7				4530	0.01	2026-09-22T15:00:42+08:00
+posebusters	7MFP_Z7P	genconf	ok		Cc1ncc(COP(=O)(O)O)c(/C=N/[C@H]2[C@H](O)[C@@H](O)[C@@H](O[P@](=O)(O)O[P@](=O)(O)OC[C@H]3O[C@@H](n4ccc(=O)[nH]c4=O)[C@H](O)[C@@H]3O)O[C@@H]2C)c1O	50	13	20260922	1	3.838	6157	0.7	2026-09-22T15:00:41+08:00
+posebusters	7NF3_4LU	refconf	ok		Cc1cc2c3c(c1C)C(C)(C)CC=[N+]3c1c([nH]c(=O)[nH]c1=O)N2C[C@H](O)[C@H](O)[C@H](O)COP(=O)(O)O	36	7				4292	0.01	2026-09-22T15:00:42+08:00
+posebusters	7N7H_CTP	genconf	ok		Nc1ccn([C@@H]2O[C@H](CO[P@](=O)(O)O[P@@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)n1	29	8	20260922	1	2.041	3815	0.12	2026-09-22T15:00:42+08:00
+posebusters	7NFB_GEN	refconf	ok		O=c1c(-c2ccc(O)cc2)coc2cc(O)cc(O)c12	20	1				2217	0.01	2026-09-22T15:00:42+08:00
+posebusters	7NFB_GEN	genconf	ok		O=c1c(-c2ccc(O)cc2)coc2cc(O)cc(O)c12	20	1	20260922	1	0.224	2217	0.05	2026-09-22T15:00:42+08:00
+posebusters	7NGW_UAW	refconf	ok		CC1CCN(C(=O)Nc2ccc(O)cc2)CC1	17	1				1799	0.01	2026-09-22T15:00:42+08:00
+posebusters	7NGW_UAW	genconf	ok		CC1CCN(C(=O)Nc2ccc(O)cc2)CC1	17	1	20260922	1	0.631	1799	0.06	2026-09-22T15:00:42+08:00
+posebusters	7NLV_UJE	refconf	ok		O=C(CCCC[C@@H]1SC[C@@H]2NC(=O)N[C@@H]21)N[C@H]1CCNC1	21	6				2472	0.01	2026-09-22T15:00:42+08:00
+posebusters	7MSR_DCA	genconf	ok		CCNC(=O)CCNC(=O)[C@H](O)C(C)(C)CO[P@@](=O)(O)O[P@@](=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)(O)O	47	17	20260922	1	2.936	5935	0.66	2026-09-22T15:00:41+08:00
+posebusters	7NP6_UK8	refconf	ok		O=C(O)c1ccc(OCc2c(-c3c(Cl)cccc3C(F)(F)F)noc2-c2cn[nH]c2)cc1	32	6				3336	0.01	2026-09-22T15:00:42+08:00
+posebusters	7N7B_T3F	genconf	ok		Cc1cn([C@H]2C[C@H](O)[C@@H](CO[P@@](=O)(O)O[P@](=O)(O)O[C@H]3O[C@H](C)[C@H](O)[C@H](N)[C@H]3O)O2)c(=O)[nH]c1=O	35	8	20260922	1	2.089	4378	0.37	2026-09-22T15:00:42+08:00
+posebusters	7NPL_UKZ	refconf	ok		CCC[C@@H](NC(=O)c1cccc2c1CC(=O)N2)[C@@H](O)c1cccc(Cl)c1C	27	6				2956	0.01	2026-09-22T15:00:42+08:00
+posebusters	7NLV_UJE	genconf	ok		O=C(CCCC[C@@H]1SC[C@@H]2NC(=O)N[C@@H]21)N[C@H]1CCNC1	21	6	20260922	1	1.347	2472	0.11	2026-09-22T15:00:42+08:00
+posebusters	7NR8_UOE	refconf	ok		C[C@H](C(=O)N[C@H](CO)c1cccc(N2CCN(C)CC2)n1)N1Cc2ccc(-c3nc(NC4CCOCC4)ncc3Cl)cc2C1=O	45	9				4666	0.02	2026-09-22T15:00:42+08:00
+posebusters	7NP6_UK8	genconf	ok		O=C(O)c1ccc(OCc2c(-c3c(Cl)cccc3C(F)(F)F)noc2-c2cn[nH]c2)cc1	32	6	20260922	1	2.319	3336	0.12	2026-09-22T15:00:42+08:00
+posebusters	7NSW_HC4	refconf	ok		O=C(O)/C=C/c1ccc(O)cc1	12	2				1411	0.01	2026-09-22T15:00:42+08:00
+posebusters	7NF3_4LU	genconf	ok		Cc1cc2c3c(c1C)C(C)(C)CC=[N+]3c1c([nH]c(=O)[nH]c1=O)N2C[C@H](O)[C@H](O)[C@H](O)COP(=O)(O)O	36	7	20260922	1	1.355	4292	0.36	2026-09-22T15:00:42+08:00
+posebusters	7NU0_DCL	refconf	ok		CC(C)C[C@H](N)CO	8	3				1179	0.01	2026-09-22T15:00:42+08:00
+posebusters	7NSW_HC4	genconf	ok		O=C(O)/C=C/c1ccc(O)cc1	12	2	20260922	1	0.214	1411	0.03	2026-09-22T15:00:42+08:00
+posebusters	7NUT_GLP	refconf	ok		N[C@@H]1[C@@H](O)[C@H](O)[C@@H](COP(=O)(O)O)O[C@@H]1O	16	3				2396	0.01	2026-09-22T15:00:42+08:00
+posebusters	7NU0_DCL	genconf	ok		CC(C)C[C@H](N)CO	8	3	20260922	1	0.835	1179	0.03	2026-09-22T15:00:42+08:00
+posebusters	7NXO_UU8	refconf	ok		Cc1ccccc1Oc1cc(-n2c(=O)cc(S(=O)(=O)c3ccccc3)[nH]c2=O)c(F)cc1C#N	34	5				3346	0.01	2026-09-22T15:00:42+08:00
+posebusters	7NF0_BYN	genconf	ok		Cc1cc2c3c(c1C)C(C)(C)C[C@@H](O)N3c1c(nc(O)[nH]c1=O)N2C[C@H](O)[C@H](O)[C@H](O)COP(=O)(O)O	37	7	20260922	1	1.616	4530	0.45	2026-09-22T15:00:42+08:00
+posebusters	7O0N_CDP	refconf	ok		Nc1ccn([C@@H]2O[C@H](CO[P@@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)n1	25	6				3307	0.01	2026-09-22T15:00:42+08:00
+posebusters	7NUT_GLP	genconf	ok		N[C@@H]1[C@@H](O)[C@H](O)[C@@H](COP(=O)(O)O)O[C@@H]1O	16	3	20260922	1	0.979	2396	0.06	2026-09-22T15:00:42+08:00
+posebusters	7NPL_UKZ	genconf	ok		CCC[C@@H](NC(=O)c1cccc2c1CC(=O)N2)[C@@H](O)c1cccc(Cl)c1C	27	6	20260922	1	2.39	2956	0.16	2026-09-22T15:00:42+08:00
+posebusters	7O1T_5X8	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O	25	6				3266	0.01	2026-09-22T15:00:42+08:00
+posebusters	7ODY_DGI	refconf	ok		Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](CO[P@@](=O)(O)OP(=O)(O)O)O2)c(=O)[nH]1	27	6				3448	0.01	2026-09-22T15:00:42+08:00
+posebusters	7O0N_CDP	genconf	ok		Nc1ccn([C@@H]2O[C@H](CO[P@@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)n1	25	6	20260922	1	2.076	3274	0.16	2026-09-22T15:00:42+08:00
+posebusters	7O1T_5X8	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O	25	6	20260922	1	1.23	3266	0.12	2026-09-22T15:00:42+08:00
+posebusters	7OEO_V9Z	refconf	ok		CNC(=O)CN(CC(c1ccccc1)c1ccccc1)C(=O)c1cc(C)c(OC)c(C)c1	32	8				3278	0.02	2026-09-22T15:00:42+08:00
+posebusters	7NXO_UU8	genconf	ok		Cc1ccccc1Oc1cc(-n2c(=O)cc(S(=O)(=O)c3ccccc3)[nH]c2=O)c(F)cc1C#N	34	5	20260922	1	2.006	3346	0.2	2026-09-22T15:00:42+08:00
+posebusters	7OFF_VCB	refconf	ok		O=C(N[C@@H](C(=O)O)c1ccccc1)c1cccc2c1-c1ccccc1C2=O	27	4				2797	0.01	2026-09-22T15:00:42+08:00
+posebusters	7OFK_VCH	refconf	ok		CC(=O)N1Cc2cc(S(C)(=O)=O)ccc2[C@@H]1C(=O)Nc1ccc(C(O)(C(F)(F)F)C(F)(F)F)cc1	35	4				3628	0.01	2026-09-22T15:00:42+08:00
+posebusters	7ODY_DGI	genconf	ok		Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](CO[P@@](=O)(O)OP(=O)(O)O)O2)c(=O)[nH]1	27	6	20260922	1	2.356	3415	0.15	2026-09-22T15:00:42+08:00
+posebusters	7OLI_8HG	refconf	ok		Nc1nc2c([nH]c(=O)n2[C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)[nH]1	20	2				2527	0.01	2026-09-22T15:00:42+08:00
+posebusters	7OFF_VCB	genconf	ok		O=C(N[C@@H](C(=O)O)c1ccccc1)c1cccc2c1-c1ccccc1C2=O	27	4	20260922	1	0.489	2797	0.11	2026-09-22T15:00:42+08:00
+posebusters	7OLI_8HG	genconf	ok		Nc1nc2c([nH]c(=O)n2[C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)[nH]1	20	2	20260922	1	2.064	2494	0.09	2026-09-22T15:00:42+08:00
+posebusters	7OMX_CNA	refconf	ok		NC(=O)c1ccc[n+]([C@@H]2C[C@H](CO[P@](=O)(O)O[P@](=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1	44	11				5487	0.01	2026-09-22T15:00:42+08:00
+posebusters	7OP9_06K	refconf	ok		Clc1nc(Cl)c2[nH]cnc2n1	11	0				1107	0.01	2026-09-22T15:00:42+08:00
+posebusters	7OP9_06K	genconf	ok		Clc1nc(Cl)c2[nH]cnc2n1	11	0	20260922	1	0.06	1107	0.02	2026-09-22T15:00:42+08:00
+posebusters	7OPG_06N	refconf	ok		CCCNc1nn2c(-c3ccc(O)cc3)cnc2s1	19	4				2072	0.01	2026-09-22T15:00:42+08:00
+posebusters	7OFK_VCH	genconf	ok		CC(=O)N1Cc2cc(S(C)(=O)=O)ccc2[C@@H]1C(=O)Nc1ccc(C(O)(C(F)(F)F)C(F)(F)F)cc1	35	4	20260922	1	1.181	3628	0.19	2026-09-22T15:00:42+08:00
+posebusters	7OPG_06N	genconf	ok		CCCNc1nn2c(-c3ccc(O)cc3)cnc2s1	19	4	20260922	1	0.903	2039	0.05	2026-09-22T15:00:42+08:00
+posebusters	7OSO_0V1	refconf	ok		OCC[C@H](O)CO	7	3				1124	0.01	2026-09-22T15:00:42+08:00
+posebusters	7OEO_V9Z	genconf	ok		CNC(=O)CN(CC(c1ccccc1)c1ccccc1)C(=O)c1cc(C)c(OC)c(C)c1	32	8	20260922	1	0.696	3278	0.24	2026-09-22T15:00:42+08:00
+posebusters	7OSO_0V1	genconf	ok		OCC[C@H](O)CO	7	3	20260922	1	1.077	1124	0.01	2026-09-22T15:00:42+08:00
+posebusters	7OZC_G6S	refconf	ok		O=S(=O)(O)OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O	16	3				2193	0.01	2026-09-22T15:00:42+08:00
+posebusters	7OZ9_NGK	refconf	ok		CC(=O)N[C@@H]1[C@@H](O)[C@@H](OS(=O)(=O)O)[C@@H](CO)O[C@@H]1O	19	4				2459	0.01	2026-09-22T15:00:42+08:00
+posebusters	7P1F_KFN	refconf	ok		O=C(O)C1=C[C@H](O)[C@@H](O)[C@H]([C@H](O)[C@H](O)CO)O1	17	4				2432	0.01	2026-09-22T15:00:42+08:00
+posebusters	7OZC_G6S	genconf	ok		O=S(=O)(O)OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O	16	3	20260922	1	1.145	2193	0.04	2026-09-22T15:00:42+08:00
+posebusters	7P1F_KFN	genconf	ok		O=C(O)C1=C[C@H](O)[C@@H](O)[C@H]([C@H](O)[C@H](O)CO)O1	17	4	20260922	1	0.545	2432	0.04	2026-09-22T15:00:43+08:00
+posebusters	7P1M_4IU	refconf	ok		Cn1c(CO[C@@H]2C=CO[C@H](CO)[C@@H]2O)nc2ccc(C(=O)O)cc21	24	5				2730	0.01	2026-09-22T15:00:43+08:00
+posebusters	7OZ9_NGK	genconf	ok		CC(=O)N[C@@H]1[C@@H](O)[C@@H](OS(=O)(=O)O)[C@@H](CO)O[C@@H]1O	19	4	20260922	1	1.463	2459	0.06	2026-09-22T15:00:42+08:00
+posebusters	7P2I_MFU	refconf	ok		CO[C@@H]1O[C@@H](C)[C@@H](O)[C@@H](O)[C@@H]1O	12	1				1520	0.01	2026-09-22T15:00:43+08:00
+posebusters	7P4C_5OV	refconf	ok		O=S1(=O)N[C@@H]2[C@H](O)[C@@H](O)[C@H](O)[C@@H](CO)[C@@H]2O1	16	1				2100	0.01	2026-09-22T15:00:43+08:00
+posebusters	7P2I_MFU	genconf	ok		CO[C@@H]1O[C@@H](C)[C@@H](O)[C@@H](O)[C@@H]1O	12	1	20260922	1	0.388	1520	0.03	2026-09-22T15:00:43+08:00
+posebusters	7P5T_5YG	refconf	ok		COc1ccc(CNc2ccc(Cc3ccncc3)cc2)cc1	23	6				2366	0.01	2026-09-22T15:00:43+08:00
+posebusters	7P4C_5OV	genconf	ok		O=S1(=O)N[C@@H]2[C@H](O)[C@@H](O)[C@H](O)[C@@H](CO)[C@@H]2O1	16	1	20260922	1	0.493	2100	0.03	2026-09-22T15:00:43+08:00
+posebusters	7PGX_FMN	refconf	ok		Cc1cc2nc3c(=O)[nH]c(=O)nc-3n(C[C@H](O)[C@H](O)[C@H](O)COP(=O)(O)O)c2cc1C	31	7				3740	0.01	2026-09-22T15:00:43+08:00
+posebusters	7P1M_4IU	genconf	ok		Cn1c(CO[C@@H]2C=CO[C@H](CO)[C@@H]2O)nc2ccc(C(=O)O)cc21	24	5	20260922	1	2.098	2730	0.1	2026-09-22T15:00:43+08:00
+posebusters	7PIH_7QW	refconf	ok		N[C@@H]1CCN(Cc2cccc(-c3ccc4c(O)nccc4c3)c2)C1	24	3				2619	0.01	2026-09-22T15:00:43+08:00
+posebusters	7NR8_UOE	genconf	ok		C[C@H](C(=O)N[C@H](CO)c1cccc(N2CCN(C)CC2)n1)N1Cc2ccc(-c3nc(NC4CCOCC4)ncc3Cl)cc2C1=O	45	9	20260922	1	5.05	4666	0.68	2026-09-22T15:00:42+08:00
+posebusters	7P5T_5YG	genconf	ok		COc1ccc(CNc2ccc(Cc3ccncc3)cc2)cc1	23	6	20260922	1	1.09	2366	0.1	2026-09-22T15:00:43+08:00
+posebusters	7PJQ_OWH	refconf	ok		CNC(=S)c1cccnc1	10	1				1047	0.01	2026-09-22T15:00:43+08:00
+posebusters	7PJQ_OWH	genconf	ok		CNC(=S)c1cccnc1	10	1	20260922	1	0.898	1047	0.02	2026-09-22T15:00:43+08:00
+posebusters	7PK0_BYC	refconf	ok		CC(C)(CO[P@@](=O)(O)O[P@](=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)(O)O)[C@@H](O)C(=O)NCCC(=O)NCCSC(=O)c1ccccc1	56	20				6874	0.02	2026-09-22T15:00:43+08:00
+posebusters	7PL1_SFG	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](C[C@@H](N)CC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O	27	7				3685	0.01	2026-09-22T15:00:43+08:00
+posebusters	7PIH_7QW	genconf	ok		N[C@@H]1CCN(Cc2cccc(-c3ccc4c(O)nccc4c3)c2)C1	24	3	20260922	1	1.492	2619	0.14	2026-09-22T15:00:43+08:00
+posebusters	7POM_7VZ	refconf	ok		COC(=O)c1cc(S(N)(=O)=O)c(SC2CCCCC2)cc1Cl	22	4				2372	0.01	2026-09-22T15:00:43+08:00
+posebusters	7PGX_FMN	genconf	ok		Cc1cc2nc3c(=O)[nH]c(=O)nc-3n(C[C@H](O)[C@H](O)[C@H](O)COP(=O)(O)O)c2cc1C	31	7	20260922	1	1.554	3740	0.2	2026-09-22T15:00:43+08:00
+posebusters	7PRI_7TI	refconf	ok		Nc1cc(C(Cl)=C(Cl)Cl)c(S(N)(=O)=O)cc1S(N)(=O)=O	20	3				2550	0.01	2026-09-22T15:00:43+08:00
+posebusters	7PRI_7TI	genconf	ok		Nc1cc(C(Cl)=C(Cl)Cl)c(S(N)(=O)=O)cc1S(N)(=O)=O	20	3	20260922	1	0.881	2550	0.03	2026-09-22T15:00:43+08:00
+posebusters	7PRM_81I	refconf	ok		O=C(c1ccco1)N1CCN([C@@H]2CC(=O)N(c3ccc(-c4ccc(F)cc4)cc3)C2)CC1	32	4				3036	0.01	2026-09-22T15:00:43+08:00
+posebusters	7PL1_SFG	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](C[C@@H](N)CC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O	27	7	20260922	1	2.041	3685	0.16	2026-09-22T15:00:43+08:00
+posebusters	7OMX_CNA	genconf	ok		NC(=O)c1ccc[n+]([C@@H]2C[C@H](CO[P@](=O)(O)O[P@](=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1	44	11	20260922	1	2.79	5487	0.49	2026-09-22T15:00:42+08:00
+posebusters	7POM_7VZ	genconf	ok		COC(=O)c1cc(S(N)(=O)=O)c(SC2CCCCC2)cc1Cl	22	4	20260922	1	1.267	2372	0.07	2026-09-22T15:00:43+08:00
+posebusters	7PT3_3KK	refconf	ok		CC(C)(O)C(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)CO[P@@](=O)(O)O[P@](=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)(O)O	54	20				6836	0.02	2026-09-22T15:00:43+08:00
+posebusters	7PUV_84Z	refconf	ok		COC(=O)c1cc(S(N)(=O)=O)c(Cl)cc1S(=O)(=O)c1ccccc1	24	4				2570	0.01	2026-09-22T15:00:43+08:00
+posebusters	7Q25_8J9	refconf	ok		CCCC[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)O	33	14				4005	0.01	2026-09-22T15:00:43+08:00
+posebusters	7MMH_ZJY	genconf	ok		COc1ccc2nc(C)c(O[C@@H]3C[C@H]4C(=O)N[C@]5(C(=O)NS(=O)(=O)C6(C)CC6)C[C@H]5/C=C\CCCCC[C@H](NC(=O)OCC5(C(F)(F)F)CC5)C(=O)N4C3)nc2c1	57	9	20260922	1	2.583	6323	1.78	2026-09-22T15:00:41+08:00
+posebusters	7PUV_84Z	genconf	ok		COC(=O)c1cc(S(N)(=O)=O)c(Cl)cc1S(=O)(=O)c1ccccc1	24	4	20260922	1	1.603	2570	0.07	2026-09-22T15:00:43+08:00
+posebusters	7Q27_8KC	refconf	ok		CCCC[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)O	35	14				4149	0.02	2026-09-22T15:00:43+08:00
+posebusters	7Q2B_M6H	refconf	ok		c1ccc(CC2NCCN2)cc1	12	2				1341	0.01	2026-09-22T15:00:43+08:00
+posebusters	7Q2B_M6H	genconf	ok		c1ccc(CC2NCCN2)cc1	12	2	20260922	1	0.684	1341	0.03	2026-09-22T15:00:43+08:00
+posebusters	7Q5I_I0F	refconf	ok		CN(C)c1ccc(/C=C(\C#N)C(=O)N[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)cc1	27	5				3211	0.01	2026-09-22T15:00:43+08:00
+posebusters	7PRM_81I	genconf	ok		O=C(c1ccco1)N1CCN([C@@H]2CC(=O)N(c3ccc(-c4ccc(F)cc4)cc3)C2)CC1	32	4	20260922	1	1.444	3036	0.22	2026-09-22T15:00:43+08:00
+posebusters	7QE4_NGA	refconf	ok		CC(=O)N[C@@H]1[C@@H](O)[C@@H](O)[C@@H](CO)O[C@H]1O	15	2				2037	0.01	2026-09-22T15:00:43+08:00
+posebusters	7QE4_NGA	genconf	ok		CC(=O)N[C@@H]1[C@@H](O)[C@@H](O)[C@@H](CO)O[C@H]1O	15	2	20260922	1	1.014	2037	0.04	2026-09-22T15:00:43+08:00
+posebusters	7QF4_RBF	refconf	ok		Cc1cc2nc3c(=O)[nH]c(=O)nc-3n(C[C@H](O)[C@H](O)[C@H](O)CO)c2cc1C	27	5				3201	0.01	2026-09-22T15:00:43+08:00
+posebusters	7Q5I_I0F	genconf	ok		CN(C)c1ccc(/C=C(\C#N)C(=O)N[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)cc1	27	5	20260922	1	1.751	3211	0.15	2026-09-22T15:00:43+08:00
+posebusters	7QFM_AY3	refconf	ok		O=C1Nc2ccccc2/C1=C\c1ccc(C(=O)O)cc1	20	2				2097	0.01	2026-09-22T15:00:43+08:00
+posebusters	7Q25_8J9	genconf	ok		CCCC[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)O	33	14	20260922	1	2.773	3987	0.29	2026-09-22T15:00:43+08:00
+posebusters	7QFM_AY3	genconf	ok		O=C1Nc2ccccc2/C1=C\c1ccc(C(=O)O)cc1	20	2	20260922	1	0.413	2097	0.03	2026-09-22T15:00:43+08:00
+posebusters	7QGP_DJ8	refconf	ok		Cc1cc(Cl)ccc1CNC(=O)Nc1ccc2cc1OCCOCCNc1ccn3ncc-2c3n1	35	3				3988	0.02	2026-09-22T15:00:43+08:00
+posebusters	7QHG_T3B	refconf	ok		CC(C)C(=O)Nc1ncc(C(=O)NCCN(Cc2ccccc2)C(=O)c2ccc(S(=O)(=O)Nc3ccccc3)cc2)s1	42	12				4480	0.01	2026-09-22T15:00:43+08:00
+posebusters	7Q27_8KC	genconf	ok		CCCC[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)O	35	14	20260922	1	2.699	4149	0.29	2026-09-22T15:00:43+08:00
+posebusters	7QHL_D5P	refconf	ok		NCCSc1nc(NCc2ccc(-n3cccn3)cc2)c2[nH]nc(C3CCC3)c2n1	30	8				3358	0.01	2026-09-22T15:00:43+08:00
+posebusters	7QF4_RBF	genconf	ok		Cc1cc2nc3c(=O)[nH]c(=O)nc-3n(C[C@H](O)[C@H](O)[C@H](O)CO)c2cc1C	27	5	20260922	1	1.374	3201	0.12	2026-09-22T15:00:43+08:00
+posebusters	7QPP_VDX	refconf	ok		C=C1/C(=C\C=C2/CCC[C@]3(C)[C@@H]([C@H](C)CCCC(C)(C)O)CC[C@@H]23)C[C@@H](O)C[C@@H]1O	30	6				3308	0.01	2026-09-22T15:00:43+08:00
+posebusters	7QHL_D5P	genconf	ok		NCCSc1nc(NCc2ccc(-n3cccn3)cc2)c2[nH]nc(C3CCC3)c2n1	30	8	20260922	1	2.39	3358	0.16	2026-09-22T15:00:43+08:00
+posebusters	7QTA_URI	refconf	ok		O=c1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)[nH]1	17	2				2095	0.01	2026-09-22T15:00:43+08:00
+posebusters	7QGP_DJ8	genconf	ok		Cc1cc(Cl)ccc1CNC(=O)Nc1ccc2cc1OCCOCCNc1ccn3ncc-2c3n1	35	3	20260922	1	1.511	3955	0.23	2026-09-22T15:00:43+08:00
+posebusters	7R3D_APR	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@](=O)(O)O[P@@](=O)(O)OC[C@H]2O[C@@H](O)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O	36	9				4643	0.01	2026-09-22T15:00:43+08:00
+posebusters	7QTA_URI	genconf	ok		O=c1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)[nH]1	17	2	20260922	1	0.903	2095	0.04	2026-09-22T15:00:43+08:00
+posebusters	7R59_I5F	refconf	ok		Oc1ccc2c(c1)sc1nncn12	13	0				1311	0.0	2026-09-22T15:00:43+08:00
+posebusters	7R59_I5F	genconf	ok		Oc1ccc2c(c1)sc1nncn12	13	0	20260922	1	0.063	1311	0.01	2026-09-22T15:00:43+08:00
+posebusters	7R6J_2I7	refconf	ok		Cc1cc(NCc2cccc(CN3C[C@H](O)[C@@H](O)[C@H](O)[C@H]3CO)c2)cc(-c2ncccn2)c1	33	7				3810	0.01	2026-09-22T15:00:43+08:00
+posebusters	7QHG_T3B	genconf	ok		CC(C)C(=O)Nc1ncc(C(=O)NCCN(Cc2ccccc2)C(=O)c2ccc(S(=O)(=O)Nc3ccccc3)cc2)s1	42	12	20260922	1	3.06	4480	0.29	2026-09-22T15:00:43+08:00
+posebusters	7R7R_AWJ	refconf	ok		Cc1nc([C@](C)(O)CO)sc1-c1cnc(N)c(O[C@H](C)c2cc(F)ccc2N2NC=CN2)c1	33	7				3855	0.01	2026-09-22T15:00:44+08:00
+posebusters	7R3D_APR	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@](=O)(O)O[P@@](=O)(O)OC[C@H]2O[C@@H](O)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O	36	9	20260922	1	2.597	4643	0.25	2026-09-22T15:00:43+08:00
+posebusters	7R9N_F97	refconf	ok		CC(C)n1ncc2cnc(Nc3cc([C@@H]4CCNC4)nc(N4CCC(F)(F)C4)n3)cc21	31	5				3151	0.01	2026-09-22T15:00:44+08:00
+posebusters	7QPP_VDX	genconf	ok		C=C1/C(=C\C=C2/CCC[C@]3(C)[C@@H]([C@H](C)CCCC(C)(C)O)CC[C@@H]23)C[C@@H](O)C[C@@H]1O	30	6	20260922	1	1.037	3308	0.47	2026-09-22T15:00:43+08:00
+posebusters	7RC3_SAH	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O	26	7				3386	0.01	2026-09-22T15:00:44+08:00
+posebusters	7R6J_2I7	genconf	ok		Cc1cc(NCc2cccc(CN3C[C@H](O)[C@@H](O)[C@H](O)[C@H]3CO)c2)cc(-c2ncccn2)c1	33	7	20260922	1	2.599	3810	0.26	2026-09-22T15:00:43+08:00
+posebusters	7RH3_59O	refconf	ok		CO[C@@H]1O[C@H](CO)[C@H](O)[C@H](OC(=O)c2ccc(C)cc2)[C@@H]1OC(=O)c1ccc(Cl)cc1[N+](=O)[O-]	34	7				3654	0.01	2026-09-22T15:00:44+08:00
+posebusters	7R7R_AWJ	genconf	ok		Cc1nc([C@](C)(O)CO)sc1-c1cnc(N)c(O[C@H](C)c2cc(F)ccc2N2NC=CN2)c1	33	7	20260922	1	2.914	3837	0.25	2026-09-22T15:00:44+08:00
+posebusters	7RKW_5TV	refconf	ok		O=C(O[C@H](Cn1ccnc1)c1ccc(F)cc1)c1cc(Cl)cc(Cl)c1	25	5				2486	0.01	2026-09-22T15:00:44+08:00
+posebusters	7RKW_5TV	genconf	ok		O=C(O[C@H](Cn1ccnc1)c1ccc(F)cc1)c1cc(Cl)cc(Cl)c1	25	5	20260922	1	1.474	2486	0.08	2026-09-22T15:00:44+08:00
+posebusters	7RNI_60I	refconf	ok		Cc1nn(C)c(C)c1C(=O)N1CCN(Cc2nc3ccccc3n2CC(C)(C)C)CC1	31	4				2973	0.01	2026-09-22T15:00:44+08:00
+posebusters	7RC3_SAH	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CSCC[C@H](N)C(=O)O)[C@@H](O)[C@H]1O	26	7	20260922	1	2.606	3386	0.15	2026-09-22T15:00:44+08:00
+posebusters	7ROR_69X	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@](=O)(O)OC(=O)[C@@H](N)Cc2ccc(O)cc2)[C@@H](O)[C@H]1O	35	8				4385	0.01	2026-09-22T15:00:44+08:00
+posebusters	7R9N_F97	genconf	ok		CC(C)n1ncc2cnc(Nc3cc([C@@H]4CCNC4)nc(N4CCC(F)(F)C4)n3)cc21	31	5	20260922	1	2.52	3151	0.22	2026-09-22T15:00:44+08:00
+posebusters	7ROU_66I	refconf	ok		Nc1ncnc2c1c(OC(F)F)nn2[C@@H]1O[C@H](COS(=O)(=O)NC(=O)[C@@H](N)Cc2ccc(O)cc2)[C@@H](O)[C@H]1O	39	10				4735	0.01	2026-09-22T15:00:44+08:00
+posebusters	7RH3_59O	genconf	ok		CO[C@@H]1O[C@H](CO)[C@H](O)[C@H](OC(=O)c2ccc(C)cc2)[C@@H]1OC(=O)c1ccc(Cl)cc1[N+](=O)[O-]	34	7	20260922	1	1.418	3654	0.2	2026-09-22T15:00:44+08:00
+posebusters	7RSV_7IQ	refconf	ok		C[C@@H]1COCCN1c1cc2n(n1)[C@@H]1CCC[C@@H]1NC2=O	20	1				1957	0.01	2026-09-22T15:00:44+08:00
+posebusters	7PK0_BYC	genconf	ok		CC(C)(CO[P@@](=O)(O)O[P@](=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)(O)O)[C@@H](O)C(=O)NCCC(=O)NCCSC(=O)c1ccccc1	56	20	20260922	1	4.674	6874	1.37	2026-09-22T15:00:43+08:00
+posebusters	7PT3_3KK	genconf	ok		CC(C)(O)C(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)CO[P@@](=O)(O)O[P@](=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)(O)O	54	20	20260922	1	2.908	6836	1.2	2026-09-22T15:00:43+08:00
+posebusters	7RSV_7IQ	genconf	ok		C[C@@H]1COCCN1c1cc2n(n1)[C@@H]1CCC[C@@H]1NC2=O	20	1	20260922	1	1.575	1957	0.09	2026-09-22T15:00:44+08:00
+posebusters	7RWS_4UR	refconf	ok		Nc1nc2c(ncn2[C@@H]2O[C@@H]3CO[P@@](=O)(O)O[C@@H]4[C@H](O)[C@@H](CO[P@](=O)(O)O[C@H]3[C@H]2O)O[C@H]4n2cnc3c(N)ncnc32)c(=O)[nH]1	45	2				5652	0.01	2026-09-22T15:00:44+08:00
+posebusters	7RZL_NPO	refconf	ok		O=[N+]([O-])c1ccc(O)cc1	10	1				1088	0.02	2026-09-22T15:00:44+08:00
+posebusters	7RZL_NPO	genconf	ok		O=[N+]([O-])c1ccc(O)cc1	10	1	20260922	1	0.048	1088	0.02	2026-09-22T15:00:44+08:00
+posebusters	7RNI_60I	genconf	ok		Cc1nn(C)c(C)c1C(=O)N1CCN(Cc2nc3ccccc3n2CC(C)(C)C)CC1	31	4	20260922	1	1.313	2973	0.22	2026-09-22T15:00:44+08:00
+posebusters	7SCW_GSP	refconf	ok		Nc1nc2c(ncn2[C@@H]2O[C@H](CO[P@](=O)(O)O[P@](=O)(O)OP(O)(O)=S)[C@@H](O)[C@H]2O)c(=O)[nH]1	32	8				4199	0.01	2026-09-22T15:00:44+08:00
+posebusters	7SDD_4IP	refconf	ok		O=P(O)(O)O[C@H]1[C@H](O)[C@@H](OP(=O)(O)O)[C@H](OP(=O)(O)O)[C@@H](OP(=O)(O)O)[C@H]1O	28	8				4034	0.01	2026-09-22T15:00:44+08:00
+posebusters	7SFO_98L	refconf	ok		Oc1cccc(CNc2nc(Cl)nc3scc(-c4ccccc4)c23)c1	25	4				2616	0.01	2026-09-22T15:00:44+08:00
+posebusters	7ROR_69X	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@](=O)(O)OC(=O)[C@@H](N)Cc2ccc(O)cc2)[C@@H](O)[C@H]1O	35	8	20260922	1	1.885	4385	0.23	2026-09-22T15:00:44+08:00
+posebusters	7SIU_9ID	refconf	ok		Cn1cc(Nc2ncc(C3=CCC[C@@H](NC(=O)c4ccccc4)C3)nc2C(N)=O)cn1	31	6				3354	0.01	2026-09-22T15:00:44+08:00
+posebusters	7SDD_4IP	genconf	ok		O=P(O)(O)O[C@H]1[C@H](O)[C@@H](OP(=O)(O)O)[C@H](OP(=O)(O)O)[C@@H](OP(=O)(O)O)[C@H]1O	28	8	20260922	1	1.624	4034	0.08	2026-09-22T15:00:44+08:00
+posebusters	7SUC_COM	refconf	ok		O=S(=O)(O)CCS	7	2				973	0.0	2026-09-22T15:00:44+08:00
+posebusters	7SUC_COM	genconf	ok		O=S(=O)(O)CCS	7	2	20260922	1	0.696	973	0.01	2026-09-22T15:00:44+08:00
+posebusters	7SZA_DUI	refconf	ok		Nc1cccc2c1C(=O)N([C@@H]1CCC(=O)NC1=O)C2=O	20	1				2155	0.01	2026-09-22T15:00:44+08:00
+posebusters	7SFO_98L	genconf	ok		Oc1cccc(CNc2nc(Cl)nc3scc(-c4ccccc4)c23)c1	25	4	20260922	1	0.882	2616	0.09	2026-09-22T15:00:44+08:00
+posebusters	7ROU_66I	genconf	ok		Nc1ncnc2c1c(OC(F)F)nn2[C@@H]1O[C@H](COS(=O)(=O)NC(=O)[C@@H](N)Cc2ccc(O)cc2)[C@@H](O)[C@H]1O	39	10	20260922	1	1.714	4735	0.3	2026-09-22T15:00:44+08:00
+posebusters	7T0D_FPP	refconf	ok		CC(C)=CCC/C(C)=C/CC/C(C)=C/CO[P@](=O)(O)OP(=O)(O)O	24	11				2925	0.01	2026-09-22T15:00:44+08:00
+posebusters	7T1D_E7K	refconf	ok		Cc1cn(-c2ccc3c(c2)CN(c2ncc(Cc4ccc(-n5cccn5)cc4)s2)CC3)c(C)n1	34	5				3257	0.01	2026-09-22T15:00:44+08:00
+posebusters	7SZA_DUI	genconf	ok		Nc1cccc2c1C(=O)N([C@@H]1CCC(=O)NC1=O)C2=O	20	1	20260922	1	0.379	2155	0.06	2026-09-22T15:00:44+08:00
+posebusters	7SCW_GSP	genconf	ok		Nc1nc2c(ncn2[C@@H]2O[C@H](CO[P@](=O)(O)O[P@](=O)(O)OP(O)(O)=S)[C@@H](O)[C@H]2O)c(=O)[nH]1	32	8	20260922	1	1.471	4166	0.17	2026-09-22T15:00:44+08:00
+posebusters	7T3E_SLB	refconf	ok		CC(=O)N[C@H]1[C@H]([C@H](O)[C@H](O)CO)O[C@](O)(C(=O)O)C[C@@H]1O	21	5				2905	0.01	2026-09-22T15:00:44+08:00
+posebusters	7TB0_UD1	refconf	ok		CC(=O)N[C@H]1[C@@H](O[P@@](=O)(O)O[P@@](=O)(O)OC[C@H]2O[C@@H](n3ccc(=O)[nH]c3=O)[C@H](O)[C@@H]2O)O[C@H](CO)[C@@H](O)[C@@H]1O	39	10				4921	0.01	2026-09-22T15:00:44+08:00
+posebusters	7SIU_9ID	genconf	ok		Cn1cc(Nc2ncc(C3=CCC[C@@H](NC(=O)c4ccccc4)C3)nc2C(N)=O)cn1	31	6	20260922	1	2.855	3354	0.17	2026-09-22T15:00:44+08:00
+posebusters	7TBU_S3P	refconf	ok		O=C(O)C1=C[C@@H](OP(=O)(O)O)[C@@H](O)[C@H](O)C1	16	3				2188	0.01	2026-09-22T15:00:44+08:00
+posebusters	7T3E_SLB	genconf	ok		CC(=O)N[C@H]1[C@H]([C@H](O)[C@H](O)CO)O[C@](O)(C(=O)O)C[C@@H]1O	21	5	20260922	1	1.053	2905	0.09	2026-09-22T15:00:44+08:00
+posebusters	7TE8_P0T	refconf	ok		C=C(C)[C@@H]1CCC(C)=C[C@H]1c1c(O)cc(CCCCC)cc1O	23	6				2532	0.01	2026-09-22T15:00:44+08:00
+posebusters	7TBU_S3P	genconf	ok		O=C(O)C1=C[C@@H](OP(=O)(O)O)[C@@H](O)[C@H](O)C1	16	3	20260922	1	0.561	2188	0.06	2026-09-22T15:00:44+08:00
+posebusters	7TH4_FFO	refconf	ok		Nc1nc2c(c(=O)[nH]1)N(C=O)[C@@H](CNc1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1)CN2	34	10				4223	0.01	2026-09-22T15:00:44+08:00
+posebusters	7T0D_FPP	genconf	ok		CC(C)=CCC/C(C)=C/CC/C(C)=C/CO[P@](=O)(O)OP(=O)(O)O	24	11	20260922	1	1.615	2925	0.21	2026-09-22T15:00:44+08:00
+posebusters	7THI_PGA	refconf	ok		O=C(O)COP(=O)(O)O	9	3				1298	0.0	2026-09-22T15:00:44+08:00
+posebusters	7THI_PGA	genconf	ok		O=C(O)COP(=O)(O)O	9	3	20260922	1	0.943	1298	0.01	2026-09-22T15:00:44+08:00
+posebusters	7TM6_GPJ	refconf	ok		O=C(O)C[NH2+]CP(=O)(O)O	10	4				1594	0.01	2026-09-22T15:00:44+08:00
+posebusters	7T1D_E7K	genconf	ok		Cc1cn(-c2ccc3c(c2)CN(c2ncc(Cc4ccc(-n5cccn5)cc4)s2)CC3)c(C)n1	34	5	20260922	1	1.501	3257	0.24	2026-09-22T15:00:44+08:00
+posebusters	7TM6_GPJ	genconf	ok		O=C(O)C[NH2+]CP(=O)(O)O	10	4	20260922	1	0.672	1594	0.03	2026-09-22T15:00:44+08:00
+posebusters	7RWS_4UR	genconf	ok		Nc1nc2c(ncn2[C@@H]2O[C@@H]3CO[P@@](=O)(O)O[C@@H]4[C@H](O)[C@@H](CO[P@](=O)(O)O[C@H]3[C@H]2O)O[C@H]4n2cnc3c(N)ncnc32)c(=O)[nH]1	45	2	20260922	1	1.959	5619	0.41	2026-09-22T15:00:44+08:00
+posebusters	7TOM_5AD	refconf	ok		C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O	18	1				2144	0.01	2026-09-22T15:00:44+08:00
+posebusters	7TS6_KMI	refconf	ok		CNCc1cccc(-c2cc(C)cc(N)n2)c1	17	3				1951	0.01	2026-09-22T15:00:44+08:00
+posebusters	7TSF_H4B	refconf	ok		C[C@H](O)[C@H](O)[C@H]1CNc2nc(N)[nH]c(=O)c2N1	17	2				2343	0.01	2026-09-22T15:00:44+08:00
+posebusters	7TE8_P0T	genconf	ok		C=C(C)[C@@H]1CCC(C)=C[C@H]1c1c(O)cc(CCCCC)cc1O	23	6	20260922	1	1.265	2532	0.15	2026-09-22T15:00:44+08:00
+posebusters	7TUO_KL9	refconf	ok		Cc1cnc2c(N)c(C(=O)NCCc3ccc([C@@H]4C[C@H]5CC[C@@H](C4)N5)cc3)sc2n1	30	5				3275	0.01	2026-09-22T15:00:45+08:00
+posebusters	7TOM_5AD	genconf	ok		C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O	18	1	20260922	1	1.368	2144	0.05	2026-09-22T15:00:44+08:00
+posebusters	7TXK_LW8	refconf	ok		C[N+](C)(C)[C@@H](Cc1c[nH]c(=S)[nH]1)C(=O)O	15	4				1827	0.01	2026-09-22T15:00:45+08:00
+posebusters	7TS6_KMI	genconf	ok		CNCc1cccc(-c2cc(C)cc(N)n2)c1	17	3	20260922	1	1.925	1951	0.06	2026-09-22T15:00:44+08:00
+posebusters	7TSF_H4B	genconf	ok		C[C@H](O)[C@H](O)[C@H]1CNc2nc(N)[nH]c(=O)c2N1	17	2	20260922	1	1.254	2310	0.06	2026-09-22T15:00:44+08:00
+posebusters	7TYP_KUR	refconf	ok		Cc1nccnc1-c1nn2c(=O)cc(-c3ccc(C4CCCCC4)cc3)[nH]c2c1C(=O)N1CC(CF)C1	37	5				3607	0.01	2026-09-22T15:00:45+08:00
+posebusters	7U0U_FK5	refconf	ok		C=CC[C@@H]1/C=C(\C)C[C@H](C)C[C@H](OC)[C@H]2O[C@@](O)(C(=O)C(=O)N3CCCC[C@H]3C(=O)O[C@H](/C(C)=C/[C@@H]3CC[C@@H](O)[C@H](OC)C3)[C@H](C)[C@@H](O)CC1=O)[C@H](C)C[C@@H]2OC	57	7				6527	0.03	2026-09-22T15:00:45+08:00
+posebusters	7TXK_LW8	genconf	ok		C[N+](C)(C)[C@@H](Cc1c[nH]c(=S)[nH]1)C(=O)O	15	4	20260922	1	1.258	1827	0.06	2026-09-22T15:00:45+08:00
+posebusters	7U3J_L6U	refconf	ok		CNC(=O)[C@H](CCc1ccccc1)NC(=O)[C@H](NC(=O)CNCc1ccc(OC)cc1OC)c1cccs1	38	14				4249	0.01	2026-09-22T15:00:45+08:00
+posebusters	7TH4_FFO	genconf	ok		Nc1nc2c(c(=O)[nH]1)N(C=O)[C@@H](CNc1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1)CN2	34	10	20260922	1	2.815	4190	0.23	2026-09-22T15:00:44+08:00
+posebusters	7UAS_MBU	refconf	ok		CCn1cc(-c2cc(Cn3ccnc3C)cc3c2CCN([C@H](c2cc(C)ccn2)C2CC2)C3=O)c(C(F)(F)F)n1	40	7				3886	0.01	2026-09-22T15:00:45+08:00
+posebusters	7TB0_UD1	genconf	ok		CC(=O)N[C@H]1[C@@H](O[P@@](=O)(O)O[P@@](=O)(O)OC[C@H]2O[C@@H](n3ccc(=O)[nH]c3=O)[C@H](O)[C@@H]2O)O[C@H](CO)[C@@H](O)[C@@H]1O	39	10	20260922	1	2.302	4921	0.43	2026-09-22T15:00:44+08:00
+posebusters	7UAW_MF6	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@@H]2CO[P@](=O)(O)O[P@](=O)(O)OC[C@H]3O[C@@H](O[C@@H]1[C@@H]2O)[C@H](O)[C@@H]3O	35	1				4546	0.01	2026-09-22T15:00:45+08:00
+posebusters	7TUO_KL9	genconf	ok		Cc1cnc2c(N)c(C(=O)NCCc3ccc([C@@H]4C[C@H]5CC[C@@H](C4)N5)cc3)sc2n1	30	5	20260922	1	1.012	3275	0.25	2026-09-22T15:00:45+08:00
+posebusters	7UJ4_OQ4	refconf	ok		CCN(C(=O)c1cc(F)ccc1Oc1cncnc1N1CC2(CCN(C[C@H]3CC[C@H](NS(=O)(=O)CC)CC3)CC2)C1)C(C)C	44	11				4476	0.01	2026-09-22T15:00:45+08:00
+posebusters	7TYP_KUR	genconf	ok		Cc1nccnc1-c1nn2c(=O)cc(-c3ccc(C4CCCCC4)cc3)[nH]c2c1C(=O)N1CC(CF)C1	37	5	20260922	1	1.39	3607	0.24	2026-09-22T15:00:45+08:00
+posebusters	7UJ5_DGL	refconf	ok		N[C@H](CCC(=O)O)C(=O)O	10	4				1508	0.01	2026-09-22T15:00:45+08:00
+posebusters	7UJ5_DGL	genconf	ok		N[C@H](CCC(=O)O)C(=O)O	10	4	20260922	1	1.13	1508	0.01	2026-09-22T15:00:45+08:00
+posebusters	7UJF_R3V	refconf	ok		C[C@H]1CCN(CCOc2ccc([C@@H]3c4ccc(O)cc4CC[C@@H]3c3ccccc3)cc2)C1	32	6				3221	0.01	2026-09-22T15:00:45+08:00
+posebusters	7UAW_MF6	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@@H]2CO[P@](=O)(O)O[P@](=O)(O)OC[C@H]3O[C@@H](O[C@@H]1[C@@H]2O)[C@H](O)[C@@H]3O	35	1	20260922	1	3.316	4546	0.22	2026-09-22T15:00:45+08:00
+posebusters	7ULC_56B	refconf	ok		Nc1nc2c(c(CN[C@H]3C=C[C@H](O)[C@@H]3O)cn2[C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1	33	7				4360	0.01	2026-09-22T15:00:45+08:00
+posebusters	7UAS_MBU	genconf	ok		CCn1cc(-c2cc(Cn3ccnc3C)cc3c2CCN([C@H](c2cc(C)ccn2)C2CC2)C3=O)c(C(F)(F)F)n1	40	7	20260922	1	2.681	3886	0.41	2026-09-22T15:00:45+08:00
+posebusters	7UMW_NAD	refconf	ok		NC(=O)c1ccc[n+]([C@@H]2O[C@H](CO[P@@](=O)([O-])O[P@](=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1	44	11				5372	0.01	2026-09-22T15:00:45+08:00
+posebusters	7UJF_R3V	genconf	ok		C[C@H]1CCN(CCOc2ccc([C@@H]3c4ccc(O)cc4CC[C@@H]3c3ccccc3)cc2)C1	32	6	20260922	1	2.151	3221	0.26	2026-09-22T15:00:45+08:00
+posebusters	7UQ3_O2U	refconf	ok		O=C(O)C[C@@H]1CC(=O)N(O)C1=O	12	2				1417	0.01	2026-09-22T15:00:45+08:00
+posebusters	7UQ3_O2U	genconf	ok		O=C(O)C[C@@H]1CC(=O)N(O)C1=O	12	2	20260922	1	0.894	1417	0.02	2026-09-22T15:00:45+08:00
+posebusters	7USH_82V	refconf	ok		O=c1cc(N2CCOCC2)oc2c(-c3ccc4c(c3)OCCO4)csc12	26	2				2436	0.01	2026-09-22T15:00:45+08:00
+posebusters	7U3J_L6U	genconf	ok		CNC(=O)[C@H](CCc1ccccc1)NC(=O)[C@H](NC(=O)CNCc1ccc(OC)cc1OC)c1cccs1	38	14	20260922	1	3.039	4249	0.51	2026-09-22T15:00:45+08:00
+posebusters	7UTW_NAI	refconf	ok		NC(=O)C1=CN([C@@H]2O[C@H](CO[P@](=O)(O)O[P@@](=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1	44	11				5487	0.01	2026-09-22T15:00:45+08:00
+posebusters	7ULC_56B	genconf	ok		Nc1nc2c(c(CN[C@H]3C=C[C@H](O)[C@@H]3O)cn2[C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1	33	7	20260922	1	2.517	4327	0.21	2026-09-22T15:00:45+08:00
+posebusters	7UXS_OJC	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@@H]2CO[P@](=O)(O)O[P@](=O)(O)OC[C@H]3O[C@@H](O[C@H]2[C@H]1O)[C@H](O)[C@@H]3O	35	1				4544	0.02	2026-09-22T15:00:45+08:00
+posebusters	7USH_82V	genconf	ok		O=c1cc(N2CCOCC2)oc2c(-c3ccc4c(c3)OCCO4)csc12	26	2	20260922	1	0.535	2436	0.09	2026-09-22T15:00:45+08:00
+posebusters	7UY4_SMI	refconf	ok		CN[C@@H]1[C@H](O)[C@H](NC)[C@H]2O[C@]3(O)[C@H](O[C@@H]2[C@H]1O)O[C@H](C)CC3(O)O	24	2				3063	0.01	2026-09-22T15:00:45+08:00
+posebusters	7UY4_SMI	genconf	ok		CN[C@@H]1[C@H](O)[C@H](NC)[C@H]2O[C@]3(O)[C@H](O[C@@H]2[C@H]1O)O[C@H](C)CC3(O)O	24	2	20260922	1	1.173	3063	0.12	2026-09-22T15:00:45+08:00
+posebusters	7UYB_OK0	refconf	ok		NS(=O)(=O)c1c(C(F)(F)F)ccc(-c2ccc(C3CCNCC3)cc2)c1-c1nnn[nH]1	31	4				3356	0.01	2026-09-22T15:00:45+08:00
+posebusters	7UXS_OJC	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@@H]2CO[P@](=O)(O)O[P@](=O)(O)OC[C@H]3O[C@@H](O[C@H]2[C@H]1O)[C@H](O)[C@@H]3O	35	1	20260922	1	1.1	4544	0.25	2026-09-22T15:00:45+08:00
+posebusters	7V14_ORU	refconf	ok		[O-][n+]1cc(-c2c(-n3cnnn3)ccc(Cl)c2F)ccc1[C@@H](CC1CC1)n1cc(-c2cncs2)cn1	35	7				3421	0.01	2026-09-22T15:00:45+08:00
+posebusters	7UMW_NAD	genconf	ok		NC(=O)c1ccc[n+]([C@@H]2O[C@H](CO[P@@](=O)([O-])O[P@](=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1	44	11	20260922	1	3.545	5372	0.41	2026-09-22T15:00:45+08:00
+posebusters	7UYB_OK0	genconf	ok		NS(=O)(=O)c1c(C(F)(F)F)ccc(-c2ccc(C3CCNCC3)cc2)c1-c1nnn[nH]1	31	4	20260922	1	0.457	3356	0.12	2026-09-22T15:00:45+08:00
+posebusters	7V3N_AKG	refconf	ok		O=C(O)CCC(=O)C(=O)O	10	4				1302	0.01	2026-09-22T15:00:45+08:00
+posebusters	7UJ4_OQ4	genconf	ok		CCN(C(=O)c1cc(F)ccc1Oc1cncnc1N1CC2(CCN(C[C@H]3CC[C@H](NS(=O)(=O)CC)CC3)CC2)C1)C(C)C	44	11	20260922	1	2.447	4476	0.7	2026-09-22T15:00:45+08:00
+posebusters	7V3N_AKG	genconf	ok		O=C(O)CCC(=O)C(=O)O	10	4	20260922	1	0.895	1302	0.01	2026-09-22T15:00:45+08:00
+posebusters	7V3S_5I9	refconf	ok		O=C(Nc1ccc(F)cc1)C1(C(=O)Nc2ccc(Oc3ccnc4c3Oc3ccccc3N4)c(F)c2)CC1	38	6				3895	0.01	2026-09-22T15:00:45+08:00
+posebusters	7V43_C4O	refconf	ok		Cc1ccc(Cl)cc1	8	0				757	0.01	2026-09-22T15:00:45+08:00
+posebusters	7VB8_STL	refconf	ok		Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1	17	2				1986	0.01	2026-09-22T15:00:45+08:00
+posebusters	7V43_C4O	genconf	ok		Cc1ccc(Cl)cc1	8	0	20260922	1	0.041	757	0.02	2026-09-22T15:00:45+08:00
+posebusters	7VBU_6I4	refconf	ok		Cc1ccc2c(n1)[nH]c1c(C3CC3)cccc12	17	1				1684	0.01	2026-09-22T15:00:46+08:00
+posebusters	7VB8_STL	genconf	ok		Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1	17	2	20260922	1	0.172	1986	0.04	2026-09-22T15:00:46+08:00
+posebusters	7VC5_9SF	refconf	ok		O=C(C[C@H]1NCCC[C@@H]1O)Cn1cnc2ccccc2c1=O	22	4				2341	0.01	2026-09-22T15:00:46+08:00
+posebusters	7VBU_6I4	genconf	ok		Cc1ccc2c(n1)[nH]c1c(C3CC3)cccc12	17	1	20260922	1	0.31	1684	0.05	2026-09-22T15:00:46+08:00
+posebusters	7UTW_NAI	genconf	ok		NC(=O)C1=CN([C@@H]2O[C@H](CO[P@](=O)(O)O[P@@](=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1	44	11	20260922	1	3.222	5487	0.43	2026-09-22T15:00:45+08:00
+posebusters	7VKZ_NOJ	refconf	ok		OC[C@H]1NC[C@H](O)[C@@H](O)[C@@H]1O	11	1				1626	0.01	2026-09-22T15:00:46+08:00
+posebusters	7VQ9_ISY	refconf	ok		C=C(C)CCS[P@@](=O)(O)OP(=O)(O)O	14	6				1861	0.01	2026-09-22T15:00:46+08:00
+posebusters	7VKZ_NOJ	genconf	ok		OC[C@H]1NC[C@H](O)[C@@H](O)[C@@H]1O	11	1	20260922	1	0.667	1626	0.04	2026-09-22T15:00:46+08:00
+posebusters	7VQ9_ISY	genconf	ok		C=C(C)CCS[P@@](=O)(O)OP(=O)(O)O	14	6	20260922	1	1.24	1861	0.03	2026-09-22T15:00:46+08:00
+posebusters	7VWF_K55	refconf	ok		CCCCOc1ccc(C[C@H](CC)C(=O)O)cc1CNC(=O)c1ccc(C(F)(F)F)cc1F	33	11				3587	0.01	2026-09-22T15:00:46+08:00
+posebusters	7VYJ_CA0	refconf	ok		NC(=O)O[P@](=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O	26	5				3323	0.01	2026-09-22T15:00:46+08:00
+posebusters	7V14_ORU	genconf	ok		[O-][n+]1cc(-c2c(-n3cnnn3)ccc(Cl)c2F)ccc1[C@@H](CC1CC1)n1cc(-c2cncs2)cn1	35	7	20260922	1	1.412	3421	0.17	2026-09-22T15:00:45+08:00
+posebusters	7W05_GMP	refconf	ok		Nc1nc2c(ncn2[C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)[nH]1	20	2				2560	0.01	2026-09-22T15:00:46+08:00
+posebusters	7VC5_9SF	genconf	ok		O=C(C[C@H]1NCCC[C@@H]1O)Cn1cnc2ccccc2c1=O	22	4	20260922	1	1.482	2341	0.09	2026-09-22T15:00:46+08:00
+posebusters	7W06_ITN	refconf	ok		C=C(CC(=O)O)C(=O)O	9	3				1181	0.01	2026-09-22T15:00:46+08:00
+posebusters	7W06_ITN	genconf	ok		C=C(CC(=O)O)C(=O)O	9	3	20260922	1	0.135	1181	0.02	2026-09-22T15:00:46+08:00
+posebusters	7WCF_ACP	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@@](=O)(O)O[P@@](=O)(O)CP(=O)(O)O)[C@@H](O)[C@H]1O	31	8				4020	0.01	2026-09-22T15:00:46+08:00
+posebusters	7V3S_5I9	genconf	ok		O=C(Nc1ccc(F)cc1)C1(C(=O)Nc2ccc(Oc3ccnc4c3Oc3ccccc3N4)c(F)c2)CC1	38	6	20260922	1	2.943	3895	0.21	2026-09-22T15:00:45+08:00
+posebusters	7W05_GMP	genconf	ok		Nc1nc2c(ncn2[C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)[nH]1	20	2	20260922	1	2.05	2527	0.06	2026-09-22T15:00:46+08:00
+posebusters	7WDT_NGS	refconf	ok		CC(=O)N[C@@H]1[C@@H](O)[C@H](O)[C@@H](COS(=O)(=O)O)O[C@H]1O	19	4				2456	0.01	2026-09-22T15:00:46+08:00
+posebusters	7WJB_BGC	refconf	ok		OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O	12	1				1754	0.01	2026-09-22T15:00:46+08:00
+posebusters	7WJB_BGC	genconf	ok		OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O	12	1	20260922	1	0.498	1754	0.03	2026-09-22T15:00:46+08:00
+posebusters	7WKL_CAQ	refconf	ok		Oc1ccccc1O	8	0				989	0.01	2026-09-22T15:00:46+08:00
+posebusters	7VYJ_CA0	genconf	ok		NC(=O)O[P@](=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O	26	5	20260922	1	3.036	3323	0.13	2026-09-22T15:00:46+08:00
+posebusters	7WKL_CAQ	genconf	ok		Oc1ccccc1O	8	0	20260922	1	0.019	989	0.01	2026-09-22T15:00:46+08:00
+posebusters	7WL4_JFU	refconf	ok		CCN1C(=O)c2cc(N3CCN(C)CC3)nc3c(NS(=O)(=O)c4ccc(F)cc4F)ccc1c23	34	5				3344	0.01	2026-09-22T15:00:46+08:00
+posebusters	7WPW_F15	refconf	ok		CCCCCCCCCCCCCCC(=O)O	17	13				2103	0.01	2026-09-22T15:00:46+08:00
+posebusters	7WDT_NGS	genconf	ok		CC(=O)N[C@@H]1[C@@H](O)[C@H](O)[C@@H](COS(=O)(=O)O)O[C@H]1O	19	4	20260922	1	1.297	2456	0.1	2026-09-22T15:00:46+08:00
+posebusters	7WQQ_5Z6	refconf	ok		CC(C)(C)c1cc(C(=O)/C=C/c2ccc(C(=O)O)cc2)cc(C(C)(C)C)c1	27	4				2783	0.01	2026-09-22T15:00:46+08:00
+posebusters	7WCF_ACP	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@@](=O)(O)O[P@@](=O)(O)CP(=O)(O)O)[C@@H](O)[C@H]1O	31	8	20260922	1	2.254	4020	0.15	2026-09-22T15:00:46+08:00
+posebusters	7WUX_6OI	refconf	ok		N[C@@H](CC[C@H](O)[C@@H](N)COS(=O)(=O)O)C(=O)O	17	8				2607	0.01	2026-09-22T15:00:46+08:00
+posebusters	7WPW_F15	genconf	ok		CCCCCCCCCCCCCCC(=O)O	17	13	20260922	1	2.989	2103	0.11	2026-09-22T15:00:46+08:00
+posebusters	7VWF_K55	genconf	ok		CCCCOc1ccc(C[C@H](CC)C(=O)O)cc1CNC(=O)c1ccc(C(F)(F)F)cc1F	33	11	20260922	1	1.99	3587	0.28	2026-09-22T15:00:46+08:00
+posebusters	7WUX_6OI	genconf	ok		N[C@@H](CC[C@H](O)[C@@H](N)COS(=O)(=O)O)C(=O)O	17	8	20260922	1	1.48	2607	0.07	2026-09-22T15:00:46+08:00
+posebusters	7WUY_76N	refconf	ok		C[C@@H]1C=C[C@@H]2CCCC[C@@H]2[C@H]1C(=O)c1c(O)c([C@]2(O)CC[C@H](O)[C@@H]3O[C@@H]32)c[nH]c1=O	30	3				3304	0.02	2026-09-22T15:00:46+08:00
+posebusters	7WY1_D0L	refconf	ok		CCCCCCCN1CCC[C@H]1C(=O)N[C@@H](Cc1ccccc1)C(=O)O	26	11				2942	0.01	2026-09-22T15:00:46+08:00
+posebusters	7X5N_5M5	refconf	ok		Cc1n[nH]c2c1[C@](c1cc(CO)cc(-c3ccccc3)c1)(C(C)C)C(C#N)=C(N)O2	30	4				3272	0.01	2026-09-22T15:00:46+08:00
+posebusters	7WL4_JFU	genconf	ok		CCN1C(=O)c2cc(N3CCN(C)CC3)nc3c(NS(=O)(=O)c4ccc(F)cc4F)ccc1c23	34	5	20260922	1	2.729	3344	0.22	2026-09-22T15:00:46+08:00
+posebusters	7X9K_8OG	refconf	ok		Nc1nc2c([nH]c(=O)n2[C@H]2C[C@H](O)[C@@H](COP(=O)(O)O)O2)c(=O)[nH]1	24	4				3083	0.01	2026-09-22T15:00:46+08:00
+posebusters	7WQQ_5Z6	genconf	ok		CC(C)(C)c1cc(C(=O)/C=C/c2ccc(C(=O)O)cc2)cc(C(C)(C)C)c1	27	4	20260922	1	0.548	2783	0.18	2026-09-22T15:00:46+08:00
+posebusters	7XBV_APC	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@](=O)(O)C[P@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O	31	8				4018	0.01	2026-09-22T15:00:46+08:00
+posebusters	7X9K_8OG	genconf	ok		Nc1nc2c([nH]c(=O)n2[C@H]2C[C@H](O)[C@@H](COP(=O)(O)O)O2)c(=O)[nH]1	24	4	20260922	1	0.505	3050	0.1	2026-09-22T15:00:46+08:00
+posebusters	7XFA_D9J	refconf	ok		Cc1nc([C@@H]2O[C@H](CO)[C@H](O)[C@H](n3cc(-c4cc(F)c(Cl)c(F)c4)nn3)[C@H]2O)n(-c2cc(Cl)ccc2C(F)(F)F)n1	41	5				4288	0.01	2026-09-22T15:00:46+08:00
+posebusters	7X5N_5M5	genconf	ok		Cc1n[nH]c2c1[C@](c1cc(CO)cc(-c3ccccc3)c1)(C(C)C)C(C#N)=C(N)O2	30	4	20260922	1	2.78	3272	0.17	2026-09-22T15:00:46+08:00
+posebusters	7XG5_PLP	refconf	ok		Cc1ncc(COP(=O)(O)O)c(C=O)c1O	16	4				1965	0.01	2026-09-22T15:00:46+08:00
+posebusters	7XG5_PLP	genconf	ok		Cc1ncc(COP(=O)(O)O)c(C=O)c1O	16	4	20260922	1	1.069	1965	0.05	2026-09-22T15:00:46+08:00
+posebusters	7XBV_APC	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@](=O)(O)C[P@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O	31	8	20260922	1	2.404	4018	0.17	2026-09-22T15:00:46+08:00
+posebusters	7XI7_4RI	refconf	ok		CCCCCCc1nc(N)nc(N)c1-c1ccccc1	20	6				2429	0.01	2026-09-22T15:00:46+08:00
+posebusters	7WY1_D0L	genconf	ok		CCCCCCCN1CCC[C@H]1C(=O)N[C@@H](Cc1ccccc1)C(=O)O	26	11	20260922	1	2.129	2942	0.27	2026-09-22T15:00:46+08:00
+posebusters	7XJN_NSD	refconf	ok		NCCCNCCCN	9	6				1526	0.01	2026-09-22T15:00:46+08:00
+posebusters	7XPO_UPG	refconf	ok		O=c1ccn([C@@H]2O[C@H](CO[P@](=O)(O)O[P@](=O)(O)O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)[C@@H](O)[C@H]2O)c(=O)[nH]1	36	9				4656	0.01	2026-09-22T15:00:46+08:00
+posebusters	7XJN_NSD	genconf	ok		NCCCNCCCN	9	6	20260922	1	0.602	1526	0.03	2026-09-22T15:00:46+08:00
+posebusters	7XQZ_FPF	refconf	ok		CC(C)=CCC/C(C)=C/CC/C(C)=C(\F)CO[P@@](=O)(O)OP(=O)(O)O	25	11				3015	0.01	2026-09-22T15:00:46+08:00
+posebusters	7XI7_4RI	genconf	ok		CCCCCCc1nc(N)nc(N)c1-c1ccccc1	20	6	20260922	1	0.73	2429	0.09	2026-09-22T15:00:46+08:00
+posebusters	7XRL_FWK	refconf	ok		CC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O	19	2				2264	0.01	2026-09-22T15:00:46+08:00
+posebusters	7U0U_FK5	genconf	ok		C=CC[C@@H]1/C=C(\C)C[C@H](C)C[C@H](OC)[C@H]2O[C@@](O)(C(=O)C(=O)N3CCCC[C@H]3C(=O)O[C@H](/C(C)=C/[C@@H]3CC[C@@H](O)[C@H](OC)C3)[C@H](C)[C@@H](O)CC1=O)[C@H](C)C[C@@H]2OC	57	7	20260922	1	2.857	6527	1.7	2026-09-22T15:00:45+08:00
+posebusters	7YZU_DO7	refconf	ok		CO[C@H]1O[C@H](CS(=O)(=O)O)[C@@H](O)[C@H](O)[C@H]1O	16	3				2074	0.01	2026-09-22T15:00:46+08:00
+posebusters	7WUY_76N	genconf	ok		C[C@@H]1C=C[C@@H]2CCCC[C@@H]2[C@H]1C(=O)c1c(O)c([C@]2(O)CC[C@H](O)[C@@H]3O[C@@H]32)c[nH]c1=O	30	3	20260922	1	2.318	3304	0.4	2026-09-22T15:00:46+08:00
+posebusters	7Z1Q_NIO	refconf	ok		O=C(O)c1cccnc1	9	1				993	0.01	2026-09-22T15:00:46+08:00
+posebusters	7Z1Q_NIO	genconf	ok		O=C(O)c1cccnc1	9	1	20260922	1	0.068	993	0.01	2026-09-22T15:00:46+08:00
+posebusters	7Z2O_IAJ	refconf	ok		COc1cccc2sc3nncn3c12	14	1				1329	0.01	2026-09-22T15:00:46+08:00
+posebusters	7YZU_DO7	genconf	ok		CO[C@H]1O[C@H](CS(=O)(=O)O)[C@@H](O)[C@H](O)[C@H]1O	16	3	20260922	1	1.072	2074	0.04	2026-09-22T15:00:46+08:00
+posebusters	7Z7F_IF3	refconf	ok		CNc1nc(NC)c2ncn(C)c2n1	14	2				1534	0.0	2026-09-22T15:00:46+08:00
+posebusters	7XRL_FWK	genconf	ok		CC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O	19	2	20260922	1	0.215	2264	0.06	2026-09-22T15:00:46+08:00
+posebusters	7Z2O_IAJ	genconf	ok		COc1cccc2sc3nncn3c12	14	1	20260922	1	0.078	1329	0.02	2026-09-22T15:00:46+08:00
+posebusters	7ZCC_OGA	refconf	ok		O=C(O)CNC(=O)C(=O)O	10	2				1354	0.01	2026-09-22T15:00:46+08:00
+posebusters	7ZDY_6MJ	refconf	ok		CO[C@@H]1OC[C@@H](O)[C@H](O)[C@H]1O	11	1				1423	0.01	2026-09-22T15:00:46+08:00
+posebusters	7ZCC_OGA	genconf	ok		O=C(O)CNC(=O)C(=O)O	10	2	20260922	1	0.724	1354	0.01	2026-09-22T15:00:46+08:00
+posebusters	7ZF0_DHR	refconf	ok		N#C[C@@H](O)c1ccc(O)cc1	11	1				1292	0.0	2026-09-22T15:00:46+08:00
+posebusters	7Z7F_IF3	genconf	ok		CNc1nc(NC)c2ncn(C)c2n1	14	2	20260922	1	0.375	1534	0.03	2026-09-22T15:00:46+08:00
+posebusters	7ZDY_6MJ	genconf	ok		CO[C@@H]1OC[C@@H](O)[C@H](O)[C@H]1O	11	1	20260922	1	0.568	1423	0.02	2026-09-22T15:00:46+08:00
+posebusters	7ZF0_DHR	genconf	ok		N#C[C@@H](O)c1ccc(O)cc1	11	1	20260922	1	0.2	1292	0.02	2026-09-22T15:00:46+08:00
+posebusters	7ZHP_IQY	refconf	ok		CCC(O)(C#Cc1ccc2[nH]c3c(c2c1)-c1nc(N)ncc1CCC3)CC	27	2				3297	0.01	2026-09-22T15:00:46+08:00
+posebusters	7ZL5_IWE	refconf	ok		NS(=O)(=O)c1cc(-c2nnn[nH]2)c(NCc2cccs2)cc1Cl	23	5				2652	0.01	2026-09-22T15:00:46+08:00
+posebusters	7XFA_D9J	genconf	ok		Cc1nc([C@@H]2O[C@H](CO)[C@H](O)[C@H](n3cc(-c4cc(F)c(Cl)c(F)c4)nn3)[C@H]2O)n(-c2cc(Cl)ccc2C(F)(F)F)n1	41	5	20260922	1	1.779	4288	0.28	2026-09-22T15:00:46+08:00
+posebusters	7ZOC_T8E	refconf	ok		CC(=O)c1ccc(NC(=O)[C@H](C)S)cc1	15	3				1696	0.01	2026-09-22T15:00:46+08:00
+posebusters	7ZTL_BCN	refconf	ok		O=C(O)CN(CCO)CCO	11	6				1569	0.01	2026-09-22T15:00:46+08:00
+posebusters	7XQZ_FPF	genconf	ok		CC(C)=CCC/C(C)=C/CC/C(C)=C(\F)CO[P@@](=O)(O)OP(=O)(O)O	25	11	20260922	1	2.077	3015	0.19	2026-09-22T15:00:46+08:00
+posebusters	7ZU2_DHT	refconf	ok		C[C@]12CCC(=O)C[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](O)CC[C@@H]12	21	0				2064	0.01	2026-09-22T15:00:46+08:00
+posebusters	7ZTL_BCN	genconf	ok		O=C(O)CN(CCO)CCO	11	6	20260922	1	0.822	1569	0.03	2026-09-22T15:00:46+08:00
+posebusters	7ZL5_IWE	genconf	ok		NS(=O)(=O)c1cc(-c2nnn[nH]2)c(NCc2cccs2)cc1Cl	23	5	20260922	1	1.495	2634	0.05	2026-09-22T15:00:46+08:00
+posebusters	7ZOC_T8E	genconf	ok		CC(=O)c1ccc(NC(=O)[C@H](C)S)cc1	15	3	20260922	1	0.94	1696	0.04	2026-09-22T15:00:46+08:00
+posebusters	7ZXV_45D	refconf	ok		CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)CCC2(C)C)C(C)(C)CCC1=O	42	10				4140	0.01	2026-09-22T15:00:46+08:00
+posebusters	7ZZW_KKW	refconf	ok		O=C([C@H]1C[C@@H](c2cccc(Cl)c2)CN1)N1CCN(c2nccc3ccsc23)CC1	29	3				2827	0.01	2026-09-22T15:00:46+08:00
+posebusters	8A1H_DLZ	refconf	ok		Cc1nc2c(=O)[nH]c(=O)nc-2n(C[C@H](O)[C@H](O)[C@H](O)CO)c1C	23	5				2851	0.01	2026-09-22T15:00:46+08:00
+posebusters	7XPO_UPG	genconf	ok		O=c1ccn([C@@H]2O[C@H](CO[P@](=O)(O)O[P@](=O)(O)O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)[C@@H](O)[C@H]2O)c(=O)[nH]1	36	9	20260922	1	1.988	4656	0.29	2026-09-22T15:00:46+08:00
+posebusters	7ZHP_IQY	genconf	ok		CCC(O)(C#Cc1ccc2[nH]c3c(c2c1)-c1nc(N)ncc1CCC3)CC	27	2	20260922	1	0.914	3297	0.12	2026-09-22T15:00:46+08:00
+posebusters	8A2D_KXY	refconf	ok		Cc1c(C#Cc2ccc(CN3CCC(CO)CC3)cc2)cc(C(F)F)c2cn([C@@H](C(=O)Nc3nccs3)c3ncn4c3CCC43CC3)nc12	49	8				4931	0.02	2026-09-22T15:00:46+08:00
+posebusters	8AAU_LH0	refconf	ok		CC(C)C(=O)Nc1ncc(-c2cc(C(F)F)nn2-c2c(Cl)cccc2Cl)s1	27	5				2712	0.01	2026-09-22T15:00:47+08:00
+posebusters	8A1H_DLZ	genconf	ok		Cc1nc2c(=O)[nH]c(=O)nc-2n(C[C@H](O)[C@H](O)[C@H](O)CO)c1C	23	5	20260922	1	1.325	2851	0.09	2026-09-22T15:00:46+08:00
+posebusters	8AEM_LVF	refconf	ok		N#CCc1c[nH]c2ccc(Cl)cc12	13	1				1314	0.0	2026-09-22T15:00:47+08:00
+posebusters	8AEM_LVF	genconf	ok		N#CCc1c[nH]c2ccc(Cl)cc12	13	1	20260922	1	0.964	1314	0.02	2026-09-22T15:00:47+08:00
+posebusters	7ZU2_DHT	genconf	ok		C[C@]12CCC(=O)C[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](O)CC[C@@H]12	21	0	20260922	1	0.08	2064	0.14	2026-09-22T15:00:46+08:00
+posebusters	8AIE_M7L	refconf	ok		Cc1ncc(COP(=O)(O)O)c(C/N=C(\CON)C(=O)O)c1O	23	8				3038	0.01	2026-09-22T15:00:47+08:00
+posebusters	8AP0_PRP	refconf	ok		O=P(O)(O)OC[C@H]1O[C@H](O[P@@](=O)(O)OP(=O)(O)O)[C@H](O)[C@@H]1O	22	7				3091	0.01	2026-09-22T15:00:47+08:00
+posebusters	8AAU_LH0	genconf	ok		CC(C)C(=O)Nc1ncc(-c2cc(C(F)F)nn2-c2c(Cl)cccc2Cl)s1	27	5	20260922	1	1.014	2712	0.08	2026-09-22T15:00:47+08:00
+posebusters	8AQL_PLG	refconf	ok		Cc1ncc(COP(=O)(O)O)c(CNCC(=O)O)c1O	20	7				2620	0.01	2026-09-22T15:00:47+08:00
+posebusters	7ZZW_KKW	genconf	ok		O=C([C@H]1C[C@@H](c2cccc(Cl)c2)CN1)N1CCN(c2nccc3ccsc23)CC1	29	3	20260922	1	1.921	2827	0.19	2026-09-22T15:00:46+08:00
+posebusters	8AP0_PRP	genconf	ok		O=P(O)(O)OC[C@H]1O[C@H](O[P@@](=O)(O)OP(=O)(O)O)[C@H](O)[C@@H]1O	22	7	20260922	1	1.868	3091	0.06	2026-09-22T15:00:47+08:00
+posebusters	8AUH_L9I	refconf	ok		CCOC(=O)/C(=N\O)C(C)=O	11	3				1272	0.01	2026-09-22T15:00:47+08:00
+posebusters	8AIE_M7L	genconf	ok		Cc1ncc(COP(=O)(O)O)c(C/N=C(\CON)C(=O)O)c1O	23	8	20260922	1	1.613	3056	0.08	2026-09-22T15:00:47+08:00
+posebusters	8AY3_OE3	refconf	ok		CCn1c(=O)cc(C)c2cc(CNS(=O)(=O)c3ccccc3)ccc21	25	5				2535	0.01	2026-09-22T15:00:47+08:00
+posebusters	8AUH_L9I	genconf	ok		CCOC(=O)/C(=N\O)C(C)=O	11	3	20260922	1	0.535	1272	0.02	2026-09-22T15:00:47+08:00
+posebusters	8B8H_OJQ	refconf	ok		Cc1ncc(COP(=O)(O)O)c(C[NH2+]c2conc2O)c1O	22	6				2851	0.01	2026-09-22T15:00:47+08:00
+posebusters	8AQL_PLG	genconf	ok		Cc1ncc(COP(=O)(O)O)c(CNCC(=O)O)c1O	20	7	20260922	1	1.259	2620	0.06	2026-09-22T15:00:47+08:00
+posebusters	8BOM_QU6	refconf	ok		COc1cccc(NC(=O)c2ccc(C)c(Nc3nc(-c4cccnc4)nc4c3cnn4C)c2)c1	35	6				3544	0.01	2026-09-22T15:00:47+08:00
+posebusters	8BTI_RFO	refconf	ok		COCC(=O)n1ccc2c(Cl)cccc21	15	2				1486	0.01	2026-09-22T15:00:47+08:00
+posebusters	8BTI_RFO	genconf	ok		COCC(=O)n1ccc2c(Cl)cccc21	15	2	20260922	1	1.075	1486	0.03	2026-09-22T15:00:47+08:00
+posebusters	8C3N_ADP	refconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O	27	6				3477	0.01	2026-09-22T15:00:47+08:00
+posebusters	8B8H_OJQ	genconf	ok		Cc1ncc(COP(=O)(O)O)c(C[NH2+]c2conc2O)c1O	22	6	20260922	1	1.573	2851	0.07	2026-09-22T15:00:47+08:00
+posebusters	8C5M_MTA	refconf	ok		CSC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O	20	3				2384	0.01	2026-09-22T15:00:47+08:00
+posebusters	8AY3_OE3	genconf	ok		CCn1c(=O)cc(C)c2cc(CNS(=O)(=O)c3ccccc3)ccc21	25	5	20260922	1	2.646	2535	0.1	2026-09-22T15:00:47+08:00
+posebusters	8CNH_V6U	refconf	ok		COC(=O)c1ccccc1Cc1cn(C)nc1-c1cc(Cl)nc(N)n1	25	4				2652	0.01	2026-09-22T15:00:47+08:00
+posebusters	8C5M_MTA	genconf	ok		CSC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O	20	3	20260922	1	2.36	2384	0.09	2026-09-22T15:00:47+08:00
+posebusters	8CSD_C5P	refconf	ok		Nc1ccn([C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)n1	21	4				2746	0.02	2026-09-22T15:00:47+08:00
+posebusters	8C3N_ADP	genconf	ok		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O	27	6	20260922	1	1.488	3477	0.16	2026-09-22T15:00:47+08:00
+posebusters	8D19_GSH	refconf	ok		N[C@@H](CCC(=O)N[C@@H](CS)C(=O)NCC(=O)O)C(=O)O	20	9				2867	0.01	2026-09-22T15:00:47+08:00
+posebusters	8CNH_V6U	genconf	ok		COC(=O)c1ccccc1Cc1cn(C)nc1-c1cc(Cl)nc(N)n1	25	4	20260922	1	2.752	2652	0.16	2026-09-22T15:00:47+08:00
+posebusters	8D39_QDB	refconf	ok		O=C(O)c1ccc(C(=O)c2ccccc2)cc1	17	3				1780	0.01	2026-09-22T15:00:47+08:00
+posebusters	8CSD_C5P	genconf	ok		Nc1ccn([C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)n1	21	4	20260922	1	1.931	2713	0.1	2026-09-22T15:00:47+08:00
+posebusters	8D5D_5DK	refconf	ok		Cc1ncc(COP(=O)(O)O)c(/C=N/[C@H](CCCNC(=N)N)C(=O)O)c1O	27	10				3616	0.01	2026-09-22T15:00:47+08:00
+posebusters	8D39_QDB	genconf	ok		O=C(O)c1ccc(C(=O)c2ccccc2)cc1	17	3	20260922	1	0.425	1780	0.03	2026-09-22T15:00:47+08:00
+posebusters	8D19_GSH	genconf	ok		N[C@@H](CCC(=O)N[C@@H](CS)C(=O)NCC(=O)O)C(=O)O	20	9	20260922	1	1.526	2867	0.08	2026-09-22T15:00:47+08:00
+posebusters	8DHG_T78	refconf	ok		CCn1c(CO)nn(-c2nc(O[C@@H](C)C(F)(F)F)c(C(=O)Nc3c(C)ccnc3Cl)cc2F)c1=O	35	7				3654	0.01	2026-09-22T15:00:47+08:00
+posebusters	8DKO_TFB	refconf	ok		O=C(O)[C@@H]1CCCO1	8	1				912	0.01	2026-09-22T15:00:47+08:00
+posebusters	8DKO_TFB	genconf	ok		O=C(O)[C@@H]1CCCO1	8	1	20260922	1	0.144	912	0.01	2026-09-22T15:00:47+08:00
+posebusters	8DP2_UMA	refconf	ok		CC(=O)N[C@H]1[C@@H](O[P@@](=O)(O)O[P@](=O)(O)OC[C@H]2O[C@@H](n3ccc(=O)[nH]c3=O)[C@H](O)[C@@H]2O)O[C@H](CO)[C@@H](O)[C@@H]1O[C@H](C)C(=O)N[C@@H](C)C(=O)O	49	15				6078	0.01	2026-09-22T15:00:47+08:00
+posebusters	8BOM_QU6	genconf	ok		COc1cccc(NC(=O)c2ccc(C)c(Nc3nc(-c4cccnc4)nc4c3cnn4C)c2)c1	35	6	20260922	1	3.754	3544	0.35	2026-09-22T15:00:47+08:00
+posebusters	8DSC_NCA	refconf	ok		NC(=O)c1cccnc1	9	1				1045	0.0	2026-09-22T15:00:47+08:00
+posebusters	8DSC_NCA	genconf	ok		NC(=O)c1cccnc1	9	1	20260922	1	0.159	1045	0.02	2026-09-22T15:00:47+08:00
+posebusters	8EAB_VN2	refconf	ok		O=C(N[C@H](C(=O)Nc1cnccc1-c1ccc(C(F)(F)F)cc1)c1cccc(C(F)(F)F)c1)c1cnccc1-c1ccc(C(F)(F)F)cc1	49	7				4932	0.01	2026-09-22T15:00:47+08:00
+posebusters	8D5D_5DK	genconf	ok		Cc1ncc(COP(=O)(O)O)c(/C=N/[C@H](CCCNC(=N)N)C(=O)O)c1O	27	10	20260922	1	2.085	3616	0.15	2026-09-22T15:00:47+08:00
+posebusters	8EX2_Q2Q	refconf	ok		O=C1CC(c2ccccc2)=Nc2c(-c3ccccc3)c(C(F)(F)F)nn21	26	2				2472	0.01	2026-09-22T15:00:47+08:00
+posebusters	8DHG_T78	genconf	ok		CCn1c(CO)nn(-c2nc(O[C@@H](C)C(F)(F)F)c(C(=O)Nc3c(C)ccnc3Cl)cc2F)c1=O	35	7	20260922	1	1.678	3654	0.22	2026-09-22T15:00:47+08:00
+posebusters	8EX2_Q2Q	genconf	ok		O=C1CC(c2ccccc2)=Nc2c(-c3ccccc3)c(C(F)(F)F)nn21	26	2	20260922	1	0.229	2472	0.08	2026-09-22T15:00:47+08:00
+posebusters	8EXL_799	refconf	ok		Cc1nc(-c2cn3c(n2)-c2ccc(-c4cnn(C(C)(C)C(N)=O)c4)cc2OCC3)n(C(C)C)n1	34	5				3764	0.01	2026-09-22T15:00:47+08:00
+posebusters	8EYE_X4I	refconf	ok		O=C(CNc1cc(F)cc(F)c1)N[C@@H](C(=O)NO)c1ccc(-c2cc(F)c(F)c(F)c2)cc1	33	7				3618	0.01	2026-09-22T15:00:47+08:00
+posebusters	8A2D_KXY	genconf	ok		Cc1c(C#Cc2ccc(CN3CCC(CO)CC3)cc2)cc(C(F)F)c2cn([C@@H](C(=O)Nc3nccs3)c3ncn4c3CCC43CC3)nc12	49	8	20260922	1	2.934	4931	0.79	2026-09-22T15:00:46+08:00
+posebusters	8F4J_PHO	refconf	ok		C=Cc1c(C)c2cc3nc(c4c5[nH]c(cc6nc(cc1[nH]2)C(C)=C6CC)c(C)c5C(=O)[C@@H]4C(=O)OC)[C@@H](CCC(=O)OC/C=C(\C)CCC[C@H](C)CCC[C@H](C)CCCC(C)C)[C@@H]3C	64	20				6706	0.03	2026-09-22T15:00:47+08:00
+posebusters	8EYE_X4I	genconf	ok		O=C(CNc1cc(F)cc(F)c1)N[C@@H](C(=O)NO)c1ccc(-c2cc(F)c(F)c(F)c2)cc1	33	7	20260922	1	1.538	3618	0.21	2026-09-22T15:00:47+08:00
+posebusters	8F8E_XJI	refconf	ok		NC(=O)C[C@H](NC(=O)c1c[nH]nc1-c1ccc(Cl)cc1F)c1ccc(F)c(Cl)c1	29	6				3182	0.01	2026-09-22T15:00:47+08:00
+posebusters	8EAB_VN2	genconf	ok		O=C(N[C@H](C(=O)Nc1cnccc1-c1ccc(C(F)(F)F)cc1)c1cccc(C(F)(F)F)c1)c1cnccc1-c1ccc(C(F)(F)F)cc1	49	7	20260922	1	3.673	4932	0.43	2026-09-22T15:00:47+08:00
+posebusters	8FAV_4Y5	refconf	ok		O=C(O)c1ccc(-c2nn(C(=O)c3c(Cl)cccc3C(F)(F)F)c3cccc(F)c23)c(F)c1	33	3				3274	0.01	2026-09-22T15:00:47+08:00
+posebusters	8EXL_799	genconf	ok		Cc1nc(-c2cn3c(n2)-c2ccc(-c4cnn(C(C)(C)C(N)=O)c4)cc2OCC3)n(C(C)C)n1	34	5	20260922	1	2.053	3764	0.31	2026-09-22T15:00:47+08:00
+posebusters	8FLV_ZB9	refconf	ok		CN(c1ncnc2[nH]ccc12)[C@@H]1CCCN(C(=O)CNc2cc(Cl)cc(Cl)c2)C1	29	5				3011	0.01	2026-09-22T15:00:48+08:00
+posebusters	8F8E_XJI	genconf	ok		NC(=O)C[C@H](NC(=O)c1c[nH]nc1-c1ccc(Cl)cc1F)c1ccc(F)c(Cl)c1	29	6	20260922	1	1.922	3182	0.14	2026-09-22T15:00:47+08:00
+posebusters	8FO5_Y4U	refconf	ok		CC(=O)c1ccn(S(=O)(=O)c2ccccc2)c1	17	3				1665	0.01	2026-09-22T15:00:48+08:00
+posebusters	8FAV_4Y5	genconf	ok		O=C(O)c1ccc(-c2nn(C(=O)c3c(Cl)cccc3C(F)(F)F)c3cccc(F)c23)c(F)c1	33	3	20260922	1	1.182	3274	0.13	2026-09-22T15:00:47+08:00
+posebusters	8FO5_Y4U	genconf	ok		CC(=O)c1ccn(S(=O)(=O)c2ccccc2)c1	17	3	20260922	1	1.478	1665	0.04	2026-09-22T15:00:48+08:00
+posebusters	8G0V_YHT	refconf	ok		C#CCO[P@](=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O	26	6				3151	0.01	2026-09-22T15:00:48+08:00
+posebusters	8G6P_API	refconf	ok		N[C@H](CCC[C@H](N)C(=O)O)C(=O)O	13	6				2064	0.01	2026-09-22T15:00:48+08:00
+posebusters	8G6P_API	genconf	ok		N[C@H](CCC[C@H](N)C(=O)O)C(=O)O	13	6	20260922	1	1.578	2064	0.06	2026-09-22T15:00:48+08:00
+posebusters	8GFD_ZHR	refconf	ok		CC(=O)N[C@H]1[C@H](OCCc2ccc3occc3c2)O[C@H](CO)[C@@H](O)[C@@H]1O	26	6				3029	0.02	2026-09-22T15:00:48+08:00
+posebusters	8FLV_ZB9	genconf	ok		CN(c1ncnc2[nH]ccc12)[C@@H]1CCCN(C(=O)CNc2cc(Cl)cc(Cl)c2)C1	29	5	20260922	1	2.598	3011	0.24	2026-09-22T15:00:48+08:00
+posebusters	8HFN_XGC	refconf	ok		COc1ccc(-c2cccc(S(=O)(=O)NC(=O)[C@@H](N)CS)c2)cn1	24	6				2811	0.01	2026-09-22T15:00:48+08:00
+posebusters	8G0V_YHT	genconf	ok		C#CCO[P@](=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O	26	6	20260922	1	2.319	3151	0.19	2026-09-22T15:00:48+08:00
+posebusters	8HO0_3ZI	refconf	ok		O=C1N[C@@H](Cc2c[nH]c3c(F)cccc23)C(=O)N2CCC[C@@H]12	22	2				2251	0.02	2026-09-22T15:00:48+08:00
+posebusters	8GFD_ZHR	genconf	ok		CC(=O)N[C@H]1[C@H](OCCc2ccc3occc3c2)O[C@H](CO)[C@@H](O)[C@@H]1O	26	6	20260922	1	2.442	3029	0.22	2026-09-22T15:00:48+08:00
+posebusters	8HFN_XGC	genconf	ok		COc1ccc(-c2cccc(S(=O)(=O)NC(=O)[C@@H](N)CS)c2)cn1	24	6	20260922	1	1.377	2811	0.16	2026-09-22T15:00:48+08:00
+posebusters	8HO0_3ZI	genconf	ok		O=C1N[C@@H](Cc2c[nH]c3c(F)cccc23)C(=O)N2CCC[C@@H]12	22	2	20260922	1	1.911	2251	0.11	2026-09-22T15:00:48+08:00
+astex	1G9V_RQ3	refconf	cached								2687	0.0	2026-09-22T15:00:48+08:00
+astex	1G9V_RQ3	genconf	cached					20260922			2687	0.0	2026-09-22T15:00:48+08:00
+astex	1GKC_NFH	refconf	cached								2601	0.0	2026-09-22T15:00:48+08:00
+astex	1GKC_NFH	genconf	cached					20260922			2601	0.0	2026-09-22T15:00:48+08:00
+astex	1GM8_SOX	refconf	cached								2757	0.0	2026-09-22T15:00:48+08:00
+astex	1GM8_SOX	genconf	cached					20260922			2757	0.0	2026-09-22T15:00:48+08:00
+astex	1GPK_HUP	refconf	cached								1958	0.0	2026-09-22T15:00:48+08:00
+astex	1GPK_HUP	genconf	cached					20260922			1958	0.0	2026-09-22T15:00:48+08:00
+astex	1HNN_SKF	refconf	cached								1624	0.0	2026-09-22T15:00:48+08:00
+astex	1HNN_SKF	genconf	cached					20260922			1624	0.0	2026-09-22T15:00:48+08:00
+astex	1HP0_AD3	refconf	cached								2379	0.0	2026-09-22T15:00:48+08:00
+astex	1HP0_AD3	genconf	cached					20260922			2379	0.0	2026-09-22T15:00:48+08:00
+astex	1HQ2_PH2	refconf	cached								1831	0.0	2026-09-22T15:00:48+08:00
+astex	1HQ2_PH2	genconf	cached					20260922			1798	0.0	2026-09-22T15:00:48+08:00
+astex	1HVY_D16	refconf	cached								3616	0.0	2026-09-22T15:00:48+08:00
+astex	1HVY_D16	genconf	cached					20260922			3616	0.0	2026-09-22T15:00:48+08:00
+posebusters	8SLG_G5A	refconf	ok		NCC(=O)NS(=O)(=O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O	27	6				3408	0.02	2026-09-22T15:00:48+08:00
+astex	1HWI_115	refconf	ok		CC(C)n1c(/C=C/[C@@H](O)C[C@@H](O)CC(=O)O)c(-c2ccc(F)cc2)c2ccccc21	30	8				3356	0.01	2026-09-22T15:00:48+08:00
+astex	1HWW_SWA	refconf	ok		O[C@H]1[C@H]2[C@H](O)CCCN2C[C@H]1O	12	0				1475	0.01	2026-09-22T15:00:48+08:00
+astex	1HWW_SWA	genconf	ok		O[C@H]1[C@H]2[C@H](O)CCCN2C[C@H]1O	12	0	20260922	1	0.367	1475	0.04	2026-09-22T15:00:48+08:00
+astex	1IA1_TQ3	refconf	ok		Nc1nc(N)c2c(Sc3ccccc3)cccc2n1	19	2				2207	0.01	2026-09-22T15:00:48+08:00
+astex	1IA1_TQ3	genconf	ok		Nc1nc(N)c2c(Sc3ccccc3)cccc2n1	19	2	20260922	1	1.574	2207	0.06	2026-09-22T15:00:48+08:00
+astex	1IG3_VIB	refconf	ok		Cc1ncc(C[n+]2csc(CCO)c2C)c(N)n1	18	4				2107	0.01	2026-09-22T15:00:48+08:00
+posebusters	8DP2_UMA	genconf	ok		CC(=O)N[C@H]1[C@@H](O[P@@](=O)(O)O[P@](=O)(O)OC[C@H]2O[C@@H](n3ccc(=O)[nH]c3=O)[C@H](O)[C@@H]2O)O[C@H](CO)[C@@H](O)[C@@H]1O[C@H](C)C(=O)N[C@@H](C)C(=O)O	49	15	20260922	1	3.037	6078	1.11	2026-09-22T15:00:47+08:00
+astex	1J3J_CP6	refconf	ok		CCc1nc(N)nc(N)c1-c1ccc(Cl)cc1	17	2				2035	0.01	2026-09-22T15:00:48+08:00
+posebusters	8SLG_G5A	genconf	ok		NCC(=O)NS(=O)(=O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O	27	6	20260922	1	1.78	3408	0.18	2026-09-22T15:00:48+08:00
+astex	1JD0_AZM	refconf	ok		CC(=O)Nc1nnc(S(N)(=O)=O)s1	13	2				1554	0.01	2026-09-22T15:00:48+08:00
+astex	1JD0_AZM	genconf	ok		CC(=O)Nc1nnc(S(N)(=O)=O)s1	13	2	20260922	1	1.032	1554	0.03	2026-09-22T15:00:48+08:00
+astex	1J3J_CP6	genconf	ok		CCc1nc(N)nc(N)c1-c1ccc(Cl)cc1	17	2	20260922	1	0.167	2035	0.05	2026-09-22T15:00:48+08:00
+astex	1JJE_BYS	refconf	ok		O=C(O)[C@@H](Cc1ccccc1)[C@H](Cc1ccc2c(c1)OCO2)C(=O)O	25	7				2760	0.01	2026-09-22T15:00:48+08:00
+astex	1HWI_115	genconf	ok		CC(C)n1c(/C=C/[C@@H](O)C[C@@H](O)CC(=O)O)c(-c2ccc(F)cc2)c2ccccc21	30	8	20260922	1	2.513	3356	0.23	2026-09-22T15:00:48+08:00
+astex	1IG3_VIB	genconf	ok		Cc1ncc(C[n+]2csc(CCO)c2C)c(N)n1	18	4	20260922	1	0.936	2107	0.08	2026-09-22T15:00:48+08:00
+astex	1JLA_TNK	refconf	ok		CC(C)c1c(Cc2ccccc2)n(COCc2ccccc2)c(=O)[nH]c1=O	27	7				2775	0.02	2026-09-22T15:00:48+08:00
+astex	1K3U_IAD	refconf	ok		O=C(O)C[C@H](NC(=O)Cc1c[nH]c2ccccc12)C(=O)O	21	6				2527	0.01	2026-09-22T15:00:48+08:00
+astex	1KE5_LS1	refconf	ok		CNS(=O)(=O)c1ccc(N/C=C2\C(=O)Nc3ccccc32)cc1	23	4				2482	0.01	2026-09-22T15:00:48+08:00
+astex	1K3U_IAD	genconf	ok		O=C(O)C[C@H](NC(=O)Cc1c[nH]c2ccccc12)C(=O)O	21	6	20260922	1	2.234	2527	0.09	2026-09-22T15:00:48+08:00
+astex	1KE5_LS1	genconf	ok		CNS(=O)(=O)c1ccc(N/C=C2\C(=O)Nc3ccccc32)cc1	23	4	20260922	1	1.134	2482	0.09	2026-09-22T15:00:48+08:00
+astex	1KZK_JE2	refconf	ok		Cc1ccccc1CNC(=O)[C@H]1N(C(=O)[C@@H](O)[C@H](Cc2ccccc2)NC(=O)c2cccc(O)c2C)CSC1(C)C	41	9				4455	0.02	2026-09-22T15:00:48+08:00
+astex	1JJE_BYS	genconf	ok		O=C(O)[C@@H](Cc1ccccc1)[C@H](Cc1ccc2c(c1)OCO2)C(=O)O	25	7	20260922	1	2.926	2760	0.14	2026-09-22T15:00:48+08:00
+astex	1L2S_STC	refconf	ok		O=C(O)c1sccc1S(=O)(=O)Nc1ccc(Cl)cc1	19	4				2077	0.01	2026-09-22T15:00:48+08:00
+astex	1L7F_BCZ	refconf	ok		CCC(CC)[C@H](NC(C)=O)[C@@H]1[C@H](O)[C@@H](C(=O)O)C[C@H]1NC(=N)N	23	7				3012	0.01	2026-09-22T15:00:48+08:00
+astex	1JLA_TNK	genconf	ok		CC(C)c1c(Cc2ccccc2)n(COCc2ccccc2)c(=O)[nH]c1=O	27	7	20260922	1	1.567	2775	0.14	2026-09-22T15:00:48+08:00
+astex	1LPZ_CMB	refconf	ok		Cc1cccc2c1cc(C(=O)NCc1cc(Cl)cc(Cl)c1)n2Cc1cccc(C(=N)N)c1	32	6				3440	0.01	2026-09-22T15:00:48+08:00
+astex	1L2S_STC	genconf	ok		O=C(O)c1sccc1S(=O)(=O)Nc1ccc(Cl)cc1	19	4	20260922	1	1.199	2077	0.05	2026-09-22T15:00:48+08:00
+astex	1LRH_NLA	refconf	ok		O=C(O)Cc1cccc2ccccc12	14	2				1481	0.01	2026-09-22T15:00:48+08:00
+astex	1LRH_NLA	genconf	ok		O=C(O)Cc1cccc2ccccc12	14	2	20260922	1	0.923	1481	0.03	2026-09-22T15:00:48+08:00
+astex	1M2Z_DEX	refconf	ok		C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)CO	28	2				3008	0.01	2026-09-22T15:00:48+08:00
+astex	1L7F_BCZ	genconf	ok		CCC(CC)[C@H](NC(C)=O)[C@@H]1[C@H](O)[C@@H](C(=O)O)C[C@H]1NC(=N)N	23	7	20260922	1	1.088	3012	0.15	2026-09-22T15:00:48+08:00
+astex	1MEH_MOA	refconf	ok		COc1c(C)c2c(c(O)c1C/C=C(\C)CCC(=O)O)C(=O)OC2	23	6				2529	0.01	2026-09-22T15:00:48+08:00
+astex	1LPZ_CMB	genconf	ok		Cc1cccc2c1cc(C(=O)NCc1cc(Cl)cc(Cl)c1)n2Cc1cccc(C(=N)N)c1	32	6	20260922	1	1.65	3440	0.17	2026-09-22T15:00:48+08:00
+astex	1MMV_3AR	refconf	ok		CCCNC(=[NH2+])NCCC[C@H](N)C(=O)O	15	7				2289	0.01	2026-09-22T15:00:49+08:00
+posebusters	7ZXV_45D	genconf	ok		CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)CCC2(C)C)C(C)(C)CCC1=O	42	10	20260922	1	1.653	4140	2.13	2026-09-22T15:00:46+08:00
+astex	1MZC_BNE	refconf	ok		CC[C@@]1(c2cccc(Oc3cc([C@](C)(N)c4cncn4C)ccc3C#N)c2)CCCCN(C)C1=O	35	6				3980	0.01	2026-09-22T15:00:49+08:00
+astex	1MEH_MOA	genconf	ok		COc1c(C)c2c(c(O)c1C/C=C(\C)CCC(=O)O)C(=O)OC2	23	6	20260922	1	1.498	2547	0.1	2026-09-22T15:00:48+08:00
+astex	1MMV_3AR	genconf	ok		CCCNC(=[NH2+])NCCC[C@H](N)C(=O)O	15	7	20260922	1	1.467	2289	0.07	2026-09-22T15:00:49+08:00
+astex	1N1M_A3M	refconf	ok		CC(C)[C@H](N)C(=O)N1CCCC1	12	2				1380	0.01	2026-09-22T15:00:49+08:00
+astex	1N2J_PAF	refconf	ok		CC(C)(CO)[C@@H](O)C(=O)[O-]	10	3				1276	0.01	2026-09-22T15:00:49+08:00
+astex	1N2J_PAF	genconf	ok		CC(C)(CO)[C@@H](O)C(=O)[O-]	10	3	20260922	1	1.54	1276	0.02	2026-09-22T15:00:49+08:00
+astex	1N2V_BDI	refconf	ok		CCCCc1nc2c(=O)[nH][nH]c(=O)c2[nH]1	15	3				1753	0.01	2026-09-22T15:00:49+08:00
+astex	1N1M_A3M	genconf	ok		CC(C)[C@H](N)C(=O)N1CCCC1	12	2	20260922	1	0.59	1380	0.04	2026-09-22T15:00:49+08:00
+astex	1N46_PFA	refconf	ok		Cc1cc(-n2ncc(=O)[nH]c2=O)cc(C)c1Oc1ccc(O)c(C(C)C)c1	27	4				2800	0.01	2026-09-22T15:00:49+08:00
+astex	1N2V_BDI	genconf	ok		CCCCc1nc2c(=O)[nH][nH]c(=O)c2[nH]1	15	3	20260922	1	0.46	1753	0.03	2026-09-22T15:00:49+08:00
+astex	1NAV_IH5	refconf	ok		CC(C)c1cc(Oc2c(Cl)cc(CC(=O)O)cc2Cl)ccc1O	23	5				2493	0.01	2026-09-22T15:00:49+08:00
+astex	1M2Z_DEX	genconf	ok		C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)CO	28	2	20260922	1	0.507	3008	0.27	2026-09-22T15:00:48+08:00
+astex	1OF1_SCT	refconf	ok		Cc1cn([C@@]23C[C@H](O)[C@@H](CO)[C@@H]2C3)c(=O)[nH]c1=O	18	2				2064	0.01	2026-09-22T15:00:49+08:00
+astex	1NAV_IH5	genconf	ok		CC(C)c1cc(Oc2c(Cl)cc(CC(=O)O)cc2Cl)ccc1O	23	5	20260922	1	1.126	2511	0.06	2026-09-22T15:00:49+08:00
+astex	1OF6_DTY	refconf	ok		N[C@@H](Cc1ccc(O)cc1)C(=O)O	13	3				1756	0.01	2026-09-22T15:00:49+08:00
+astex	1OF1_SCT	genconf	ok		Cc1cn([C@@]23C[C@H](O)[C@@H](CO)[C@@H]2C3)c(=O)[nH]c1=O	18	2	20260922	1	1.891	2064	0.05	2026-09-22T15:00:49+08:00
+astex	1OF6_DTY	genconf	ok		N[C@@H](Cc1ccc(O)cc1)C(=O)O	13	3	20260922	1	1.105	1756	0.03	2026-09-22T15:00:49+08:00
+astex	1OPK_P16	refconf	ok		Cn1c(=O)c(-c2c(Cl)cccc2Cl)cc2cnc(Nc3cccc(CO)c3)nc21	29	4				2972	0.01	2026-09-22T15:00:49+08:00
+astex	1OQ5_CEL	refconf	ok		Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1	26	3				2713	0.01	2026-09-22T15:00:49+08:00
+astex	1KZK_JE2	genconf	ok		Cc1ccccc1CNC(=O)[C@H]1N(C(=O)[C@@H](O)[C@H](Cc2ccccc2)NC(=O)c2cccc(O)c2C)CSC1(C)C	41	9	20260922	1	1.554	4455	0.47	2026-09-22T15:00:48+08:00
+astex	1N46_PFA	genconf	ok		Cc1cc(-n2ncc(=O)[nH]c2=O)cc(C)c1Oc1ccc(O)c(C(C)C)c1	27	4	20260922	1	1.335	2800	0.13	2026-09-22T15:00:49+08:00
+astex	1OWE_675	refconf	ok		N=C(N)c1ccc2cc(C(=O)Nc3ccccc3)ccc2c1	22	3				2440	0.01	2026-09-22T15:00:49+08:00
+astex	1OYT_FSN	refconf	ok		NC(=[NH2+])c1ccc([C@H]2[C@H]3C(=O)N(Cc4ccc(F)cc4)C(=O)[C@H]3[C@@H]3CCCN32)cc1	30	4				3219	0.01	2026-09-22T15:00:49+08:00
+astex	1OWE_675	genconf	ok		N=C(N)c1ccc2cc(C(=O)Nc3ccccc3)ccc2c1	22	3	20260922	1	0.91	2440	0.06	2026-09-22T15:00:49+08:00
+astex	1OQ5_CEL	genconf	ok		Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1	26	3	20260922	1	0.512	2713	0.07	2026-09-22T15:00:49+08:00
+astex	1P2Y_NCT	refconf	ok		CN1CCC[C@H]1c1cccnc1	12	1				1139	0.01	2026-09-22T15:00:49+08:00
+astex	1P62_GEO	refconf	ok		Nc1ccn([C@@H]2O[C@H](CO)[C@@H](O)C2(F)F)c(=O)n1	18	2				2174	0.01	2026-09-22T15:00:49+08:00
+astex	1P2Y_NCT	genconf	ok		CN1CCC[C@H]1c1cccnc1	12	1	20260922	1	0.291	1139	0.03	2026-09-22T15:00:49+08:00
+astex	1PMN_984	refconf	ok		CCCn1c(C2CCN(C)CC2)nc(-c2ccc(Cl)c(Cl)c2)c1-c1ccnc(NC2CC2)n1	33	7				3304	0.01	2026-09-22T15:00:49+08:00
+astex	1OPK_P16	genconf	ok		Cn1c(=O)c(-c2c(Cl)cccc2Cl)cc2cnc(Nc3cccc(CO)c3)nc21	29	4	20260922	1	1.522	2972	0.11	2026-09-22T15:00:49+08:00
+astex	1Q1G_MTI	refconf	ok		CSC[C@H]1[NH2+][C@@H](c2c[nH]c3c(=O)[nH]cnc23)[C@H](O)[C@@H]1O	20	3				2532	0.01	2026-09-22T15:00:49+08:00
+astex	1P62_GEO	genconf	ok		Nc1ccn([C@@H]2O[C@H](CO)[C@@H](O)C2(F)F)c(=O)n1	18	2	20260922	1	1.681	2141	0.04	2026-09-22T15:00:49+08:00
+astex	1Q41_IXM	refconf	ok		O=C1Nc2ccccc2/C1=C1/Nc2ccccc2/C1=N\O	21	0				2204	0.01	2026-09-22T15:00:49+08:00
+astex	1MZC_BNE	genconf	ok		CC[C@@]1(c2cccc(Oc3cc([C@](C)(N)c4cncn4C)ccc3C#N)c2)CCCCN(C)C1=O	35	6	20260922	1	2.766	3980	0.33	2026-09-22T15:00:49+08:00
+astex	1Q4G_BFL	refconf	ok		C[C@H](C(=O)O)c1ccc(-c2ccccc2)cc1	17	3				1784	0.01	2026-09-22T15:00:49+08:00
+astex	1Q41_IXM	genconf	ok		O=C1Nc2ccccc2/C1=C1/Nc2ccccc2/C1=N\O	21	0	20260922	1	0.126	2204	0.06	2026-09-22T15:00:49+08:00
+astex	1Q4G_BFL	genconf	ok		C[C@H](C(=O)O)c1ccc(-c2ccccc2)cc1	17	3	20260922	1	0.273	1784	0.04	2026-09-22T15:00:49+08:00
+astex	1Q1G_MTI	genconf	ok		CSC[C@H]1[NH2+][C@@H](c2c[nH]c3c(=O)[nH]cnc23)[C@H](O)[C@@H]1O	20	3	20260922	1	1.408	2532	0.08	2026-09-22T15:00:49+08:00
+astex	1R1H_BIR	refconf	ok		C[C@H](NC(=O)[C@H](Cc1ccc(-c2ccccc2)cc1)C[P@](=O)(O)[C@H](C)N)C(=O)O	29	9				3478	0.01	2026-09-22T15:00:49+08:00
+astex	1R55_097	refconf	ok		CNC(=O)[C@@H](NC(=O)[C@H](CC(C)C)[C@H](O)C(=O)NO)C(C)(C)C	23	7				2866	0.01	2026-09-22T15:00:49+08:00
+astex	1R58_AO5	refconf	ok		CC(C)SCC[C@@H](N)[C@H](O)C(=O)NNC(=O)c1cccc(Cl)c1	23	7				2858	0.01	2026-09-22T15:00:49+08:00
+astex	1OYT_FSN	genconf	ok		NC(=[NH2+])c1ccc([C@H]2[C@H]3C(=O)N(Cc4ccc(F)cc4)C(=O)[C@H]3[C@@H]3CCCN32)cc1	30	4	20260922	1	2.379	3219	0.26	2026-09-22T15:00:49+08:00
+astex	1R9O_FLP	refconf	ok		C[C@H](C(=O)O)c1ccc(-c2ccccc2)c(F)c1	18	3				1873	0.01	2026-09-22T15:00:49+08:00
+astex	1R58_AO5	genconf	ok		CC(C)SCC[C@@H](N)[C@H](O)C(=O)NNC(=O)c1cccc(Cl)c1	23	7	20260922	1	2.699	2858	0.11	2026-09-22T15:00:49+08:00
+astex	1PMN_984	genconf	ok		CCCn1c(C2CCN(C)CC2)nc(-c2ccc(Cl)c(Cl)c2)c1-c1ccnc(NC2CC2)n1	33	7	20260922	1	1.46	3304	0.22	2026-09-22T15:00:49+08:00
+astex	1S19_MC9	refconf	ok		C=C1/C(=C\C=C2/CCC[C@]3(C)[C@@H]([C@H](C)/C=C/[C@@H](O)C4CC4)CC[C@@H]23)C[C@@H](O)C[C@@H]1O	30	5				3283	0.01	2026-09-22T15:00:49+08:00
+astex	1R9O_FLP	genconf	ok		C[C@H](C(=O)O)c1ccc(-c2ccccc2)c(F)c1	18	3	20260922	1	1.496	1873	0.05	2026-09-22T15:00:49+08:00
+astex	1S3V_TQD	refconf	ok		COc1cc(N(C)C[C@@H]2CCC3=C(C2)C(N)=N[C@@H](N)N3)cc(OC)c1OC	27	6				3130	0.01	2026-09-22T15:00:49+08:00
+astex	1SG0_STL	refconf	ok		Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1	17	2				1986	0.01	2026-09-22T15:00:49+08:00
+astex	1R55_097	genconf	ok		CNC(=O)[C@@H](NC(=O)[C@H](CC(C)C)[C@H](O)C(=O)NO)C(C)(C)C	23	7	20260922	1	1.335	2866	0.15	2026-09-22T15:00:49+08:00
+astex	1SJ0_E4D	refconf	ok		Oc1ccc([C@H]2Sc3cc(O)ccc3O[C@H]2c2ccc(OCCN3CCCCC3)cc2)cc1	33	6				3420	0.01	2026-09-22T15:00:49+08:00
+astex	1SG0_STL	genconf	ok		Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1	17	2	20260922	1	0.175	1986	0.04	2026-09-22T15:00:49+08:00
+astex	1SQ5_PAU	refconf	ok		CC(C)(CO)[C@@H](O)C(=O)NCCC(=O)O	15	6				2033	0.01	2026-09-22T15:00:49+08:00
+astex	1SQ5_PAU	genconf	ok		CC(C)(CO)[C@@H](O)C(=O)NCCC(=O)O	15	6	20260922	1	1.146	2033	0.06	2026-09-22T15:00:49+08:00
+astex	1R1H_BIR	genconf	ok		C[C@H](NC(=O)[C@H](Cc1ccc(-c2ccccc2)cc1)C[P@](=O)(O)[C@H](C)N)C(=O)O	29	9	20260922	1	2.641	3478	0.27	2026-09-22T15:00:49+08:00
+astex	1SQN_NDR	refconf	ok		C#C[C@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C	22	0				2144	0.02	2026-09-22T15:00:49+08:00
+astex	1T40_ID5	refconf	ok		O=C(O)COc1cc(F)ccc1C(=O)NCc1nc2c(F)c(F)cc(F)c2s1	28	6				2948	0.01	2026-09-22T15:00:49+08:00
+astex	1S3V_TQD	genconf	ok		COc1cc(N(C)C[C@@H]2CCC3=C(C2)C(N)=N[C@@H](N)N3)cc(OC)c1OC	27	6	20260922	1	1.232	3130	0.22	2026-09-22T15:00:49+08:00
+astex	1T46_STI	refconf	ok		Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1	37	7				3751	0.01	2026-09-22T15:00:49+08:00
+astex	1T40_ID5	genconf	ok		O=C(O)COc1cc(F)ccc1C(=O)NCc1nc2c(F)c(F)cc(F)c2s1	28	6	20260922	1	2.53	2948	0.08	2026-09-22T15:00:49+08:00
+astex	1T9B_1CS	refconf	ok		COc1nc(C)nc(NC(=O)NS(=O)(=O)c2ccccc2Cl)n1	23	4				2412	0.01	2026-09-22T15:00:49+08:00
+astex	1SQN_NDR	genconf	ok		C#C[C@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C	22	0	20260922	1	0.45	2144	0.15	2026-09-22T15:00:49+08:00
+astex	1SJ0_E4D	genconf	ok		Oc1ccc([C@H]2Sc3cc(O)ccc3O[C@H]2c2ccc(OCCN3CCCCC3)cc2)cc1	33	6	20260922	1	0.942	3420	0.24	2026-09-22T15:00:49+08:00
+astex	1TOW_CRZ	refconf	ok		O=C(O)CCCn1c2ccccc2c2ccccc21	19	4				1984	0.01	2026-09-22T15:00:49+08:00
+astex	1TT1_KAI	refconf	ok		C=C(C)[C@H]1CN[C@H](C(=O)O)[C@H]1CC(=O)O	15	4				1857	0.01	2026-09-22T15:00:49+08:00
+astex	1T9B_1CS	genconf	ok		COc1nc(C)nc(NC(=O)NS(=O)(=O)c2ccccc2Cl)n1	23	4	20260922	1	1.437	2412	0.06	2026-09-22T15:00:49+08:00
+astex	1TZ8_DES	refconf	ok		CC/C(=C(/CC)c1ccc(O)cc1)c1ccc(O)cc1	20	4				2197	0.01	2026-09-22T15:00:49+08:00
+astex	1TOW_CRZ	genconf	ok		O=C(O)CCCn1c2ccccc2c2ccccc21	19	4	20260922	1	0.855	1984	0.05	2026-09-22T15:00:49+08:00
+astex	1U1C_BAU	refconf	ok		O=c1[nH]c(=O)n(COCCO)cc1Cc1ccccc1	20	6				2227	0.01	2026-09-22T15:00:49+08:00
+astex	1TT1_KAI	genconf	ok		C=C(C)[C@H]1CN[C@H](C(=O)O)[C@H]1CC(=O)O	15	4	20260922	1	1.549	1857	0.05	2026-09-22T15:00:49+08:00
+astex	1U4D_DBQ	refconf	ok		NC1=N/C(=C2/CCNC(=O)c3[nH]ccc32)C(=O)N1	18	0				2415	0.01	2026-09-22T15:00:49+08:00
+astex	1S19_MC9	genconf	ok		C=C1/C(=C\C=C2/CCC[C@]3(C)[C@@H]([C@H](C)/C=C/[C@@H](O)C4CC4)CC[C@@H]23)C[C@@H](O)C[C@@H]1O	30	5	20260922	1	1.855	3283	0.37	2026-09-22T15:00:49+08:00
+astex	1UML_FR4	refconf	ok		NC(=O)c1cn([C@@H](CO)CCn2ccc3ccc(NC(=O)CCc4ccccc4)cc32)cn1	33	10				3691	0.01	2026-09-22T15:00:49+08:00
+astex	1TZ8_DES	genconf	ok		CC/C(=C(/CC)c1ccc(O)cc1)c1ccc(O)cc1	20	4	20260922	1	0.371	2197	0.07	2026-09-22T15:00:49+08:00
+astex	1U4D_DBQ	genconf	ok		NC1=N/C(=C2/CCNC(=O)c3[nH]ccc32)C(=O)N1	18	0	20260922	1	0.212	2415	0.04	2026-09-22T15:00:49+08:00
+astex	1U1C_BAU	genconf	ok		O=c1[nH]c(=O)n(COCCO)cc1Cc1ccccc1	20	6	20260922	1	1.324	2227	0.05	2026-09-22T15:00:49+08:00
+astex	1UNL_RRC	refconf	ok		CC[C@H](CO)Nc1nc(NCc2ccccc2)c2ncn(C(C)C)c2n1	26	8				2923	0.01	2026-09-22T15:00:49+08:00
+astex	1UOU_CMU	refconf	ok		N=C1CCCN1Cc1[nH]c(=O)[nH]c(=O)c1Cl	16	2				1804	0.01	2026-09-22T15:00:49+08:00
+astex	1V0P_PVB	refconf	ok		CC(C)[C@H](CO)Nc1nc(Nc2ccc(C(=O)O)c(Cl)c2)c2ncn(C(C)C)c2n1	30	8				3401	0.01	2026-09-22T15:00:49+08:00
+astex	1UOU_CMU	genconf	ok		N=C1CCCN1Cc1[nH]c(=O)[nH]c(=O)c1Cl	16	2	20260922	1	1.561	1804	0.03	2026-09-22T15:00:49+08:00
+astex	1V48_HA1	refconf	ok		Nc1nc2c(ncn2CCCCC(F)(F)P(=O)(O)O)c(=O)[nH]1	22	6				2732	0.01	2026-09-22T15:00:50+08:00
+astex	1V48_HA1	genconf	ok		Nc1nc2c(ncn2CCCCC(F)(F)P(=O)(O)O)c(=O)[nH]1	22	6	20260922	1	0.772	2699	0.06	2026-09-22T15:00:50+08:00
+astex	1T46_STI	genconf	ok		Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1	37	7	20260922	1	1.623	3751	0.27	2026-09-22T15:00:49+08:00
+astex	1V4S_MRK	refconf	ok		Cn1ccnc1Sc1cc(C(=O)Nc2nccs2)c(N)cc1F	23	4				2509	0.01	2026-09-22T15:00:50+08:00
+astex	1UNL_RRC	genconf	ok		CC[C@H](CO)Nc1nc(NCc2ccccc2)c2ncn(C(C)C)c2n1	26	8	20260922	1	2.086	2923	0.13	2026-09-22T15:00:49+08:00
+astex	1VCJ_IBA	refconf	ok		CCC(CC)Nc1cc(C(=O)O)ccc1N1C(=O)CC[C@@]1(CN)CO	25	8				3078	0.02	2026-09-22T15:00:50+08:00
+astex	1W1P_GIO	refconf	ok		O=C1NCC(=O)N2CCC[C@@H]12	11	0				1109	0.01	2026-09-22T15:00:50+08:00
+astex	1W1P_GIO	genconf	ok		O=C1NCC(=O)N2CCC[C@@H]12	11	0	20260922	1	0.158	1109	0.02	2026-09-22T15:00:50+08:00
+astex	1W2G_THM	refconf	ok		Cc1cn([C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)[nH]c1=O	17	2				1970	0.01	2026-09-22T15:00:50+08:00
+astex	1V0P_PVB	genconf	ok		CC(C)[C@H](CO)Nc1nc(Nc2ccc(C(=O)O)c(Cl)c2)c2ncn(C(C)C)c2n1	30	8	20260922	1	2.261	3401	0.17	2026-09-22T15:00:50+08:00
+astex	1V4S_MRK	genconf	ok		Cn1ccnc1Sc1cc(C(=O)Nc2nccs2)c(N)cc1F	23	4	20260922	1	1.618	2509	0.08	2026-09-22T15:00:50+08:00
+astex	1X8X_TYR	refconf	ok		N[C@@H](Cc1ccc(O)cc1)C(=O)O	13	3				1756	0.01	2026-09-22T15:00:50+08:00
+astex	1XM6_5RM	refconf	ok		CCCOc1cc([C@]2(C)CNC(=O)O2)ccc1OC	19	5				1990	0.01	2026-09-22T15:00:50+08:00
+astex	1W2G_THM	genconf	ok		Cc1cn([C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)[nH]c1=O	17	2	20260922	1	1.93	1970	0.05	2026-09-22T15:00:50+08:00
+astex	1XOQ_ROF	refconf	ok		O=C(Nc1c(Cl)cncc1Cl)c1ccc(OC(F)F)c(OCC2CC2)c1	26	7				2687	0.01	2026-09-22T15:00:50+08:00
+astex	1X8X_TYR	genconf	ok		N[C@@H](Cc1ccc(O)cc1)C(=O)O	13	3	20260922	1	1.223	1756	0.03	2026-09-22T15:00:50+08:00
+astex	1XOZ_CIA	refconf	ok		CN1CC(=O)N2[C@H](c3ccc4c(c3)OCO4)c3[nH]c4ccccc4c3C[C@@H]2C1=O	29	1				2764	0.02	2026-09-22T15:00:50+08:00
+astex	1UML_FR4	genconf	ok		NC(=O)c1cn([C@@H](CO)CCn2ccc3ccc(NC(=O)CCc4ccccc4)cc32)cn1	33	10	20260922	1	2.417	3691	0.3	2026-09-22T15:00:49+08:00
+astex	1VCJ_IBA	genconf	ok		CCC(CC)Nc1cc(C(=O)O)ccc1N1C(=O)CC[C@@]1(CN)CO	25	8	20260922	1	1.822	3078	0.16	2026-09-22T15:00:50+08:00
+astex	1XM6_5RM	genconf	ok		CCCOc1cc([C@]2(C)CNC(=O)O2)ccc1OC	19	5	20260922	1	0.579	1990	0.09	2026-09-22T15:00:50+08:00
+astex	1Y6B_AAX	refconf	ok		COc1ccc(S(=O)(=O)NCC2CC2)cc1Nc1ncc(-c2cccc(-c3cccnc3)c2)o1	34	9				3559	0.01	2026-09-22T15:00:50+08:00
+astex	1YGC_905	refconf	ok		CCOc1cc(OCC)c(F)c([C@@H](Nc2ccc(C(=N)N)c(O)c2)C(=O)NS(=O)(=O)c2cccc(N)c2)c1	38	11				4569	0.01	2026-09-22T15:00:50+08:00
+astex	1YQY_915	refconf	ok		Cc1cc(S(=O)(=O)N[C@@H](C(=O)NO)C2CCOCC2)ccc1F	23	5				2550	0.01	2026-09-22T15:00:50+08:00
+astex	1XOQ_ROF	genconf	ok		O=C(Nc1c(Cl)cncc1Cl)c1ccc(OC(F)F)c(OCC2CC2)c1	26	7	20260922	1	1.653	2687	0.1	2026-09-22T15:00:50+08:00
+astex	1YV3_BIT	refconf	ok		Cc1ccc2c(c1)C(=O)[C@]1(O)CCN(c3ccccc3)C1=N2	22	1				2159	0.01	2026-09-22T15:00:50+08:00
+astex	1XOZ_CIA	genconf	ok		CN1CC(=O)N2[C@H](c3ccc4c(c3)OCO4)c3[nH]c4ccccc4c3C[C@@H]2C1=O	29	1	20260922	1	1.259	2764	0.17	2026-09-22T15:00:50+08:00
+astex	1YQY_915	genconf	ok		Cc1cc(S(=O)(=O)N[C@@H](C(=O)NO)C2CCOCC2)ccc1F	23	5	20260922	1	1.256	2550	0.1	2026-09-22T15:00:50+08:00
+astex	1YVF_PH7	refconf	ok		O=C(O)/C(=C/c1ccc(Oc2ccccc2Br)cc1)NC(=O)c1ccccc1	28	6				2948	0.01	2026-09-22T15:00:50+08:00
+astex	1YWR_LI9	refconf	ok		C[C@H](Nc1nccc(-c2c(-c3ccc(F)cc3)c(=O)n(C3CCNCC3)n2C)n1)c1ccccc1	35	6				3551	0.01	2026-09-22T15:00:50+08:00
+astex	1YV3_BIT	genconf	ok		Cc1ccc2c(c1)C(=O)[C@]1(O)CCN(c3ccccc3)C1=N2	22	1	20260922	1	0.19	2159	0.1	2026-09-22T15:00:50+08:00
+astex	1Z95_198	refconf	ok		C[C@](O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1	29	5				3046	0.01	2026-09-22T15:00:50+08:00
+astex	1YVF_PH7	genconf	ok		O=C(O)/C(=C/c1ccc(Oc2ccccc2Br)cc1)NC(=O)c1ccccc1	28	6	20260922	1	1.932	2948	0.11	2026-09-22T15:00:50+08:00
+astex	2BM2_PM2	refconf	ok		NCc1cccc(C2CCN(C(=O)c3cncc(CCc4ccccc4)c3)CC2)c1	30	6				3118	0.01	2026-09-22T15:00:50+08:00
+astex	1Z95_198	genconf	ok		C[C@](O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1	29	5	20260922	1	2.102	3046	0.11	2026-09-22T15:00:50+08:00
+astex	2BR1_PFP	refconf	ok		COc1ccc(-c2oc3ncnc(NCCO)c3c2-c2ccc(OC)cc2)cc1	29	7				3065	0.01	2026-09-22T15:00:50+08:00
+astex	1Y6B_AAX	genconf	ok		COc1ccc(S(=O)(=O)NCC2CC2)cc1Nc1ncc(-c2cccc(-c3cccnc3)c2)o1	34	9	20260922	1	1.048	3559	0.33	2026-09-22T15:00:50+08:00
+astex	2BSM_BSM	refconf	ok		CCNC(=O)c1n[nH]c(-c2cc(Cl)c(O)cc2O)c1-c1ccc(OC)cc1	27	5				3035	0.01	2026-09-22T15:00:50+08:00
+astex	2BR1_PFP	genconf	ok		COc1ccc(-c2oc3ncnc(NCCO)c3c2-c2ccc(OC)cc2)cc1	29	7	20260922	1	0.628	3065	0.12	2026-09-22T15:00:50+08:00
+astex	1YGC_905	genconf	ok		CCOc1cc(OCC)c(F)c([C@@H](Nc2ccc(C(=N)N)c(O)c2)C(=O)NS(=O)(=O)c2cccc(N)c2)c1	38	11	20260922	1	2.734	4569	0.39	2026-09-22T15:00:50+08:00
+astex	2BM2_PM2	genconf	ok		NCc1cccc(C2CCN(C(=O)c3cncc(CCc4ccccc4)c3)CC2)c1	30	6	20260922	1	2.36	3118	0.17	2026-09-22T15:00:50+08:00
+astex	2BSM_BSM	genconf	ok		CCNC(=O)c1n[nH]c(-c2cc(Cl)c(O)cc2O)c1-c1ccc(OC)cc1	27	5	20260922	1	1.059	3035	0.09	2026-09-22T15:00:50+08:00
+astex	1YWR_LI9	genconf	ok		C[C@H](Nc1nccc(-c2c(-c3ccc(F)cc3)c(=O)n(C3CCNCC3)n2C)n1)c1ccccc1	35	6	20260922	1	1.679	3551	0.33	2026-09-22T15:00:50+08:00
+posebusters	8F4J_PHO	genconf	ok		C=Cc1c(C)c2cc3nc(c4c5[nH]c(cc6nc(cc1[nH]2)C(C)=C6CC)c(C)c5C(=O)[C@@H]4C(=O)OC)[C@@H](CCC(=O)OC/C=C(\C)CCC[C@H](C)CCC[C@H](C)CCCC(C)C)[C@@H]3C	64	20	20260922	1	3.483	6706	2.94	2026-09-22T15:00:47+08:00

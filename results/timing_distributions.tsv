@@ -1,0 +1,3 @@
+arm	method	dataset	jobs	n	min	q25	median	q75	q90	max	mean	total_core_seconds	recorded
+A1_refconf_refbox	vina	astex	4	8.0	10.72	12.56	36.04	50.86	63.33	87.88	37.28	298.2	2026-09-22
+A2_genconf_refbox	vina	astex	4	8.0	25.29	32.98	87.97	112.42	119.38	126.1	77.46	619.7	2026-09-22

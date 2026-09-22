@@ -1,0 +1,10 @@
+item	value	note
+vina.astex.A1_refconf_refbox.rmsd_le_2a_pct	62.5	5 of 8 scored
+vina.astex.A1_refconf_refbox.success_2a_pct	62.5	5 of 8 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vina.astex.A2_genconf_refbox.rmsd_le_2a_pct	12.5	1 of 8 scored
+vina.astex.A2_genconf_refbox.success_2a_pct	12.5	1 of 8 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+dataset.posebusters.in_manifest	308	120 excluded at stage 2
+dataset.astex.in_manifest	85	0 excluded at stage 2
+exclusions.total_rows	223	every complex dropped at any stage; see results/excluded.tsv
+thresholds.pass_angstrom	2.0	the number the field quotes
+thresholds.strict_angstrom	1.0	reported alongside
