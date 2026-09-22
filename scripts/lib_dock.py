@@ -107,7 +107,16 @@ def build_command(method: str, cfg: dict, receptor: Path, ligand: Path,
     if method == "vinardo":
         return [cfg["smina_bin"], "--scoring", "vinardo"] + common
     if method == "gnina":
-        return [cfg["gnina_bin"], "--cnn_scoring", cfg["gnina_cnn_scoring"]] + common
+        # --cnn names the model set and is recorded, because GNINA's default has
+        # changed between releases: leaving it implicit means the results table
+        # does not say what was scored. The default is an ensemble of five
+        # networks, and on CPU that is the difference between a benchmark that
+        # finishes and one that does not. GNINA prints its own advice to this
+        # effect at the end of an ensemble run.
+        cmd = [cfg["gnina_bin"], "--cnn_scoring", cfg["gnina_cnn_scoring"]]
+        if cfg.get("gnina_cnn_model") and cfg["gnina_cnn_model"] != "default":
+            cmd += ["--cnn", cfg["gnina_cnn_model"]]
+        return cmd + common
     raise ValueError(method)
 
 
@@ -244,7 +253,9 @@ def _dock_one(job: dict) -> dict:
         "run_kind": job.get("run_kind", "arm"),
         "arm": job["arm"], "method": cfg["method"], "dataset": job["dataset"],
         "key": job["key"], "seed": job["seed"], "status": "ok", "reason": "",
-        "score_function": SCORE_FUNCTION[cfg["method"]],
+        "score_function": (SCORE_FUNCTION[cfg["method"]] if cfg["method"] != "gnina"
+                           else f"gnina_cnn:{cfg['gnina_cnn_scoring']}:"
+                                f"{cfg['gnina_cnn_model']}"),
         "score_units": "kcal/mol (empirical score, not a measured free energy)",
         "box_center_x": job["centre"][0], "box_center_y": job["centre"][1],
         "box_center_z": job["centre"][2], "box_size": cfg["box_size"],
@@ -545,6 +556,7 @@ def main() -> int:
         "vina_bin": args.vina_bin, "smina_bin": args.smina_bin,
         "gnina_bin": args.gnina_bin, "gnina_lib": args.gnina_lib,
         "gnina_cnn_scoring": conf.get("GNINA_CNN_SCORING", "rescore"),
+        "gnina_cnn_model": conf.get("GNINA_CNN_MODEL", "default"),
         "box_size": L.conf_float(conf, "BOX_SIZE", 25.0),
         "exhaustiveness": L.conf_int(conf, "EXHAUSTIVENESS", 8),
         "top_n": L.conf_int(conf, "TOP_N_POSES", 5),
@@ -580,7 +592,8 @@ def main() -> int:
           f"box {cfg['box_size']:g} A, exhaustiveness {cfg['exhaustiveness']}, "
           f"top {cfg['top_n']} poses kept")
     if args.method == "gnina":
-        print(f"[{args.stage}] gnina --cnn_scoring {cfg['gnina_cnn_scoring']}")
+        print(f"[{args.stage}] gnina --cnn_scoring {cfg['gnina_cnn_scoring']} "
+              f"--cnn {cfg['gnina_cnn_model']}")
 
     # --- run, with the disk gate after the first ten -----------------------
     poses_root = data_dir / "poses"

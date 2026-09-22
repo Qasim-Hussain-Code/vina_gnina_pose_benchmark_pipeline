@@ -350,7 +350,17 @@ TOP_N_POSES=5
 # than left implicit because GNINA's default ensemble has changed between
 # releases.
 GNINA_CNN_SCORING=rescore
-GNINA_CNN_MODEL=default
+# Which network, not just which mode. GNINA's default is an ensemble of five
+# CNNs and its own output recommends a single model when that is too slow. On
+# this machine, with no CUDA device, one complex at exhaustiveness 8 with the
+# default ensemble had not finished after eighteen minutes and was abandoned;
+# the same complex with the single crossdock_default2018 network took 105
+# seconds under load. The ensemble is the better scorer and the single network
+# is the one that finishes, so the single network is used and named here rather
+# than left implicit. A results table that does not say which network produced
+# its scores is not reproducible, and GNINA's default has changed between
+# releases.
+GNINA_CNN_MODEL=crossdock_default2018
 # Success thresholds in Angstrom. 2.0 is the number the field quotes and it is
 # arbitrary; 1.0 is reported next to it so a reader can see whether the ranking
 # of the methods survives the stricter cut.
