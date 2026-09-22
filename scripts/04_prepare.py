@@ -186,7 +186,18 @@ def prepare_receptor(src_pdb: Path, out_dir: Path, drop_ccd: str | None,
     # -xr writes a rigid receptor with no torsion tree. Non-polar hydrogens are
     # merged into their carbons, which is the united-atom convention Vina
     # expects; the polar hydrogens pdb2pqr placed are kept.
-    p3 = subprocess.run([tools["obabel"], str(prot), "-O", str(pdbqt), "-xr"],
+    #
+    # --partialcharge gasteiger is not optional and its absence is silent. Open
+    # Babel writes a PDBQT with a charge column of +0.000 for every atom unless
+    # asked for a charge model, and nothing complains: the file parses, Vina
+    # reads it, and the docking runs. The first receptors prepared here had
+    # 11,465 atoms of zero charge each. It happens not to change the Vina or
+    # Vinardo result, because neither scoring function has an electrostatic term,
+    # but GNINA's CNN sees the receptor as typed atoms with charges and an
+    # AutoDock4 rescoring would be nonsense. A zero-charge receptor is wrong even
+    # where it is harmless.
+    p3 = subprocess.run([tools["obabel"], str(prot), "-O", str(pdbqt), "-xr",
+                         "--partialcharge", "gasteiger"],
                         capture_output=True, text=True, timeout=3600)
     if p3.returncode != 0 or not pdbqt.is_file() or pdbqt.stat().st_size == 0:
         tail = (p3.stderr or p3.stdout or "").strip().splitlines()[-1:] or [""]
