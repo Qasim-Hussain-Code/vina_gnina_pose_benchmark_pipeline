@@ -132,8 +132,11 @@ def main() -> int:
     # -----------------------------------------------------------------------
     # 1. success rates
     # -----------------------------------------------------------------------
+    # Only the production arm runs. The seed-variance replicates share an arm
+    # name with A2 and would otherwise be counted as five extra complexes.
+    arm_runs = [r for r in runs if (r.get("run_kind") or "arm") == "arm"]
     cells = defaultdict(list)
-    for r in runs:
+    for r in arm_runs:
         cells[(r["arm"], r["method"], r["dataset"])].append(r)
 
     sr_cols = ["arm", "arm_description", "method", "dataset",
@@ -286,7 +289,8 @@ def main() -> int:
     wf_cols = ["arm", "method", "dataset", "check", "n_top1_assessed",
                "n_failed", "pct_failed", "recorded"]
     wf_rows = []
-    top1 = [p for p in poses if str(p.get("pose_rank")) == "1"]
+    top1 = [p for p in poses if str(p.get("pose_rank")) == "1"
+            and (p.get("run_kind") or "arm") == "arm"]
     check_names = sorted({k for p in poses if k.startswith("pb_")
                           and k not in ("pb_valid", "pb_checks_failed")})
     groups = defaultdict(list)
@@ -349,7 +353,7 @@ def main() -> int:
     sv_rows = []
     sv = defaultdict(list)
     for r in runs:
-        if r.get("dataset") == "posebusters" and r.get("seed"):
+        if (r.get("run_kind") or "arm") == "seed_variance":
             sv[(r["method"], r["key"], r["arm"])].append(r)
     for keyt, rs in sorted(sv.items()):
         seeds = sorted({str(r["seed"]) for r in rs})
@@ -409,7 +413,7 @@ def main() -> int:
                 ex_rows.append({"dataset": r.get(dscol, "crossdock") if dscol else "crossdock",
                                 "key": r.get(keycol, ""), "stage": f"04_prepare/{p.stem}",
                                 "reason": r.get("reason", ""), "recorded": stamp})
-    for r in runs:
+    for r in arm_runs:
         if r.get("status") == "failed":
             ex_rows.append({"dataset": r["dataset"], "key": r["key"],
                             "stage": f"06_dock/{r['arm']}/{r['method']}",

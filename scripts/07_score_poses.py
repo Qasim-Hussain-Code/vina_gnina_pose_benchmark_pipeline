@@ -55,14 +55,16 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import lib_vgb as L  # noqa: E402
 
 POSE_COLUMNS_FIXED = [
-    "arm", "method", "dataset", "key", "seed", "pose_rank", "status", "reason",
+    "run_kind", "arm", "method", "dataset", "key", "seed", "pose_rank",
+    "status", "reason",
     "rmsd", "kabsch_rmsd", "rmsd_spyrmsd", "rmsd_first_match",
     "rmsd_implementations_disagree_by", "pb_valid", "pb_checks_failed",
     "recorded",
 ]
 
 RUN_COLUMNS = [
-    "arm", "method", "dataset", "key", "seed", "status", "reason", "n_poses",
+    "run_kind", "arm", "method", "dataset", "key", "seed", "status", "reason",
+    "n_poses",
     "top_score", "score_function", "score_units", "elapsed_s", "jobs",
     "top1_rmsd", "top1_kabsch_rmsd", "top1_pb_valid", "top1_pass_2a",
     "top1_pass_1a", "top1_success_2a", "top1_success_1a",
@@ -126,7 +128,7 @@ def read_poses(archive: Path):
 
 def _score_run(job: dict) -> tuple[dict, list[dict]]:
     stamp = datetime.datetime.now().astimezone().isoformat(timespec="seconds")
-    base = {k: job[k] for k in ("arm", "method", "dataset", "key", "seed")}
+    base = {k: job[k] for k in ("run_kind", "arm", "method", "dataset", "key", "seed")}
     run = dict(base)
     run.update({
         "status": "ok", "reason": "", "recorded": stamp,
@@ -320,6 +322,7 @@ def build_jobs(conf, args) -> list[dict]:
             if ref is None:
                 continue
             jobs.append({
+                "run_kind": r.get("run_kind") or "arm",
                 "arm": r["arm"], "method": r["method"], "dataset": r["dataset"],
                 "key": r["key"], "seed": r.get("seed", ""),
                 "archive": r["pose_archive"], "reference": ref[0], "protein": ref[1],

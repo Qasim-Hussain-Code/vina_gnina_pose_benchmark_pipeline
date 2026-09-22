@@ -48,7 +48,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import lib_vgb as L  # noqa: E402
 
 RUN_COLUMNS = [
-    "arm", "method", "dataset", "key", "seed", "status", "reason",
+    # run_kind separates the arm runs from the seed-variance replicates. Without
+    # it the five repeat-seed runs of one complex land in the same
+    # arm/method/dataset cell as the single production run and that complex is
+    # counted six times in the success rate. They share an arm name on purpose,
+    # because they are the same protocol; only their role differs.
+    "run_kind", "arm", "method", "dataset", "key", "seed", "status", "reason",
     "n_poses", "top_score", "score_function", "score_units",
     "box_center_x", "box_center_y", "box_center_z", "box_size",
     "conformer_source", "receptor", "elapsed_s", "peak_rss_mb", "jobs",
@@ -236,6 +241,7 @@ def _dock_one(job: dict) -> dict:
     t0 = time.time()
     stamp = datetime.datetime.now().astimezone().isoformat(timespec="seconds")
     row = {
+        "run_kind": job.get("run_kind", "arm"),
         "arm": job["arm"], "method": cfg["method"], "dataset": job["dataset"],
         "key": job["key"], "seed": job["seed"], "status": "ok", "reason": "",
         "score_function": SCORE_FUNCTION[cfg["method"]],
@@ -426,6 +432,7 @@ def build_seed_variance_jobs(conf, boxes, method) -> list[dict]:
     out = []
     for s in seeds:
         out.append({
+            "run_kind": "seed_variance",
             "arm": arm, "dataset": "posebusters", "key": key, "seed": int(s),
             "ligand": str(lig), "receptor": str(rec), "centre": centre,
             "conformer": spec["conformer"],
