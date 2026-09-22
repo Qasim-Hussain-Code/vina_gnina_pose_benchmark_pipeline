@@ -60,6 +60,11 @@
 #      --limit N         stop after N complexes (smoke test)
 #      --seed-variance   re-dock one complex once per seed in SEED_REPLICATES
 #                        and write the spread. Ignores --arm.
+#      --convergence     run the exhaustiveness grid that EXHAUSTIVENESS in
+#                        project.conf was chosen from: complexes crossed with
+#                        search effort crossed with seed. Ignores --arm. This is
+#                        the evidence for the one place where this pipeline
+#                        departs from the protocol it compares against.
 #      --force           ignore the stage stamp and redo
 #      -h, --help        this text
 # =============================================================================
@@ -71,7 +76,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "${SCRIPT_DIR}/lib_common.sh"
 vgb_load_conf
 
-ARM=""; METHOD=""; DATASET=""; LIMIT=0; FORCE=0; SEED_VAR=0
+ARM=""; METHOD=""; DATASET=""; LIMIT=0; FORCE=0; SEED_VAR=0; CONVERGE=0
 JOBS_OVERRIDE=""
 while [[ $# -gt 0 ]]; do
     case "$1" in
@@ -81,6 +86,7 @@ while [[ $# -gt 0 ]]; do
         --jobs)           JOBS_OVERRIDE="$2"; shift 2 ;;
         --limit)          LIMIT="$2"; shift 2 ;;
         --seed-variance)  SEED_VAR=1; shift ;;
+        --convergence)    CONVERGE=1; shift ;;
         --force)          FORCE=1; shift ;;
         -h|--help)        sed -n '2,66p' "$0" | sed 's/^# \{0,1\}//'; exit 0 ;;
         *) echo "[error] unknown option: $1" >&2; exit 1 ;;
@@ -89,7 +95,9 @@ done
 
 [[ -n "$JOBS_OVERRIDE" ]] && JOBS="$JOBS_OVERRIDE"
 [[ -n "$METHOD" ]] || { echo "[error] --method is required" >&2; exit 1; }
-if [[ $SEED_VAR -eq 0 ]]; then
+if [[ $CONVERGE -eq 1 ]]; then
+    STAGE="06_dock_convergence_${METHOD}"
+elif [[ $SEED_VAR -eq 0 ]]; then
     [[ -n "$ARM" ]] || { echo "[error] --arm is required" >&2; exit 1; }
     if [[ "$ARM" == "A4_crossdock" ]]; then
         DATASET="crossdock"
@@ -142,7 +150,9 @@ ARGS=(--config "${REPO_DIR}/project.conf" --method "$METHOD" --jobs "$JOBS"
 [[ -x "$GNINA_BIN" ]] && ARGS+=(--gnina-bin "$GNINA_BIN")
 (( LIMIT > 0 )) && ARGS+=(--limit "$LIMIT")
 (( FORCE == 1 )) && ARGS+=(--force)
-if (( SEED_VAR == 1 )); then
+if (( CONVERGE == 1 )); then
+    ARGS+=(--convergence)
+elif (( SEED_VAR == 1 )); then
     ARGS+=(--seed-variance)
 else
     ARGS+=(--arm "$ARM" --dataset "$DATASET")
@@ -156,5 +166,5 @@ fi
 # shellcheck disable=SC2153
 vgb_run "dock_${METHOD}" "$PY" "${SCRIPTS_DIR}/lib_dock.py" "${ARGS[@]}"
 
-vgb_stage_end "arm=${ARM:-seedvariance} method=${METHOD} dataset=${DATASET:-na} jobs=${JOBS}"
+vgb_stage_end "arm=${ARM:-none} method=${METHOD} dataset=${DATASET:-na} jobs=${JOBS}"
 vgb_mark_done "$STAGE"

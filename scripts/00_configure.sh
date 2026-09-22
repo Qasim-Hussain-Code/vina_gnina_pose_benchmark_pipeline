@@ -25,6 +25,17 @@
 #      --ram GB        RAM in gigabytes (default: detected)
 #      --disk GB       disk budget for data/ in gigabytes (default: detected
 #                      free space on the data filesystem, minus 5 GB margin)
+#      --exhaustiveness N
+#                      Vina, smina and GNINA search effort (default: 32). This
+#                      is NOT the programs' default of 8, and the reason is in
+#                      results/convergence.tsv rather than in an opinion: on the
+#                      25 Angstrom box this pipeline uses, exhaustiveness 8
+#                      leaves the search unconverged badly enough that the
+#                      random seed decides the verdict. One complex measured
+#                      4.57 Angstrom on one seed and 0.33 on another with
+#                      everything else fixed. Run
+#                      scripts/06_dock.sh --convergence to reproduce the grid
+#                      this was chosen from.
 #      --jobs N        concurrent docking processes (default: 1). Serial is the
 #                      default because the timing distribution in the README is
 #                      a measurement, and sixteen docking processes competing
@@ -56,6 +67,7 @@ cleanup() { rm -f "$CONF_TMP"; }
 trap cleanup EXIT INT TERM
 
 THREADS=""; RAM_GB=""; DISK_GB=""; JOBS=""; DATA_DIR=""; ASSUME_YES=0
+EXHAUSTIVENESS=32
 ARMS="A0_null,A1_refconf_refbox,A2_genconf_refbox,A3_genconf_detbox,A4_crossdock"
 METHODS="vina,vinardo,gnina"
 DATASETS="posebusters,astex"
@@ -66,6 +78,7 @@ while [[ $# -gt 0 ]]; do
         --ram)      RAM_GB="$2";   shift 2 ;;
         --disk)     DISK_GB="$2";  shift 2 ;;
         --jobs)     JOBS="$2";     shift 2 ;;
+        --exhaustiveness) EXHAUSTIVENESS="$2"; shift 2 ;;
         --data-dir) DATA_DIR="$2"; shift 2 ;;
         --arms)     ARMS="$2";     shift 2 ;;
         --methods)  METHODS="$2";  shift 2 ;;
@@ -138,7 +151,7 @@ DEFAULT_DISK=$(( DET_FREE_GB - 5 )); (( DEFAULT_DISK < 1 )) && DEFAULT_DISK=1
 # -----------------------------------------------------------------------------
 # 2. Validate. A wrong number here costs hours of docking later.
 # -----------------------------------------------------------------------------
-for pair in "THREADS:$THREADS" "RAM_GB:$RAM_GB" "DISK_GB:$DISK_GB" "JOBS:$JOBS"; do
+for pair in "THREADS:$THREADS" "RAM_GB:$RAM_GB" "DISK_GB:$DISK_GB" "JOBS:$JOBS"             "EXHAUSTIVENESS:$EXHAUSTIVENESS"; do
     name="${pair%%:*}"; val="${pair#*:}"
     [[ "$val" =~ ^[0-9]+$ ]] || { echo "[error] ${name} must be a non-negative integer, got '${val}'" >&2; exit 1; }
 done
@@ -308,10 +321,23 @@ SEED_REPLICATES="20260922 20260923 20260924 20260925 20260926"
 # that no pocket is 25 A wide; it was chosen for comparability, not because it
 # is right.
 BOX_SIZE=25
-# Vina's default exhaustiveness is 8. The PoseBusters paper does not report
-# raising it, so it is left at the default and the seed-variance experiment
-# measures what that costs in run-to-run spread.
-EXHAUSTIVENESS=8
+# Search effort. Not the programs' default of 8, and this is the one place where
+# this pipeline departs from the protocol it is comparing against.
+#
+# On a 25 Angstrom cube, exhaustiveness 8 does not converge. Complex 1HQ2_PH2,
+# which has one rotatable bond and whose generated conformer is already within
+# 0.21 Angstrom of the crystal conformer, returned a top-1 RMSD of 4.57 Angstrom
+# on seed 20260922 and 0.33 Angstrom on seed 7, with the receptor, the ligand,
+# the box and the exhaustiveness all identical. At exhaustiveness 64 the same
+# complex and seed gave 0.37 Angstrom. A search whose verdict is decided by its
+# seed cannot measure what an arm comparison needs it to measure.
+#
+# The level here was chosen from the grid in results/convergence.tsv, which is
+# complexes crossed with exhaustiveness and seed, reproducible with
+# scripts/06_dock.sh --convergence. The choice is the cheapest level at which
+# the seeds stop disagreeing about the 2 Angstrom verdict, not the level that
+# makes the headline look best: it was fixed before any success rate was read.
+EXHAUSTIVENESS=${EXHAUSTIVENESS}
 # Poses kept per run. Vina's default num_modes is 9; 5 is enough for the top-5
 # metric and cuts the pose archive by nearly half. Anything past rank 5 is
 # never read by 07_score_poses.py, so writing it would be waste.

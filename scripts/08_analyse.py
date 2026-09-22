@@ -345,6 +345,52 @@ def main() -> int:
     L.write_tsv(results_dir / "symmetry_effect.tsv", sy_cols, sy_rows)
 
     # -----------------------------------------------------------------------
+    # 6b. the convergence grid that EXHAUSTIVENESS was chosen from
+    # -----------------------------------------------------------------------
+    cv_cols = ["method", "exhaustiveness", "n_runs", "n_complexes",
+               "rmsd_le_2a_pct", "median_rmsd", "median_elapsed_s",
+               "complexes_where_seeds_disagree", "pct_seeds_disagree",
+               "mean_seed_range_a", "max_seed_range_a", "recorded"]
+    cv_rows = []
+    conv = [r for r in runs if (r.get("run_kind") or "") == "convergence"]
+    if conv:
+        by_m_e = defaultdict(list)
+        for r in conv:
+            by_m_e[(r["method"], r.get("exhaustiveness", ""))].append(r)
+        for (method, exh), rs in sorted(by_m_e.items(),
+                                        key=lambda kv: (kv[0][0], int(kv[0][1] or 0))):
+            vals = [(r["key"], fv(r, "top1_rmsd")) for r in rs]
+            vals = [(k, v) for k, v in vals if v is not None]
+            if not vals:
+                continue
+            per_key = defaultdict(list)
+            for k, v in vals:
+                per_key[k].append(v)
+            disagree, ranges = 0, []
+            for k, vs in per_key.items():
+                if len(vs) < 2:
+                    continue
+                if len({v <= pass_2a for v in vs}) > 1:
+                    disagree += 1
+                ranges.append(max(vs) - min(vs))
+            times = [fv(r, "elapsed_s") for r in rs]
+            times = sorted(t for t in times if t)
+            k2 = sum(1 for _, v in vals if v <= pass_2a)
+            cv_rows.append({
+                "method": method, "exhaustiveness": exh, "n_runs": len(vals),
+                "n_complexes": len(per_key),
+                "rmsd_le_2a_pct": pct(k2, len(vals)),
+                "median_rmsd": f(quantiles([v for _, v in vals]).get("median"), 3),
+                "median_elapsed_s": f(quantiles(times).get("median"), 1) if times else "",
+                "complexes_where_seeds_disagree": disagree,
+                "pct_seeds_disagree": pct(disagree, max(len(ranges), 1)),
+                "mean_seed_range_a": f(sum(ranges) / len(ranges), 3) if ranges else "",
+                "max_seed_range_a": f(max(ranges), 3) if ranges else "",
+                "recorded": stamp,
+            })
+    L.write_tsv(results_dir / "convergence.tsv", cv_cols, cv_rows)
+
+    # -----------------------------------------------------------------------
     # 7. seed variance
     # -----------------------------------------------------------------------
     sv_cols = ["method", "complex_id", "arm", "n_seeds", "seeds", "rmsd_values",
@@ -463,6 +509,15 @@ def main() -> int:
               f"{r['n_scored']:>5} {str(r['rmsd_le_2a_pct']):>7} "
               f"{str(r['pb_valid_pct']):>7} {str(r['success_2a_pct']):>7} "
               f"{str(r['rmsd_le_1a_pct']):>7} {str(r['top5_rmsd_le_2a_pct']):>7}")
+    if cv_rows:
+        print()
+        print(f"{'method':9s} {'exh':>5s} {'n':>5s} {'<=2A%':>7s} {'med_s':>7s} "
+              f"{'seed_disagree':>14s} {'mean_range':>11s}")
+        for r in cv_rows:
+            print(f"{r['method']:9s} {str(r['exhaustiveness']):>5} {r['n_runs']:>5} "
+                  f"{str(r['rmsd_le_2a_pct']):>7} {str(r['median_elapsed_s']):>7} "
+                  f"{r['complexes_where_seeds_disagree']:>6}/{r['n_complexes']:<7} "
+                  f"{str(r['mean_seed_range_a']):>11}")
     if sv_rows:
         print()
         for r in sv_rows:

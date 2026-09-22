@@ -44,6 +44,12 @@
 #      --jobs N        override JOBS from project.conf for this run
 #      --smoke         8 complexes, one arm, one method: proves the wiring
 #      --force         pass --force to every stage it applies to
+#
+#  Environment:
+#      VGB_RUN_CONVERGENCE=1   also run the exhaustiveness grid in stage 6. It
+#                              is the evidence behind EXHAUSTIVENESS in
+#                              project.conf and costs about as much as one arm,
+#                              so it is opt-in rather than part of every run.
 #      -h, --help      this text
 # =============================================================================
 set -euo pipefail
@@ -210,6 +216,17 @@ if should_run 06_dock; then
             done
         done
     done
+
+    # The convergence grid and the seed-variance experiment. Both run after the
+    # arms so a failure in either cannot cost the main result. The convergence
+    # grid is off unless asked for, because it is the evidence for a protocol
+    # choice that has already been made and costs about as much as one arm.
+    if [[ "${VGB_RUN_CONVERGENCE:-0}" == "1" ]]; then
+        banner "06_dock --convergence"
+        for method in "${METHOD_LIST[@]}"; do
+            bash "${SCRIPTS}/06_dock.sh" --convergence --method "$method"                 --jobs "$JOBS" "${FORCE_FLAG[@]}" ||                 echo "[run_all] convergence grid for ${method} failed; continuing"
+        done
+    fi
 
     # The seed-variance experiment: one complex, five seeds, one method. Run
     # after the arms so that a failure here cannot cost the main result.

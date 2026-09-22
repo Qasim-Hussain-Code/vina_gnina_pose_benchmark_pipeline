@@ -55,7 +55,7 @@ RUN_COLUMNS = [
     # because they are the same protocol; only their role differs.
     "run_kind", "arm", "method", "dataset", "key", "seed", "status", "reason",
     "n_poses", "top_score", "score_function", "score_units",
-    "box_center_x", "box_center_y", "box_center_z", "box_size",
+    "box_center_x", "box_center_y", "box_center_z", "box_size", "exhaustiveness",
     "conformer_source", "receptor", "elapsed_s", "peak_rss_mb", "jobs",
     "pose_archive", "pose_archive_bytes", "recorded",
 ]
@@ -248,6 +248,7 @@ def _dock_one(job: dict) -> dict:
         "score_units": "kcal/mol (empirical score, not a measured free energy)",
         "box_center_x": job["centre"][0], "box_center_y": job["centre"][1],
         "box_center_z": job["centre"][2], "box_size": cfg["box_size"],
+        "exhaustiveness": job.get("exhaustiveness") or cfg["exhaustiveness"],
         "conformer_source": job["conformer"], "receptor": job["receptor"],
         "jobs": cfg["jobs"], "recorded": stamp,
     }
@@ -288,7 +289,12 @@ def _dock_one(job: dict) -> dict:
     work = Path(cfg["work_dir"]) / f"{job['key']}_{job['seed']}"
     work.mkdir(parents=True, exist_ok=True)
     out_pdbqt = work / "out.pdbqt"
-    cmd = build_command(cfg["method"], cfg, receptor, ligand, out_pdbqt,
+    # The convergence grid varies exhaustiveness per job; every other run takes
+    # the single value from project.conf.
+    cfg_run = dict(cfg)
+    if job.get("exhaustiveness"):
+        cfg_run["exhaustiveness"] = int(job["exhaustiveness"])
+    cmd = build_command(cfg["method"], cfg_run, receptor, ligand, out_pdbqt,
                         job["centre"], cfg["box_size"], job["seed"])
     try:
         p = subprocess.run(cmd, capture_output=True, text=True, timeout=cfg["timeout_s"])
@@ -399,6 +405,58 @@ def build_jobs(args, conf, boxes) -> list[dict]:
     return jobs
 
 
+def build_convergence_jobs(conf, boxes, method) -> list[dict]:
+    """A grid of complexes, exhaustiveness levels and seeds on the A2 arm.
+
+    This is the experiment the exhaustiveness in project.conf was chosen from,
+    and it is in the repository rather than in a comment because a protocol
+    choice that cannot be reproduced is an opinion. Nothing downstream reads its
+    output except 08_analyse.py, which summarises it into
+    results/convergence.tsv.
+
+    The complexes are taken at even intervals through the Astex manifest rather
+    than as the first N, so the sample is not the alphabetical head of the set.
+    Astex rather than PoseBusters because it is the smaller and easier set: if
+    sampling is the limit there, it is the limit everywhere.
+    """
+    config_dir = Path(conf["CONFIG_DIR"])
+    data_dir = Path(conf["DATA_DIR"])
+    prepared = data_dir / "prepared"
+    poses = data_dir / "poses"
+    arm = "A2_genconf_refbox"
+    spec = ARM_SPEC[arm]
+    levels = [int(x) for x in (conf.get("CONVERGENCE_LEVELS") or "8 16 32 64").split()]
+    seeds = (conf.get("SEED_REPLICATES") or "1").split()[:3]
+    n_want = L.conf_int(conf, "CONVERGENCE_N_COMPLEXES", 14)
+
+    usable = []
+    for r in L.read_tsv(config_dir / "dataset_astex.tsv"):
+        key = r["complex_id"]
+        lig = prepared / "ligands" / spec["conformer"] / "astex" / f"{key}.pdbqt"
+        rec = prepared / "receptors" / "astex" / key / "receptor.pdbqt"
+        if lig.is_file() and rec.is_file() and boxes.get((spec["box"], key)):
+            usable.append((key, lig, rec, boxes[(spec["box"], key)]))
+    if not usable:
+        L.eprint("[error] nothing prepared for the convergence grid")
+        sys.exit(1)
+    step = max(1, len(usable) // n_want)
+    chosen = usable[::step][:n_want]
+
+    out = []
+    for key, lig, rec, centre in chosen:
+        for exh in levels:
+            for sd in seeds:
+                out.append({
+                    "run_kind": "convergence", "arm": arm, "dataset": "astex",
+                    "key": key, "seed": int(sd), "exhaustiveness": exh,
+                    "ligand": str(lig), "receptor": str(rec), "centre": centre,
+                    "conformer": spec["conformer"],
+                    "archive": str(poses / "convergence" / method /
+                                   f"{key}_e{exh}_s{sd}.sdf.gz"),
+                })
+    return out
+
+
 def build_seed_variance_jobs(conf, boxes, method) -> list[dict]:
     """One complex, one arm, once per seed in SEED_REPLICATES.
 
@@ -454,6 +512,7 @@ def main() -> int:
     ap.add_argument("--work-dir", required=True, type=Path)
     ap.add_argument("--stage", default="06_dock")
     ap.add_argument("--seed-variance", action="store_true")
+    ap.add_argument("--convergence", action="store_true")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--vina-bin", default="")
     ap.add_argument("--smina-bin", default="")
@@ -482,7 +541,10 @@ def main() -> int:
         "timeout_s": 2700,
     }
 
-    if args.seed_variance:
+    if args.convergence:
+        jobs = build_convergence_jobs(conf, boxes, args.method)
+        out_path = results_dir / "runs" / f"convergence_{args.method}.tsv"
+    elif args.seed_variance:
         jobs = build_seed_variance_jobs(conf, boxes, args.method)
         out_path = results_dir / "runs" / f"seed_variance_{args.method}.tsv"
     else:
