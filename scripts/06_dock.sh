@@ -172,10 +172,35 @@ esac
 cap_jobs_for_method
 vgb_stage_start "$STAGE"
 
-# A killed run leaves per-complex temporary directories behind. They are under
-# the arm's own work directory so the trap can clear them without touching
-# anything another arm is using.
-WORK="${DATA_DIR}/work/${STAGE}"
+# Per-complex scratch. Every docking run writes a PDBQT here and it is deleted
+# as soon as the poses are in the archive, so the space is transient on an
+# ordinary filesystem.
+#
+# It is not transient on WSL, and that is worth knowing before you run this
+# there. The Linux filesystem lives in a thin-provisioned ext4.vhdx on the
+# Windows drive. That file grows when anything is written inside it and does not
+# shrink when the file is deleted, so a few megabytes of scratch per run become
+# a few megabytes of permanent growth on the host drive: measured at about
+# 3.5 MB per run here, which over the 4,700 runs of a full grid is more than
+# 13 GB of host disk consumed by files that no longer exist.
+#
+# So the scratch goes in shared memory where one is available and large enough.
+# It is faster than disk, it never touches the virtual disk, and the files are
+# small: a work directory measured 24 kB. VGB_WORK_DIR overrides, and the
+# fallback is the data directory as before.
+pick_work_dir() {
+    local want="${VGB_WORK_DIR:-}"
+    if [[ -n "$want" ]]; then echo "${want}/${STAGE}"; return; fi
+    local shm_mb
+    shm_mb="$(df -Pm /dev/shm 2>/dev/null | awk 'NR==2 {print $4}')"
+    if [[ -w /dev/shm && -n "$shm_mb" ]] && (( shm_mb > 512 )); then
+        echo "/dev/shm/vgb_work/${STAGE}"
+    else
+        echo "${DATA_DIR}/work/${STAGE}"
+    fi
+}
+WORK="$(pick_work_dir)"
+echo "[${STAGE}] scratch: ${WORK}"
 mkdir -p "$WORK"
 cleanup() {
     local rc=$?
