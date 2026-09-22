@@ -72,7 +72,7 @@ while [[ $# -gt 0 ]]; do
         --jobs)    JOBS_OVERRIDE="$2"; shift 2 ;;
         --smoke)   SMOKE=1; shift ;;
         --force)   FORCE=1; shift ;;
-        -h|--help) sed -n '2,45p' "$0" | sed 's/^# \{0,1\}//'; exit 0 ;;
+        -h|--help) sed -n '2,53p' "$0" | sed 's/^# \{0,1\}//'; exit 0 ;;
         *) echo "[error] unknown option: $1" >&2; exit 1 ;;
     esac
 done
