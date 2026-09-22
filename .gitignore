@@ -1,0 +1,72 @@
+# Structures, prepared inputs and poses. Everything under data/ is either
+# downloaded by scripts/02_fetch_benchmarks.sh or written by a later stage,
+# so none of it is tracked. data/README.md says what belongs there and where
+# it comes from. On the machine this was developed on, data/ is a pointer to
+# a directory on a larger filesystem; see project.conf.
+data/*
+!data/README.md
+
+# Docking inputs and outputs. PDBQT files are intermediates that
+# scripts/06_dock.sh deletes once the pose and the score have been read into
+# the results table; these rules are here so that a killed run cannot leave
+# one staged by accident.
+*.pdbqt
+*.pdbqt.gz
+
+# Pose archives. Top-N poses per run are written as gzipped SDF. Across
+# every dataset, arm and method these total more than the rest of the
+# repository put together, and they are regenerable from the manifests.
+*.sdf.gz
+*.sdf.zst
+poses/
+
+# Structure downloads from the RCSB. Re-fetchable from the accessions in
+# config/, which are tracked.
+*.pdb
+*.cif
+*.cif.gz
+*.ent.gz
+*.mmtf
+*.mmtf.gz
+
+# Conda environment directories and the package cache, if either is ever
+# created inside the repository rather than under the conda root.
+envs/
+.conda/
+conda-env/
+*.conda
+*.tar.bz2
+
+# project.conf is written by scripts/00_configure.sh for one machine: thread
+# count, memory ceiling, disk budget, absolute paths, tool locations. Every
+# clone regenerates its own.
+project.conf
+
+# Per-stage logs. The timing and resource tables next to them are tracked,
+# because the README quotes numbers out of them.
+logs/*.log
+logs/*.done
+logs/tmp/
+
+# Quarto and Jupyter build artefacts. The rendered report is kept.
+*.html
+!results/report/*.html
+*_files/
+.quarto/
+.ipynb_checkpoints/
+*.knit.md
+*.utf8.md
+
+# Python noise
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
