@@ -272,6 +272,53 @@ if not boxes.empty:
               f"centroid: {det.distance_to_crystal_centroid.median():.1f} A")
 ```
 
+### How much of this is sampling noise
+
+Every number above was produced at the docking programs' own default search
+effort, which is also the setting the protocol these results are compared
+against uses. That default does not converge on a 25 Angstrom box, and the size
+of the resulting noise is a property of the standard protocol rather than of
+this pipeline.
+
+```{python}
+#| label: convergence
+conv = load("convergence.tsv")
+if not conv.empty:
+    display(conv[["method", "exhaustiveness", "n_runs", "n_complexes",
+                  "rmsd_le_2a_pct", "median_rmsd", "median_elapsed_s",
+                  "complexes_where_seeds_disagree", "pct_seeds_disagree",
+                  "mean_seed_range_a", "max_seed_range_a"]])
+else:
+    print("results/convergence.tsv is empty. Run:")
+    print("  bash scripts/06_dock.sh --convergence --method vina")
+```
+
+The column to read is `complexes_where_seeds_disagree`: how many of the sampled
+complexes gave a different verdict at the 2 Angstrom line depending only on the
+random seed. At the default setting that number is not zero, which means a share
+of the difference between any two arms in this report is the search failing to
+converge rather than the information the arm withholds.
+
+Two individual cases make the mechanism concrete, and they fail differently.
+
+1HQ2_PH2 has one rotatable bond and a generated starting conformer already within
+0.21 Angstrom of the crystal conformer, so there is almost nothing for the search
+to get wrong except where to put a nearly rigid body. At the default effort it
+returned a top-1 RMSD of 4.57 Angstrom on one seed and 0.33 Angstrom on another,
+with the receptor, the ligand, the box and the effort identical. At exhaustiveness
+64 both seeds gave 0.37 Angstrom. That is a sampling failure and more search
+fixes it.
+
+1GPK_HUP is huperzine A, which has no rotatable bonds at all. At every search
+effort tried and on both seeds, the correct pose was found and ranked second, at
+0.36 to 0.39 Angstrom, while a pose 3.63 Angstrom away was ranked first. No
+amount of search fixes that: the scoring function prefers the wrong pose. Given
+the crystal coordinates as its starting point the same function ranks the right
+pose first, at 0.25 Angstrom, because the local optimiser never leaves it.
+
+Both failures are invisible in the arm that starts from crystal coordinates,
+which is the arm the standard protocol reports.
+
 ### Symmetry correction
 
 ```{python}
