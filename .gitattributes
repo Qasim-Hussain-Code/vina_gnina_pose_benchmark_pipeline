@@ -1,0 +1,27 @@
+# Line endings. The shell and python scripts must stay LF even when checked out
+# on Windows with core.autocrlf=true: bash rejects a script with CRLF line
+# endings, and this repository was developed under WSL2 with the working tree on
+# an NTFS mount, which is exactly the case where that goes wrong.
+*                       text=auto
+*.sh                    text eol=lf
+*.py                    text eol=lf
+*.qmd                   text eol=lf
+*.md                    text eol=lf
+*.tsv                   text eol=lf
+*.yml                   text eol=lf
+.gitattributes          text eol=lf
+.gitignore              text eol=lf
+LICENSE                 text eol=lf
+*.png                   binary
+*.gz                    binary
+
+# Language statistics. The results tables and the rendered report are output,
+# not source, and without these the repository is reported as mostly TSV.
+results/**/*.tsv        linguist-generated=true
+results/**/*.txt        linguist-generated=true
+results/report/*.html   linguist-generated=true
+config/*.tsv            linguist-generated=true
+config/*.lock.yml       linguist-generated=true
+logs/*.tsv              linguist-generated=true
+figures/*.png           linguist-generated=true
+*.qmd                   linguist-language=RMarkdown
