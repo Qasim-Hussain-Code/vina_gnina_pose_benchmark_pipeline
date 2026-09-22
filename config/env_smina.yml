@@ -1,0 +1,30 @@
+# =============================================================================
+#  env_smina.yml - smina and fpocket, on libboost 1.82
+# =============================================================================
+#  smina supplies the Vinardo scoring function. It is a fork of AutoDock Vina
+#  1.1.2, which matters: the search it runs is the 1.1.2 Monte Carlo search, not
+#  the 1.2 one, so a difference between the vina and vinardo arms is a
+#  difference in both scoring function and search. The README says so rather
+#  than letting the reader assume the search is held constant.
+#
+#  smina lives here rather than with Vina because its conda-forge build pins
+#  libboost 1.82 while Vina 1.2.7 requires 1.86. fpocket is put in this
+#  environment rather than the analysis one only to keep the analysis solve
+#  smaller; nothing about fpocket requires libboost 1.82.
+#
+#  The conda-forge build is 2020.12.10, which is the last smina release. The
+#  bioconda package is the 2017.11.9 release, and a channel order that lets
+#  bioconda win gives you the older one with no warning. conda-forge is listed
+#  alone here for that reason.
+# =============================================================================
+name: vgb_smina
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - smina
+  # fpocket detects the pockets for arm A3, whose box must never have seen the
+  # crystal ligand. Version 4 is the current line.
+  - fpocket>=4

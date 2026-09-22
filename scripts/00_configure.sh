@@ -358,10 +358,17 @@ LOG_DIR="${REPO_DIR}/logs"
 
 # ---- tools ----------------------------------------------------------------
 CONDA_SH="${CONDA_SH}"
-CONDA_ENV_NAME=vgb_bench
-# Written here by 00_configure.sh and filled by 01_install.sh once the GNINA
-# release binary has been fetched and its checksum recorded in
-# results/environment/versions.tsv.
+# Three environments, not one. The conda-forge smina build pins libboost 1.82
+# and AutoDock Vina 1.2.7 requires libboost 1.86, so they cannot share an
+# environment; asking for both gets you Vina 1.2.5 with no warning. Asking for
+# Vina and PoseBusters together additionally drags numpy below 2, which drags
+# RDKit to 2023.09 and PoseBusters to 0.3.1. config/env_analysis.yml has the
+# full account. 06_dock.sh calls each docking program by absolute path.
+CONDA_ENV_NAME=vgb_bench           # preparation, measurement, figures, report
+CONDA_ENV_VINA=vgb_vina            # AutoDock Vina only
+CONDA_ENV_SMINA=vgb_smina          # smina and fpocket only
+# GNINA has no conda package. 01_install.sh fetches the release binary and
+# records its version and sha256 in results/environment/versions.tsv.
 GNINA_BIN="${DATA_DIR}/tools/gnina"
 CONF_EOF
 

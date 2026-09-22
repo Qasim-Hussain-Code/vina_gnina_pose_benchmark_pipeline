@@ -1,0 +1,78 @@
+# =============================================================================
+#  env_analysis.yml - ligand and receptor preparation, measurement, figures
+# =============================================================================
+#  This environment does everything except run a docking search. It is kept
+#  apart from the two docking environments for a reason that took an afternoon
+#  to find and is worth stating.
+#
+#  The conda-forge smina build pins libboost 1.82. AutoDock Vina 1.2.7 requires
+#  libboost 1.86. The two cannot occupy one environment, and the solver's answer
+#  to being asked for both is to fall back to Vina 1.2.5, which is not what you
+#  asked for and does not announce itself. Worse, asking for Vina and
+#  PoseBusters together drags numpy back below 2, which drags RDKit back to
+#  2023.09 and PoseBusters back to 0.3.1: two years of checks quietly missing,
+#  with no error message anywhere. The first environment solved for this
+#  repository did exactly that and the versions table is what caught it.
+#
+#  So: three environments, each solved for what it actually needs, and the
+#  docking programs called by absolute path from 06_dock.sh. See
+#  config/env_vina.yml and config/env_smina.yml.
+#
+#  No version is pinned here. 01_install.sh solves this, records what the
+#  solver chose in results/environment/versions.tsv, and writes the pinned
+#  result to config/env_analysis.lock.yml. Reproduce from the lock file.
+#  PoseBusters carries a floor rather than a pin, because the 0.3 series
+#  predates several of the checks this repository reports on and installing it
+#  by accident would change the headline number without changing the code.
+# =============================================================================
+name: vgb_bench
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.12
+
+  # Ligand handling. RDKit generates the ETKDGv3 conformers and computes the
+  # symmetry-corrected RMSD through GetBestRMS, which is the function
+  # Buttenschoen et al. used. Meeko writes the PDBQT that Vina and smina read
+  # and reads poses back to SDF with bond orders intact; openbabel loses bond
+  # orders on a PDBQT round trip, which breaks the PoseBusters chemical checks
+  # before they run.
+  - rdkit>=2024.03
+  - meeko>=0.6
+
+  # Measurement. The floor on posebusters is deliberate, see the header.
+  - posebusters>=0.6.5
+  # spyrmsd is the independent second opinion on symmetry-corrected RMSD.
+  # 07_score_poses.py computes both and records disagreements, because two
+  # implementations agreeing is the only cheap evidence that either is right.
+  - spyrmsd>=0.8
+
+  # Receptor preparation: pdb2pqr assigns protonation states through PROPKA.
+  # openbabel is the format converter of last resort and the fallback
+  # protonator when pdb2pqr rejects a structure.
+  - pdb2pqr
+  - openbabel
+
+  # Structure and API access. Biopython parses mmCIF and PDB; requests talks to
+  # the RCSB Search and Data APIs in 03_build_crossdock_set.py.
+  - biopython
+  - requests
+
+  # Analysis and figures.
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib-base
+  - seaborn
+
+  # Report rendering. quarto needs a Jupyter kernel to execute python chunks.
+  - quarto
+  - jupyter
+  - nbclient
+  - ipykernel
+
+  - pyyaml
+  - tqdm

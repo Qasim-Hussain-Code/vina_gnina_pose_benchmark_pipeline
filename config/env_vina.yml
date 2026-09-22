@@ -1,0 +1,35 @@
+# =============================================================================
+#  env_vina.yml - AutoDock Vina on its own
+# =============================================================================
+#  Vina gets an environment to itself because 1.2.7 needs libboost 1.86 and the
+#  conda-forge smina build pins libboost 1.82. See config/env_analysis.yml for
+#  the full account of that clash.
+#
+#  Why not pip. The EasyDock documentation reports that the Vina 1.2.3 build
+#  distributed on PyPI carried a bug producing unstable docking scores and
+#  recommends building from source instead. I could not establish from the
+#  upstream changelog whether the defect was in the wheel packaging or in the
+#  1.2.3 source itself, so rather than guess about the current wheel this
+#  repository does not use pip for Vina at all. The conda-forge package is
+#  built from the upstream release tarball by the vina-feedstock, and
+#  01_install.sh records the build string so a reader can see which build ran.
+#
+#  A minimum version is set rather than an exact pin. The floor is 1.2.6 because
+#  that is the first release on libboost 1.86 and because leaving the version
+#  open let the solver silently choose 1.2.5 on the first attempt here. The
+#  version that actually installed is in results/environment/versions.tsv and
+#  the exact solve is in config/env_vina.lock.yml.
+#
+#  The conda package ships the Python bindings as well as the command line
+#  program. Only the program is used. The bindings expose a different set of
+#  defaults for exhaustiveness and seed, and routing through them would put a
+#  second layer of defaults between project.conf and the search.
+# =============================================================================
+name: vgb_vina
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - vina>=1.2.6

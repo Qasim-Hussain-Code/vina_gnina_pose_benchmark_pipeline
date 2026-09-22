@@ -54,6 +54,21 @@ vgb_activate() {
     set -u
 }
 
+# vgb_tool_path <env_name> <binary>
+# Absolute path to a binary in a sibling conda environment. 06_dock.sh needs
+# this because Vina and smina live in different environments (libboost 1.82
+# against 1.86) and activating one would deactivate the other mid-loop.
+vgb_tool_path() {
+    local env="$1" bin="$2" root
+    root="$(dirname "$(dirname "$CONDA_SH")")"      # <root>/etc/profile.d -> <root>
+    root="$(dirname "$root")"                        # -> conda root
+    local p="${root}/envs/${env}/bin/${bin}"
+    [[ -x "$p" ]] && { echo "$p"; return 0; }
+    # Fall back to PATH, so a system install of the tool still works.
+    command -v "$bin" 2>/dev/null && return 0
+    echo ""; return 1
+}
+
 # ---- 3. measurement --------------------------------------------------------
 # Peak RSS comes from GNU time's %M, which reports kilobytes. /usr/bin/time is
 # a separate package from the shell builtin `time` and the builtin cannot
