@@ -301,8 +301,17 @@ def _dock_one(job: dict) -> dict:
         cfg_run["exhaustiveness"] = int(job["exhaustiveness"])
     cmd = build_command(cfg["method"], cfg_run, receptor, ligand, out_pdbqt,
                         job["centre"], cfg["box_size"], job["seed"])
+    # Only the GNINA subprocess gets the CUDA libraries on its path. Exporting
+    # them for the whole python process would put that environment's libstdc++
+    # ahead of the one RDKit in this worker was built against.
+    env = None
+    if cfg["method"] == "gnina" and cfg.get("gnina_lib"):
+        env = dict(os.environ)
+        prev = env.get("LD_LIBRARY_PATH", "")
+        env["LD_LIBRARY_PATH"] = cfg["gnina_lib"] + (":" + prev if prev else "")
     try:
-        p = subprocess.run(cmd, capture_output=True, text=True, timeout=cfg["timeout_s"])
+        p = subprocess.run(cmd, capture_output=True, text=True,
+                           timeout=cfg["timeout_s"], env=env)
     except subprocess.TimeoutExpired:
         shutil.rmtree(work, ignore_errors=True)
         row.update({"status": "failed",
@@ -522,6 +531,8 @@ def main() -> int:
     ap.add_argument("--vina-bin", default="")
     ap.add_argument("--smina-bin", default="")
     ap.add_argument("--gnina-bin", default="")
+    ap.add_argument("--gnina-lib", default="",
+                    help="lib directory holding GNINA's CUDA libraries")
     args = ap.parse_args()
 
     conf = L.load_conf(args.config)
@@ -532,7 +543,7 @@ def main() -> int:
     cfg = {
         "method": args.method,
         "vina_bin": args.vina_bin, "smina_bin": args.smina_bin,
-        "gnina_bin": args.gnina_bin,
+        "gnina_bin": args.gnina_bin, "gnina_lib": args.gnina_lib,
         "gnina_cnn_scoring": conf.get("GNINA_CNN_SCORING", "rescore"),
         "box_size": L.conf_float(conf, "BOX_SIZE", 25.0),
         "exhaustiveness": L.conf_int(conf, "EXHAUSTIVENESS", 8),

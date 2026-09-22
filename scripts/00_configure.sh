@@ -393,6 +393,13 @@ CONDA_SH="${CONDA_SH}"
 CONDA_ENV_NAME=vgb_bench           # preparation, measurement, figures, report
 CONDA_ENV_VINA=vgb_vina            # AutoDock Vina only
 CONDA_ENV_SMINA=vgb_smina          # smina and fpocket only
+# GNINA's release binary is described as static and is not: it is dynamically
+# linked against CUDA 12.8 and cuDNN 9 and exits 127 before printing its version
+# on a machine that has neither, GPU or no GPU. This environment holds nothing
+# but those libraries. It is never activated; its lib directory goes on
+# LD_LIBRARY_PATH for GNINA calls only. config/env_gnina_runtime.yml explains
+# which sonames and why the CUDA version is pinned.
+CONDA_ENV_GNINA_RT=vgb_gnina
 # GNINA has no conda package. 01_install.sh fetches the release binary and
 # records its version and sha256 in results/environment/versions.tsv.
 GNINA_BIN="${DATA_DIR}/tools/gnina"

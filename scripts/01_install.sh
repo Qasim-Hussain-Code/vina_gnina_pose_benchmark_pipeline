@@ -115,6 +115,9 @@ build_env() {  # build_env <env_name> <spec basename>
 build_env "$CONDA_ENV_NAME"  env_analysis
 build_env "$CONDA_ENV_VINA"  env_vina
 build_env "$CONDA_ENV_SMINA" env_smina
+if [[ $WANT_GNINA -eq 1 ]]; then
+    build_env "${CONDA_ENV_GNINA_RT:-vgb_gnina}" env_gnina_runtime
+fi
 
 VINA_BIN="$(vgb_tool_path "$CONDA_ENV_VINA" vina || true)"
 SMINA_BIN="$(vgb_tool_path "$CONDA_ENV_SMINA" smina || true)"
@@ -204,16 +207,24 @@ print(next(a["size"] for a in d["assets"] if a["name"].startswith("gnina")))' \
     # same bytes, not so it can be verified against upstream.
     GNINA_SHA="$(sha256sum "${TOOLDIR}/gnina" | awk '{print $1}')"
 
-    echo "[${STAGE}] testing GNINA on CPU"
-    if "${TOOLDIR}/gnina" --version >/dev/null 2>&1; then
+    # GNINA is invoked with the CUDA runtime environment's lib directory on
+    # LD_LIBRARY_PATH rather than by activating it. Activating would also put
+    # that environment's libstdc++ first, ahead of the one the analysis
+    # environment links against, which breaks RDKit in the same process tree.
+    GNINA_LIB="$(vgb_env_lib "${CONDA_ENV_GNINA_RT:-vgb_gnina}")"
+    echo "[${STAGE}] testing GNINA on CPU with LD_LIBRARY_PATH=${GNINA_LIB:-unset}"
+    if LD_LIBRARY_PATH="${GNINA_LIB}${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"             "${TOOLDIR}/gnina" --version >/dev/null 2>&1; then
         GNINA_OK=1
-        echo "[${STAGE}] $("${TOOLDIR}/gnina" --version 2>&1 | head -1)"
+        echo "[${STAGE}] $(LD_LIBRARY_PATH="${GNINA_LIB}" "${TOOLDIR}/gnina" --version 2>&1 | head -1)"
     else
         echo "[error] ${TOOLDIR}/gnina will not run on this machine." >&2
-        echo "        The release asset is a static CUDA build and is expected to" >&2
-        echo "        fall back to CPU when no device is present. It did not." >&2
-        echo "        Either build GNINA from source, or re-run 00_configure.sh" >&2
-        echo "        with --methods vina,vinardo and drop the CNN arm." >&2
+        LD_LIBRARY_PATH="${GNINA_LIB}" "${TOOLDIR}/gnina" --version 2>&1 | head -3 | sed 's/^/        /' >&2
+        echo "        The release asset is described as static and is not: ldd" >&2
+        echo "        reports CUDA and cuDNN sonames it cannot resolve. If the" >&2
+        echo "        message above names a library, add it to" >&2
+        echo "        config/env_gnina_runtime.yml and re-run. Otherwise build" >&2
+        echo "        GNINA from source, or re-run 00_configure.sh with" >&2
+        echo "        --methods vina,vinardo and drop the CNN arm." >&2
         exit 5
     fi
 else
@@ -255,6 +266,7 @@ if (( GNINA_OK == 1 )); then
     rec gnina "$("${TOOLDIR}/gnina" --version 2>&1 | head -1 | tr -d '\r')" \
         "github release ${GNINA_TAG:-unknown}" "sha256:${GNINA_SHA}"
     rec gnina_cnn_scoring "$GNINA_CNN_SCORING" "project.conf" "cnn model set: ${GNINA_CNN_MODEL}"
+    rec gnina_cuda_runtime "$(conda list -n "${CONDA_ENV_GNINA_RT:-vgb_gnina}" 2>/dev/null | awk '$1=="cuda-version" {print $2; exit}')"         "conda-forge/${CONDA_ENV_GNINA_RT:-vgb_gnina}" "LD_LIBRARY_PATH=${GNINA_LIB}"
 fi
 rec conda  "$(conda --version 2>&1 | awk '{print $2}')" "base" "$(command -v conda)"
 rec kernel "$(uname -r)" "host" "$(uname -s) $(uname -m)"

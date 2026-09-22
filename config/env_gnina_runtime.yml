@@ -1,0 +1,41 @@
+# =============================================================================
+#  env_gnina_runtime.yml - the CUDA libraries GNINA needs in order to start
+# =============================================================================
+#  The GNINA release asset is described as static and is not. `ldd` on
+#  gnina.cuda12.8.static reports libcudnn.so.9, libcudart.so.12,
+#  libcusparse.so.12 and libcufft.so.11 as "not found" on a machine without a
+#  CUDA installation, and the binary exits 127 before printing its version. That
+#  happens whether or not a GPU is present: the loader needs the libraries to
+#  resolve the symbols, and a machine with no NVIDIA device has no reason to
+#  have them.
+#
+#  So this environment exists to supply those four sonames and nothing else.
+#  01_install.sh creates it and puts its lib directory on LD_LIBRARY_PATH when
+#  it invokes GNINA; 06_dock.sh does the same for every docking call. Nothing
+#  ever activates it.
+#
+#  The pin matters. cuda-version=12.8 is what selects libcudart.so.12 and
+#  libcufft.so.11. The CUDA 13 packages on the defaults channel carry
+#  libcudart.so.13 and libcufft.so.12, which are the wrong sonames, and the
+#  loader will not accept them. If a future GNINA release links against a
+#  different CUDA, this pin is the line to change, and `ldd` on the new binary
+#  says what to change it to.
+#
+#  This costs about 3 GB on disk. If you do not need the gnina method, run
+#  scripts/01_install.sh --no-gnina and it is never created.
+# =============================================================================
+name: vgb_gnina
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - cuda-version=12.8
+  - cuda-cudart
+  - libcufft
+  - libcusparse
+  - libcublas
+  - libcurand
+  - cudnn
+  - nccl

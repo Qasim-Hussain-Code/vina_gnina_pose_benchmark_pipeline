@@ -147,7 +147,14 @@ ARGS=(--config "${REPO_DIR}/project.conf" --method "$METHOD" --jobs "$JOBS"
       --work-dir "$WORK" --stage "$STAGE")
 [[ -n "$VINA_BIN"  ]] && ARGS+=(--vina-bin "$VINA_BIN")
 [[ -n "$SMINA_BIN" ]] && ARGS+=(--smina-bin "$SMINA_BIN")
-[[ -x "$GNINA_BIN" ]] && ARGS+=(--gnina-bin "$GNINA_BIN")
+if [[ -x "$GNINA_BIN" ]]; then
+    ARGS+=(--gnina-bin "$GNINA_BIN")
+    # GNINA needs its CUDA libraries resolvable. They are handed down as a path
+    # rather than exported here, so that only the GNINA subprocess sees them and
+    # the python process keeps the analysis environment's own libstdc++.
+    GNINA_LIB="$(vgb_env_lib "${CONDA_ENV_GNINA_RT:-vgb_gnina}")"
+    [[ -n "$GNINA_LIB" ]] && ARGS+=(--gnina-lib "$GNINA_LIB")
+fi
 (( LIMIT > 0 )) && ARGS+=(--limit "$LIMIT")
 (( FORCE == 1 )) && ARGS+=(--force)
 if (( CONVERGE == 1 )); then

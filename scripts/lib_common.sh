@@ -69,6 +69,18 @@ vgb_tool_path() {
     echo ""; return 1
 }
 
+# vgb_env_lib <env_name>
+# The lib directory of a sibling conda environment, or empty. Used for GNINA,
+# whose CUDA libraries have to be on LD_LIBRARY_PATH without the environment
+# being activated: activating it would put its libstdc++ ahead of the one the
+# analysis environment was built against.
+vgb_env_lib() {
+    local root
+    root="$(dirname "$(dirname "$(dirname "$CONDA_SH")")")"
+    local p="${root}/envs/${1}/lib"
+    [[ -d "$p" ]] && echo "$p" || echo ""
+}
+
 # ---- 3. measurement --------------------------------------------------------
 # Peak RSS comes from GNU time's %M, which reports kilobytes. /usr/bin/time is
 # a separate package from the shell builtin `time` and the builtin cannot
