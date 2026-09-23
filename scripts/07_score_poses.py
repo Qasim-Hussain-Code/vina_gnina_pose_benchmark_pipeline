@@ -210,9 +210,23 @@ def _score_run(job: dict) -> tuple[dict, list[dict]]:
         fm = L.first_match_rmsd(pose, ref)
         pr["rmsd_first_match"] = round(fm, 4) if fm is not None else ""
 
+        # The physical checks, and only the physical checks.
+        #
+        # PoseBusters' "redock" configuration returns the 2 Angstrom RMSD verdict
+        # as one more boolean alongside the chemistry and geometry checks. Sweep
+        # every boolean into pb_valid and that verdict goes in with them, so
+        # pb_valid silently becomes "physically valid AND already within 2
+        # Angstrom" and the success rate stops being the conjunction of two
+        # independent things. The first run of this pipeline did exactly that,
+        # and it showed up as a validity rate that tracked the accuracy rate
+        # almost exactly, which is not what those two quantities do.
+        #
+        # Accuracy is measured here from the rmsd column and nowhere else, so
+        # anything RMSD-shaped is excluded from the checks by name.
         checks = {}
         for k, v in pbr.items():
-            if k in ("rmsd", "kabsch_rmsd", "centroid_distance", "file", "molecule"):
+            kl = k.lower()
+            if k in ("file", "molecule") or "rmsd" in kl or "centroid" in kl:
                 continue
             if isinstance(v, bool):
                 checks[ascii_col(k)] = int(v)
