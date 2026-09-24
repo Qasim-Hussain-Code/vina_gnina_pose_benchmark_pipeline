@@ -263,7 +263,12 @@ rec vina_banner  "$("$VINA_BIN"  --version 2>&1 | head -1 | tr -d '\r')" "binary
 rec smina_banner "$("$SMINA_BIN" --version 2>&1 | head -1 | tr -d '\r')" "binary" "$SMINA_BIN"
 [[ -n "$FPOCKET_BIN" ]] && rec fpocket_binary "$(basename "$FPOCKET_BIN")" "binary" "$FPOCKET_BIN"
 if (( GNINA_OK == 1 )); then
-    rec gnina "$("${TOOLDIR}/gnina" --version 2>&1 | head -1 | tr -d '\r')" \
+    # Through LD_LIBRARY_PATH, exactly as 06_dock.sh invokes it. Without it the
+    # binary cannot resolve libcudnn and this row records the loader's error
+    # message instead of a version, which is worse than recording nothing
+    # because it looks like data.
+    rec gnina "$(LD_LIBRARY_PATH="${GNINA_LIB}${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}" \
+        "${TOOLDIR}/gnina" --version 2>&1 | head -1 | tr -d '\r')" \
         "github release ${GNINA_TAG:-unknown}" "sha256:${GNINA_SHA}"
     rec gnina_cnn_scoring "$GNINA_CNN_SCORING" "project.conf" "cnn model set: ${GNINA_CNN_MODEL}"
     rec gnina_cuda_runtime "$(conda list -n "${CONDA_ENV_GNINA_RT:-vgb_gnina}" 2>/dev/null | awk '$1=="cuda-version" {print $2; exit}')"         "conda-forge/${CONDA_ENV_GNINA_RT:-vgb_gnina}" "LD_LIBRARY_PATH=${GNINA_LIB}"
