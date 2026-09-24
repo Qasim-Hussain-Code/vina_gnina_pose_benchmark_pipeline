@@ -12,6 +12,8 @@
 .gitattributes          text eol=lf
 .gitignore              text eol=lf
 LICENSE                 text eol=lf
+results/environment/*.txt  text eol=lf
+results/report/*.html      text eol=lf
 *.png                   binary
 *.gz                    binary
 
