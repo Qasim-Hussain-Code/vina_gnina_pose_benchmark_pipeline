@@ -453,9 +453,21 @@ run; Vina is the memory-hungry one, not GNINA, which is the opposite of what I
 assumed before measuring. Per-stage elapsed time, peak memory and data growth are
 in `logs/summary.tsv`.
 
-### The arm that did not run
+### Pocket detection, and the arm that did not run
 
-The detected-box arm, A3, is defined, has its 391 boxes computed and is
+**fpocket's top-ranked pocket puts the crystal ligand inside a 25 Angstrom box
+for 143 of 391 receptors, so the detected-box arm is capped at 36.6 per cent
+before any scoring function is involved.**
+
+![Pocket detection against the true site](figures/fig9_pocket_detection.png)
+
+The median distance from the rank 1 pocket centre to the crystal ligand centroid
+is 16.5 Angstrom, and 106 of 391 receptors put it within 5 Angstrom. This is a
+result about pocket detection rather than about docking, and it has to be stated
+alongside any A3 number or that number reads as a scoring failure when most of it
+is not.
+
+The detected-box arm itself is defined, has its 391 boxes computed and is
 implemented, but its six docking cells did not run. The host filesystem fell
 below the safety floor the supervisor enforces, for reasons outside this
 pipeline, and I stopped rather than fill a system drive. What is known about it
