@@ -463,11 +463,22 @@ def main() -> int:
                 ex_rows.append({"dataset": r.get(dscol, "crossdock") if dscol else "crossdock",
                                 "key": r.get(keycol, ""), "stage": f"04_prepare/{p.stem}",
                                 "reason": r.get("reason", ""), "recorded": stamp})
-    for r in arm_runs:
-        if r.get("status") == "failed":
-            ex_rows.append({"dataset": r["dataset"], "key": r["key"],
-                            "stage": f"06_dock/{r['arm']}/{r['method']}",
-                            "reason": r.get("reason", ""), "recorded": stamp})
+    # Docking failures come from the raw run tables, not from the scored ones.
+    # 07_score_poses only scores runs that produced a pose, so a complex the
+    # docking program refused never reaches run_scores.tsv and would vanish from
+    # this table entirely. That is exactly the silent exclusion this file exists
+    # to prevent, so the per-arm tables are read directly here.
+    run_dir = results_dir / "runs"
+    if run_dir.is_dir():
+        for tsv in sorted(run_dir.glob("*.tsv")):
+            for r in L.read_tsv(tsv):
+                if r.get("status") != "failed":
+                    continue
+                if (r.get("run_kind") or "arm") != "arm":
+                    continue
+                ex_rows.append({"dataset": r.get("dataset", ""), "key": r.get("key", ""),
+                                "stage": f"06_dock/{r.get('arm','')}/{r.get('method','')}",
+                                "reason": r.get("reason", ""), "recorded": stamp})
     L.write_tsv(results_dir / "excluded.tsv", ex_cols, ex_rows)
 
     # -----------------------------------------------------------------------

@@ -147,9 +147,13 @@ def fig_arm_ladder(sr, out: Path, dataset="posebusters"):
     if floor:
         fl = max(floor)
         ax.axvline(fl, color=INK_2, lw=1.0, ls=(0, (4, 3)), zorder=2)
-        ax.text(fl + 0.5, len(arms) - 0.35,
-                f"null floor {fl:.1f} per cent", fontsize=8, color=INK_2,
-                rotation=90, va="top", ha="left")
+        # Above the top bar, horizontally. Rotated text hanging below the axis
+        # made tight_layout reserve a band of empty figure as tall as the plot.
+        ax.annotate(f"null floor {fl:.1f} per cent",
+                    xy=(fl, -0.75), xytext=(fl + 2.0, -0.75),
+                    fontsize=8, color=INK_2, va="center", ha="left",
+                    annotation_clip=False,
+                    arrowprops=dict(arrowstyle="-", color=INK_2, lw=0.8))
 
     ax.set_yticks(ypos, ylabels)
     ax.invert_yaxis()
