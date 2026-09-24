@@ -1,0 +1,27 @@
+tool	version	source	detail	recorded
+python	3.12.14	conda-forge/vgb_bench	h5f976f7_3_cpython	2026-09-24T11:17:07+08:00
+rdkit	2026.03.6	conda-forge/vgb_bench	py312h5eb2359_0	2026-09-24T11:17:07+08:00
+meeko	0.8.0	conda-forge/vgb_bench	pyhd8ed1ab_0	2026-09-24T11:17:07+08:00
+posebusters	0.6.5	conda-forge/vgb_bench	pyh5ded981_1	2026-09-24T11:17:07+08:00
+spyrmsd	0.9.0	conda-forge/vgb_bench	pyhd8ed1ab_0	2026-09-24T11:17:07+08:00
+biopython	1.88	conda-forge/vgb_bench	py312h5cc1888_1	2026-09-24T11:17:07+08:00
+pdb2pqr	3.6.1	conda-forge/vgb_bench	pyhd8ed1ab_1	2026-09-24T11:17:07+08:00
+openbabel	3.2.1	conda-forge/vgb_bench	py312hfeebd6e_1	2026-09-24T11:17:07+08:00
+numpy	2.5.3	conda-forge/vgb_bench	py312he827f4e_0	2026-09-24T11:17:07+08:00
+scipy	1.18.1	conda-forge/vgb_bench	py312h106c528_1	2026-09-24T11:17:07+08:00
+pandas	3.0.6	conda-forge/vgb_bench	np2py312h91ec553_0	2026-09-24T11:17:07+08:00
+matplotlib-base	3.11.2	conda-forge/vgb_bench	py312hfe9aac7_1	2026-09-24T11:17:07+08:00
+seaborn	0.13.2	conda-forge/vgb_bench	hd8ed1ab_3	2026-09-24T11:17:07+08:00
+requests	2.34.2	conda-forge/vgb_bench	pyhcf101f3_0	2026-09-24T11:17:07+08:00
+quarto	1.9.38	conda-forge/vgb_bench	hd55b112_0	2026-09-24T11:17:07+08:00
+vina	1.2.7	conda-forge/vgb_vina	py314ha160325_0	2026-09-24T11:17:12+08:00
+smina	2020.12.10	conda-forge/vgb_smina	hecca717_2	2026-09-24T11:17:19+08:00
+fpocket	4.2.2	conda-forge/vgb_smina	h7b35b64_0	2026-09-24T11:17:19+08:00
+vina_banner	AutoDock Vina f458505-mod	binary	/home/qasim/miniconda3/envs/vgb_vina/bin/vina	2026-09-24T11:17:19+08:00
+smina_banner	smina 2020.12.10 conda-forge:b08c07c   Built Jul 15 2025.  Based on AutoDock Vina 1.1.2.	binary	/home/qasim/miniconda3/envs/vgb_smina/bin/smina	2026-09-24T11:17:19+08:00
+fpocket_binary	fpocket	binary	/home/qasim/miniconda3/envs/vgb_smina/bin/fpocket	2026-09-24T11:17:19+08:00
+gnina	gnina v1.3.3 master:6fe1ce2   Built Jun 30 2026.	github release v1.3.3	sha256:3340c1f49cd3c7c84d8699182a1c6af13c7fa2a22448d1204640446106f72172	2026-09-24T11:17:21+08:00
+gnina_cnn_scoring	rescore	project.conf	cnn model set: crossdock_default2018	2026-09-24T11:17:21+08:00
+gnina_cuda_runtime	12.8	conda-forge/vgb_gnina	LD_LIBRARY_PATH=/home/qasim/miniconda3/envs/vgb_gnina/lib	2026-09-24T11:17:24+08:00
+conda	26.7.2	base	conda	2026-09-24T11:17:24+08:00
+kernel	6.18.33.2-microsoft-standard-WSL2	host	Linux x86_64	2026-09-24T11:17:25+08:00

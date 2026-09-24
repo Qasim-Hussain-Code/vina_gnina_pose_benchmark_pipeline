@@ -174,51 +174,161 @@ crossdock	8A1H_DLZ	03_build_crossdock_set	no other X-ray entry at 2.5 A or bette
 crossdock	8FO5_Y4U	03_build_crossdock_set	no UniProt cross-reference on any polymer entity, so same-protein cannot be established	2026-09-22
 crossdock	8G6P_API	03_build_crossdock_set	no other X-ray entry at 2.5 A or better shares a UniProt accession with this one	2026-09-22
 crossdock	8SLG_G5A	03_build_crossdock_set	no partner survived filtering (same_ligand_only=1)	2026-09-22
-crossdock	6TW5_9M2__into__4C68	04_prepare/crossdock_align	C-alpha RMSD 21.127 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	6YRV_PJ8__into__6YS1	04_prepare/crossdock_align	"mmCIF parse failed: PDBIOException(""Chain id ('AAA') exceeds PDB format limit."")"	2026-09-22
-crossdock	6YSP_PAL__into__6YPO	04_prepare/crossdock_align	C-alpha RMSD 22.238 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	6Z1C_7EY__into__9TFX	04_prepare/crossdock_align	"mmCIF parse failed: PDBIOException(""Chain id ('AAAA') exceeds PDB format limit."")"	2026-09-22
-crossdock	6Z4N_Q7B__into__1FCJ	04_prepare/crossdock_align	C-alpha RMSD 25.252 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	6ZC3_JOR__into__6ZBQ	04_prepare/crossdock_align	C-alpha RMSD 14.352 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7BKA_4JC__into__8B72	04_prepare/crossdock_align	C-alpha RMSD 34.467 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7E4L_MDN__into__5YSQ	04_prepare/crossdock_align	C-alpha RMSD 16.279 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7FHA_ADX__into__8I1O	04_prepare/crossdock_align	C-alpha RMSD 20.454 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7FT9_4MB__into__9V90	04_prepare/crossdock_align	C-alpha RMSD 10.959 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7JHQ_VAJ__into__9U9T	04_prepare/crossdock_align	C-alpha RMSD 33.6 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7JY3_VUD__into__2W72	04_prepare/crossdock_align	C-alpha RMSD 3.615 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7K0V_VQP__into__8C7Y	04_prepare/crossdock_align	C-alpha RMSD 24.922 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7KRU_ATP__into__13JG	04_prepare/crossdock_align	C-alpha RMSD 3.264 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7LOU_IFM__into__10OH	04_prepare/crossdock_align	"superposition raised: ValueError(""invalid literal for int() with base 10: 'A'"")"	2026-09-22
-crossdock	7M6K_YRJ__into__7LCZ	04_prepare/crossdock_align	C-alpha RMSD 20.276 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7M31_TDR__into__1GTE	04_prepare/crossdock_align	C-alpha RMSD 38.654 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7MFP_Z7P__into__7MFO	04_prepare/crossdock_align	C-alpha RMSD 35.284 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7MWN_WI5__into__9TB8	04_prepare/crossdock_align	C-alpha RMSD 23.254 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7NPL_UKZ__into__7AEL	04_prepare/crossdock_align	"mmCIF parse failed: PDBIOException(""Chain id ('AAA') exceeds PDB format limit."")"	2026-09-22
-crossdock	7NSW_HC4__into__7NRR	04_prepare/crossdock_align	"mmCIF parse failed: PDBIOException(""Chain id ('AAA') exceeds PDB format limit."")"	2026-09-22
-crossdock	7OMX_CNA__into__7OMW	04_prepare/crossdock_align	"mmCIF parse failed: PDBIOException(""Chain id ('AAA') exceeds PDB format limit."")"	2026-09-22
-crossdock	7PJQ_OWH__into__6T02	04_prepare/crossdock_align	C-alpha RMSD 20.984 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7POM_7VZ__into__6G9U	04_prepare/crossdock_align	C-alpha RMSD 34.471 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7PUV_84Z__into__9F2O	04_prepare/crossdock_align	C-alpha RMSD 28.667 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7QGP_DJ8__into__6EIM	04_prepare/crossdock_align	C-alpha RMSD 6.71 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7QHL_D5P__into__2R3I	04_prepare/crossdock_align	C-alpha RMSD 4.503 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7R3D_APR__into__5BR4	04_prepare/crossdock_align	C-alpha RMSD 27.455 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7R9N_F97__into__31WB	04_prepare/crossdock_align	C-alpha RMSD 6.695 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7SIU_9ID__into__31WB	04_prepare/crossdock_align	C-alpha RMSD 5.196 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7SZA_DUI__into__7SZC	04_prepare/crossdock_align	C-alpha RMSD 29.954 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7TBU_S3P__into__6C5C	04_prepare/crossdock_align	C-alpha RMSD 22.175 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7U0U_FK5__into__6VCV	04_prepare/crossdock_align	C-alpha RMSD 17.638 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7UAS_MBU__into__6E1Z	04_prepare/crossdock_align	C-alpha RMSD 19.827 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7UJF_R3V__into__5DXE	04_prepare/crossdock_align	C-alpha RMSD 4.252 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7V3S_5I9__into__9T6K	04_prepare/crossdock_align	"superposition raised: ValueError(""invalid literal for int() with base 10: 'A14'"")"	2026-09-22
-crossdock	7WDT_NGS__into__6Z14	04_prepare/crossdock_align	"mmCIF parse failed: PDBIOException(""Chain id ('JJJ') exceeds PDB format limit."")"	2026-09-22
-crossdock	7WY1_D0L__into__2IJ2	04_prepare/crossdock_align	C-alpha RMSD 31.428 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7XRL_FWK__into__5YRV	04_prepare/crossdock_align	C-alpha RMSD 44.691 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7ZL5_IWE__into__7Q0D	04_prepare/crossdock_align	C-alpha RMSD 21.089 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7ZOC_T8E__into__4U6T	04_prepare/crossdock_align	C-alpha RMSD 20.945 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	7ZZW_KKW__into__7KBG	04_prepare/crossdock_align	C-alpha RMSD 29.13 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	8AP0_PRP__into__8AOZ	04_prepare/crossdock_align	"mmCIF parse failed: PDBIOException(""Chain id ('AAA') exceeds PDB format limit."")"	2026-09-22
-crossdock	8DP2_UMA__into__7U35	04_prepare/crossdock_align	C-alpha RMSD 4.092 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	8EX2_Q2Q__into__8BXH	04_prepare/crossdock_align	C-alpha RMSD 6.314 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	8F4J_PHO__into__1MZ4	04_prepare/crossdock_align	C-alpha RMSD 23.269 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	8F8E_XJI__into__9PLY	04_prepare/crossdock_align	C-alpha RMSD 11.271 A after superposition exceeds the 3.0 A limit	2026-09-22
-crossdock	8G0V_YHT__into__7KNO	04_prepare/crossdock_align	C-alpha RMSD 4.934 A after superposition exceeds the 3.0 A limit	2026-09-22
+crossdock	6TW5_9M2__into__4C68	04_prepare/crossdock_align	C-alpha RMSD 21.127 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	6YRV_PJ8__into__6YS1	04_prepare/crossdock_align	"mmCIF parse failed: PDBIOException(""Chain id ('AAA') exceeds PDB format limit."")"	2026-09-24
+crossdock	6YSP_PAL__into__6YPO	04_prepare/crossdock_align	C-alpha RMSD 22.238 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	6Z1C_7EY__into__9TFX	04_prepare/crossdock_align	"mmCIF parse failed: PDBIOException(""Chain id ('AAAA') exceeds PDB format limit."")"	2026-09-24
+crossdock	6Z4N_Q7B__into__1FCJ	04_prepare/crossdock_align	C-alpha RMSD 25.252 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	6ZC3_JOR__into__6ZBQ	04_prepare/crossdock_align	C-alpha RMSD 14.352 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7BKA_4JC__into__8B72	04_prepare/crossdock_align	C-alpha RMSD 34.467 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7E4L_MDN__into__5YSQ	04_prepare/crossdock_align	C-alpha RMSD 16.279 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7FHA_ADX__into__8I1O	04_prepare/crossdock_align	C-alpha RMSD 20.454 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7FT9_4MB__into__9V90	04_prepare/crossdock_align	C-alpha RMSD 10.959 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7JHQ_VAJ__into__9U9T	04_prepare/crossdock_align	C-alpha RMSD 33.6 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7JY3_VUD__into__2W72	04_prepare/crossdock_align	C-alpha RMSD 3.615 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7K0V_VQP__into__8C7Y	04_prepare/crossdock_align	C-alpha RMSD 24.922 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7KRU_ATP__into__13JG	04_prepare/crossdock_align	C-alpha RMSD 3.264 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7LOU_IFM__into__10OH	04_prepare/crossdock_align	"superposition raised: ValueError(""invalid literal for int() with base 10: 'A'"")"	2026-09-24
+crossdock	7M31_TDR__into__1GTE	04_prepare/crossdock_align	C-alpha RMSD 38.654 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7M6K_YRJ__into__7LCZ	04_prepare/crossdock_align	C-alpha RMSD 20.276 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7MFP_Z7P__into__7MFO	04_prepare/crossdock_align	C-alpha RMSD 35.284 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7MWN_WI5__into__9TB8	04_prepare/crossdock_align	C-alpha RMSD 23.254 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7NPL_UKZ__into__7AEL	04_prepare/crossdock_align	"mmCIF parse failed: PDBIOException(""Chain id ('AAA') exceeds PDB format limit."")"	2026-09-24
+crossdock	7NSW_HC4__into__7NRR	04_prepare/crossdock_align	"mmCIF parse failed: PDBIOException(""Chain id ('AAA') exceeds PDB format limit."")"	2026-09-24
+crossdock	7OMX_CNA__into__7OMW	04_prepare/crossdock_align	"mmCIF parse failed: PDBIOException(""Chain id ('AAA') exceeds PDB format limit."")"	2026-09-24
+crossdock	7PJQ_OWH__into__6T02	04_prepare/crossdock_align	C-alpha RMSD 20.984 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7POM_7VZ__into__6G9U	04_prepare/crossdock_align	C-alpha RMSD 34.471 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7PUV_84Z__into__9F2O	04_prepare/crossdock_align	C-alpha RMSD 28.667 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7QGP_DJ8__into__6EIM	04_prepare/crossdock_align	C-alpha RMSD 6.71 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7QHL_D5P__into__2R3I	04_prepare/crossdock_align	C-alpha RMSD 4.503 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7R3D_APR__into__5BR4	04_prepare/crossdock_align	C-alpha RMSD 27.455 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7R9N_F97__into__31WB	04_prepare/crossdock_align	C-alpha RMSD 6.695 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7SIU_9ID__into__31WB	04_prepare/crossdock_align	C-alpha RMSD 5.196 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7SZA_DUI__into__7SZC	04_prepare/crossdock_align	C-alpha RMSD 29.954 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7TBU_S3P__into__6C5C	04_prepare/crossdock_align	C-alpha RMSD 22.175 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7U0U_FK5__into__6VCV	04_prepare/crossdock_align	C-alpha RMSD 17.638 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7UAS_MBU__into__6E1Z	04_prepare/crossdock_align	C-alpha RMSD 19.827 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7UJF_R3V__into__5DXE	04_prepare/crossdock_align	C-alpha RMSD 4.252 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7V3S_5I9__into__9T6K	04_prepare/crossdock_align	"superposition raised: ValueError(""invalid literal for int() with base 10: 'A14'"")"	2026-09-24
+crossdock	7WDT_NGS__into__6Z14	04_prepare/crossdock_align	"mmCIF parse failed: PDBIOException(""Chain id ('JJJ') exceeds PDB format limit."")"	2026-09-24
+crossdock	7WY1_D0L__into__2IJ2	04_prepare/crossdock_align	C-alpha RMSD 31.428 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7XRL_FWK__into__5YRV	04_prepare/crossdock_align	C-alpha RMSD 44.691 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7ZL5_IWE__into__7Q0D	04_prepare/crossdock_align	C-alpha RMSD 21.089 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7ZOC_T8E__into__4U6T	04_prepare/crossdock_align	C-alpha RMSD 20.945 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	7ZZW_KKW__into__7KBG	04_prepare/crossdock_align	C-alpha RMSD 29.13 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	8AP0_PRP__into__8AOZ	04_prepare/crossdock_align	"mmCIF parse failed: PDBIOException(""Chain id ('AAA') exceeds PDB format limit."")"	2026-09-24
+crossdock	8DP2_UMA__into__7U35	04_prepare/crossdock_align	C-alpha RMSD 4.092 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	8EX2_Q2Q__into__8BXH	04_prepare/crossdock_align	C-alpha RMSD 6.314 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	8F8E_XJI__into__9PLY	04_prepare/crossdock_align	C-alpha RMSD 11.271 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	8F4J_PHO__into__1MZ4	04_prepare/crossdock_align	C-alpha RMSD 23.269 A after superposition exceeds the 3.0 A limit	2026-09-24
+crossdock	8G0V_YHT__into__7KNO	04_prepare/crossdock_align	C-alpha RMSD 4.934 A after superposition exceeds the 3.0 A limit	2026-09-24
+astex	1MZC_BNE	06_dock/A1_refconf_refbox/gnina	gnina: ATOM     14  C   UNL     1      13.980 134.578  -7.170  1.00  0.00    +0.003 CG0	2026-09-24
+astex	1U4D_DBQ	06_dock/A1_refconf_refbox/gnina	gnina: ATOM     11  C   UNL     1      56.263  19.432  39.898  1.00  0.00    +0.121 CG0	2026-09-24
+posebusters	6YJA_2BA	06_dock/A1_refconf_refbox/gnina	gnina: ATOM      8  C   UNL     1      -0.578   0.419  15.590  1.00  0.00    +0.180 CG0	2026-09-24
+posebusters	7JXX_VP7	06_dock/A1_refconf_refbox/gnina	gnina: ATOM     21  C   UNL     1     176.196  22.190  49.167  1.00  0.00    +0.040 CG0	2026-09-24
+posebusters	7MMH_ZJY	06_dock/A1_refconf_refbox/gnina	gnina: ATOM      9  C   UNL     1     -17.431  22.008 -16.718  1.00  0.00    +0.035 CG0	2026-09-24
+posebusters	7QGP_DJ8	06_dock/A1_refconf_refbox/gnina	gnina: ATOM     26  C   UNL     1     -22.683   0.497  10.013  1.00  0.00    +0.181 CG0	2026-09-24
+posebusters	7RWS_4UR	06_dock/A1_refconf_refbox/gnina	gnina: ATOM      6  C   UNL     1      15.565  47.098  38.934  1.00  0.00    +0.179 CG0	2026-09-24
+posebusters	7U0U_FK5	06_dock/A1_refconf_refbox/gnina	gnina: ATOM     26  C   UNL     1     -27.116 -14.173 -27.491  1.00  0.00    +0.033 CG0	2026-09-24
+posebusters	7UAW_MF6	06_dock/A1_refconf_refbox/gnina	gnina: ATOM     10  C   UNL     1     -22.336  10.180 -16.932  1.00  0.00    +0.179 CG0	2026-09-24
+posebusters	7UXS_OJC	06_dock/A1_refconf_refbox/gnina	gnina: ATOM     26  C   UNL     1     -11.154  33.724 -11.283  1.00  0.00    +0.179 CG0	2026-09-24
+posebusters	7ZHP_IQY	06_dock/A1_refconf_refbox/gnina	gnina: ATOM     21  C   UNL     1      72.334  40.645  -2.057  1.00  0.00    +0.040 CG0	2026-09-24
+posebusters	8EXL_799	06_dock/A1_refconf_refbox/gnina	gnina: ATOM     21  C   UNL     1     -14.123  15.906  28.153  1.00  0.00    +0.251 CG0	2026-09-24
+astex	1OF1_SCT	06_dock/A1_refconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/1OF1_SCT/clean.pdb	2026-09-24
+astex	1UNL_RRC	06_dock/A1_refconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/1UNL_RRC/clean.pdb	2026-09-24
+astex	1UOU_CMU	06_dock/A1_refconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/1UOU_CMU/clean.pdb	2026-09-24
+astex	1W1P_GIO	06_dock/A1_refconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/1W1P_GIO/clean.pdb	2026-09-24
+astex	1W2G_THM	06_dock/A1_refconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/1W2G_THM/clean.pdb	2026-09-24
+astex	2BM2_PM2	06_dock/A1_refconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/2BM2_PM2/clean.pdb	2026-09-24
+astex	2BSM_BSM	06_dock/A1_refconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/2BSM_BSM/clean.pdb	2026-09-24
+posebusters	6YSP_PAL	06_dock/A1_refconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/posebusters/6YSP_PAL/clean.pdb	2026-09-24
+posebusters	7AFX_R9K	06_dock/A1_refconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/posebusters/7AFX_R9K/clean.pdb	2026-09-24
+posebusters	7B2C_TP7	06_dock/A1_refconf_refbox/vina	vina:  > ATOM      1  XE  XE  A1208     -15.408  10.179  53.240  1.00  0.00    +0.000 Xe	2026-09-24
+posebusters	7D6O_MTE	06_dock/A1_refconf_refbox/vina	vina:  > ATOM      1  MO  MOS A1404      65.162  25.480  32.582  1.00  0.00    +0.000 Mo	2026-09-24
+posebusters	7NFB_GEN	06_dock/A1_refconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/posebusters/7NFB_GEN/clean.pdb	2026-09-24
+posebusters	7Q27_8KC	06_dock/A1_refconf_refbox/vina	vina:  > ATOM      1  B   BO3 A 710     -28.577 -14.637  38.852  1.00  0.00    +0.000 B	2026-09-24
+posebusters	7QFM_AY3	06_dock/A1_refconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/posebusters/7QFM_AY3/clean.pdb	2026-09-24
+posebusters	7RNI_60I	06_dock/A1_refconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/posebusters/7RNI_60I/clean.pdb	2026-09-24
+posebusters	7WY1_D0L	06_dock/A1_refconf_refbox/vina	vina:  > ATOM   4499  MO  MI9 A 501      15.615 -12.952 -11.459  1.00  0.00    +0.000 Mo	2026-09-24
+astex	1MZC_BNE	06_dock/A1_refconf_refbox/vinardo	vinardo: ATOM     14  C   UNL     1      13.980 134.578  -7.170  1.00  0.00    +0.003 CG0	2026-09-24
+astex	1U4D_DBQ	06_dock/A1_refconf_refbox/vinardo	vinardo: ATOM     11  C   UNL     1      56.263  19.432  39.898  1.00  0.00    +0.121 CG0	2026-09-24
+posebusters	6YJA_2BA	06_dock/A1_refconf_refbox/vinardo	vinardo: ATOM      8  C   UNL     1      -0.578   0.419  15.590  1.00  0.00    +0.180 CG0	2026-09-24
+posebusters	7B2C_TP7	06_dock/A1_refconf_refbox/vinardo	vinardo: ATOM      1  XE  XE  A1208     -15.408  10.179  53.240  1.00  0.00    +0.000 Xe	2026-09-24
+posebusters	7D6O_MTE	06_dock/A1_refconf_refbox/vinardo	vinardo: ATOM      1  MO  MOS A1404      65.162  25.480  32.582  1.00  0.00    +0.000 Mo	2026-09-24
+posebusters	7JXX_VP7	06_dock/A1_refconf_refbox/vinardo	vinardo: ATOM     21  C   UNL     1     176.196  22.190  49.167  1.00  0.00    +0.040 CG0	2026-09-24
+posebusters	7MMH_ZJY	06_dock/A1_refconf_refbox/vinardo	vinardo: ATOM      9  C   UNL     1     -17.431  22.008 -16.718  1.00  0.00    +0.035 CG0	2026-09-24
+posebusters	7Q27_8KC	06_dock/A1_refconf_refbox/vinardo	vinardo: ATOM      1  B   BO3 A 710     -28.577 -14.637  38.852  1.00  0.00    +0.000 B	2026-09-24
+posebusters	7QGP_DJ8	06_dock/A1_refconf_refbox/vinardo	vinardo: ATOM     26  C   UNL     1     -22.683   0.497  10.013  1.00  0.00    +0.181 CG0	2026-09-24
+posebusters	7RWS_4UR	06_dock/A1_refconf_refbox/vinardo	vinardo: ATOM      6  C   UNL     1      15.565  47.098  38.934  1.00  0.00    +0.179 CG0	2026-09-24
+posebusters	7U0U_FK5	06_dock/A1_refconf_refbox/vinardo	vinardo: ATOM     26  C   UNL     1     -27.116 -14.173 -27.491  1.00  0.00    +0.033 CG0	2026-09-24
+posebusters	7UAW_MF6	06_dock/A1_refconf_refbox/vinardo	vinardo: ATOM     10  C   UNL     1     -22.336  10.180 -16.932  1.00  0.00    +0.179 CG0	2026-09-24
+posebusters	7UXS_OJC	06_dock/A1_refconf_refbox/vinardo	vinardo: ATOM     26  C   UNL     1     -11.154  33.724 -11.283  1.00  0.00    +0.179 CG0	2026-09-24
+posebusters	7WY1_D0L	06_dock/A1_refconf_refbox/vinardo	vinardo: ATOM   4499  MO  MI9 A 501      15.615 -12.952 -11.459  1.00  0.00    +0.000 Mo	2026-09-24
+posebusters	7ZHP_IQY	06_dock/A1_refconf_refbox/vinardo	vinardo: ATOM     21  C   UNL     1      72.334  40.645  -2.057  1.00  0.00    +0.040 CG0	2026-09-24
+posebusters	8EXL_799	06_dock/A1_refconf_refbox/vinardo	vinardo: ATOM     21  C   UNL     1     -14.123  15.906  28.153  1.00  0.00    +0.251 CG0	2026-09-24
+astex	1MZC_BNE	06_dock/A2_genconf_refbox/gnina	gnina: ATOM     11  C   UNL     1      -3.766   1.999   0.822  1.00  0.00    +0.003 CG0	2026-09-24
+astex	1U4D_DBQ	06_dock/A2_genconf_refbox/gnina	gnina: ATOM     18  C   UNL     1      -0.668  -1.501  -1.011  1.00  0.00    +0.060 CG0	2026-09-24
+posebusters	6YJA_2BA	06_dock/A2_genconf_refbox/gnina	gnina: ATOM     26  C   UNL     1      -1.389   2.322  -0.859  1.00  0.00    +0.208 CG0	2026-09-24
+posebusters	7JXX_VP7	06_dock/A2_genconf_refbox/gnina	gnina: ATOM     24  C   UNL     1      -4.842   0.147  -0.929  1.00  0.00    +0.040 CG0	2026-09-24
+posebusters	7MMH_ZJY	06_dock/A2_genconf_refbox/gnina	gnina: ATOM     43  C   UNL     1       1.457   4.968   0.238  1.00  0.00    +0.003 CG0	2026-09-24
+posebusters	7QGP_DJ8	06_dock/A2_genconf_refbox/gnina	gnina: ATOM     26  C   UNL     1      -3.738  -2.632   0.907  1.00  0.00    +0.181 CG0	2026-09-24
+posebusters	7RWS_4UR	06_dock/A2_genconf_refbox/gnina	gnina: ATOM     28  C   UNL     1      -2.802   1.482  -3.138  1.00  0.00    +0.208 CG0	2026-09-24
+posebusters	7U0U_FK5	06_dock/A2_genconf_refbox/gnina	gnina: ATOM     16  C   UNL     1      -2.675   3.773   0.499  1.00  0.00    -0.076 CG0	2026-09-24
+posebusters	7UAW_MF6	06_dock/A2_genconf_refbox/gnina	gnina: ATOM     23  C   UNL     1      -1.958  -2.425  -0.825  1.00  0.00    +0.179 CG0	2026-09-24
+posebusters	7UXS_OJC	06_dock/A2_genconf_refbox/gnina	gnina: ATOM     25  C   UNL     1      -3.813  -0.602  -1.522  1.00  0.00    +0.179 CG0	2026-09-24
+posebusters	7ZHP_IQY	06_dock/A2_genconf_refbox/gnina	gnina: ATOM     26  C   UNL     1      -5.400  -0.268  -0.963  1.00  0.00    +0.040 CG0	2026-09-24
+posebusters	8EXL_799	06_dock/A2_genconf_refbox/gnina	gnina: ATOM     21  C   UNL     1      -2.202   1.992  -2.475  1.00  0.00    +0.165 CG0	2026-09-24
+astex	1OF1_SCT	06_dock/A2_genconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/1OF1_SCT/clean.pdb	2026-09-24
+astex	1UNL_RRC	06_dock/A2_genconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/1UNL_RRC/clean.pdb	2026-09-24
+astex	1UOU_CMU	06_dock/A2_genconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/1UOU_CMU/clean.pdb	2026-09-24
+astex	1W1P_GIO	06_dock/A2_genconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/1W1P_GIO/clean.pdb	2026-09-24
+astex	1W2G_THM	06_dock/A2_genconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/1W2G_THM/clean.pdb	2026-09-24
+astex	2BM2_PM2	06_dock/A2_genconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/2BM2_PM2/clean.pdb	2026-09-24
+astex	2BSM_BSM	06_dock/A2_genconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/2BSM_BSM/clean.pdb	2026-09-24
+posebusters	7NFB_GEN	06_dock/A2_genconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/posebusters/7NFB_GEN/clean.pdb	2026-09-24
+posebusters	6YSP_PAL	06_dock/A2_genconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/posebusters/6YSP_PAL/clean.pdb	2026-09-24
+posebusters	7AFX_R9K	06_dock/A2_genconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/posebusters/7AFX_R9K/clean.pdb	2026-09-24
+posebusters	7RNI_60I	06_dock/A2_genconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/posebusters/7RNI_60I/clean.pdb	2026-09-24
+posebusters	7QFM_AY3	06_dock/A2_genconf_refbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/posebusters/7QFM_AY3/clean.pdb	2026-09-24
+posebusters	7B2C_TP7	06_dock/A2_genconf_refbox/vina	vina:  > ATOM      1  XE  XE  A1208     -15.408  10.179  53.240  1.00  0.00    +0.000 Xe	2026-09-24
+posebusters	7Q27_8KC	06_dock/A2_genconf_refbox/vina	vina:  > ATOM      1  B   BO3 A 710     -28.577 -14.637  38.852  1.00  0.00    +0.000 B	2026-09-24
+posebusters	7D6O_MTE	06_dock/A2_genconf_refbox/vina	vina:  > ATOM      1  MO  MOS A1404      65.162  25.480  32.582  1.00  0.00    +0.000 Mo	2026-09-24
+posebusters	7WY1_D0L	06_dock/A2_genconf_refbox/vina	vina:  > ATOM   4499  MO  MI9 A 501      15.615 -12.952 -11.459  1.00  0.00    +0.000 Mo	2026-09-24
+astex	1MZC_BNE	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM     11  C   UNL     1      -3.766   1.999   0.822  1.00  0.00    +0.003 CG0	2026-09-24
+astex	1U4D_DBQ	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM     18  C   UNL     1      -0.668  -1.501  -1.011  1.00  0.00    +0.060 CG0	2026-09-24
+posebusters	6YJA_2BA	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM     26  C   UNL     1      -1.389   2.322  -0.859  1.00  0.00    +0.208 CG0	2026-09-24
+posebusters	7B2C_TP7	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM      1  XE  XE  A1208     -15.408  10.179  53.240  1.00  0.00    +0.000 Xe	2026-09-24
+posebusters	7D6O_MTE	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM      1  MO  MOS A1404      65.162  25.480  32.582  1.00  0.00    +0.000 Mo	2026-09-24
+posebusters	7JXX_VP7	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM     24  C   UNL     1      -4.842   0.147  -0.929  1.00  0.00    +0.040 CG0	2026-09-24
+posebusters	7MMH_ZJY	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM     43  C   UNL     1       1.457   4.968   0.238  1.00  0.00    +0.003 CG0	2026-09-24
+posebusters	7Q27_8KC	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM      1  B   BO3 A 710     -28.577 -14.637  38.852  1.00  0.00    +0.000 B	2026-09-24
+posebusters	7QGP_DJ8	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM     26  C   UNL     1      -3.738  -2.632   0.907  1.00  0.00    +0.181 CG0	2026-09-24
+posebusters	7RWS_4UR	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM     28  C   UNL     1      -2.802   1.482  -3.138  1.00  0.00    +0.208 CG0	2026-09-24
+posebusters	7U0U_FK5	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM     16  C   UNL     1      -2.675   3.773   0.499  1.00  0.00    -0.076 CG0	2026-09-24
+posebusters	7UAW_MF6	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM     23  C   UNL     1      -1.958  -2.425  -0.825  1.00  0.00    +0.179 CG0	2026-09-24
+posebusters	7UXS_OJC	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM     25  C   UNL     1      -3.813  -0.602  -1.522  1.00  0.00    +0.179 CG0	2026-09-24
+posebusters	7WY1_D0L	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM   4499  MO  MI9 A 501      15.615 -12.952 -11.459  1.00  0.00    +0.000 Mo	2026-09-24
+posebusters	7ZHP_IQY	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM     26  C   UNL     1      -5.400  -0.268  -0.963  1.00  0.00    +0.040 CG0	2026-09-24
+posebusters	8EXL_799	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM     21  C   UNL     1      -2.202   1.992  -2.475  1.00  0.00    +0.165 CG0	2026-09-24
+crossdock	6YJA_2BA__into__6YJ9	06_dock/A4_crossdock/gnina	gnina: ATOM     26  C   UNL     1      -1.389   2.322  -0.859  1.00  0.00    +0.208 CG0	2026-09-24
+crossdock	7JXX_VP7__into__4NFN	06_dock/A4_crossdock/gnina	gnina: ATOM     24  C   UNL     1      -4.842   0.147  -0.929  1.00  0.00    +0.040 CG0	2026-09-24
+crossdock	7MMH_ZJY__into__7MM8	06_dock/A4_crossdock/gnina	gnina: ATOM     43  C   UNL     1       1.457   4.968   0.238  1.00  0.00    +0.003 CG0	2026-09-24
+crossdock	7UAW_MF6__into__8KBH	06_dock/A4_crossdock/gnina	gnina: ATOM     23  C   UNL     1      -1.958  -2.425  -0.825  1.00  0.00    +0.179 CG0	2026-09-24
+crossdock	7ZHP_IQY__into__4NFN	06_dock/A4_crossdock/gnina	gnina: ATOM     26  C   UNL     1      -5.400  -0.268  -0.963  1.00  0.00    +0.040 CG0	2026-09-24
+crossdock	8EXL_799__into__9CMK	06_dock/A4_crossdock/gnina	gnina: ATOM     21  C   UNL     1      -2.202   1.992  -2.475  1.00  0.00    +0.165 CG0	2026-09-24
+crossdock	7Q25_8J9__into__6H5W	06_dock/A4_crossdock/vina	vina:  > ATOM      1  B   BO3 A 714     -18.513  -7.929  27.877  1.00  0.00    +0.000 B	2026-09-24
+crossdock	7Q27_8KC__into__6H5W	06_dock/A4_crossdock/vina	vina:  > ATOM      1  B   BO3 A 714     -18.513  -7.929  27.877  1.00  0.00    +0.000 B	2026-09-24
+crossdock	7SFO_98L__into__5DXE	06_dock/A4_crossdock/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/crossdock/5DXE/clean.pdb	2026-09-24
+crossdock	7SUC_COM__into__5A0Y	06_dock/A4_crossdock/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/crossdock/5A0Y/clean.pdb	2026-09-24
+crossdock	7UJ5_DGL__into__8EB3	06_dock/A4_crossdock/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/crossdock/8EB3/clean.pdb	2026-09-24
+crossdock	7WQQ_5Z6__into__9GFE	06_dock/A4_crossdock/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/crossdock/9GFE/clean.pdb	2026-09-24
+crossdock	7XI7_4RI__into__1KMV	06_dock/A4_crossdock/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/crossdock/1KMV/clean.pdb	2026-09-24
+crossdock	8CNH_V6U__into__4OYB	06_dock/A4_crossdock/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/crossdock/4OYB/clean.pdb	2026-09-24
+crossdock	6YJA_2BA__into__6YJ9	06_dock/A4_crossdock/vinardo	vinardo: ATOM     26  C   UNL     1      -1.389   2.322  -0.859  1.00  0.00    +0.208 CG0	2026-09-24
+crossdock	7JXX_VP7__into__4NFN	06_dock/A4_crossdock/vinardo	vinardo: ATOM     24  C   UNL     1      -4.842   0.147  -0.929  1.00  0.00    +0.040 CG0	2026-09-24
+crossdock	7MMH_ZJY__into__7MM8	06_dock/A4_crossdock/vinardo	vinardo: ATOM     43  C   UNL     1       1.457   4.968   0.238  1.00  0.00    +0.003 CG0	2026-09-24
+crossdock	7Q25_8J9__into__6H5W	06_dock/A4_crossdock/vinardo	vinardo: ATOM      1  B   BO3 A 714     -18.513  -7.929  27.877  1.00  0.00    +0.000 B	2026-09-24
+crossdock	7Q27_8KC__into__6H5W	06_dock/A4_crossdock/vinardo	vinardo: ATOM      1  B   BO3 A 714     -18.513  -7.929  27.877  1.00  0.00    +0.000 B	2026-09-24
+crossdock	7UAW_MF6__into__8KBH	06_dock/A4_crossdock/vinardo	vinardo: ATOM     23  C   UNL     1      -1.958  -2.425  -0.825  1.00  0.00    +0.179 CG0	2026-09-24
+crossdock	7ZHP_IQY__into__4NFN	06_dock/A4_crossdock/vinardo	vinardo: ATOM     26  C   UNL     1      -5.400  -0.268  -0.963  1.00  0.00    +0.040 CG0	2026-09-24
+crossdock	8EXL_799__into__9CMK	06_dock/A4_crossdock/vinardo	vinardo: ATOM     21  C   UNL     1      -2.202   1.992  -2.475  1.00  0.00    +0.165 CG0	2026-09-24

@@ -85,6 +85,9 @@ BANNED = ["it is worth noting", "it's worth noting", "it is important to note",
           "seamless", "underscores", "showcases", "a testament to", "not only",
           "leverage", "leveraging", "leverages", "robust", "comprehensive"]
 files = subprocess.run(["git", "ls-files"], capture_output=True, text=True).stdout.split()
+# This file carries the banned-phrase list and the dash characters it searches
+# for, so scanning it reports every pattern as a violation of itself.
+files = [f for f in files if not f.endswith("check_repo.sh")]
 em = en = emoji = banned = energy = 0
 for rel in files:
     p = Path(rel)
@@ -95,9 +98,11 @@ for rel in files:
     except Exception:
         continue
     for i, line in enumerate(text.splitlines(), 1):
-        if "—" in line:
+        # Written as escapes rather than literals so that this file does not
+        # itself contain the characters it is looking for.
+        if "\u2014" in line:
             em += 1; print(f"    EM DASH {rel}:{i}")
-        if "–" in line:
+        if "\u2013" in line:
             en += 1; print(f"    EN DASH {rel}:{i}")
         for ch in line:
             if ord(ch) > 0x2100 and unicodedata.category(ch) in ("So", "Sk"):

@@ -1,10 +1,40 @@
 item	value	note
-vina.astex.A1_refconf_refbox.rmsd_le_2a_pct	62.5	5 of 8 scored
-vina.astex.A1_refconf_refbox.success_2a_pct	62.5	5 of 8 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
-vina.astex.A2_genconf_refbox.rmsd_le_2a_pct	12.5	1 of 8 scored
-vina.astex.A2_genconf_refbox.success_2a_pct	12.5	1 of 8 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+gnina.posebusters.A1_refconf_refbox.rmsd_le_2a_pct	70.47	210 of 298 scored
+gnina.posebusters.A1_refconf_refbox.success_2a_pct	68.46	204 of 298 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+gnina.astex.A1_refconf_refbox.rmsd_le_2a_pct	75.9	63 of 83 scored
+gnina.astex.A1_refconf_refbox.success_2a_pct	73.49	61 of 83 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+gnina.posebusters.A2_genconf_refbox.rmsd_le_2a_pct	58.39	174 of 298 scored
+gnina.posebusters.A2_genconf_refbox.success_2a_pct	55.7	166 of 298 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+gnina.astex.A2_genconf_refbox.rmsd_le_2a_pct	69.88	58 of 83 scored
+gnina.astex.A2_genconf_refbox.success_2a_pct	68.67	57 of 83 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+gnina.crossdock.A4_crossdock.rmsd_le_2a_pct	18.59	37 of 199 scored
+gnina.crossdock.A4_crossdock.success_2a_pct	18.09	36 of 199 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vina.posebusters.A1_refconf_refbox.rmsd_le_2a_pct	68.56	205 of 299 scored
+vina.posebusters.A1_refconf_refbox.success_2a_pct	66.56	199 of 299 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vina.astex.A1_refconf_refbox.rmsd_le_2a_pct	75.64	59 of 78 scored
+vina.astex.A1_refconf_refbox.success_2a_pct	75.64	59 of 78 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vina.posebusters.A2_genconf_refbox.rmsd_le_2a_pct	55.52	166 of 299 scored
+vina.posebusters.A2_genconf_refbox.success_2a_pct	53.51	160 of 299 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vina.astex.A2_genconf_refbox.rmsd_le_2a_pct	52.56	41 of 78 scored
+vina.astex.A2_genconf_refbox.success_2a_pct	52.56	41 of 78 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vina.posebusters.A0_null.rmsd_le_2a_pct	3.57	11 of 308 scored
+vina.posebusters.A0_null.success_2a_pct	0.32	1 of 308 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vina.astex.A0_null.rmsd_le_2a_pct	2.35	2 of 85 scored
+vina.astex.A0_null.success_2a_pct	0.0	0 of 85 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vina.crossdock.A4_crossdock.rmsd_le_2a_pct	16.75	33 of 197 scored
+vina.crossdock.A4_crossdock.success_2a_pct	16.75	33 of 197 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vinardo.posebusters.A1_refconf_refbox.rmsd_le_2a_pct	64.29	189 of 294 scored
+vinardo.posebusters.A1_refconf_refbox.success_2a_pct	60.54	178 of 294 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vinardo.astex.A1_refconf_refbox.rmsd_le_2a_pct	69.88	58 of 83 scored
+vinardo.astex.A1_refconf_refbox.success_2a_pct	68.67	57 of 83 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vinardo.posebusters.A2_genconf_refbox.rmsd_le_2a_pct	50.68	149 of 294 scored
+vinardo.posebusters.A2_genconf_refbox.success_2a_pct	48.3	142 of 294 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vinardo.astex.A2_genconf_refbox.rmsd_le_2a_pct	57.83	48 of 83 scored
+vinardo.astex.A2_genconf_refbox.success_2a_pct	57.83	48 of 83 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vinardo.crossdock.A4_crossdock.rmsd_le_2a_pct	16.24	32 of 197 scored
+vinardo.crossdock.A4_crossdock.success_2a_pct	16.24	32 of 197 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
 dataset.posebusters.in_manifest	308	120 excluded at stage 2
 dataset.astex.in_manifest	85	0 excluded at stage 2
-exclusions.total_rows	223	every complex dropped at any stage; see results/excluded.tsv
+exclusions.total_rows	333	every complex dropped at any stage; see results/excluded.tsv
 thresholds.pass_angstrom	2.0	the number the field quotes
 thresholds.strict_angstrom	1.0	reported alongside

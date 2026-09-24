@@ -1,1 +1,2 @@
 method	complex_id	arm	n_seeds	seeds	rmsd_values	min_rmsd	max_rmsd	range_rmsd	median_rmsd	stdev_rmsd	verdicts_at_2a	verdict_unanimous	recorded
+vina	5SAK_ZRY	A2_genconf_refbox	5	20260922,20260923,20260924,20260925,20260926	0.332,0.368,0.354,0.382,0.356	0.332	0.382	0.051	0.356	0.0188	1,1,1,1,1	1	2026-09-24
