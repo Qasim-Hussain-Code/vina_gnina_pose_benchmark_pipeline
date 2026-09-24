@@ -15,7 +15,15 @@ stage	elapsed_s	peak_rss_mb	data_growth_mb	data_total_mb	jobs	note
 06_dock_A2_genconf_refbox_vina_posebusters	1	19	0	3095	5	arm=A2_genconf_refbox method=vina dataset=posebusters jobs=5
 06_dock_A2_genconf_refbox_vinardo_astex	702	181	0	3099	5	arm=A2_genconf_refbox method=vinardo dataset=astex jobs=5
 06_dock_A2_genconf_refbox_vinardo_posebusters	4371	182	1	3097	5	arm=A2_genconf_refbox method=vinardo dataset=posebusters jobs=5
+06_dock_A3_genconf_detbox_gnina_astex	1374	508	0	3112	4	arm=A3_genconf_detbox method=gnina dataset=astex jobs=4
+06_dock_A3_genconf_detbox_gnina_posebusters	9377	546	1	3111	4	arm=A3_genconf_detbox method=gnina dataset=posebusters jobs=4
+06_dock_A3_genconf_detbox_vina_astex	1733	672	0	3112	5	arm=A3_genconf_detbox method=vina dataset=astex jobs=5
+06_dock_A3_genconf_detbox_vina_posebusters	6061	1321	0	3108	5	arm=A3_genconf_detbox method=vina dataset=posebusters jobs=5
+06_dock_A3_genconf_detbox_vinardo_astex	1193	182	0	3112	5	arm=A3_genconf_detbox method=vinardo dataset=astex jobs=5
+06_dock_A3_genconf_detbox_vinardo_posebusters	6741	182	1	3110	5	arm=A3_genconf_detbox method=vinardo dataset=posebusters jobs=5
 06_dock_A4_crossdock_gnina_crossdock	4922	526	0	3107	4	arm=A4_crossdock method=gnina dataset=crossdock jobs=4
 06_dock_A4_crossdock_vina_crossdock	5063	1266	0	3105	5	arm=A4_crossdock method=vina dataset=crossdock jobs=5
 06_dock_A4_crossdock_vinardo_crossdock	7455	182	0	3106	5	arm=A4_crossdock method=vinardo dataset=crossdock jobs=5
+06_dock_seedvariance_gnina	83	462	0	3112	1	arm=none method=gnina dataset=na jobs=1
 06_dock_seedvariance_vina	2845	409	0	3101	1	arm=none method=vina dataset=na jobs=1
+06_dock_seedvariance_vinardo	48	185	0	3112	1	arm=none method=vinardo dataset=na jobs=1

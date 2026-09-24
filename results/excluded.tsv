@@ -310,6 +310,50 @@ posebusters	7UXS_OJC	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM     25  C  
 posebusters	7WY1_D0L	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM   4499  MO  MI9 A 501      15.615 -12.952 -11.459  1.00  0.00    +0.000 Mo	2026-09-24
 posebusters	7ZHP_IQY	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM     26  C   UNL     1      -5.400  -0.268  -0.963  1.00  0.00    +0.040 CG0	2026-09-24
 posebusters	8EXL_799	06_dock/A2_genconf_refbox/vinardo	vinardo: ATOM     21  C   UNL     1      -2.202   1.992  -2.475  1.00  0.00    +0.165 CG0	2026-09-24
+astex	1MZC_BNE	06_dock/A3_genconf_detbox/gnina	gnina: ATOM     11  C   UNL     1      -3.766   1.999   0.822  1.00  0.00    +0.003 CG0	2026-09-24
+astex	1U4D_DBQ	06_dock/A3_genconf_detbox/gnina	gnina: ATOM     18  C   UNL     1      -0.668  -1.501  -1.011  1.00  0.00    +0.060 CG0	2026-09-24
+posebusters	6YJA_2BA	06_dock/A3_genconf_detbox/gnina	gnina: ATOM     26  C   UNL     1      -1.389   2.322  -0.859  1.00  0.00    +0.208 CG0	2026-09-24
+posebusters	7JXX_VP7	06_dock/A3_genconf_detbox/gnina	gnina: ATOM     24  C   UNL     1      -4.842   0.147  -0.929  1.00  0.00    +0.040 CG0	2026-09-24
+posebusters	7MMH_ZJY	06_dock/A3_genconf_detbox/gnina	gnina: ATOM     43  C   UNL     1       1.457   4.968   0.238  1.00  0.00    +0.003 CG0	2026-09-24
+posebusters	7QGP_DJ8	06_dock/A3_genconf_detbox/gnina	gnina: ATOM     26  C   UNL     1      -3.738  -2.632   0.907  1.00  0.00    +0.181 CG0	2026-09-24
+posebusters	7RWS_4UR	06_dock/A3_genconf_detbox/gnina	gnina: ATOM     28  C   UNL     1      -2.802   1.482  -3.138  1.00  0.00    +0.208 CG0	2026-09-24
+posebusters	7U0U_FK5	06_dock/A3_genconf_detbox/gnina	gnina: ATOM     16  C   UNL     1      -2.675   3.773   0.499  1.00  0.00    -0.076 CG0	2026-09-24
+posebusters	7UAW_MF6	06_dock/A3_genconf_detbox/gnina	gnina: ATOM     23  C   UNL     1      -1.958  -2.425  -0.825  1.00  0.00    +0.179 CG0	2026-09-24
+posebusters	7UXS_OJC	06_dock/A3_genconf_detbox/gnina	gnina: ATOM     25  C   UNL     1      -3.813  -0.602  -1.522  1.00  0.00    +0.179 CG0	2026-09-24
+posebusters	7ZHP_IQY	06_dock/A3_genconf_detbox/gnina	gnina: ATOM     26  C   UNL     1      -5.400  -0.268  -0.963  1.00  0.00    +0.040 CG0	2026-09-24
+posebusters	8EXL_799	06_dock/A3_genconf_detbox/gnina	gnina: ATOM     21  C   UNL     1      -2.202   1.992  -2.475  1.00  0.00    +0.165 CG0	2026-09-24
+astex	1OF1_SCT	06_dock/A3_genconf_detbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/1OF1_SCT/clean.pdb	2026-09-24
+astex	1UNL_RRC	06_dock/A3_genconf_detbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/1UNL_RRC/clean.pdb	2026-09-24
+astex	1UOU_CMU	06_dock/A3_genconf_detbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/1UOU_CMU/clean.pdb	2026-09-24
+astex	1W1P_GIO	06_dock/A3_genconf_detbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/1W1P_GIO/clean.pdb	2026-09-24
+astex	1W2G_THM	06_dock/A3_genconf_detbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/1W2G_THM/clean.pdb	2026-09-24
+astex	2BM2_PM2	06_dock/A3_genconf_detbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/2BM2_PM2/clean.pdb	2026-09-24
+astex	2BSM_BSM	06_dock/A3_genconf_detbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/astex/2BSM_BSM/clean.pdb	2026-09-24
+posebusters	7AFX_R9K	06_dock/A3_genconf_detbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/posebusters/7AFX_R9K/clean.pdb	2026-09-24
+posebusters	6YSP_PAL	06_dock/A3_genconf_detbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/posebusters/6YSP_PAL/clean.pdb	2026-09-24
+posebusters	7B2C_TP7	06_dock/A3_genconf_detbox/vina	vina:  > ATOM      1  XE  XE  A1208     -15.408  10.179  53.240  1.00  0.00    +0.000 Xe	2026-09-24
+posebusters	7D6O_MTE	06_dock/A3_genconf_detbox/vina	vina:  > ATOM      1  MO  MOS A1404      65.162  25.480  32.582  1.00  0.00    +0.000 Mo	2026-09-24
+posebusters	7NFB_GEN	06_dock/A3_genconf_detbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/posebusters/7NFB_GEN/clean.pdb	2026-09-24
+posebusters	7Q27_8KC	06_dock/A3_genconf_detbox/vina	vina:  > ATOM      1  B   BO3 A 710     -28.577 -14.637  38.852  1.00  0.00    +0.000 B	2026-09-24
+posebusters	7QFM_AY3	06_dock/A3_genconf_detbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/posebusters/7QFM_AY3/clean.pdb	2026-09-24
+posebusters	7RNI_60I	06_dock/A3_genconf_detbox/vina	vina:  > COMPND    /home/qasim/vgb_bench_data/prepared/receptors/posebusters/7RNI_60I/clean.pdb	2026-09-24
+posebusters	7WY1_D0L	06_dock/A3_genconf_detbox/vina	vina:  > ATOM   4499  MO  MI9 A 501      15.615 -12.952 -11.459  1.00  0.00    +0.000 Mo	2026-09-24
+astex	1MZC_BNE	06_dock/A3_genconf_detbox/vinardo	vinardo: ATOM     11  C   UNL     1      -3.766   1.999   0.822  1.00  0.00    +0.003 CG0	2026-09-24
+astex	1U4D_DBQ	06_dock/A3_genconf_detbox/vinardo	vinardo: ATOM     18  C   UNL     1      -0.668  -1.501  -1.011  1.00  0.00    +0.060 CG0	2026-09-24
+posebusters	6YJA_2BA	06_dock/A3_genconf_detbox/vinardo	vinardo: ATOM     26  C   UNL     1      -1.389   2.322  -0.859  1.00  0.00    +0.208 CG0	2026-09-24
+posebusters	7B2C_TP7	06_dock/A3_genconf_detbox/vinardo	vinardo: ATOM      1  XE  XE  A1208     -15.408  10.179  53.240  1.00  0.00    +0.000 Xe	2026-09-24
+posebusters	7D6O_MTE	06_dock/A3_genconf_detbox/vinardo	vinardo: ATOM      1  MO  MOS A1404      65.162  25.480  32.582  1.00  0.00    +0.000 Mo	2026-09-24
+posebusters	7JXX_VP7	06_dock/A3_genconf_detbox/vinardo	vinardo: ATOM     24  C   UNL     1      -4.842   0.147  -0.929  1.00  0.00    +0.040 CG0	2026-09-24
+posebusters	7MMH_ZJY	06_dock/A3_genconf_detbox/vinardo	vinardo: ATOM     43  C   UNL     1       1.457   4.968   0.238  1.00  0.00    +0.003 CG0	2026-09-24
+posebusters	7Q27_8KC	06_dock/A3_genconf_detbox/vinardo	vinardo: ATOM      1  B   BO3 A 710     -28.577 -14.637  38.852  1.00  0.00    +0.000 B	2026-09-24
+posebusters	7QGP_DJ8	06_dock/A3_genconf_detbox/vinardo	vinardo: ATOM     26  C   UNL     1      -3.738  -2.632   0.907  1.00  0.00    +0.181 CG0	2026-09-24
+posebusters	7RWS_4UR	06_dock/A3_genconf_detbox/vinardo	vinardo: ATOM     28  C   UNL     1      -2.802   1.482  -3.138  1.00  0.00    +0.208 CG0	2026-09-24
+posebusters	7U0U_FK5	06_dock/A3_genconf_detbox/vinardo	vinardo: ATOM     16  C   UNL     1      -2.675   3.773   0.499  1.00  0.00    -0.076 CG0	2026-09-24
+posebusters	7UAW_MF6	06_dock/A3_genconf_detbox/vinardo	vinardo: ATOM     23  C   UNL     1      -1.958  -2.425  -0.825  1.00  0.00    +0.179 CG0	2026-09-24
+posebusters	7UXS_OJC	06_dock/A3_genconf_detbox/vinardo	vinardo: ATOM     25  C   UNL     1      -3.813  -0.602  -1.522  1.00  0.00    +0.179 CG0	2026-09-24
+posebusters	7WY1_D0L	06_dock/A3_genconf_detbox/vinardo	vinardo: ATOM   4499  MO  MI9 A 501      15.615 -12.952 -11.459  1.00  0.00    +0.000 Mo	2026-09-24
+posebusters	7ZHP_IQY	06_dock/A3_genconf_detbox/vinardo	vinardo: ATOM     26  C   UNL     1      -5.400  -0.268  -0.963  1.00  0.00    +0.040 CG0	2026-09-24
+posebusters	8EXL_799	06_dock/A3_genconf_detbox/vinardo	vinardo: ATOM     21  C   UNL     1      -2.202   1.992  -2.475  1.00  0.00    +0.165 CG0	2026-09-24
 crossdock	6YJA_2BA__into__6YJ9	06_dock/A4_crossdock/gnina	gnina: ATOM     26  C   UNL     1      -1.389   2.322  -0.859  1.00  0.00    +0.208 CG0	2026-09-24
 crossdock	7JXX_VP7__into__4NFN	06_dock/A4_crossdock/gnina	gnina: ATOM     24  C   UNL     1      -4.842   0.147  -0.929  1.00  0.00    +0.040 CG0	2026-09-24
 crossdock	7MMH_ZJY__into__7MM8	06_dock/A4_crossdock/gnina	gnina: ATOM     43  C   UNL     1       1.457   4.968   0.238  1.00  0.00    +0.003 CG0	2026-09-24

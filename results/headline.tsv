@@ -35,6 +35,6 @@ vinardo.crossdock.A4_crossdock.rmsd_le_2a_pct	16.24	32 of 197 scored
 vinardo.crossdock.A4_crossdock.success_2a_pct	16.24	32 of 197 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
 dataset.posebusters.in_manifest	308	120 excluded at stage 2
 dataset.astex.in_manifest	85	0 excluded at stage 2
-exclusions.total_rows	333	every complex dropped at any stage; see results/excluded.tsv
+exclusions.total_rows	377	every complex dropped at any stage; see results/excluded.tsv
 thresholds.pass_angstrom	2.0	the number the field quotes
 thresholds.strict_angstrom	1.0	reported alongside
