@@ -226,6 +226,22 @@ def prepare_receptor(src_pdb: Path, out_dir: Path, drop_ccd: str | None,
                     "reason": f"obabel receptor conversion failed: {tail[0]}"[:200],
                     "elapsed_s": round(time.time() - t0, 2)})
         return row
+
+    # Header records Vina cannot read. When pdb2pqr fails and Open Babel does
+    # the protonation, the intermediate PDB carries Open Babel's own COMPND
+    # (the input file path) and AUTHOR records, and the typing step copies them
+    # into the PDBQT. Vina 1.2.7 stops at the COMPND line with a parse error;
+    # smina skips it. Every receptor that took the fallback therefore failed
+    # Vina in every arm while docking normally under Vinardo: 7 Astex, 5
+    # PoseBusters and 6 cross-docking receptors in the first full run, all
+    # logged in results/excluded.tsv with the COMPND line as the reason. The
+    # records carry nothing the docking needs, so they are dropped here.
+    lines = pdbqt.read_text().splitlines()
+    kept = [ln for ln in lines if not ln.startswith(("COMPND", "AUTHOR"))]
+    if len(kept) != len(lines):
+        pdbqt.write_text("\n".join(kept) + "\n")
+        row["header_records_dropped"] = len(lines) - len(kept)
+
     n_rec_atoms = sum(1 for line in pdbqt.read_text().splitlines()
                       if line.startswith("ATOM") or line.startswith("HETATM"))
     row["pdbqt_atoms"] = n_rec_atoms
