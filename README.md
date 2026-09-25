@@ -16,9 +16,13 @@ against the 66.6 it scores on the fully informed protocol, a gap of 44.2 points.
 Docking into a different PDB structure of the same protein, which is what a
 screening campaign actually does, gives 16.8 per cent across 197 pairs. The
 floor, obtained by dropping the generated conformer into the box with no search
-at all, is 0.3 per cent. GNINA leads every arm on aggregate and is also the least
-reproducible: on one complex where Vina returned 0.332 to 0.382 Angstrom across
-five seeds, GNINA returned 0.376, 9.404, 4.705, 8.905 and 9.425. Every number
+at all, is 0.3 per cent. GNINA is nominally ahead in every arm once both
+benchmark sets are pooled, by between 0.1 and 5.2 points, but every confidence
+interval overlaps every other, it loses two of the seven individual cells to
+Vina, and its lead in the detected-box arm is one complex out of 379. It is also
+the least reproducible of the three: on one complex where Vina returned 0.332 to
+0.382 Angstrom across five seeds, GNINA returned 0.376, 9.404, 4.705, 8.905 and
+9.425. This benchmark does not separate the three scoring functions. Every number
 here is read from a file in `results/` or `logs/` that a script in `scripts/`
 wrote. 377 exclusions across four stages are listed with reasons in
 `results/excluded.tsv`.
@@ -359,6 +363,37 @@ This is the number a screening campaign should be calibrated against, and it is 
 third of the self-docking figure. Remember that the 39 pairs with the largest
 conformational change were excluded, so 16.8 per cent is optimistic.
 
+### Does this benchmark separate the three scoring functions
+
+**No. Every confidence interval overlaps every other in all seven cells, and the
+nominal winner changes with the benchmark set.**
+
+| Arm | Dataset | Ordered by success, with 95 per cent Wilson intervals |
+|---|---|---|
+| A1 | Astex | vina 75.6 [65.1-83.8], gnina 73.5 [63.1-81.8], vinardo 68.7 [58.1-77.6] |
+| A1 | PoseBusters | gnina 68.5 [63.0-73.5], vina 66.6 [61.0-71.7], vinardo 60.5 [54.9-66.0] |
+| A2 | Astex | gnina 68.7 [58.1-77.6], vinardo 57.8 [47.1-67.9], vina 52.6 [41.6-63.3] |
+| A2 | PoseBusters | gnina 55.7 [50.0-61.2], vina 53.5 [47.9-59.1], vinardo 48.3 [42.6-54.0] |
+| A3 | Astex | gnina 24.7 [16.6-35.1], vina 21.1 [13.4-31.5], vinardo 16.1 [9.6-25.6] |
+| A3 | PoseBusters | vina 22.4 [18.1-27.5], gnina 21.5 [17.2-26.5], vinardo 20.1 [15.9-25.0] |
+| A4 | cross-docking | gnina 18.1 [13.4-24.0], vina 16.8 [12.2-22.6], vinardo 16.2 [11.8-22.0] |
+
+GNINA takes five of the seven cells and the highest pooled figure in all four
+arms, so if you want a single answer it is the one to pick. The margins do not
+support it. Pooled over both sets, GNINA beats Vina by 5.2 points in A2, 1.3 in
+A4, 1.2 in A1 and 0.1 in A3, and that last is 84 complexes against 83. Vina takes
+A1 on Astex and A3 on PoseBusters outright. Vinardo is last in five cells and
+second in two.
+
+Two further reasons not to read a ranking off this table. The seed experiment
+below shows GNINA's answer on a single complex moving by 9 Angstrom between
+seeds, so a one-run-per-complex benchmark is measuring GNINA with more noise than
+it measures the other two. And the set matters: Vinardo beats Vina by 5.3 points
+on Astex in arm A2 and loses to it by 5.2 on PoseBusters.
+
+What the table does separate, decisively, is the arms. A 31-point gap between
+ligand-centred and detected boxes dwarfs every difference between methods.
+
 ### Accuracy against validity
 
 **Between 87 and 90 per cent of top-ranked poses on PoseBusters are physically
@@ -446,9 +481,10 @@ GNINA finds the right pose on one seed in five and lands nine Angstrom away on
 three of the other four, on a complex where both empirical functions are
 reproducible to within half an Angstrom. The search underneath GNINA is smina's,
 and smina is reproducible here, so the instability is in what the CNN promotes to
-rank one out of the pose set the search returned. GNINA leads every arm in the
-aggregate table above. It is also the one whose answer you cannot trust from a
-single run, and an aggregate that hides that is the more misleading number.
+rank one out of the pose set the search returned. GNINA has the highest pooled
+number in every arm of the table above. It is also the one whose answer you
+cannot trust from a single run, and an aggregate that hides that is the more
+misleading number.
 
 A second complex found while investigating the exhaustiveness question, 1HQ2_PH2,
 swings from 4.57 Angstrom on one seed to 0.33 on another under Vina, so Vina is
