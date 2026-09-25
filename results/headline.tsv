@@ -7,6 +7,10 @@ gnina.posebusters.A2_genconf_refbox.rmsd_le_2a_pct	58.39	174 of 298 scored
 gnina.posebusters.A2_genconf_refbox.success_2a_pct	55.7	166 of 298 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
 gnina.astex.A2_genconf_refbox.rmsd_le_2a_pct	69.88	58 of 83 scored
 gnina.astex.A2_genconf_refbox.success_2a_pct	68.67	57 of 83 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+gnina.posebusters.A3_genconf_detbox.rmsd_le_2a_pct	23.15	69 of 298 scored
+gnina.posebusters.A3_genconf_detbox.success_2a_pct	21.48	64 of 298 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+gnina.astex.A3_genconf_detbox.rmsd_le_2a_pct	24.69	20 of 81 scored
+gnina.astex.A3_genconf_detbox.success_2a_pct	24.69	20 of 81 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
 gnina.crossdock.A4_crossdock.rmsd_le_2a_pct	18.59	37 of 199 scored
 gnina.crossdock.A4_crossdock.success_2a_pct	18.09	36 of 199 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
 vina.posebusters.A1_refconf_refbox.rmsd_le_2a_pct	68.56	205 of 299 scored
@@ -17,6 +21,10 @@ vina.posebusters.A2_genconf_refbox.rmsd_le_2a_pct	55.52	166 of 299 scored
 vina.posebusters.A2_genconf_refbox.success_2a_pct	53.51	160 of 299 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
 vina.astex.A2_genconf_refbox.rmsd_le_2a_pct	52.56	41 of 78 scored
 vina.astex.A2_genconf_refbox.success_2a_pct	52.56	41 of 78 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vina.posebusters.A3_genconf_detbox.rmsd_le_2a_pct	23.41	70 of 299 scored
+vina.posebusters.A3_genconf_detbox.success_2a_pct	22.41	67 of 299 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vina.astex.A3_genconf_detbox.rmsd_le_2a_pct	21.05	16 of 76 scored
+vina.astex.A3_genconf_detbox.success_2a_pct	21.05	16 of 76 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
 vina.posebusters.A0_null.rmsd_le_2a_pct	3.57	11 of 308 scored
 vina.posebusters.A0_null.success_2a_pct	0.32	1 of 308 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
 vina.astex.A0_null.rmsd_le_2a_pct	2.35	2 of 85 scored
@@ -31,6 +39,10 @@ vinardo.posebusters.A2_genconf_refbox.rmsd_le_2a_pct	50.68	149 of 294 scored
 vinardo.posebusters.A2_genconf_refbox.success_2a_pct	48.3	142 of 294 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
 vinardo.astex.A2_genconf_refbox.rmsd_le_2a_pct	57.83	48 of 83 scored
 vinardo.astex.A2_genconf_refbox.success_2a_pct	57.83	48 of 83 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vinardo.posebusters.A3_genconf_detbox.rmsd_le_2a_pct	22.11	65 of 294 scored
+vinardo.posebusters.A3_genconf_detbox.success_2a_pct	20.07	59 of 294 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
+vinardo.astex.A3_genconf_detbox.rmsd_le_2a_pct	16.05	13 of 81 scored
+vinardo.astex.A3_genconf_detbox.success_2a_pct	16.05	13 of 81 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
 vinardo.crossdock.A4_crossdock.rmsd_le_2a_pct	16.24	32 of 197 scored
 vinardo.crossdock.A4_crossdock.success_2a_pct	16.24	32 of 197 assessed, RMSD at or below 2.0 A and every PoseBusters check passed
 dataset.posebusters.in_manifest	308	120 excluded at stage 2

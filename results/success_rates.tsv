@@ -1,18 +1,24 @@
 arm	arm_description	method	dataset	n_attempted	n_scored	n_assessed	rmsd_le_2a_n	rmsd_le_2a_pct	rmsd_le_2a_ci_low	rmsd_le_2a_ci_high	pb_valid_n	pb_valid_pct	success_2a_n	success_2a_pct	success_2a_ci_low	success_2a_ci_high	rmsd_le_1a_n	rmsd_le_1a_pct	success_1a_n	success_1a_pct	top5_rmsd_le_2a_n	top5_rmsd_le_2a_pct	top5_success_2a_n	top5_success_2a_pct	top1_minus_top5_gap_pp	rmsd_threshold_a	strict_threshold_a	recorded
-A0_null	no search, conformer dropped in the box	vina	astex	85	85	85	2	2.35	0.65	8.18	1	1.18	0	0.0	0.0	4.32	1	1.18	0	0.0	2	2.35	0	0.0	0.0	2.0	1.0	2026-09-24
-A0_null	no search, conformer dropped in the box	vina	posebusters	308	308	308	11	3.57	2.01	6.28	5	1.62	1	0.32	0.06	1.82	0	0.0	0	0.0	11	3.57	1	0.32	0.0	2.0	1.0	2026-09-24
-A1_refconf_refbox	crystal conformer, ligand-centred box	gnina	astex	83	83	83	63	75.9	65.69	83.83	78	93.98	61	73.49	63.11	81.8	51	61.45	50	60.24	76	91.57	73	87.95	15.66	2.0	1.0	2026-09-24
-A1_refconf_refbox	crystal conformer, ligand-centred box	gnina	posebusters	298	298	298	210	70.47	65.06	75.36	270	90.6	204	68.46	62.97	73.47	151	50.67	145	48.66	268	89.93	259	86.91	19.46	2.0	1.0	2026-09-24
-A1_refconf_refbox	crystal conformer, ligand-centred box	vina	astex	78	78	78	59	75.64	65.06	83.81	78	100.0	59	75.64	65.06	83.81	46	58.97	46	58.97	67	85.9	67	85.9	10.26	2.0	1.0	2026-09-24
-A1_refconf_refbox	crystal conformer, ligand-centred box	vina	posebusters	299	299	299	205	68.56	63.09	73.56	273	91.3	199	66.56	61.03	71.66	156	52.17	154	51.51	252	84.28	243	81.27	15.72	2.0	1.0	2026-09-24
-A1_refconf_refbox	crystal conformer, ligand-centred box	vinardo	astex	83	83	83	58	69.88	59.31	78.69	79	95.18	57	68.67	58.06	77.64	49	59.04	49	59.04	74	89.16	74	89.16	19.28	2.0	1.0	2026-09-24
-A1_refconf_refbox	crystal conformer, ligand-centred box	vinardo	posebusters	294	294	294	189	64.29	58.66	69.55	266	90.48	178	60.54	54.86	65.96	145	49.32	142	48.3	235	79.93	226	76.87	15.65	2.0	1.0	2026-09-24
-A2_genconf_refbox	generated conformer, ligand-centred box	gnina	astex	83	83	83	58	69.88	59.31	78.69	80	96.39	57	68.67	58.06	77.64	34	40.96	34	40.96	72	86.75	71	85.54	16.87	2.0	1.0	2026-09-24
-A2_genconf_refbox	generated conformer, ligand-centred box	gnina	posebusters	298	298	298	174	58.39	52.72	63.84	260	87.25	166	55.7	50.03	61.24	109	36.58	108	36.24	242	81.21	226	75.84	22.82	2.0	1.0	2026-09-24
-A2_genconf_refbox	generated conformer, ligand-centred box	vina	astex	78	78	78	41	52.56	41.62	63.26	76	97.44	41	52.56	41.62	63.26	25	32.05	25	32.05	58	74.36	58	74.36	21.79	2.0	1.0	2026-09-24
-A2_genconf_refbox	generated conformer, ligand-centred box	vina	posebusters	299	299	299	166	55.52	49.85	61.05	261	87.29	160	53.51	47.85	59.08	109	36.45	106	35.45	215	71.91	202	67.56	16.39	2.0	1.0	2026-09-24
-A2_genconf_refbox	generated conformer, ligand-centred box	vinardo	astex	83	83	83	48	57.83	47.09	67.88	78	93.98	48	57.83	47.09	67.88	37	44.58	37	44.58	69	83.13	68	81.93	25.3	2.0	1.0	2026-09-24
-A2_genconf_refbox	generated conformer, ligand-centred box	vinardo	posebusters	294	294	294	149	50.68	44.99	56.35	263	89.46	142	48.3	42.65	54.0	103	35.03	101	34.35	201	68.37	191	64.97	17.69	2.0	1.0	2026-09-24
-A4_crossdock	cross-docked into another structure of the same protein	gnina	crossdock	199	199	199	37	18.59	13.8	24.57	189	94.97	36	18.09	13.36	24.03	17	8.54	17	8.54	60	30.15	59	29.65	11.56	2.0	1.0	2026-09-24
-A4_crossdock	cross-docked into another structure of the same protein	vina	crossdock	197	197	197	33	16.75	12.18	22.59	193	97.97	33	16.75	12.18	22.59	18	9.14	18	9.14	50	25.38	49	24.87	8.63	2.0	1.0	2026-09-24
-A4_crossdock	cross-docked into another structure of the same protein	vinardo	crossdock	197	197	197	32	16.24	11.75	22.03	191	96.95	32	16.24	11.75	22.03	21	10.66	21	10.66	52	26.4	51	25.89	10.15	2.0	1.0	2026-09-24
+A0_null	no search, conformer dropped in the box	vina	astex	85	85	85	2	2.35	0.65	8.18	1	1.18	0	0.0	0.0	4.32	1	1.18	0	0.0	2	2.35	0	0.0	0.0	2.0	1.0	2026-09-25
+A0_null	no search, conformer dropped in the box	vina	posebusters	308	308	308	11	3.57	2.01	6.28	5	1.62	1	0.32	0.06	1.82	0	0.0	0	0.0	11	3.57	1	0.32	0.0	2.0	1.0	2026-09-25
+A1_refconf_refbox	crystal conformer, ligand-centred box	gnina	astex	83	83	83	63	75.9	65.69	83.83	78	93.98	61	73.49	63.11	81.8	51	61.45	50	60.24	76	91.57	73	87.95	15.66	2.0	1.0	2026-09-25
+A1_refconf_refbox	crystal conformer, ligand-centred box	gnina	posebusters	298	298	298	210	70.47	65.06	75.36	270	90.6	204	68.46	62.97	73.47	151	50.67	145	48.66	268	89.93	259	86.91	19.46	2.0	1.0	2026-09-25
+A1_refconf_refbox	crystal conformer, ligand-centred box	vina	astex	78	78	78	59	75.64	65.06	83.81	78	100.0	59	75.64	65.06	83.81	46	58.97	46	58.97	67	85.9	67	85.9	10.26	2.0	1.0	2026-09-25
+A1_refconf_refbox	crystal conformer, ligand-centred box	vina	posebusters	299	299	299	205	68.56	63.09	73.56	273	91.3	199	66.56	61.03	71.66	156	52.17	154	51.51	252	84.28	243	81.27	15.72	2.0	1.0	2026-09-25
+A1_refconf_refbox	crystal conformer, ligand-centred box	vinardo	astex	83	83	83	58	69.88	59.31	78.69	79	95.18	57	68.67	58.06	77.64	49	59.04	49	59.04	74	89.16	74	89.16	19.28	2.0	1.0	2026-09-25
+A1_refconf_refbox	crystal conformer, ligand-centred box	vinardo	posebusters	294	294	294	189	64.29	58.66	69.55	266	90.48	178	60.54	54.86	65.96	145	49.32	142	48.3	235	79.93	226	76.87	15.65	2.0	1.0	2026-09-25
+A2_genconf_refbox	generated conformer, ligand-centred box	gnina	astex	83	83	83	58	69.88	59.31	78.69	80	96.39	57	68.67	58.06	77.64	34	40.96	34	40.96	72	86.75	71	85.54	16.87	2.0	1.0	2026-09-25
+A2_genconf_refbox	generated conformer, ligand-centred box	gnina	posebusters	298	298	298	174	58.39	52.72	63.84	260	87.25	166	55.7	50.03	61.24	109	36.58	108	36.24	242	81.21	226	75.84	22.82	2.0	1.0	2026-09-25
+A2_genconf_refbox	generated conformer, ligand-centred box	vina	astex	78	78	78	41	52.56	41.62	63.26	76	97.44	41	52.56	41.62	63.26	25	32.05	25	32.05	58	74.36	58	74.36	21.79	2.0	1.0	2026-09-25
+A2_genconf_refbox	generated conformer, ligand-centred box	vina	posebusters	299	299	299	166	55.52	49.85	61.05	261	87.29	160	53.51	47.85	59.08	109	36.45	106	35.45	215	71.91	202	67.56	16.39	2.0	1.0	2026-09-25
+A2_genconf_refbox	generated conformer, ligand-centred box	vinardo	astex	83	83	83	48	57.83	47.09	67.88	78	93.98	48	57.83	47.09	67.88	37	44.58	37	44.58	69	83.13	68	81.93	25.3	2.0	1.0	2026-09-25
+A2_genconf_refbox	generated conformer, ligand-centred box	vinardo	posebusters	294	294	294	149	50.68	44.99	56.35	263	89.46	142	48.3	42.65	54.0	103	35.03	101	34.35	201	68.37	191	64.97	17.69	2.0	1.0	2026-09-25
+A3_genconf_detbox	generated conformer, detected box	gnina	astex	81	81	81	20	24.69	16.59	35.08	77	95.06	20	24.69	16.59	35.08	13	16.05	13	16.05	25	30.86	25	30.86	6.17	2.0	1.0	2026-09-25
+A3_genconf_detbox	generated conformer, detected box	gnina	posebusters	298	298	298	69	23.15	18.73	28.27	248	83.22	64	21.48	17.19	26.49	38	12.75	35	11.74	98	32.89	90	30.2	9.73	2.0	1.0	2026-09-25
+A3_genconf_detbox	generated conformer, detected box	vina	astex	76	76	76	16	21.05	13.4	31.5	71	93.42	16	21.05	13.4	31.5	10	13.16	10	13.16	23	30.26	23	30.26	9.21	2.0	1.0	2026-09-25
+A3_genconf_detbox	generated conformer, detected box	vina	posebusters	299	299	299	70	23.41	18.97	28.53	257	85.95	67	22.41	18.05	27.47	46	15.38	45	15.05	86	28.76	82	27.42	5.35	2.0	1.0	2026-09-25
+A3_genconf_detbox	generated conformer, detected box	vinardo	astex	81	81	81	13	16.05	9.63	25.55	76	93.83	13	16.05	9.63	25.55	11	13.58	11	13.58	25	30.86	23	28.4	14.81	2.0	1.0	2026-09-25
+A3_genconf_detbox	generated conformer, detected box	vinardo	posebusters	294	294	294	65	22.11	17.74	27.2	254	86.39	59	20.07	15.89	25.02	48	16.33	47	15.99	83	28.23	75	25.51	6.12	2.0	1.0	2026-09-25
+A4_crossdock	cross-docked into another structure of the same protein	gnina	crossdock	199	199	199	37	18.59	13.8	24.57	189	94.97	36	18.09	13.36	24.03	17	8.54	17	8.54	60	30.15	59	29.65	11.56	2.0	1.0	2026-09-25
+A4_crossdock	cross-docked into another structure of the same protein	vina	crossdock	197	197	197	33	16.75	12.18	22.59	193	97.97	33	16.75	12.18	22.59	18	9.14	18	9.14	50	25.38	49	24.87	8.63	2.0	1.0	2026-09-25
+A4_crossdock	cross-docked into another structure of the same protein	vinardo	crossdock	197	197	197	32	16.24	11.75	22.03	191	96.95	32	16.24	11.75	22.03	21	10.66	21	10.66	52	26.4	51	25.89	10.15	2.0	1.0	2026-09-25

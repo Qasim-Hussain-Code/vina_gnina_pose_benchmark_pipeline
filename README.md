@@ -1,4 +1,4 @@
-# Docking success falls from 54 per cent to 17 per cent when the receptor was solved with a different ligand
+# Two thirds of the quoted docking success rate comes from information a screening campaign does not have
 
 ## Summary
 
@@ -7,19 +7,21 @@ for 166 of 299 PoseBusters Benchmark complexes that produced a scorable pose,
 which is 55.5 per cent. Requiring that pose to also pass every PoseBusters
 physical check drops it to 160, or 53.5 per cent. Vinardo reached 48.3 per cent
 and GNINA 55.7 per cent on the same 308-complex set, with the ligand rebuilt from
-SMILES and a 25 Angstrom box centred on the crystal ligand. Handing the search
-the crystal ligand's own coordinates instead of a generated conformer raises Vina
-to 66.6 per cent, so that one choice is worth 13.1 percentage points. Docking the
-same ligands into a different PDB structure of the same protein, which is what a
-screening campaign actually does, takes Vina to 16.8 per cent across 197 pairs,
-a fall of 36.8 points, and neither of the other two functions does better than
-18.1. The floor, obtained by dropping the generated conformer into the box with
-no search at all, is 0.3 per cent. GNINA leads every arm, which I did not expect,
-and Vinardo is last on PoseBusters but second on Astex, so the ranking is not
-stable across benchmark sets. Every number here is read from a file in
-`results/` or `logs/` that a script in `scripts/` wrote. 333 exclusions across
-four stages are listed with reasons in `results/excluded.tsv`. One arm of the
-planned five did not run and is named in Results rather than omitted.
+SMILES and a 25 Angstrom box centred on the crystal ligand. Then the crystal
+information was removed one piece at a time. Giving the search the crystal
+ligand's own coordinates instead of a generated conformer is worth 13.1
+percentage points to Vina. Taking the search box from pocket detection instead of
+the crystal ligand is worth 31.1. Removing both leaves Vina at 22.4 per cent
+against the 66.6 it scores on the fully informed protocol, a gap of 44.2 points.
+Docking into a different PDB structure of the same protein, which is what a
+screening campaign actually does, gives 16.8 per cent across 197 pairs. The
+floor, obtained by dropping the generated conformer into the box with no search
+at all, is 0.3 per cent. GNINA leads every arm on aggregate and is also the least
+reproducible: on one complex where Vina returned 0.332 to 0.382 Angstrom across
+five seeds, GNINA returned 0.376, 9.404, 4.705, 8.905 and 9.425. Every number
+here is read from a file in `results/` or `logs/` that a script in `scripts/`
+wrote. 377 exclusions across four stages are listed with reasons in
+`results/excluded.tsv`.
 
 ## Background
 
@@ -304,9 +306,10 @@ do. Accuracy is now read from the `rmsd` column and nowhere else.
 
 ### What each piece of crystal information is worth
 
-**Vina's success rate falls from 66.6 per cent to 53.5 when the starting
-conformer is generated instead of taken from the crystal, and to 16.8 when the
-receptor is a different structure of the same protein.**
+**Vina's success rate falls from 66.6 per cent on the fully informed protocol to
+22.4 when neither the starting conformer nor the search box comes from the
+crystal structure, and to 16.8 when the receptor was solved with a different
+ligand.**
 
 ![Arm ladder](figures/fig1_arm_ladder.png)
 
@@ -314,6 +317,7 @@ receptor is a different structure of the same protein.**
 |---|---|---|---|---|
 | A1 crystal conformer, ligand-centred box | 66.6 | 60.5 | 68.5 | 294 to 299 |
 | A2 generated conformer, ligand-centred box | 53.5 | 48.3 | 55.7 | 294 to 299 |
+| A3 generated conformer, detected box | 22.4 | 20.1 | 21.5 | 294 to 299 |
 | A4 cross-docked into another structure | 16.8 | 16.2 | 18.1 | 197 to 199 |
 | A0 no search, conformer dropped in the box | 0.3 | | | 308 |
 
@@ -326,19 +330,34 @@ The null floor is 0.3 per cent, one complex in 308. Knowing the pocket and
 nothing else essentially never works, so every rate above it is the search doing
 real work rather than geometry.
 
-The conformer is worth 13.1 percentage points for Vina, 12.8 for GNINA and 12.2
-for Vinardo. Published reimplementations put this at five to nine points on
-PoseBusters. Mine is larger, and the reason is visible in the rigid-ligand cases
-below: crystal coordinates give away the starting position as well as the
-internal geometry, and for a ligand with few rotatable bonds that is most of the
-problem.
+What each piece of crystal information is worth, in percentage points of success:
 
-Cross-docking costs 36.8 points on top of that. The median top-1 RMSD moves from
-1.717 Angstrom to 8.615, and the interquartile range from 0.814 to 4.384 out to
-3.647 to 20.600. This is the number a screening campaign should be calibrated
-against, and it is a third of the self-docking figure. Remember that the 39 pairs
-with the largest conformational change were excluded, so 16.8 per cent is
-optimistic.
+| Removed | Vina | Vinardo | GNINA |
+|---|---|---|---|
+| the starting conformer (A1 to A2) | 13.1 | 12.2 | 12.8 |
+| the search box (A2 to A3) | 31.1 | 28.2 | 34.2 |
+| both (A1 to A3) | 44.2 | 40.5 | 47.0 |
+| the receptor's own ligand (A2 to A4) | 36.8 | 32.1 | 37.6 |
+
+**The box is worth more than twice what the conformer is worth**, and that is the
+result I did not anticipate. Published reimplementations put the conformer at
+five to nine points on PoseBusters, and 13.1 here is already larger than that,
+for a reason the rigid-ligand cases below make visible: crystal coordinates give
+away the starting position as well as the internal geometry. But the box is the
+bigger lever by a wide margin, and it is the one almost nobody varies.
+
+The detected-box figure has to be read against its own ceiling. fpocket's
+top-ranked pocket contains the crystal ligand for only 36.6 per cent of
+receptors, so 22.4 per cent is roughly three fifths of what was achievable rather
+than a scoring failure. The median top-1 RMSD in that arm is 17.8 Angstrom with a
+maximum of 89.5, which is a ligand docked into a pocket on the far side of the
+protein, correctly, into the wrong pocket.
+
+Cross-docking costs 36.8 points. The median top-1 RMSD moves from 1.717 Angstrom
+to 8.615, and the interquartile range from 0.814 to 4.384 out to 3.647 to 20.600.
+This is the number a screening campaign should be calibrated against, and it is a
+third of the self-docking figure. Remember that the 39 pairs with the largest
+conformational change were excluded, so 16.8 per cent is optimistic.
 
 ### Accuracy against validity
 
@@ -410,20 +429,34 @@ reports hides the failure entirely.
 
 ### Run-to-run variance
 
-**On the complex the script selected, five seeds gave top-1 RMSD values spanning
-0.051 Angstrom and a unanimous verdict; on another complex the same protocol
-swings from 4.57 to 0.33 Angstrom.**
+**On one complex, five seeds move Vina by 0.051 Angstrom and GNINA by 9.049, and
+GNINA's verdict at the 2 Angstrom line is not unanimous.**
 
 ![Seed variance](figures/fig8_seed_variance.png)
 
-5SAK_ZRY returned 0.332, 0.368, 0.354, 0.382 and 0.356 Angstrom across seeds
-20260922 to 20260926, a range of 0.051 and a standard deviation of 0.019. That
-complex is stable. 1HQ2_PH2, found while investigating the exhaustiveness
-question, is not: 4.57 Angstrom on one seed against 0.33 on another with
-everything else fixed. The script picks the first complex in the manifest with
-prepared inputs rather than one I chose, which is the right way to select it and
-also why it landed on a well-behaved case. Both are reported because reporting
-only the stable one would understate the problem.
+Complex 5SAK_ZRY, seeds 20260922 to 20260926, everything else held fixed:
+
+| Method | Top-1 RMSD across five seeds (Angstrom) | Range | Standard deviation | Verdict |
+|---|---|---|---|---|
+| vina | 0.332, 0.368, 0.354, 0.382, 0.356 | 0.051 | 0.019 | unanimous |
+| vinardo | 0.409, 0.401, 0.396, 0.413, 0.397 | 0.016 | 0.007 | unanimous |
+| gnina | 0.376, 9.404, 4.705, 8.905, 9.425 | 9.049 | 3.984 | split |
+
+GNINA finds the right pose on one seed in five and lands nine Angstrom away on
+three of the other four, on a complex where both empirical functions are
+reproducible to within half an Angstrom. The search underneath GNINA is smina's,
+and smina is reproducible here, so the instability is in what the CNN promotes to
+rank one out of the pose set the search returned. GNINA leads every arm in the
+aggregate table above. It is also the one whose answer you cannot trust from a
+single run, and an aggregate that hides that is the more misleading number.
+
+A second complex found while investigating the exhaustiveness question, 1HQ2_PH2,
+swings from 4.57 Angstrom on one seed to 0.33 on another under Vina, so Vina is
+not immune either. The experiment selects the first complex in the manifest with
+prepared inputs rather than one I chose, which is why it landed on a case that
+happens to be easy for two of the three methods. Five seeds on one complex per
+method is a thin experiment and the right version runs the whole set several
+times, which costs five times the compute and was not affordable here.
 
 ### Symmetry correction
 
@@ -453,7 +486,7 @@ run; Vina is the memory-hungry one, not GNINA, which is the opposite of what I
 assumed before measuring. Per-stage elapsed time, peak memory and data growth are
 in `logs/summary.tsv`.
 
-### Pocket detection, and the arm that did not run
+### Pocket detection sets the ceiling for the detected-box arm
 
 **fpocket's top-ranked pocket puts the crystal ligand inside a 25 Angstrom box
 for 143 of 391 receptors, so the detected-box arm is capped at 36.6 per cent
@@ -467,15 +500,17 @@ result about pocket detection rather than about docking, and it has to be stated
 alongside any A3 number or that number reads as a scoring failure when most of it
 is not.
 
-The detected-box arm itself is defined, has its 391 boxes computed and is
-implemented, but its six docking cells did not run. The host filesystem fell
-below the safety floor the supervisor enforces, for reasons outside this
-pipeline, and I stopped rather than fill a system drive. What is known about it
-is the ceiling quoted above: fpocket's rank 1 pocket contains the crystal ligand
-for only 36.6 per cent of receptors, so arm A3 cannot exceed that whatever the
-scoring function does. Running it needs `bash run_all.sh --from 06_dock` with
-`A3_genconf_detbox` in `ARMS`, about 1,500 runs and three and a half hours at the
-measured rate.
+Against that ceiling, the detected-box arm reached 22.4 per cent for Vina, 21.5
+for GNINA and 20.1 for Vinardo. Two thirds of the 36.6 per cent that pocket
+detection left achievable, and the rest of the arm's failure is the pocket
+finder rather than the scoring function. A better pocket detector would raise
+this arm without any change to the docking.
+
+The commonest physical failure in this arm is the same as everywhere else but
+worse: minimum distance to an organic cofactor fails on 26 of 299 Vina poses,
+8.7 per cent, against 8.0 in the ligand-centred arm. A box placed by geometry
+rather than by a known ligand lands on cofactor sites more often, which is what
+you would expect and is visible in the waterfall.
 
 ## Repository structure
 
@@ -520,8 +555,9 @@ vina_gnina_pose_benchmark_pipeline/
     pb_failure_waterfall.tsv    which checks fail, per method
     symmetry_effect.tsv         how often correction moved a verdict
     seed_variance.tsv           the same complex, repeat seeds
-    convergence.tsv             the exhaustiveness grid, empty unless run
-    excluded.tsv                333 rows, every complex dropped anywhere
+    convergence.tsv             the exhaustiveness grid; empty here, see
+                                scripts/06_dock.sh --convergence
+    excluded.tsv                377 rows, every complex dropped anywhere
     headline.tsv                the numbers this summary uses
     dataset_counts.tsv          set sizes before and after exclusions
     data_provenance.tsv         URLs, checksums, download dates
@@ -624,10 +660,23 @@ and this repository does not answer it.
 
 The search is not converged. Exhaustiveness 8 on a 25 Angstrom box gives a
 seed-dependent verdict on at least some complexes, demonstrated at 4.57 against
-0.33 Angstrom for 1HQ2_PH2. That is a property of the protocol the field quotes,
-and it is reported rather than worked around, but it means some of the spread
-between arms here is sampling noise. Raising exhaustiveness would move every
-number in this README.
+0.33 Angstrom for 1HQ2_PH2 under Vina and at a 9.05 Angstrom spread for GNINA on
+5SAK_ZRY. That is a property of the protocol the field quotes, and it is reported
+rather than worked around, but it means some of the spread between arms here is
+sampling noise. Raising exhaustiveness would move every number in this README.
+
+The seed-variance experiment is one complex per method. That is enough to show
+the problem exists and nowhere near enough to size it. The honest version reruns
+the whole set under several seeds and reports the distribution of success rates
+rather than a point estimate, which costs five times the compute. Read every
+percentage here as a single draw.
+
+The detected-box arm measures pocket detection at least as much as it measures
+docking. fpocket rank 1 was used every time with no alternative considered,
+because any selection among its pockets using the crystal ligand would restore
+the information the arm exists to remove. A different detector, or a consensus
+over the top few pockets, would give a different number, and the 22.4 per cent
+here should not be read as what blind docking can achieve in general.
 
 The cross-docking arm is optimistic. 39 of 253 pairs were dropped for exceeding a
 3 Angstrom C-alpha RMSD after global superposition, and those are precisely the
