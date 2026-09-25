@@ -296,14 +296,21 @@ def build_jobs(conf, args) -> list[dict]:
     data_dir = Path(conf["DATA_DIR"])
     prepared = data_dir / "prepared"
 
+    # Every dataset manifest in CONFIG_DIR, not a fixed list. The list used to
+    # be ("posebusters", "astex"), which meant a run on any other dataset found
+    # no reference below and was skipped without a word: 04, 05 and 06 all take
+    # --dataset and work on any manifest, and this stage then scored none of
+    # it. dataset_excluded.tsv lives in the same directory and is not a
+    # manifest.
     refs: dict[tuple[str, str], tuple[str, str]] = {}
-    for ds in ("posebusters", "astex"):
-        p = config_dir / f"dataset_{ds}.tsv"
-        if p.is_file():
-            for r in L.read_tsv(p):
-                refs[(ds, r["complex_id"])] = (
-                    str(prepared / "reference" / ds / f"{r['complex_id']}.sdf"),
-                    r["protein_pdb"])
+    for p in sorted(config_dir.glob("dataset_*.tsv")):
+        ds = p.stem[len("dataset_"):]
+        if ds == "excluded":
+            continue
+        for r in L.read_tsv(p):
+            refs[(ds, r["complex_id"])] = (
+                str(prepared / "reference" / ds / f"{r['complex_id']}.sdf"),
+                r["protein_pdb"])
 
     # Cross-docking references were written into the partner's frame by
     # 04_prepare.py, and the protein for the validity checks is the partner
@@ -318,6 +325,7 @@ def build_jobs(conf, args) -> list[dict]:
                 str(data_dir / "crossdock" / "receptor_pdb" / f"{a['receptor_pdb_id']}.pdb"))
 
     jobs = []
+    no_ref: dict[str, int] = {}
     run_dir = results_dir / "runs"
     if not run_dir.is_dir():
         L.eprint("[error] results/runs is empty; run 06_dock.sh first")
@@ -334,6 +342,7 @@ def build_jobs(conf, args) -> list[dict]:
                 continue
             ref = refs.get((r["dataset"], r["key"]))
             if ref is None:
+                no_ref[r["dataset"]] = no_ref.get(r["dataset"], 0) + 1
                 continue
             jobs.append({
                 "run_kind": r.get("run_kind") or "arm",
@@ -347,6 +356,9 @@ def build_jobs(conf, args) -> list[dict]:
                 "conformer_source": r.get("conformer_source", ""),
                 "source_table": tsv.name,
             })
+    for ds, n in sorted(no_ref.items()):
+        print(f"[07_score_poses] {n} completed runs on dataset '{ds}' have no "
+              f"manifest row in {config_dir} and are not scored")
     return jobs
 
 
