@@ -272,10 +272,32 @@ def prepare_receptor(src_pdb: Path, out_dir: Path, drop_ccd: str | None,
 # ligand
 # ---------------------------------------------------------------------------
 def _write_pdbqt(molh, path: Path) -> tuple[bool, str]:
+    """One ligand to PDBQT. A ligand this cannot handle is reported, not raised.
+
+    Meeko assigns Gasteiger charges through RDKit, which has no parameters for
+    most metals. When that assignment throws, the installed version catches the
+    exception, prints a message, and falls through to return a variable it
+    never bound, so the caller sees UnboundLocalError rather than a refusal.
+    Preparation runs over the whole set in one pool, so a single ligand the
+    parameter set does not cover ended the preparation of every other ligand
+    with a traceback and no table at all.
+
+    A heme found this: iron has no Gasteiger parameters, and one iron-bearing
+    ligand stopped fourteen ordinary organic ones from being prepared.
+
+    What this returns on failure is the shape the caller already handles for a
+    ligand Meeko refuses, so such a ligand leaves a row saying why and the rest
+    of the set is unaffected.
+    """
     from meeko import MoleculePreparation, PDBQTWriterLegacy
 
     prep = MoleculePreparation()
-    setups = prep.prepare(molh)
+    try:
+        setups = prep.prepare(molh)
+    except Exception as e:  # noqa: BLE001 - one ligand's failure, not the run's
+        elements = sorted({a.GetSymbol() for a in molh.GetAtoms()})
+        return False, (f"{type(e).__name__}: {str(e)[:120]} "
+                       f"(elements present: {','.join(elements)})")
     if not setups:
         return False, "Meeko returned no setup"
     s, ok, err = PDBQTWriterLegacy.write_string(setups[0])
@@ -631,6 +653,35 @@ def _ligand_job(item):
     return row
 
 
+def _guarded_call(payload):
+    """Run one preparation job and turn an exception into a failed row.
+
+    Every job here returns a row and every table downstream carries a status
+    column, so an item that raises belongs in the table as a failure rather
+    than as a traceback that ends the stage. One unusual ligand previously
+    stopped the preparation of the whole set and left no table at all.
+
+    It takes the function with its item instead of being a closure, because a
+    closure cannot be pickled into a worker process.
+    """
+    fn, item = payload
+    try:
+        return fn(item)
+    except Exception as e:  # noqa: BLE001 - one item's failure, not the run's
+        row = {"status": "failed",
+               "reason": f"{type(e).__name__}: {str(e)[:160]}"}
+        if isinstance(item, dict):
+            for k in ("pair_id", "complex_id", "dataset", "query_pdb_id",
+                      "receptor_pdb_id"):
+                if k in item:
+                    row[k] = item[k]
+        elif isinstance(item, (tuple, list)) and item:
+            row["dataset"] = item[0]
+            if len(item) > 1:
+                row["complex_id"] = item[1]
+        return row
+
+
 def _crossdock_job(item):
     pair = item
     data = Path(_CTX["data"])
@@ -757,20 +808,31 @@ def main() -> int:
     t_stage = time.time()
 
     def run_pool(fn, items, label):
+        # One item that raises must not end the stage. Every job here returns a
+        # row and the tables downstream carry a status column, so an item that
+        # throws becomes a failed row with the exception in its reason and the
+        # remaining items still run. Without this a single unusual ligand ended
+        # the preparation of the whole set with a traceback and no table, which
+        # reads as a broken pipeline rather than as one ligand being unusual.
         if not items:
             return []
+
+        # _guarded_call is at module level and takes the job function with its
+        # item, because a closure cannot be pickled into a worker process.
+        payloads = [(fn, it) for it in items]
         if jobs > 1:
             with mp.Pool(jobs, initializer=_init, initargs=(ctx,)) as pool:
                 got = []
-                for i, r in enumerate(pool.imap_unordered(fn, items, chunksize=1), 1):
+                for i, r in enumerate(pool.imap_unordered(_guarded_call, payloads,
+                                                          chunksize=1), 1):
                     got.append(r)
                     if i % 50 == 0 or i == len(items):
                         print(f"  {label}: {i}/{len(items)}", flush=True)
                 return got
         _init(ctx)
         got = []
-        for i, it in enumerate(items, 1):
-            got.append(fn(it))
+        for i, payload in enumerate(payloads, 1):
+            got.append(_guarded_call(payload))
             if i % 50 == 0 or i == len(items):
                 print(f"  {label}: {i}/{len(items)}", flush=True)
         return got
